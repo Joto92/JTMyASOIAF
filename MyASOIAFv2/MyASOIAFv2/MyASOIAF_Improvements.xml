@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_WEIRWOOD" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_FREEFOLK_CAMP" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" Name="LOC_IMPROVEMENT_WEIRWOOD_NAME" Description="LOC_IMPROVEMENT_WEIRWOOD_DESCRIPTION" Icon="ICON_IMPROVEMENT_WEIRWOOD" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_MYSTICISM" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_WEIRWOOD"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" Name="LOC_IMPROVEMENT_FREEFOLK_CAMP_NAME" Description="LOC_IMPROVEMENT_FREEFOLK_CAMP_DESCRIPTION" Icon="ICON_IMPROVEMENT_FREEFOLK_CAMP" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FREEFOLK_CAMP" SameAdjacentValid="false" Housing="2" TilesRequired="2" DefenseModifier="4" GrantFortification="2"/>
+
+	</Improvements>
+
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" FeatureType="FEATURE_FOREST"/>
+	</Improvement_ValidFeatures>
+
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" YieldChangeId="Weirwood_FaithForest"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" YieldChangeId="Weirwood_FaithJungle"/>
+	</Improvement_Adjacencies>
+
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" TerrainType="TERRAIN_GRASS_HILLS"/>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" UnitType="UNIT_OBSIDIAN_SPEARCHILD"/>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" UnitType="UNIT_SKINCHANGER"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_WEIRWOOD" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_FREEFOLK_CAMP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Improvement_YieldChanges>
+
+	<Adjacency_YieldChanges>
+		<Row ID="Weirwood_FaithForest" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Weirwood_FaithJungle" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE"/>
+	</Adjacency_YieldChanges>
+</GameData>

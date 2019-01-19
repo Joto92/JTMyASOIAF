@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_GODSWOOD" Kind="KIND_BUILDING" />
+		<Row Type="BUILDING_RIVER_MILL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MOUNTAIN_GARDEN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WESTERLAND_WORKSHOP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SIEGE_STOREROOM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FLOWER_GARDEN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_EXOTIC_MARKET" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PLEASURE_HOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_IRONBORN_PORT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FLEA_BOTTOM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CORPSE_SYMBOL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FLAYED_CROSS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RIVER_TOWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_VAULT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_KING_TOURNEY" Kind="KIND_BUILDING"/>
+
+		<!--Ancient Civs -->
+		<Row Type="BUILDING_DRAGON_TOWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GHISCARI_PYRAMID" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FIGHTING_PIT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RHOYNE_WATER_GARDEN" Kind="KIND_BUILDING"/>
+		<!-- End Ancient Civs-->
+
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_GODSWOOD" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_RIVER_MILL" ReplacesBuildingType="BUILDING_WATER_MILL"/>
+		<Row CivUniqueBuildingType="BUILDING_WESTERLAND_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_SIEGE_STOREROOM" ReplacesBuildingType="BUILDING_GRANARY"/>
+		<Row CivUniqueBuildingType="BUILDING_EXOTIC_MARKET" ReplacesBuildingType="BUILDING_MARKET"/>
+		<Row CivUniqueBuildingType="BUILDING_IRONBORN_PORT" ReplacesBuildingType="BUILDING_LIGHTHOUSE"/>
+		<Row CivUniqueBuildingType="BUILDING_CORPSE_SYMBOL" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_FLAYED_CROSS" ReplacesBuildingType="BUILDING_MONUMENT"/>
+		<Row CivUniqueBuildingType="BUILDING_VAULT" ReplacesBuildingType="BUILDING_GRANARY"/>
+		<Row CivUniqueBuildingType="BUILDING_KING_TOURNEY" ReplacesBuildingType="BUILDING_ARENA"/>
+		<!--Ancient Civs -->
+		<Row CivUniqueBuildingType="BUILDING_DRAGON_TOWER" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+		<Row CivUniqueBuildingType="BUILDING_FIGHTING_PIT" ReplacesBuildingType="BUILDING_ARENA"/>
+		<!-- End Ancient Civs-->
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_GODSWOOD" Name="LOC_BUILDING_GODSWOOD_NAME" Description="LOC_BUILDING_GODSWOOD_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_GODSWOOD"/>
+		<Row BuildingType="BUILDING_RIVER_MILL" Name="LOC_BUILDING_RIVER_MILL_NAME" Description="LOC_BUILDING_RIVER_MILL_DESCRIPTION" PrereqTech="TECH_THE_WHEEL" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true" TraitType="TRAIT_CIVILIZATION_BUILDING_RIVER_MILL"/>
+		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" Name="LOC_BUILDING_MOUNTAIN_GARDEN_NAME" Description="LOC_BUILDING_MOUNTAIN_GARDEN_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" AdjacentToMountain="true" TraitType="TRAIT_CIVILIZATION_BUILDING_MOUNTAIN_GARDEN"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" Name="LOC_BUILDING_WESTERLAND_WORKSHOP_NAME" Description="LOC_BUILDING_WESTERLAND_WORKSHOP_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="175" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_WESTERLAND_WORKSHOP"/>
+		<Row BuildingType="BUILDING_SIEGE_STOREROOM" Name="LOC_BUILDING_SIEGE_STOREROOM_NAME" Description="LOC_BUILDING_BUILDING_SIEGE_STOREROOM_DESCRIPTION" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" Housing="2" OuterDefenseHitPoints="10" TraitType="TRAIT_CIVILIZATION_BUILDING_SIEGE_STOREROOM"/>
+		<Row BuildingType="BUILDING_FLOWER_GARDEN" Name="LOC_BUILDING_FLOWER_GARDEN_NAME" Description="LOC_BUILDING_FLOWER_GARDEN_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="130" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Housing="1" Entertainment="2" TraitType="TRAIT_CIVILIZATION_BUILDING_FLOWER_GARDEN"/>
+		<Row BuildingType="BUILDING_EXOTIC_MARKET" Name="LOC_BUILDING_EXOTIC_MARKET_NAME" Description="LOC_BUILDING_EXOTIC_MARKET_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_EXOTIC_MARKET"/>
+		<Row BuildingType="BUILDING_PLEASURE_HOUSE" Name="LOC_BUILDING_PLEASURE_HOUSE_NAME" Description="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="130" AdvisorType="ADVISOR_GENERIC" Entertainment="2" TraitType="TRAIT_CIVILIZATION_BUILDING_PLEASURE_HOUSE"/>
+		<Row BuildingType="BUILDING_IRONBORN_PORT" Name="LOC_BUILDING_IRONBORN_PORT_NAME" Description="LOC_BUILDING_IRONBORN_PORT_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_IRONBORN_PORT"/>
+		<Row BuildingType="BUILDING_FLEA_BOTTOM" Name="LOC_BUILDING_FLEA_BOTTOM_NAME" Description="LOC_BUILDING_FLEA_BOTTOM_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" TraitType="TRAIT_CIVILIZATION_BUILDING_FLEA_BOTTOM" Housing="2"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" Name="LOC_BUILDING_CORPSE_SYMBOL_NAME" Description="LOC_BUILDING_CORPSE_SYMBOL_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_CORPSE_SYMBOL"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" Name="LOC_BUILDING_FLAYED_CROSS_NAME"  Description="LOC_BUILDING_FLAYED_CROSS_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" TraitType="TRAIT_CIVILIZATION_BUILDING_FLAYED_CROSS"/>
+		<Row BuildingType="BUILDING_RIVER_TOWER" Name="LOC_BUILDING_RIVER_TOWER_NAME" Description="LOC_BUILDING_RIVER_TOWER_DESCRIPTION" PrereqTech="TECH_MILITARY_ENGINEERING" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" RequiresAdjacentRiver="true" AdvisorType="ADVISOR_GENERIC"  OuterDefenseHitPoints="10" TraitType="TRAIT_CIVILIZATION_BUILDING_RIVER_TOWER"/>
+		<Row BuildingType="BUILDING_VAULT" Name="LOC_BUILDING_VAULT_NAME" Description="LOC_BUILDING_VAULT_DESCRIPTION" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" Housing="2" TraitType="TRAIT_CIVILIZATION_BUILDING_VAULT"/>
+		<Row BuildingType="BUILDING_KING_TOURNEY" Name="LOC_BUILDING_KING_TOURNEY_NAME" Description="LOC_BUILDING_KING_TOURNEY_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="3" TraitType="TRAIT_CIVILIZATION_BUILDING_KING_TOURNEY"/>
+		<!--Ancient Civs -->
+		<Row BuildingType="BUILDING_DRAGON_TOWER" Name="LOC_BUILDING_DRAGON_TOWER_NAME" Description="LOC_BUILDING_DRAGON_TOWER_DESCRIPTION" PrereqTech="TECH_EDUCATION" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_DRAGON_TOWER"/>
+		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" Name="LOC_BUILDING_GHISCARI_PYRAMID_NAME" Description="LOC_BUILDING_GHISCARI_PYRAMID_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Housing="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_GHISCARI_PYRAMID"/>
+		<Row BuildingType="BUILDING_FIGHTING_PIT" Name="LOC_BUILDING_FIGHTING_PIT_NAME" Description="LOC_BUILDING_FIGHTING_PIT_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="3" TraitType="TRAIT_CIVILIZATION_BUILDING_FIGHTING_PIT"/>
+		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" Name="LOC_BUILDING_RHOYNE_WATER_GARDEN_NAME" Description="LOC_BUILDING_RHOYNE_WATER_GARDEN_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true" TraitType="TRAIT_CIVILIZATION_BUILDING_RHOYNE_WATER_GARDEN"/>
+		<!-- End Ancient Civs-->
+	</Buildings>
+
+	<BuildingPrereqs>
+		<!--Ancient Civs -->
+		<Row Building="BUILDING_DRAGON_TOWER" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_GHISCARI_PYRAMID" PrereqBuilding="BUILDING_MONUMENT"/>
+		<!-- End Ancient Civs-->
+	</BuildingPrereqs>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_GODSWOOD" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_RIVER_MILL" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_RIVER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SIEGE_STOREROOM" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FLOWER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_EXOTIC_MARKET" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_EXOTIC_MARKET" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_IRONBORN_PORT" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_IRONBORN_PORT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_RIVER_TOWER" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_VAULT" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_VAULT" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_VAULT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_KING_TOURNEY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!--Ancient Civs -->
+		<Row BuildingType="BUILDING_DRAGON_TOWER" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_DRAGON_TOWER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FIGHTING_PIT" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<!-- End Ancient Civs-->
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_GODSWOOD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_FLOWER_GARDEN" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_EXOTIC_MARKET" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_IRONBORN_PORT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_CORPSE_SYMBOL" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_RIVER_TOWER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_KING_TOURNEY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<!--Ancient Civs -->
+		<Row BuildingType="BUILDING_DRAGON_TOWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_FIGHTING_PIT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+		<!-- End Ancient Civs-->
+	</Building_GreatPersonPoints>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_RIVER_MILL</BuildingType>
+			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RIVER_MILL</BuildingType>
+			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRONBORN_PORT</BuildingType>
+			<ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_GODSWOOD"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_CORPSE_SYMBOL"/>
+	</Unit_BuildingPrereqs>
+</GameData>

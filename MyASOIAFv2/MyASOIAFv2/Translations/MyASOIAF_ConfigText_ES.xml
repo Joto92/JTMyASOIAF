@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- THE NORTH | STARK	-->
+		<Replace Tag="LOC_CIVILIZATION_THE_NORTH_NAME" Language="es_ES">
+			<Text>El Norte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_NORTH_DESCRIPTION" Language="es_ES">
+			<Text>Norte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_NORTH_ADJECTIVE" Language="es_ES">
+			<Text>norteño|norteña|norteños|norteñas</Text>
+			<Gender>masculine|feminine|masculine|feminine|</Gender>
+			<Plurality>1|1|2|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WINTER_IS_COMING_NAME" Language="es_ES">
+			<Text>Se acerca el Invierno</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WINTER_IS_COMING_DESCRIPTION" Language="es_ES">
+			<Text>Territorio adicional al fundar ciudades. +1 a Fe [ICON_Faith] y +1 a la Producción [ICON_Production] en la Tundra.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_YOUNG_WOLF_NAME" Language="es_ES">
+			<Text>El Joven Lobo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_YOUNG_WOLF_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LOYAL_BANNERMEN_NAME" Language="es_ES">
+			<Text>Abanderado Leal|Abanderados Leales</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LOYAL_BANNERMEN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo del Norte de la Época Medieval, remplaza el soldado con espada. No sufre penalizaciones al combate cuando recibe daños.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODSWOOD_NAME" Language="es_ES">
+			<Text>Bosque de Dioses</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GODSWOOD_DESCRIPTION" Language="es_ES">
+			<Text>Permite la compra de Misioneros. Los Misioneros solo pueden comprarse con Fe [ICON_Faith]. Más Fe [ICON_Faith] y Cultura [ICON_Culture] que los santuarios.</Text>
+		</Replace>
+		<!-- END OF THE NORTH | STARK -->
+		<!-- THE RIVERLANDS | TULLY -->
+		<Replace Tag="LOC_CIVILIZATION_RIVERLANDS_NAME" Language="es_ES">
+			<Text>Tierras de los Ríos</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RIVERLANDS_DESCRIPTION" Language="es_ES">
+			<Text>Tierras de los Ríos</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_RIVERLANDS_ADJECTIVE" Language="es_ES">
+			<Text>Rivereño</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FAMILY_DUTY_HONOR_NAME" Language="es_ES">
+			<Text>Familia, Deber, Honor</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FAMILY_DUTY_HONOR_DESCRIPTION" Language="es_ES">
+			<Text>+15% a la Producción [ICON_Production] de distritos y maravillas si se encuentran adyacentes a un Río. Los Constructores reciben una carga adicional.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_PARAMOUNT_OF_TRIDENT_NAME" Language="es_ES">
+			<Text>Señor Supremo del Tridente</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_PARAMOUNT_OF_TRIDENT_DESCRIPTION" Language="es_ES">
+			<Text>Puede declararle la guerra cualquiera que esté en guerra con sus aliados sin sufrir penalizaciones por belicosidad. Cuando estén en guerra contra un enemigo común, sus aliados y ellos comparten las recompensas por la experiencia de combate ganada si se encuentran a una distancia de 5 casillas o menos. Todas las ciudades que fundes o conquistes, si se encuentran dentro del alcance de una Ruta comercial [ICON_TradeRoute] de tu capital [ICON_Capital] también comenzarán con una Carretera hacia ella.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TULLY_GUARDSMEN_NAME" Language="es_ES">
+			<Text>Guardia Tully|Guardias Tully</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TULLY_GUARDSMEN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de las tierras de los ríos de la Época Medieval. No sufre ningun coste de movimiento al cruzar ríos.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RIVER_MILL_NAME" Language="es_ES">
+			<Text>Molino de Río</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RIVER_MILL_DESCRIPTION" Language="es_ES">
+			<Text>Cada uno de los recursos de Arroz [ICON_RESOURCE_RICE] y Trigo [ICON_RESOURCE_WHEAT] concede +1 a Alimentos [ICON_Food]. La ciudad debe estar adyacente a un Río. La ciudad gana más comida y producción que con el Molino de Agua.</Text>
+		</Replace>
+		<!-- END OF RIVERLANDS | TULLY -->
+		<!-- THE VALE | ARRYN/PETYR -->
+		<Replace Tag="LOC_CIVILIZATION_VALE_NAME" Language="es_ES">
+			<Text>Valle de Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VALE_DESCRIPTION" Language="es_ES">
+			<Text>Valle de Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_VALE_ADJECTIVE" Language="es_ES">
+			<Text>Vallesanos</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AS_HIGH_AS_HONOR_NAME" Language="es_ES">
+			<Text>Tan Alto como el Honor</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_AS_HIGH_AS_HONOR_DESCRIPTION" Language="es_ES">
+			<Text>+1 Alimentos [ICON_Food] en todas las casillas. +1 de Oro [ICON_Gold] en los Centros Comerciales, +1 Fe [ICON_Faith] en los Distritos Sagrados y +1 en Cultura [ICON_Culture] en los Teatros si se encuentran al lado de una montaña.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LITTLEFINGER_NAME" Language="es_ES">
+			<Text>Meñique</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LITTLEFINGER_DESCRIPTION" Language="es_ES">
+			<Text>Un espacio de política comodín adicional en cualquier gobierno.Tiene 1 nivel más de visibilidad diplomática [ICON_VisLimited] de lo normal con cada civilización que se encuentre. Recibe capacidad para construir un espía adicional con la tecnología Castillos.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KNIGHT_OF_VALE_NAME" Language="es_ES">
+			<Text>Caballero del Valle|Caballeros del Valle</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1|2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KNIGHT_OF_VALE_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de caballeria pesada del valle de Arryn de la Época Medieval. +1 a la Fuerza de combate al luchar en Colinas y puede moverse por ellas más rapido.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MOUNTAIN_GARDEN_NAME" Language="es_ES">
+			<Text>Jardín de Montaña</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MOUNTAIN_GARDEN_DESCRIPTION" Language="es_ES">
+			<Text> Da +1 de Fe [ICON_Faith], +2 de Cultura [ICON_Culture], +1 punto para Profetas y +2 puntos para Grandes Artistas.</Text>
+		</Replace>
+		<!-- END OF VALE | ARRYN/PETYR -->
+		<!-- THE WESTERLANDS | LANNISTER -->
+		<Replace Tag="LOC_CIVILIZATION_WESTERLANDS_NAME" Language="es_ES">
+			<Text>Tierras del Oeste</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WESTERLANDS_DESCRIPTION" Language="es_ES">
+			<Text>Tierras del Oeste</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_HEAR_ME_ROAR_NAME" Language="es_ES">
+			<Text>¡Oye mi Rugido!</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_HEAR_ME_ROAR_DESCRIPTION" Language="es_ES">
+			<Text>+2 de Oro [ICON_Gold] en todas las Minas.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_GREAT_LION_NAME" Language="es_ES">
+			<Text>El Gran León de la Roca</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_GREAT_LION_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RED_CLOAKS_NAME" Language="es_ES">
+			<Text>Capas Rojas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RED_CLOAKS_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de las Tierras del Oeste de la Época Medieval, +1 a la Fuerza de combate al luchar en Colinas y puede moverse por ellas más rapido.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WESTERLAND_WORKSHOP_NAME" Language="es_ES">
+			<Text>Taller de Tierras del Oeste</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WESTERLAND_WORKSHOP_DESCRIPTION" Language="es_ES">
+			<Text> Da 2 de Oro [ICON_Gold], 2 de Producción [ICON_Production], 1 Punto para Grandes Ingenieros y Mercaderes.</Text>
+		</Replace>
+		<!-- END OF THE WESTERLANDS | LANNISTER -->
+		<!-- COMMUN TRULY BARATHEONS -->
+		<Replace Tag="LOC_UNIT_STORMSOLDIER_NAME" Language="es_ES">
+			<Text>Soldado de la Tormenta</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_STORMSOLDIER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de las Tierras de la Tormenta., puede ver a través de accidentes geográficos y +4 a la Fuerza de combate [ICON_Strength] al atacar.</Text>
+		</Replace>
+		<!-- BARATHEON DRAGONSTONE -->
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_DRAGONSTONE_NAME" Language="es_ES">
+			<Text>Baratheon de Rocadragón</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_DRAGONSTONE_DESCRIPTION" Language="es_ES">
+			<Text>Casa Baratheon de Rocadragón</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_DRAGONSTONE_ADJECTIVE" Language="es_ES">
+			<Text>Baratheons de Rocadragón</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NIGHT_DARK_FULL_TERRORS_NAME" Language="es_ES">
+			<Text>La Noche es Oscura y Alberga Horrores</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_NIGHT_DARK_FULL_TERRORS_DESCRIPTION" Language="es_ES">
+			<Text>Los Inquisidores pueden Eliminar herejía una vez más. Las unidades de combate tienen una bonificación de +4 a la Fuerza de combate [ICON_Strength] contra jugadores de otras religiones.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRULY_JUST_MAN_NAME" Language="es_ES">
+			<Text>Hombre Verdaderamente Justo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_TRULY_JUST_MAN_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar y diplomatica.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LYSENNE_PIRATE_NAME" Language="es_ES">
+			<Text>Pirata Lyseño</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LYSENNE_PIRATE_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval exclusiva de Stannis Baratheon que puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SIEGE_STOREROOM_NAME" Language="es_ES">
+			<Text>Almacén para Asedios</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BUILDING_SIEGE_STOREROOM_DESCRIPTION" Language="es_ES">
+			<Text> Da 2 de Comida [ICON_Food] y +10 Puntos de Golpe de Defensa para la ciudad.</Text>
+		</Replace>
+		<!-- END OF BARATHEON DRAGONSTONE -->
+		<!-- THE REACH | TYRELL -->
+		<Replace Tag="LOC_CIVILIZATION_REACH_NAME" Language="es_ES">
+			<Text>El Dominio</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_REACH_DESCRIPTION" Language="es_ES">
+			<Text>El Dominio</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GROWING_STRONG_NAME" Language="es_ES">
+			<Text>Crecer Fuerte</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GROWING_STRONG_DESCRIPTION" Language="es_ES">
+			<Text> +1 Alimentos [ICON_Food] en todas las casillas.Todas las ciudades que fundes o conquistes comienzan con un Puesto comercial.Tus Rutas comerciales [ICON_TradeRoute] ganan +1 de Oro [ICON_Gold] por pasar por los Puestos comerciales que hay en tus ciudades.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QUEEN_OF_THORNS_NAME" Language="es_ES">
+			<Text>Reina de Espinas</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QUEEN_OF_THORNS_DESCRIPTION" Language="es_ES">
+			<Text>Tus Rutas comerciales [ICON_TradeRoute] con otras civilizaciones proporcionan +4 de Oro [ICON_Gold] para el Dominio. Las Rutas comerciales [ICON_TradeRoute] de otras civilizaciones con el Dominio les proporcionan +2 a Alimentos [ICON_Food] a dichas civilizaciones y +2 de Oro [ICON_Gold] al Dominio. Tiene 1 nivel más de visibilidad diplomática [ICON_VisLimited] de lo normal con cada civilización que se encuentre. Recibe capacidad para construir un espía adicional con la tecnología Castillos.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUMMER_KNIGHT_NAME" Language="es_ES">
+			<Text>Caballero del Verano</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUMMER_KNIGHT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de caballeria pesada del Dominio de la Época Medieval. +5 [ICON_Strength] en Fuerza de Combate contra enemigos heridos.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_REDWYNE_SHIP_NAME" Language="es_ES">
+			<Text>Barco Redwyne</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_REDWYNE_SHIP_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval exclusiva del Dominio que puede curarse en territorio neutral.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLOWER_GARDEN_NAME" Language="es_ES">
+			<Text>Jardín de Flores</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLOWER_GARDEN_DESCRIPTION" Language="es_ES">
+			<Text> Da 2 de entretenimiento para la ciudad. +2 Puntos para Grandes Artistas.</Text>
+		</Replace>
+		<!-- END OF THE REACH | TYRELL -->
+		<!-- DORNE | MARTELL -->
+		<Replace Tag="LOC_CIVILIZATION_DORNE_ADJECTIVE" Language="es_ES">
+			<Text>Dorniense</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_NAME" Language="es_ES">
+			<Text>Nunca Doblegado, Nunca Roto </Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_DESCRIPTION" Language="es_ES">
+			<Text>Los Terrenos de aluvión no bloquean la colocación de distritos y maravillas. Las unidades reciben +5 a la Fuerza de combate [ICON_Strength] en su territorio o adyacente</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_COLD_REVENGE_NAME" Language="es_ES">
+			<Text>La Venganza se Sirve Fría</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_COLD_REVENGE_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política diplomatica. Las victorias en combate proporcionan Cultura [ICON_Culture] equivalente al 50% de la Fuerza de combate [ICON_Strength] de la unidad derrotada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SAND_STEED_NAME" Language="es_ES">
+			<Text>Corcel de Arena</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SAND_STEED_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de caballeria pesada dorniense de la Época Medieval. +5 [ICON_Strength] en Fuerza de Combate cuando luchan en desiertos.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EXOTIC_MARKET_NAME" Language="es_ES">
+			<Text>Mercado Exótico</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EXOTIC_MARKET_DESCRIPTION" Language="es_ES">
+			<Text>Da 2 de Oro [ICON_Gold], 2 Comida [ICON_Food]  y 2 puntos para a Grandes Mercaderes.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_NAME" Language="es_ES">
+			<Text>Casa del Placer</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PLEASURE_HOUSE_DESCRIPTION" Language="es_ES">
+			<Text> Da 2 servicios para la ciudad.</Text>
+		</Replace>
+		<!-- END OF DORNE | MARTELL -->
+		<!-- THE IRON ISLANDS | GREYJOY -->
+		<Replace Tag="LOC_CIVILIZATION_IRON_ISLANDS_NAME" Language="es_ES">
+			<Text>Islas del Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_ISLANDS_DESCRIPTION" Language="es_ES">
+			<Text>Islas del Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_IRON_ISLANDS_ADJECTIVE" Language="es_ES">
+			<Text>Hombres del Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WE_DO_NOT_SOW_NAME" Language="es_ES">
+			<Text>Nosotros no sembramos</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WE_DO_NOT_SOW_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades consiguen la habilidad de entrar en aguas profundas después de investigar la tecnología de la Construcción naval. Las unidades ignoran los costes de Movimiento [ICON_Movement] adicionales por embarcar y desembarcar. +5 a la Fuerza de combate [ICON_Strength] de las unidades navales en casillas de aguas poco profundas. Las unidades navales pueden realizar saqueos.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_KRAKEN_KING_NAME" Language="es_ES">
+			<Text>El Rey Kraken</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_KRAKEN_KING_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades navales de cuerpo a cuerpo se curan en territorio neutral. +5 a la Fuerza de combate [ICON_STRENGTH] de las unidades terrestres en casillas terrestres adyacentes a la Costa.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IRON_LONGSHIP_NAME" Language="es_ES">
+			<Text>Barcoluengo del Hierro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IRON_LONGSHIP_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval de la era Medieval de las Islas del Hierro. +1 [ICON_Movement] Movimiento en la costa y puede realizar saqueos. Puede capturar naves enemigas derrotadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_IRONBORN_PORT_NAME" Language="es_ES">
+			<Text>Puerto de Hierro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_IRONBORN_PORT_DESCRIPTION" Language="es_ES">
+			<Text>Da 2 Alimentos[ICON_Food], 2 Oro [ICON_Gold], 2 Puntos para Grandes Almirantes.</Text>
+		</Replace>
+		<!-- END OF IRON ISLAND | GREYJOY-->
+		<!-- THE BARATHEON KINGS LANDING -->
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_KINGS_LANDING_NAME" Language="es_ES">
+			<Text>Baratheon de Desembarco del Rey</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_KINGS_LANDING_DESCRIPTION" Language="es_ES">
+			<Text>Casa Baratheon de Desembarco del Rey</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_KINGS_LANDING_ADJECTIVE" Language="es_ES">
+			<Text>Tierras de la Corona</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SMALL_COUNCIL_NAME" Language="es_ES">
+			<Text>Consejo Privado</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_SMALL_COUNCIL_DESCRIPTION" Language="es_ES">
+			<Text>Un espacio de política comodín adicional en cualquier gobierno.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_ILLBORN_NAME" Language="es_ES">
+			<Text>El Malnacido</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_ILLBORN_DESCRIPTION" Language="es_ES">
+			<Text>Cada ciudad puede construir un distrito más de lo habitual (excediendo el límite normal, basado en la Población [ICON_Citizen]).</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLDCLOACKS_NAME" Language="es_ES">
+			<Text>Capas Doradas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLDCLOACKS_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de las tierras de la Corona. +5 a la Fuerza de combate [ICON_Strength] en tu territorio o adyacente a tu territorio.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ROYAL_FLEET_NAME" Language="es_ES">
+			<Text>Flota Real</Text>
+			<Gender>femenine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ROYAL_FLEET_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval exclusiva las tierras de la Corona. +5 a la Fuerza de combate [ICON_Strength] en el Oceano</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLEA_BOTTOM_NAME" Language="es_ES">
+			<Text>Lecho de Pulgas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLEA_BOTTOM_DESCRIPTION" Language="es_ES">
+			<Text>Da 2 Alojamiento [ICON_Housing].</Text>
+		</Replace>
+		<!-- END OF BARATHEON KINGS LANDING -->
+		<!-- THE WHITE WALKERS -->
+		<Replace Tag="LOC_CIVILIZATION_WHITE_WALKERS_NAME" Language="es_ES">
+			<Text>Caminantes Blancos</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WHITE_WALKERS_DESCRIPTION" Language="es_ES">
+			<Text>Caminantes Blancos</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_WHITE_WALKERS_ADJECTIVE" Language="es_ES">
+			<Text>Otros</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NIGHT_KING_NAME" Language="es_ES">
+			<Text>El Rey de la Noche</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_LONG_NIGHT_NAME" Language="es_ES">
+			<Text>La Larga Noche</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_LONG_NIGHT_DESCRIPTION" Language="es_ES">
+			<Text>Los terrenos de Tundra y Nieve proporcionan Alimentos como las Praderas para las otras Civilizaciones.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_RISE_THE_DEAD_NAME" Language="es_ES">
+			<Text>Levantar los Muertos</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_RISE_THE_DEAD_DESCRIPTION" Language="es_ES">
+			<Text>Puede capturar unidades enemigas derrotadas como Espectros. Acumula un 60% menos de hastío bélico.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OTHER_NAME" Language="es_ES">
+			<Text>Otro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OTHER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva de caballeria pesada de los Caminantes Blancos. +5 [ICON_Strength] de Fuerza de Combate en la Nieve y en la Tundra.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WIGHT_NAME" Language="es_ES">
+			<Text>Espectro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WIGHT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de los Caminantes Blancos. No sufre penalizaciones al combate cuando recibe daños (estan muertos). </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CORPSE_SYMBOL_NAME" Language="es_ES">
+			<Text>Símbolo con Cadáveres</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CORPSE_SYMBOL_DESCRIPTION" Language="es_ES">
+			<Text>Da 3 Fe[ICON_Faith] , 1 Cultura[ICON_Culture] y 2 de Alimentos [ICON_Food]. 2 Puntos para Profetas y Grandes Generales.</Text>
+		</Replace>
+		<!-- END OF WHITE WALKERS -->
+		<!-- DANY TARGARYEN -->
+		<Replace Tag="LOC_TRAIT_FIRE_AND_BLOOD_NAME" Language="es_ES">
+			<Text>Fuego y Sangre</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FIRE_AND_BLOOD_DESCRIPTION" Language="es_ES">
+			<Text>+10 a la Fuerza de combate [ICON_Strength] al luchar en un continente diferente al de tu capital [ICON_Capital]. Las unidades reciben +5 a la Fuerza de combate [ICON_Strength] en su continente de origen.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DRAGON_MOTHER_NAME" Language="es_ES">
+			<Text>Madre de Dragones</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DRAGON_MOTHER_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UNSULLIED_NAME" Language="es_ES">
+			<Text>Inmaculado</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UNSULLIED_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de Anti-Caballeria de Daenerys Targaryen. +10 a la Fuerza de combate [ICON_Strength] si al menos hay un Inmaculado adyacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOTHRAKI_RIDER_NAME" Language="es_ES">
+			<Text>Jinete Dothraki</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOTHRAKI_RIDER_DESCRIPTION" Language="es_ES">
+			<Text>Caballeria Ligera Dothrakique puede moverse despues de atacar y se cura despues de derrotar un enemigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRAGON_NAME" Language="es_ES">
+			<Text>Dragón</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DRAGON_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de los Targaryens. Ignonra el Zona Control, los costes de terreno y puede atacar las murallas.</Text>
+		</Replace>
+		<!-- END OF DANY TARGARYEN -->
+		<!-- THE BOLTON -->
+		<Replace Tag="LOC_CIVILIZATION_BOLTON_NAME" Language="es_ES">
+			<Text>Casa Bolton</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BOLTON_DESCRIPTION" Language="es_ES">
+			<Text>Casa Bolton</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OUR_BLADES_ARE_SHARP_NAME" Language="es_ES">
+			<Text>Nuestras espadas están afiladas</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OUR_BLADES_ARE_SHARP_DESCRIPTION" Language="es_ES">
+			<Text>+5 [ICON_Strength] en Fuerza de Combate contra enemigos heridos.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEACH_LORD_NAME" Language="es_ES">
+			<Text>Lord Sanguijuela</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEACH_LORD_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DREADFORT_PIKEMAN_NAME" Language="es_ES">
+			<Text>Piqueros de Fuerte Terror</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DREADFORT_PIKEMAN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de Anti-Caballeria Bolton. +5 a la Fuerza de combate [ICON_Strength] si al menos hay un Piquero de Fuerte Terror adyacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLAYED_CROSS_NAME" Language="es_ES">
+			<Text>Cruz de Desollar</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FLAYED_CROSS_DESCRIPTION" Language="es_ES">
+			<Text>Da 2 de Cultura [ICON_Culture], 1 de Producción [ICON_Production] y 1 Punto para Grandes Generales. Substituye el Monumento.</Text>
+		</Replace>
+		<!-- END OF BOLTON -->
+		<!-- THE FREY -->
+		<Replace Tag="LOC_CIVILIZATION_FREY_NAME" Language="es_ES">
+			<Text>Casa Frey</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FREY_DESCRIPTION" Language="es_ES">
+			<Text>Casa Frey</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WE_STAND_TOGETHER_NAME" Language="es_ES">
+			<Text>Permanecemos juntos</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WE_STAND_TOGETHER_DESCRIPTION" Language="es_ES">
+			<Text>+15% a la Producción [ICON_Production] de distritos y maravillas si se encuentran adyacentes a un Río.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LORD_OF_THE_CROSSING_NAME" Language="es_ES">
+			<Text>Señor del Cruce</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LORD_OF_THE_CROSSING_DESCRIPTION" Language="es_ES">
+			<Text>Las Rutas comerciales [ICON_TradeRoute] de otras civilizaciones con los Frey dan +2 de Oro [ICON_Gold] los Frey.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FREY_CROSBOWMAN_NAME" Language="es_ES">
+			<Text>Ballesteros Frey</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FREY_CROSBOWMAN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad a distancia Medieval única de los Freyque remplaza los Ballesteros. Tienen la mitad de ataque que los Ballesteros pero pueden atacar dos veces por turno.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RIVER_TOWER_NAME" Language="es_ES">
+			<Text>Torre de Río</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RIVER_TOWER_DESCRIPTION" Language="es_ES">
+			<Text>Da 4 de Oro [ICON_Gold] y  +10 Puntos de Golpe de Defensa para la ciudad. Debe estar adyacente a un río. 1 Punto para Grandes Mercaderes.</Text>
+		</Replace>
+		<!-- END OF FREY -->
+		<!-- THE NIGHT'S WATCH -->
+		<Replace Tag="LOC_CIVILIZATION_NIGHT_WATCH_NAME" Language="es_ES">
+			<Text>Guardia de la Noche</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIGHT_WATCH_DESCRIPTION" Language="es_ES">
+			<Text>Guardia de la Noche</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_NIGHT_WATCH_ADJECTIVE" Language="es_ES">
+			<Text>Hermano Negro</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BLACK_BROTHERS_NAME" Language="es_ES">
+			<Text>Hermanos Negros</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BLACK_BROTHERS_DESCRIPTION" Language="es_ES">
+			<Text>Territorio adicional al fundar ciudades. Espacio adicional para política diplomatica.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OLD_BEAR_NAME" Language="es_ES">
+			<Text>El Viejo Oso</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OLD_BEAR_DESCRIPTION" Language="es_ES">
+			<Text>Cuando capturas un Puesto bárbaro, recibes una recompensa de Aldea tribal, además del Oro [ICON_Gold] usual. Paga la mitad del coste habitual para reclutar unidades de las ciudades-estado.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BROTHER_RANGER_NAME" Language="es_ES">
+			<Text>Exploradores Negros</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BROTHER_RANGER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo de la Guardia de la Noche. +5 a la Fuerza de combate [ICON_Strength] en Bosques.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VAULT_NAME" Language="es_ES">
+			<Text>Bóveda</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_VAULT_DESCRIPTION" Language="es_ES">
+			<Text>Da 2 de Alimentos [ICON_Food] , 1 de Cultura [ICON_Culture] y 1 de Ciencia[ICON_Science].</Text>
+		</Replace>
+		<!-- END OF NIGHT'S WATCH -->
+		<!-- THE FREEFOLK -->
+		<Replace Tag="LOC_CIVILIZATION_FREEFOLK_NAME" Language="es_ES">
+			<Text>Pueblo Libre</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FREEFOLK_DESCRIPTION" Language="es_ES">
+			<Text>El Pueblo Libre</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_FREEFOLK_ADJECTIVE" Language="es_ES">
+			<Text>Pueblo Libre</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WILDINGS_NAME" Language="es_ES">
+			<Text>Salvajes</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WILDINGS_DESCRIPTION" Language="es_ES">
+			<Text>Territorio adicional al fundar ciudades y sus unidades pueden moverse por los Bosques y Selvas sin Penalización de Movimiento[ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_KING_BEYOND_WALL_NAME" Language="es_ES">
+			<Text>Rey-Más-Allá-del-Muro</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_KING_BEYOND_WALL_DESCRIPTION" Language="es_ES">
+			<Text>Recibe una segunda unidad de Salvaje cada vez que entrena una.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WILDING_NAME" Language="es_ES">
+			<Text>Salvaje</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WILDING_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo del Pueblo Libre. Puede ver a través de accidentes geográficos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GIANT_NAME" Language="es_ES">
+			<Text>Gigante</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GIANT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo del Pueblo Libre que substituye los Jinete. +5 [ICON_Strength] en Fuerza de Combate contra unidades cuerpo a cuerpo.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MAMMOTH_NAME" Language="es_ES">
+			<Text>Mamut</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MAMMOTH_DESCRIPTION" Language="es_ES">
+			<Text>Unidad exclusiva cuerpo a cuerpo del Pueblo Libre que substituye los Carros Pesados. -5 a la Fuerza de combate [ICON_Strength] a unidades enemigas adyacentes.</Text>
+		</Replace>
+		<!-- END OF FREEFOLK -->
+		<!-- THE BARATHEON STORM'S END -->
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_STORMSEND_NAME" Language="es_ES">
+			<Text>Baratheon de Bastión de Tormentas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_STORMSEND_DESCRIPTION" Language="es_ES">
+			<Text>Casa Baratheon de Bastión de Tormentas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BARATHEON_STORMSEND_ADJECTIVE" Language="es_ES">
+			<Text>Baratheon de Tierras de la Tormenta</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OURS_IS_THE_FURY_NAME" Language="es_ES">
+			<Text>Nuestra es la Furia</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_OURS_IS_THE_FURY_DESCRIPTION" Language="es_ES">
+			<Text>+1 de Oro [ICON_Gold] en los Centros Comerciales, +1 Fe [ICON_Faith] en los Distritos Sagrados y +1 en Cultura [ICON_Culture] en los Teatros si se encuentran al lado de un Bosque.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_USURPER_NAME" Language="es_ES">
+			<Text>El Usurpador</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_USURPER_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política militar y al eliminar a una unidad, recuperan hasta 50 puntos de golpe.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KING_TOURNEY_NAME" Language="es_ES">
+			<Text>Torneo del Rey</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KING_TOURNEY_DESCRIPTION" Language="es_ES">
+			<Text>Da 3 de Entretenimiento , 1 de Cultura [ICON_Culture] y 2 Puntos para Grandes Generales. Remplaza la Arena.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_KING_IN_THE_SOUTH_NAME" Language="es_ES">
+			<Text>El Rey en el Sur</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_KING_IN_THE_SOUTH_DESCRIPTION" Language="es_ES">
+			<Text>Espacio adicional para política diplomatica y tus Rutas comerciales [ICON_TradeRoute] con otras civilizaciones proporcionan +4 de Oro [ICON_Gold] para las Tierras de las Tormentas.</Text>
+		</Replace>
+		<!-- END OF BARATHEON STORM'S END -->
+		<!-- THE DOTHRAKI -->
+		<Replace Tag="LOC_TRAIT_KHALASAR_DESCRIPTION" Language="es_ES">
+			<Text>Todas las unidades de caballeria ligera ganan +5 [ICON_Strength] Fuerza de Combate y todas las unidades +7 [ICON_Strength] Fuerza de Combate contra ciudades estado.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GREAT_RIDER_NAME" Language="es_ES">
+			<Text>Gran Jinete</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_GREAT_RIDER_DESCRIPTION" Language="es_ES">
+			<Text>Recibe mejoras con la conquista de cada ciudad una Inspiración [ICON_CivicBoosted] por cada Lugar sagrado. Las victorias de combate ganan una recompensa en Oro [ICON_Gold] igual al 50% de la [ICON_Strength] Fuerza de Combate de las unidades derrotadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_KHAL_DESCRIPTION" Language="es_ES">
+			<Text>Unidad unica de los Dothraki que permite el ataque completo a las Murallas.</Text>
+		</Replace>
+		<!-- END OF DOTHRAKI -->
+	<!--Ancient Civs -->
+		<Replace Tag="LOC_BUILDING_DRAGON_TOWER_NAME" Language="es_ES">
+			<Text>Torre del Dragon</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DRAGON_TOWER_DESCRIPTION" Language="es_ES">
+			<Text>Edifico único Valyrio que remplaza la Universidad. Da 5 [ICON_SCIENCE] Ciencia y 2 [ICON_CULTURE] de Cultura. </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GHISCARI_PYRAMID_NAME" Language="es_ES">
+			<Text>Piramide Ghiscari</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GHISCARI_PYRAMID_DESCRIPTION" Language="es_ES">
+			<Text>Edificio unico de los Ghiscari que da Alojamiento, 2 [ICON_Gold] de Oro y 2 [ICON_Culture] de Cultura. </Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FIGHTING_PIT_NAME" Language="es_ES">
+			<Text>Foso de Lucha</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FIGHTING_PIT_DESCRIPTION" Language="es_ES">
+			<Text>Da 3 Entretenimiento , 1 [ICON_Gold] de Oro y 2 Puntos para Grandes Mercaderes. Remplaza la Arena.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WATER_WIZARDS_NAME" Language="es_ES">
+			<Text>Magos de Agua</Text>
+			<Gender>Masculine:a</Gender>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WATER_WIZARDS_DESCRIPTION" Language="es_ES">
+			<Text>Unidad a distancia unica de los Rhoyne. +15 [ICON_Strength] Fuerza de Combate por adyacencia a los rios.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TORTOISE_SHIELD_WARRIOR_NAME" Language="es_ES">
+			<Text>Soldado Escudo de Tortuga</Text>
+			<Gender>Masculine:a</Gender>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TORTOISE_SHIELD_WARRIOR_DESCRIPTION" Language="es_ES">
+			<Text>Unidad a anti-caballeria de los Rhoyne. +10 [ICON_Strength] Fuerza de Combate cuando se defiende contra unidades a distancia.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RHOYNE_WATER_GARDEN_NAME" Language="es_ES">
+			<Text>Jardines de Agua</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RHOYNE_WATER_GARDEN_DESCRIPTION" Language="es_ES">
+			<Text>Edificio unico de los Rhoyne que da 2 [ICON_Culture] Cultura, 2 [ICON_Faith] Fe y 2 Puntos para Grandes Profetas. </Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SARNORI_SCYTHED_CHARIOT_NAME" Language="es_ES">
+			<Text>Carro Falcado</Text>
+			<Gender>Masculine:a</Gender>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SARNORI_SCYTHED_CHARIOT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de caballeria pesada de los Sarnori, no remplaza ninguna otra unidad. +4 [ICON_Strength] Fuerza de Combate cuando ataca.</Text>
+		</Replace>
+		<!-- END OF  SARNOR  -->
+	<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Replace Tag="LOC_UNIT_GOLDEN_COMPANY_NAME" Language="es_ES">
+			<Text>Compañia Dorada</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GOLDEN_COMPANY_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de mercenarios única de la Era Medieval de anticaballeria, remplaza los Piqueros. No sufre penalizaciones al combate cuando recibe daños.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ESSOS_WARELEPHANT_NAME" Language="es_ES">
+			<Text>Elefante de Guerra de Essos</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ESSOS_WARELEPHANT_DESCRIPTION" Language="es_ES">
+			<Text>Unidad dúnica de la Era Medieval de caballeria. -5 a la Fuerza de combate [ICON_Strength] a unidades enemigas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPEARWIVES_NAME" Language="es_ES">
+			<Text>Mujeres de las Lanzas</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SPEARWIVES_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de mercenarios única de la Era Medieval de anticaballeria. Puede curar a las unidades adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CRANNOGMEN_NAME" Language="es_ES">
+			<Text>Lacustres</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CRANNOGMEN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad a distancia de la Era Classica Classical. +5 a la Fuerza de combate [ICON_Strength] contra unidades dañadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WINTER_WOLVES_NAME" Language="es_ES">
+			<Text>Lobos del Invierno</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WINTER_WOLVES_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de caballeria ligera. +7 a la Fuerza de combate [ICON_Strength] al atacar y -7 a la Fuerza de combate [ICON_Strength] al defender.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NOTHERN_CLANS_WARRIOR_NAME" Language="es_ES">
+			<Text>Clanes Norteños</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_NOTHERN_CLANS_WARRIOR_DESCRIPTION" Language="es_ES">
+			<Text>Unique melee unit. +5 [ICON_Strength] de Fuerza de Combate en la Nieve y en la Tundra, sin penalización de movimiento en Colinas ni Bosques.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MARCHES_ARCHER_NAME" Language="es_ES">
+			<Text>Arquero de las Marcas</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MARCHES_ARCHER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad Medieval única de las Tierras de la Tormenta, remplaza los Ballesteros.  Más vista, alcance y combate pero con menos ataque a distancia.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IRONBORN_REAVER_NAME" Language="es_ES">
+			<Text>Saqueador Hijo del Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_IRONBORN_REAVER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad naval exclusiva de las Islas del Hierro, remplaza el Soldado con Espada. 4 de Movimiento [ICON_Movement] si esta unidad empieza en territorio enemigo. +7 a la Fuerza de combate [ICON_Strength] al atacar y -7 a la Fuerza de combate [ICON_Strength] al defender.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PIKEMEN_OFTHE_ROCK_NAME" Language="es_ES">
+			<Text>Piqueros de la Roca</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PIKEMEN_OFTHE_ROCK_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de los Lannisters única de la Era Medieval de anticaballeria, remplaza los Piqueros. +7 a la Fuerza de combate [ICON_Strength] al defenderse contra ataques a distancia.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SNAKE_FANGS_NAME" Language="es_ES">
+			<Text>Colmillos de Serpiente</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SNAKE_FANGS_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de Dorne única de la Era Medieval de anticaballeria, remplaza los Piqueros. Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOTHRAKI_MOUNTED_ARCHER_NAME" Language="es_ES">
+			<Text>Arquero Dothraki Montado</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DOTHRAKI_MOUNTED_ARCHER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad de los Dothraki única de la Era Medieval de caballeria a distancia. Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VALYRIANSTEEL_SWORDSMAN_NAME" Language="es_ES">
+			<Text>Soldado acero Valyrio</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_VALYRIANSTEEL_SWORDSMAN_DESCRIPTION" Language="es_ES">
+			<Text>Unidad cuerpo a cuerpo única de Valyria, remplaza el Soldado con Espada. Con más ataque que el Soldado con Espada.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RAVENS_TEETH_NAME" Language="es_ES">
+			<Text>Picos de Cuervo</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RAVENS_TEETH_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única a distancia, remplaza los Ballesteros. +7 a la Fuerza de combate [ICON_Strength] contra unidades terrestres.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOD_DANCER_NAME" Language="es_ES">
+			<Text>Bailarines del Bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WOOD_DANCER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única cuerpo a cuerpo de los Hijos del Bosque. +7 a la Fuerza de combate [ICON_Strength] al defender en Bosques, Selva, Colinas o Pantano.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSIDIAN_ARCHER_NAME" Language="es_ES">
+			<Text>Arqueros de Obsidiana</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSIDIAN_ARCHER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de los Hijos del Bosque a distancia. Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKINCHANGER_NAME" Language="es_ES">
+			<Text>Cambiapieles</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKINCHANGER_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de los Hijos del Bosque de caballeria ligera. Puede curarse cada turno. Puede construir Arcianos.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSIDIAN_SPEARCHILD_NAME" Language="es_ES">
+			<Text>Lanzeros de Obsidiana</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_OBSIDIAN_SPEARCHILD_DESCRIPTION" Language="es_ES">
+			<Text>Unidad única de los Hijos del Bosque de anticaballeria. Puede construir Arcianos.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_WEIRWOOD_NAME" Language="es_ES">
+			<Text>Arciano</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_WEIRWOOD_DESCRIPTION" Language="es_ES">
+			<Text>+2 a Fe [ICON_Faith]. +1 a Fe [ICON_Faith] por cada 2 Selvas tropicales adyacentes. +1 a Fe [ICON_Faith] por cada 2 Bosques adyacentes. No se puede construir sobre Nieve/Desierto ni Colinas nevadas/deserticas.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FREEFOLK_CAMP_NAME" Language="es_ES">
+			<Text>Campamento Pueblo Libre</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FREEFOLK_CAMP_DESCRIPTION" Language="es_ES">
+			<Text>+2 [ICON_Production] Producción. La unidad ocupante recibe +4 a la Fuerza de defensa [ICON_Strength] y obtiene automáticamente 2 turnos de fortificación.</Text>
+		</Replace>
+		<!-- End Adittional Units-->
+		<!-- EDDARD STARK -->
+		<Replace Tag="LOC_TRAIT_QUIET_WOLF_NAME" Language="es_ES">
+			<Text>El Lobo Silencioso</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_QUIET_WOLF_DESCRIPTION" Language="es_ES">
+			<Text>Puede declararle la guerra cualquiera que esté en guerra con sus aliados sin sufrir penalizaciones por belicosidad. Cuando estén en guerra contra un enemigo común, sus aliados y ellos comparten la experiencia de combate ganada si se encuentran a una distancia de 5 casillas o menos. Las civilizaciones opuestas reciben el doble de hastío bélico por luchar contra Eddard.</Text>
+		</Replace>
+		<!-- END OF EDDARD STARK -->
+		<!-- JON_SNOW -->
+		<Replace Tag="LOC_LEADER_JON_SNOW_NAME" Language="es_ES">
+			<Text>Jon Nieve</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BASTARD_OF_WINTERFELL_NAME" Language="es_ES">
+			<Text>El Bastardo de Invernalia</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BASTARD_OF_WINTERFELL_DESCRIPTION" Language="es_ES">
+			<Text>Un espacio de política comodín adicional en cualquier gobierno.</Text>
+		</Replace>
+		<!-- END OF JON_SNOW -->
+		<!-- EURON_GREYJOY -->
+		<Replace Tag="LOC_TRAIT_CROWS_EYE_NAME" Language="es_ES">
+			<Text>Ojo de Cuervo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CROWS_EYE_DESCRIPTION" Language="es_ES">
+			<Text>Los recursos de lujo de su territorio otorgan Servicios [ICON_Amenities] a 2 ciudades extra. +1 a la Fuerza de combate [ICON_Strength] de las unidades militares por cada recurso de lujo diferente mejorado en tierras de Euron.</Text>
+		</Replace>
+		<!-- END OF EURON_GREYJOY -->
+		<!-- LYSA_ARRYN -->
+		<Replace Tag="LOC_TRAIT_LADY_OF_THE_EYRIE_NAME" Language="es_ES">
+			<Text>Señora del Nido</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LADY_OF_THE_EYRIE_DESCRIPTION" Language="es_ES">
+			<Text>Cada ciudad puede construir un distrito más de lo habitual (excediendo el límite normal, basado en la Población [ICON_Citizen]).</Text>
+		</Replace>
+		<!-- END OF LYSA_ARRYN -->
+		<!-- CERSEI_LANNISTER -->
+		<Replace Tag="LOC_TRAIT_LIGHT_OF_THE_WEST_NAME" Language="es_ES">
+			<Text>Luz del Occidente</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LIGHT_OF_THE_WEST_DESCRIPTION" Language="es_ES">
+			<Text>+2 a Servicios [ICON_Amenities] para ciudades con una unidad de guarnición. Acumula un 60% menos de hastío bélico.</Text>
+		</Replace>
+		<!-- END OF CERSEI_LANNISTER -->
+		<!-- AEGONVI_TARGARYEN -->
+		<Replace Tag="LOC_TRAIT_YOUNG_GRIFF_NAME" Language="es_ES">
+			<Text>Joven Grifo</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_YOUNG_GRIFF_DESCRIPTION" Language="es_ES">
+			<Text>Todas las ciudades descubiertas o conquistadas en un continente distinto a tu continente de origen recibirán una unidad de cuerpo a cuerpo gratis. +3 puntos de Influencia por turno para conseguir enviados [ICON_Envoy] a la ciudad-estado.</Text>
+		</Replace>
+		<!-- END OF AEGONVI_TARGARYEN -->
+		<!-- HOUSE_GARDENER -->
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_GARDENER_NAME" Language="es_ES">
+			<Text>Casa Gardener</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_GARDENER_DESCRIPTION" Language="es_ES">
+			<Text>Casa Gardener</Text>
+		</Replace>
+		<!-- END OF HOUSE_GARDENER -->
+		<!-- HOUSE_DURRANDON -->
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_DURRANDON_NAME" Language="es_ES">
+			<Text>Casa Durrandon</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_DURRANDON_DESCRIPTION" Language="es_ES">
+			<Text>Casa Durrandon</Text>
+		</Replace>
+		<!-- END OF HOUSE_DURRANDON -->
+		<!-- HOUSE_TARGARYEN -->
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_TARGARYEN_NAME" Language="es_ES">
+			<Text>Casa Targaryen</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_TARGARYEN_DESCRIPTION" Language="es_ES">
+			<Text>Casa Targaryen</Text>
+		</Replace>
+		<!-- END OF HOUSE_TARGARYEN -->
+		<!-- HOARE -->
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_HOARE_NAME" Language="es_ES">
+			<Text>Casa Hoare</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HOUSE_HOARE_DESCRIPTION" Language="es_ES">
+			<Text>Casa Hoare</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BLACK_BLOOD_NAME" Language="es_ES">
+			<Text>Sangre Negra</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_BLACK_BLOOD_DESCRIPTION" Language="es_ES">
+			<Text>El coste de mantenimiento de las unidades se reduce a 2 de Oro [ICON_Gold] por turno y unidad. Al eliminar a una unidad, recuperan hasta 50 puntos de golpe.</Text>
+		</Replace>
+		<!-- END OF HOARE -->
+	</LocalizedText>
+</GameData>

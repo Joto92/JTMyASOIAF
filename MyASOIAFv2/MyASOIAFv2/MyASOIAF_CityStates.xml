@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--
+	Essos: Braavos [Trade], Lorath[Cultural], Pentos[Trade], Myr[Trade], Tyrosh[Militar], Lys[Scientific], Volantis[Religious]
+			Norvos[Religious], qohor[Industrial], Meeren[Trade], Yunkai[Industrial], Astapor[Milatiristic], New Ghis[Cultural]
+			Lotus Point[Cultural], Port of Ibben[Trade], Qarth[Trade], Mantarys[Cultural], Elyria[Militaristic], Tolos[Militar]
+			Saath[Industrial], Lhazosh[Cultural]
+	FALTA: Omber	
+		Ancient Sarnori: ?? Cymmeri, Gipps, Zoqora
+		
+		Base: 
+			Trade:6 | Cultural:5 | Militar:4 | Scientific:1 | Religious:2 | Industrial: 3 = 21
+	####### Extra westeros citystates:
+	Dominio(7): Tarly[Militar], Redwyne[Trade], Hightower[Science], Florent[Religious], Rowan[Cultural], Okheart[Religious?], Caswell[Industrial?]
+	North(9): Manderly[Trade], Karstark[Military], Umber[Military], Dustin[Industrial], Dreadfort[Military], Glover[Cultural], Tallhart[Industrial], Reed[Cultural], Mormont[Cultural]
+	Dorne(8): Yronwood[Militar], Dayne[Cultural], Allyrion[Religious], Uller[Militar], Fowler[Cultural], Qorgyle[Cultural], Manwoody[Industrial], Wyl[Trade]
+	Tierras de los Rios(6): Bracken[Cultural], Blackwood[Religius], Twins[Trade], Mallister[Militar], Darry[Industrial], Mooton[Religious]
+	Valle(7): Grafton[Trade], Royce[Militar], Corbray[Industrial], Lynderly[Industrial], Waynwood[Religious], Redfort[Militar], Hunter[Trade]
+	Stormlands(6): Caron[Cultural], Connington[Military], Estermor[Trade], Cafferen[Militar], Fell[Militar], Swann[Trade]
+	Iron Islands(1): Harlaw(Military)
+	Westerlands(6): Brax[Trade], Crackehall[Militar], Reyne[Trade], Westerling[Cultural], Lefford[Trade], Marbrand[Religius]
+	Crownladns(3):Velaryon[Military], Valleoscuro[Trade], Sunglass[Religious]
+	Castle Black(1)[Cultural]
+	Old: Mudd[Industrail], Fisher[Trade], Teague[Religious], Justman[Cultural]
+		Trade:12 | Cultural:11 | Militar:15 | Scientific:1 | Religious:8 | Industrial:7= 54
+		Old: 1 Industrail, 1 Trade, 1 Religious, 1 Cultural= 4
+		TOTAL: 
+		Trade:19 | Cultural:17 | Militar:19 | Scientific:1 | Religious:11 | Industrial: 11 = 78   ?FALTA UNO?
+	-->
+	<Types>
+		<Row Type="CIVILIZATION_BRAAVOS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_BRAAVOS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_BRAAVOS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_LORATH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_LORATH" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_LORATH_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_PENTOS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_PENTOS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_PENTOS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_MYR" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_MYR" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_MYR_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_TYROSH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_TYROSH" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_TYROSH_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_LYS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_LYS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_LYS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_VOLANTIS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_VOLANTIS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_VOLANTIS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_NORVOS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_NORVOS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_NORVOS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_QOHOR" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_QOHOR" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_QOHOR_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_MEEREEN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_MEEREEN" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_MEEREEN_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_YUNKAI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_YUNKAI" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_YUNKAI_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_ASTAPOR" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_ASTAPOR" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_ASTAPOR_TRAIT" Kind="KIND_TRAIT"/>
+
+	
+		<Row Type="CIVILIZATION_NEW_GHIS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_NEW_GHIS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_NEW_GHIS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_LOTUS_POINT" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_LOTUS_POINT" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_LOTUS_POINT_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_PORT_OF_IBBEN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_PORT_OF_IBBEN" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_PORT_OF_IBBEN_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_QARTH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_QARTH" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_QARTH_TRAIT" Kind="KIND_TRAIT"/>
+	
+		<Row Type="CIVILIZATION_MANTARYS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_MANTARYS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_MANTARYS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_ELYRIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_ELYRIA" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_ELYRIA_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_TOLOS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_TOLOS" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_TOLOS_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_SAATH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_SAATH" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_SAATH_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_LHAZOSH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_LHAZOSH" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_LHAZOSH_TRAIT" Kind="KIND_TRAIT"/>
+
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_MINOR_CIV_BRAAVOS" Name="Braavos" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LORATH" Name="Lorath" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_PENTOS" Name="Pentos" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MYR" Name="Myr" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_TYROSH" Name="Tyrosh" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LYS" Name="Lys" InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_VOLANTIS" Name="Volantis" InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NORVOS" Name="Norvos" InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_QOHOR" Name="Qohor" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEEREEN" Name="Meereen" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YUNKAI" Name="Yunkai" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ASTAPOR" Name="Astapor" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NEW_GHIS" Name="LOC_CITY_NAME_NEW_GHIS" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LOTUS_POINT" Name="LOC_CITY_NAME_LOTUS_POINT" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_PORT_OF_IBBEN" Name="LOC_CITY_NAME_PORT_OF_IBBEN" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_QARTH" Name="LOC_CITY_NAME_QARTH" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MANTARYS" Name="LOC_CITY_NAME_MANTARYS" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ELYRIA" Name="LOC_CITY_NAME_ELYRIA" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_TOLOS" Name="LOC_CITY_NAME_TOLOS" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_SAATH" Name="Saath" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LHAZOSH" Name="LOC_CITY_NAME_LHAZOSH" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MINOR_CIV_BRAAVOS" TraitType="MINOR_CIV_BRAAVOS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LORATH" TraitType="MINOR_CIV_LORATH_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_PENTOS" TraitType="MINOR_CIV_PENTOS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MYR" TraitType="MINOR_CIV_MYR_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_TYROSH" TraitType="MINOR_CIV_TYROSH_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LYS" TraitType="MINOR_CIV_LYS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_VOLANTIS" TraitType="MINOR_CIV_VOLANTIS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_VOLANTIS" TraitType="TRAIT_CIVILIZATION_UNIT_ESSOS_WARELEPHANT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NORVOS" TraitType="MINOR_CIV_NORVOS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_QOHOR" TraitType="MINOR_CIV_QOHOR_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEEREEN" TraitType="MINOR_CIV_MEEREEN_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEEREEN" TraitType="TRAIT_CIVILIZATION_UNIT_UNSULLIED"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YUNKAI" TraitType="MINOR_CIV_YUNKAI_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YUNKAI" TraitType="TRAIT_CIVILIZATION_UNIT_UNSULLIED"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ASTAPOR" TraitType="MINOR_CIV_ASTAPOR_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ASTAPOR" TraitType="TRAIT_CIVILIZATION_UNIT_UNSULLIED"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NEW_GHIS" TraitType="MINOR_CIV_NEW_GHIS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NEW_GHIS" TraitType="TRAIT_CIVILIZATION_UNIT_UNSULLIED"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LOTUS_POINT" TraitType="MINOR_CIV_LOTUS_POINT_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_PORT_OF_IBBEN" TraitType="MINOR_CIV_PORT_OF_IBBEN_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_QARTH" TraitType="MINOR_CIV_QARTH_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MANTARYS" TraitType="MINOR_CIV_MANTARYS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ELYRIA" TraitType="MINOR_CIV_ELYRIA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_TOLOS" TraitType="MINOR_CIV_TOLOS_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_SAATH" TraitType="MINOR_CIV_SAATH_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LHAZOSH" TraitType="MINOR_CIV_LHAZOSH_TRAIT"/>
+
+
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="MINOR_CIV_BRAAVOS_TRAIT" Name="LOC_MINOR_CIV_BRAAVOS_TRAIT_NAME" Description="LOC_MINOR_CIV_BRAAVOS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_LORATH_TRAIT" Name="LOC_MINOR_CIV_LORATH_TRAIT_NAME" Description="LOC_MINOR_CIV_LORATH_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_PENTOS_TRAIT" Name="LOC_MINOR_CIV_PENTOS_TRAIT_NAME" Description="LOC_MINOR_CIV_PENTOS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_MYR_TRAIT" Name="LOC_MINOR_CIV_MYR_TRAIT_NAME" Description="LOC_MINOR_CIV_MYR_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_TYROSH_TRAIT" Name="LOC_MINOR_CIV_TYROSH_TRAIT_NAME" Description="LOC_MINOR_CIV_TYROSH_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_LYS_TRAIT" Name="LOC_MINOR_CIV_LYS_TRAIT_NAME" Description="LOC_MINOR_CIV_LYS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_VOLANTIS_TRAIT" Name="LOC_MINOR_CIV_VOLANTIS_TRAIT_NAME" Description="LOC_MINOR_CIV_VOLANTIS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" Name="LOC_MINOR_CIV_NORVOS_TRAIT_NAME" Description="LOC_MINOR_CIV_NORVOS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_QOHOR_TRAIT" Name="LOC_MINOR_CIV_QOHOR_TRAIT_NAME" Description="LOC_MINOR_CIV_QOHOR_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_MEEREEN_TRAIT" Name="LOC_MINOR_CIV_MEEREEN_TRAIT_NAME" Description="LOC_MINOR_CIV_MEEREEN_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_YUNKAI_TRAIT" Name="LOC_MINOR_CIV_YUNKAI_TRAIT_NAME" Description="LOC_MINOR_CIV_YUNKAI_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_ASTAPOR_TRAIT" Name="LOC_MINOR_CIV_ASTAPOR_TRAIT_NAME" Description="LOC_MINOR_CIV_ASTAPOR_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_NEW_GHIS_TRAIT" Name="LOC_MINOR_CIV_NEW_GHIS_TRAIT_NAME" Description="LOC_MINOR_CIV_NEW_GHIS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_LOTUS_POINT_TRAIT" Name="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_NAME" Description="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_PORT_OF_IBBEN_TRAIT" Name="LOC_MINOR_CIV_PORT_OF_IBBEN_TRAIT_NAME" Description="LOC_MINOR_CIV_PORT_OF_IBBEN_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_QARTH_TRAIT" Name="LOC_MINOR_CIV_QARTH_TRAIT_NAME" Description="LOC_MINOR_CIV_QARTH_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_MANTARYS_TRAIT" Name="LOC_MINOR_CIV_MANTARYS_TRAIT_NAME" Description="LOC_MINOR_CIV_MANTARYS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_ELYRIA_TRAIT" Name="LOC_MINOR_CIV_ELYRIA_TRAIT_NAME" Description="LOC_MINOR_CIV_ELYRIA_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_TOLOS_TRAIT" Name="LOC_MINOR_CIV_TOLOS_TRAIT_NAME" Description="LOC_MINOR_CIV_TOLOS_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_SAATH_TRAIT" Name="LOC_MINOR_CIV_SAATH_TRAIT_NAME" Description="LOC_MINOR_CIV_SAATH_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_LHAZOSH_TRAIT" Name="LOC_MINOR_CIV_LHAZOSH_TRAIT_NAME" Description="LOC_MINOR_CIV_LHAZOSH_TRAIT_DESCRIPTION"/>
+
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_BRAAVOS_TRAIT" ModifierId="MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_MARKET_BONUS"/>
+		<Row TraitType="MINOR_CIV_BRAAVOS_TRAIT" ModifierId="MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_BANK_BONUS"/>
+		<Row TraitType="MINOR_CIV_BRAAVOS_TRAIT" ModifierId="MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_STOCKEXCHANGE_BONUS"/>
+		<Row TraitType="MINOR_CIV_BRAAVOS_TRAIT" ModifierId="MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_LORATH_TRAIT" ModifierId="MINOR_CIV_LORATH_CULTURE_BONUS"/>
+		<Row TraitType="MINOR_CIV_LORATH_TRAIT" ModifierId="MINOR_CIV_LORATH_FOOD_BONUS"/>
+		<Row TraitType="MINOR_CIV_PENTOS_TRAIT" ModifierId="MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS"/>
+		<Row TraitType="MINOR_CIV_PENTOS_TRAIT" ModifierId="MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS"/>
+		<Row TraitType="MINOR_CIV_MYR_TRAIT" ModifierId="MINOR_CIV_MYR_UNIQUE_INFLUENCE_WINE_BONUS"/>
+		<Row TraitType="MINOR_CIV_MYR_TRAIT" ModifierId="MINOR_CIV_MYR_UNIQUE_INFLUENCE_ORANGES_BONUS"/>
+		<Row TraitType="MINOR_CIV_MYR_TRAIT" ModifierId="MINOR_CIV_MYR_UNIQUE_INFLUENCE_SILK_BONUS"/>
+		<Row TraitType="MINOR_CIV_TYROSH_TRAIT" ModifierId="MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_TYROSH_TRAIT" ModifierId="MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_DYES_BONUS"/>
+		<Row TraitType="MINOR_CIV_LYS_TRAIT" ModifierId="MINOR_CIV_LYS_UNIQUE_INFLUENCE_WINE_BONUS"/>
+		<Row TraitType="MINOR_CIV_LYS_TRAIT" ModifierId="MINOR_CIV_LYS_UNIQUE_INFLUENCE_SILK_BONUS"/>
+		<Row TraitType="MINOR_CIV_VOLANTIS_TRAIT" ModifierId="MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS"/>
+		<Row TraitType="MINOR_CIV_VOLANTIS_TRAIT" ModifierId="MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" ModifierId="MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_PLAINS_HILLS_BONUS"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" ModifierId="MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_GRASS_HILLS_BONUS"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" ModifierId="MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_DESERT_HILLS_BONUS"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" ModifierId="MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_SNOW_HILLS_BONUS"/>
+		<Row TraitType="MINOR_CIV_NORVOS_TRAIT" ModifierId="MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_TUNDRA_HILLS_BONUS"/>
+		<Row TraitType="MINOR_CIV_QOHOR_TRAIT" ModifierId="MINOR_CIV_QOHOR_UNIQUE_INFLUENCE_TRADE_SCIENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_MEEREEN_TRAIT" ModifierId="MINOR_CIV_MEEREEN_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_YUNKAI_TRAIT" ModifierId="MINOR_CIV_YUNKAI_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_ASTAPOR_TRAIT" ModifierId="MINOR_CIV_ASTAPOR_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_NEW_GHIS_TRAIT" ModifierId="MINOR_CIV_NEW_GHIS_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_LOTUS_POINT_TRAIT" ModifierId="MINOR_CIV_LOTUS_POINT_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_PORT_OF_IBBEN_TRAIT" ModifierId="MINOR_CIV_PORT_OF_IBBEN_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_QARTH_TRAIT" ModifierId="MINOR_CIV_QARTH_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_MANTARYS_TRAIT" ModifierId="MINOR_CIV_MANTARYS_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_ELYRIA_TRAIT" ModifierId="MINOR_CIV_ELYRIA_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_TOLOS_TRAIT" ModifierId="MINOR_CIV_TOLOS_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_SAATH_TRAIT" ModifierId="MINOR_CIV_SAATH_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_LHAZOSH_TRAIT" ModifierId="MINOR_CIV_LHAZOSH_UNIQUE_INFLUENCE_BONUS"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_MARKET_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_MARKET_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_BANK_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_BANK_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_STOCKEXCHANGE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_STOCKEXCHANGE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_TRADE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_CULTURE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_CULTURE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_FOOD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_FOOD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_GOLD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_WINE_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_ORANGES_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_ORANGES_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_SILK_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_SILK_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_ABILITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_DYES_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_DYES_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_WINE_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_UNIQUE_INFLUENCE_SILK_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_SILK_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_FAITH_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_PLAINS_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_GRASS_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_DESERT_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_SNOW_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_TUNDRA_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QOHOR_UNIQUE_INFLUENCE_TRADE_SCIENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QOHOR_TRADE_SCIENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_MEEREEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEEREEN_LUXURY_TRADE_ROUTE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_LUXURY_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YUNKAI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YUNKAI_BONUS_RESOURCE_AMENITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_OWNED_BONUS_RESOURCE_EXTRA_AMENITIES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ASTAPOR_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ASTAPOR_ABILITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NEW_GHIS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+			<Row>
+			<ModifierId>MINOR_CIV_LOTUS_POINT_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType> 
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PORT_OF_IBBEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PORT_OF_IBBEN_GOLD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QARTH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QARTH_TRADING_POST_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_POST_IN_FOREIGN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANTARYS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANTARYS_OVERALLWARWEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+
+
+		<Row>
+			<ModifierId>MINOR_CIV_ELYRIA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_TOLOS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TOLOS_ABILITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_SAATH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SAATH_RIVER_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LHAZOSH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYSOAIF_ADD_CULTURE_TO_ALL_PASTURES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_MARKET_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BRAAVOS_MARKET_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_BANK_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BRAAVOS_BANK_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_STOCKEXCHANGE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BRAAVOS_STOCKEXCHANGE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_MARKET_BONUS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MARKET</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_MARKET_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_MARKET_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_BANK_BONUS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_BANK_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_BANK_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_STOCKEXCHANGE_BONUS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STOCK_EXCHANGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_STOCKEXCHANGE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_STOCKEXCHANGE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BRAAVOS_TRADE_FAITH_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_TRADE_FAITH_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRAAVOS_TRADE_FAITH_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_CULTURE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LORATH_DISTRICTS_CULTURE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_CULTURE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_CULTURE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_FOOD_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LORATH_DISTRICTS_FOOD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_FOOD_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LORATH_DISTRICTS_FOOD_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PENTOS_TRADE_GOLD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_GOLD_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_GOLD_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PENTOS_TRADE_PRODUCTION_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PENTOS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MYR_WINE_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_ORANGES_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MYR_ORANGES_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_ORANGES_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_CITRUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_ORANGES_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_UNIQUE_INFLUENCE_SILK_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MYR_SILK_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_SILK_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SILK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MYR_SILK_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TYROSH_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_ABILITY_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TYROSH_GRANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_UNIQUE_INFLUENCE_DYES_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TYROSH_DYES_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_DYES_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_DYES</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TYROSH_DYES_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LYS_WINE_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_UNIQUE_INFLUENCE_SILK_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_LYS_SILK_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_SILK_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SILK</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LYS_SILK_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_FAITH_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VOLANTIS_TRADE_FAITH_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_FAITH_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_FAITH_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_UNIQUE_INFLUENCE_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_VOLANTIS_TRADE_PRODUCTION_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_VOLANTIS_TRADE_PRODUCTION_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_PLAINS_HILLS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_PLAINS_HILLS_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_NORVOS_TRAIT_DESCRIPTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_GRASS_HILLS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_GRASS_HILLS_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_NORVOS_TRAIT_DESCRIPTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_DESERT_HILLS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_DESERT_HILLS_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_NORVOS_TRAIT_DESCRIPTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_SNOW_HILLS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_SNOW_HILLS_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_NORVOS_TRAIT_DESCRIPTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_UNIQUE_INFLUENCE_TUNDRA_HILLS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NORVOS_TUNDRA_HILLS_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_NORVOS_TRAIT_DESCRIPTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QOHOR_UNIQUE_INFLUENCE_TRADE_SCIENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_QOHOR_TRADE_SCIENCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QOHOR_TRADE_SCIENCE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QOHOR_TRADE_SCIENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEEREEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MEEREEN_LUXURY_TRADE_ROUTE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEEREEN_LUXURY_TRADE_ROUTE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEEREEN_LUXURY_TRADE_ROUTE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YUNKAI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_YUNKAI_BONUS_RESOURCE_AMENITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YUNKAI_BONUS_RESOURCE_AMENITY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ASTAPOR_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ASTAPOR_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ASTAPOR_ABILITY_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ASTAPOR_GRANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NEW_GHIS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NEW_GHIS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+			<Row>
+			<ModifierId>MINOR_CIV_LOTUS_POINT_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PORT_OF_IBBEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_PORT_OF_IBBEN_GOLD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PORT_OF_IBBEN_GOLD_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_PORT_OF_IBBEN_GOLD_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QARTH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_QARTH_TRADING_POST_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QARTH_TRADING_POST_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_QARTH_TRADING_POST_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+			<Row>
+			<ModifierId>MINOR_CIV_MANTARYS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_QARTH_TRADING_POST_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANTARYS_OVERALLWARWEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANTARYS_OVERALLWARWEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ELYRIA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TOLOS_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_TOLOS_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_TOLOS_ABILITY_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TOLOS_GRANT</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_SAATH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SAATH_RIVER_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAATH_RIVER_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAATH_RIVER_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_LHAZOSH_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_MYSOAIF_ADD_CULTURE_TO_ALL_PASTURES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYSOAIF_ADD_CULTURE_TO_ALL_PASTURES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYSOAIF_ADD_CULTURE_TO_ALL_PASTURES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TypeProperties>
+		<Row Type="CIVILIZATION_BRAAVOS" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_LORATH" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_PENTOS" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_MYR" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_TYROSH" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_LYS" Name="CityStateCategory" Value="SCIENTIFIC"/>
+		<Row Type="CIVILIZATION_VOLANTIS" Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_NORVOS" Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_QOHOR" Name="CityStateCategory" Value="INDUSTRIAL"/>
+		<Row Type="CIVILIZATION_MEEREEN" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_YUNKAI" Name="CityStateCategory" Value="INDUSTRIAL"/>
+		<Row Type="CIVILIZATION_ASTAPOR" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_NEW_GHIS" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_LOTUS_POINT" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_PORT_OF_IBBEN" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_QARTH" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_MANTARYS" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_ELYRIA" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_TOLOS" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_SAATH" Name="CityStateCategory" Value="INDUSTRIAL"/>
+		<Row Type="CIVILIZATION_LHAZOSH" Name="CityStateCategory" Value="CULTURAL"/>
+
+	</TypeProperties>
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_BRAAVOS" Name="LOC_BRAAVOS_NAME" Description="LOC_BRAAVOS_DESCRIPTION" Adjective="LOC_BRAAVOS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_LORATH" Name="LOC_LORATH_NAME" Description="LOC_LORATH_DESCRIPTION" Adjective="LOC_LORATH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_PENTOS" Name="LOC_PENTOS_NAME" Description="LOC_PENTOS_DESCRIPTION" Adjective="LOC_PENTOS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_MYR" Name="LOC_MYR_NAME" Description="LOC_MYR_DESCRIPTION" Adjective="LOC_MYR_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_TYROSH" Name="LOC_TYROSH_NAME" Description="LOC_TYROSH_DESCRIPTION" Adjective="LOC_TYROSH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_LYS" Name="LOC_LYS_NAME" Description="LOC_LYS_DESCRIPTION" Adjective="LOC_LYS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" Name="LOC_VOLANTIS_NAME" Description="LOC_VOLANTIS_DESCRIPTION" Adjective="LOC_VOLANTIS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_NORVOS" Name="LOC_NORVOS_NAME" Description="LOC_NORVOS_DESCRIPTION" Adjective="LOC_NORVOS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_QOHOR" Name="LOC_QOHOR_NAME" Description="LOC_QOHOR_DESCRIPTION" Adjective="LOC_QOHOR_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_MEEREEN" Name="LOC_MEEREEN_NAME" Description="LOC_MEEREEN_DESCRIPTION" Adjective="LOC_MEEREEN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_YUNKAI" Name="LOC_YUNKAI_NAME" Description="LOC_YUNKAI_DESCRIPTION" Adjective="LOC_YUNKAI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_ASTAPOR" Name="LOC_ASTAPOR_NAME" Description="LOC_ASTAPOR_DESCRIPTION" Adjective="LOC_ASTAPOR_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_NEW_GHIS" Name="LOC_NEW_GHIS_NAME" Description="LOC_NEW_GHIS_DESCRIPTION" Adjective="LOC_NEW_GHIS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" Name="LOC_LOTUS_POINT_NAME" Description="LOC_LOTUS_POINT_DESCRIPTION" Adjective="LOC_LOTUS_POINT_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" Name="LOC_PORT_OF_IBBEN_NAME" Description="LOC_PORT_OF_IBBEN_DESCRIPTION" Adjective="LOC_PORT_OF_IBBEN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" Name="LOC_QARTH_NAME" Description="LOC_QARTH_DESCRIPTION" Adjective="LOC_QARTH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_MANTARYS" Name="LOC_MANTARYS_NAME" Description="LOC_MANTARYS_DESCRIPTION" Adjective="LOC_MANTARYS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_ELYRIA" Name="LOC_ELYRIA_NAME" Description="LOC_ELYRIA_DESCRIPTION" Adjective="LOC_ELYRIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_TOLOS" Name="LOC_TOLOS_NAME" Description="LOC_TOLOS_DESCRIPTION" Adjective="LOC_TOLOS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_SAATH" Name="LOC_SAATH_NAME" Description="LOC_SAATH_DESCRIPTION" Adjective="LOC_SAATH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_LHAZOSH" Name="LOC_LHAZOSH_NAME" Description="LOC_LHAZOSH_DESCRIPTION" Adjective="LOC_LHAZOSH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_BRAAVOS" LeaderType="LEADER_MINOR_CIV_BRAAVOS" CapitalName="LOC_CITY_NAME_BRAAVOS"/>
+		<Row CivilizationType="CIVILIZATION_LORATH" LeaderType="LEADER_MINOR_CIV_LORATH" CapitalName="LOC_CITY_NAME_LORATH"/>
+		<Row CivilizationType="CIVILIZATION_PENTOS" LeaderType="LEADER_MINOR_CIV_PENTOS" CapitalName="LOC_CITY_NAME_PENTOS"/>
+		<Row CivilizationType="CIVILIZATION_MYR" LeaderType="LEADER_MINOR_CIV_MYR" CapitalName="LOC_CITY_NAME_MYR"/>
+		<Row CivilizationType="CIVILIZATION_TYROSH" LeaderType="LEADER_MINOR_CIV_TYROSH" CapitalName="LOC_CITY_NAME_TYROSH"/>
+		<Row CivilizationType="CIVILIZATION_LYS" LeaderType="LEADER_MINOR_CIV_LYS" CapitalName="LOC_CITY_NAME_LYS"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" LeaderType="LEADER_MINOR_CIV_VOLANTIS" CapitalName="LOC_CITY_NAME_VOLANTIS"/>
+		<Row CivilizationType="CIVILIZATION_NORVOS" LeaderType="LEADER_MINOR_CIV_NORVOS" CapitalName="LOC_CITY_NAME_NORVOS"/>
+		<Row CivilizationType="CIVILIZATION_QOHOR" LeaderType="LEADER_MINOR_CIV_QOHOR" CapitalName="LOC_CITY_NAME_QOHOR"/>
+		<Row CivilizationType="CIVILIZATION_MEEREEN" LeaderType="LEADER_MINOR_CIV_MEEREEN" CapitalName="LOC_CITY_NAME_MEEREEN"/>
+		<Row CivilizationType="CIVILIZATION_YUNKAI" LeaderType="LEADER_MINOR_CIV_YUNKAI" CapitalName="LOC_CITY_NAME_YUNKAI"/>
+		<Row CivilizationType="CIVILIZATION_ASTAPOR" LeaderType="LEADER_MINOR_CIV_ASTAPOR" CapitalName="LOC_CITY_NAME_ASTAPOR"/>
+		<Row CivilizationType="CIVILIZATION_NEW_GHIS" LeaderType="LEADER_MINOR_CIV_NEW_GHIS" CapitalName="LOC_CITY_NAME_NEW_GHIS"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" LeaderType="LEADER_MINOR_CIV_LOTUS_POINT" CapitalName="LOC_CITY_NAME_LOTUS_POINT"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" LeaderType="LEADER_MINOR_CIV_PORT_OF_IBBEN" CapitalName="LOC_CITY_NAME_PORT_OF_IBBEN"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" LeaderType="LEADER_MINOR_CIV_QARTH" CapitalName="LOC_CITY_NAME_QARTH"/>
+		<Row CivilizationType="CIVILIZATION_MANTARYS" LeaderType="LEADER_MINOR_CIV_MANTARYS" CapitalName="LOC_CITY_NAME_MANTARYS"/>
+		<Row CivilizationType="CIVILIZATION_ELYRIA" LeaderType="LEADER_MINOR_CIV_ELYRIA" CapitalName="LOC_CITY_NAME_ELYRIA"/>
+		<Row CivilizationType="CIVILIZATION_TOLOS" LeaderType="LEADER_MINOR_CIV_TOLOS" CapitalName="LOC_CITY_NAME_TOLOS"/>
+		<Row CivilizationType="CIVILIZATION_SAATH" LeaderType="LEADER_MINOR_CIV_SAATH" CapitalName="LOC_SAATH_NAME"/>
+		<Row CivilizationType="CIVILIZATION_LHAZOSH" LeaderType="LEADER_MINOR_CIV_LHAZOSH" CapitalName="LOC_CITY_NAME_LHAZOSH"/>
+
+	</CivilizationLeaders>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_BRAAVOS" CityName="LOC_CITY_NAME_BRAAVOS"/>
+		<Row CivilizationType="CIVILIZATION_LORATH" CityName="LOC_CITY_NAME_LORATH"/>
+		<Row CivilizationType="CIVILIZATION_LORATH" CityName="LOC_CITY_NAME_MOROSH"/>
+		<Row CivilizationType="CIVILIZATION_PENTOS" CityName="LOC_CITY_NAME_PENTOS"/>
+		<Row CivilizationType="CIVILIZATION_MYR" CityName="LOC_CITY_NAME_MYR"/>
+		<Row CivilizationType="CIVILIZATION_TYROSH" CityName="LOC_CITY_NAME_TYROSH"/>
+		<Row CivilizationType="CIVILIZATION_LYS" CityName="LOC_CITY_NAME_LYS"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" CityName="LOC_CITY_NAME_VOLANTIS"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" CityName="LOC_CITY_NAME_VOLON_THERYS"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" CityName="LOC_CITY_NAME_VALYSAR"/>
+		<Row CivilizationType="CIVILIZATION_VOLANTIS" CityName="LOC_CITY_NAME_SELHORYS"/>
+		<Row CivilizationType="CIVILIZATION_NORVOS" CityName="LOC_CITY_NAME_NORVOS"/>
+		<Row CivilizationType="CIVILIZATION_QOHOR" CityName="LOC_CITY_NAME_QOHOR"/>
+		<Row CivilizationType="CIVILIZATION_MEEREEN" CityName="LOC_CITY_NAME_MEEREEN"/>
+		<Row CivilizationType="CIVILIZATION_YUNKAI" CityName="LOC_CITY_NAME_YUNKAI"/>
+		<Row CivilizationType="CIVILIZATION_ASTAPOR" CityName="LOC_CITY_NAME_ASTAPOR"/>
+		<Row CivilizationType="CIVILIZATION_NEW_GHIS" CityName="LOC_CITY_NAME_NEW_GHIS"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" CityName="LOC_CITY_NAME_LOTUS_POINT"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" CityName="LOC_CITY_NAME_TALL_TREES"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" CityName="LOC_CITY_NAME_EBONHEAD"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" CityName="LOC_CITY_NAME_LAST_LAMENT"/>
+		<Row CivilizationType="CIVILIZATION_LOTUS_POINT" CityName="LOC_CITY_NAME_RED_FLOWER_VALE"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" CityName="LOC_CITY_NAME_PORT_OF_IBBEN"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" CityName="LOC_CITY_NAME_IB_NOR"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" CityName="LOC_CITY_NAME_IBBISH"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" CityName="LOC_CITY_NAME_NEW_IBBISH"/>
+		<Row CivilizationType="CIVILIZATION_PORT_OF_IBBEN" CityName="LOC_CITY_NAME_IB_SAR"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" CityName="LOC_CITY_NAME_QARTH"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" CityName="LOC_CITY_NAME_QARKASH"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" CityName="LOC_CITY_NAME_PORT_YHOS"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" CityName="LOC_CITY_NAME_QOLAHN"/>
+		<Row CivilizationType="CIVILIZATION_QARTH" CityName="LOC_CITY_NAME_QAL"/>
+		<Row CivilizationType="CIVILIZATION_MANTARYS" CityName="LOC_CITY_NAME_MANTARYS"/>
+		<Row CivilizationType="CIVILIZATION_ELYRIA" CityName="LOC_CITY_NAME_ELYRIA"/>
+		<Row CivilizationType="CIVILIZATION_TOLOS" CityName="LOC_CITY_NAME_TOLOS"/>
+		<Row CivilizationType="CIVILIZATION_SAATH" CityName="LOC_SAATH_NAME"/>
+		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_LHAZOSH"/>
+		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_HESH"/>
+		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_KOSRAK"/>
+	</CityNames>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MINOR_CIV_ELYRIA_NAVALUNITEXPERIENCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MINOR_CIV_ELYRIA_NAVAL_UNITS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_INDUSTRIAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>MINOR_CIV_ELYRIA_NAVAL_UNITS</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>MINOR_CIV_ELYRIA_NAVAL_UNITS</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_INDUSTRIAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+	</RequirementArguments>
+	
+
+</GameData>

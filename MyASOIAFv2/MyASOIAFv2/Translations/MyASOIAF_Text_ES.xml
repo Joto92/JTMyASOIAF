@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DISTRICT_GRASS_MOUNTAIN_GOLD_MYSOIAF" Language="es_ES">
+			<Text>+1 de Oro [ICON_Gold] por Montaña de Pradera</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GRASS_MOUNTAIN_FAITH_MYSOIAF" Language="es_ES">
+			<Text>+1 de Fe [ICON_Faith] por Montaña de Pradera</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_GRASS_MOUNTAIN_CULTURE_MYSOIAF" Language="es_ES">
+			<Text>+1 de Cultura [ICON_Culture] por Montaña de Pradera</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GAME_OF_THRONES_PLAYER_NAME" Language="es_ES">
+			<Text>Jugador de Juego de Tronos</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GAME_OF_THRONES_PLAYER_DESCRIPTION" Language="es_ES">
+			<Text>Tus Rutas Comerciales a un Aliado dab +2 de Oro para las dos Ciudades.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FOREST_GOLD_MYSOIAF" Language="es_ES">
+			<Text>+1 de Oro [ICON_Gold] por Bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FOREST_CULTURE_MYSOIAF" Language="es_ES">
+			<Text>+1 de Cultura [ICON_Culture] por Bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_CONTINENT_WESTEROS" Language="es_ES">
+			<Text>Poniente</Text>
+		</Replace>
+		<Replace Tag="LOC_CONTINENT_SUMMER_ISLANDS" Language="es_ES">
+			<Text>Islas del Verano</Text>
+		</Replace>
+		<Replace Tag="LOC_CONTINENT_NARROW_SEA" Language="es_ES">
+			<Text>Mar Angosto</Text>
+		</Replace>
+		<!-- THE NORTH | STARK	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ROBB_STARK" Language="es_ES">
+			<Text>Robb es el hijo de su padre, con un gran sentido del honor y la justicia. Robb comparte la devoción hacia el honor con su padre y frequentemente esta acompañado de su huargo, Viento Gris, que siempre lo acompaña en las batallas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LOYAL_BANNERMEN_NAME" Language="es_ES">
+			<Text>El norte recuerda</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LOYAL_BANNERMEN_DESCRIPTION" Language="es_ES">
+			<Text>No sufre penalizaciones al combate cuando recibe daños.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WINTERFELL" Language="es_ES">
+			<Text>Invernalia</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WHITE_HARBOUR" Language="es_ES">
+			<Text>Puerto Blanco</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DEEPWOOD_MOTTLE" Language="es_ES">
+			<Text>Bosquespeso</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TORHENN_SQUARE" Language="es_ES">
+			<Text>Ciudadela de Tornhenn</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BARROWTON" Language="es_ES">
+			<Text>Fuerte Túmulo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LAST_HEARTH" Language="es_ES">
+			<Text>Último Hogar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BEAR_ISLAND" Language="es_ES">
+			<Text>Isla del Oso</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CERWYN" Language="es_ES">
+			<Text>Cerwyn</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOAT_CAILIN" Language="es_ES">
+			<Text>Foso Cailin</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OLD_CASTLE" Language="es_ES">
+			<Text>Castillo Viejo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DREADFORT" Language="es_ES">
+			<Text>Fuerte Terror</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KARHOLD" Language="es_ES">
+			<Text>Bastión Kar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RAMSGATE" Language="es_ES">
+			<Text>Puerta del Carnero</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WIDOW_WATCH" Language="es_ES">
+			<Text>Atalaya de la Viuda</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREYWATER_WATCH" Language="es_ES">
+			<Text>Atalaya de Aguasgrises</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FLINT_FINGER" Language="es_ES">
+			<Text>Dedo de Pedernal</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RILLS" Language="es_ES">
+			<Text>Los Riachuellos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONEY_SHORE" Language="es_ES">
+			<Text>Costa Pedregosa</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SEA_DRAGON_POINT" Language="es_ES">
+			<Text>Punta Dragón Marino</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOUNTAIN_CLANS" Language="es_ES">
+			<Text>Clanes de las Montañas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BREAKSTONE_HILL" Language="es_ES">
+			<Text>Colina Piedrarrota</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GOLDGRASS" Language="es_ES">
+			<Text>Goldgrass</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACKPOOL" Language="es_ES">
+			<Text>Pozanegra</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HIGHPOINT" Language="es_ES">
+			<Text>Highpoint</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRONSMITH" Language="es_ES">
+			<Text>Ironsmith</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONG_LAKE" Language="es_ES">
+			<Text>Lago Largo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WOOLFIELD" Language="es_ES">
+			<Text>Woolfield</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINGSHOUSE" Language="es_ES">
+			<Text>Kingshouse</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DRIFTWOOD_HALL" Language="es_ES">
+			<Text>Driftwood Hall</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF THE NORTH | STARK -->
+		<!-- THE RIVERLANDS | TULLY -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_EDMURE_TULLY" Language="es_ES">
+			<Text>Ser Edmure Tully es el hijo de Lord Hoster Tully y Lady Minisa Whent, heredero de la casa Tully de Aguasdulces, los señores feudales de las tierras de los ríos. En su juventud, era conocido como un cabeza caliente pero con buen corazón.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TULLY_GUARDSMEN_NAME" Language="es_ES">
+			<Text>Riverlander</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TULLY_GUARDSMEN_DESCRIPTION" Language="es_ES">
+			<Text>No sufre ningun coste de movimiento al cruzar ríos.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RIVERRUN" Language="es_ES">
+			<Text>Aguasdulces</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SEAGARD" Language="es_ES">
+			<Text>Varamar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SALTPANS" Language="es_ES">
+			<Text>Salinas</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MAIDENPOOL" Language="es_ES">
+			<Text>Poza de la Doncella</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RAVENTREE_HALL" Language="es_ES">
+			<Text>Árbol de los Cuervos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONE_HEDGE" Language="es_ES">
+			<Text>Seto de Piedra</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HARROW_TOWN" Language="es_ES">
+			<Text>Aldea de Lord Harroway</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FAIRMARKET" Language="es_ES">
+			<Text>Buenabasto</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONEY_SEPT" Language="es_ES">
+			<Text>Septo de Piedra</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PINKMAIDEN" Language="es_ES">
+			<Text>Princesa Rosada</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TWINS" Language="es_ES">
+			<Text>Los Gemelos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ACORN_HALL" Language="es_ES">
+			<Text>Torreón Bellota</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MISTY_ISLE" Language="es_ES">
+			<Text>Isla Brumosa</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CASTLEWOOD" Language="es_ES">
+			<Text>Castlewood</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WAYFARER_REST" Language="es_ES">
+			<Text>Descanso del Caminante</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WILLOW_WOOD" Language="es_ES">
+			<Text>Bosque de Sauces</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HONEYTREE" Language="es_ES">
+			<Text>Árbol de la Miel</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BUCKLE" Language="es_ES">
+			<Text>La Hebilla</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAG_MIRE" Language="es_ES">
+			<Text>Pantano de Bruja</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SEVENSTREAMS" Language="es_ES">
+			<Text>Sietecauces</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WHITEWALLS" Language="es_ES">
+			<Text>Murosblancos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<!--destroyed-->
+		<Replace Tag="LOC_CITY_NAME_OLDSTONES" Language="es_ES">
+			<Text>Piedrasviejas</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+			<!--destroyed-->
+		</Replace>
+		<!-- END OF RIVERLANDS | TULLY -->
+		<!-- THE VALE | ARRYN/PETYR -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PETYR_BAELISH" Language="es_ES">
+			<Text>Lysa convenció a su marido de que Petyr controlara los bienes de Puerto Gaviota en 289 AC, donde incremento los ingresos por diez, mostrando su habilidad con las finanzas. Jon Arryn, Mano del Rey Robert I Baratheon, finalmente se llevo a Petyr a la corte en Desembarco del Rey, en solo 3 años, fue nombrado Maestro de la Moneda y escogido como miembro del Consejo Privado. Lysa despúes de casarse con Petyr lo nombra Lord Protector del Valle.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KNIGHT_OF_VALE_NAME" Language="es_ES">
+			<Text>Caballeros del Valle</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KNIGHT_OF_VALE_DESCRIPTION" Language="es_ES">
+			<Text>+1 a la Fuerza de combate al luchar en Colinas y puede moverse por ellas más rapido.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_EYRIE" Language="es_ES">
+			<Text>El Nido de Águilas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GULTOWN" Language="es_ES">
+			<Text>Puerto Gaviota</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RUNESTONE" Language="es_ES">
+			<Text>Piedra de las Runas</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GATE_MOON" Language="es_ES">
+			<Text>Puertas de la Luna</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HEART_HOME" Language="es_ES">
+			<Text>Hogar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRONOAKS" Language="es_ES">
+			<Text>Roble de Hierro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_REDFORT" Language="es_ES">
+			<Text>Fuerterrojo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OLD_ANCHOR" Language="es_ES">
+			<Text>Varadero Viejo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NINESTARS" Language="es_ES">
+			<Text>Nuevestrellas</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONGBOW" Language="es_ES">
+			<Text>Arcolargo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SNAKEWOODS" Language="es_ES">
+			<Text>Bosque de la Serpiente</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_COLDWATER" Language="es_ES">
+			<Text>Comezón de Aguasfrías</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREY_GLEN" Language="es_ES">
+			<Text>Soto Gris</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STRONGSONG" Language="es_ES">
+			<Text>Rapsodia</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WICKENDEN" Language="es_ES">
+			<Text>Serbaledo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LITTLESISTER" Language="es_ES">
+			<Text>Hermana Pequeña</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONGSISTER" Language="es_ES">
+			<Text>Hermana Larga</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SWEETSISTER" Language="es_ES">
+			<Text>Hermana Dulce</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLOODY_GATE" Language="es_ES">
+			<Text>Puerta de la Sangre</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FINGERS" Language="es_ES">
+			<Text>Los Dedos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PAPS" Language="es_ES">
+			<Text>Los Senos</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PEBBLE" Language="es_ES">
+			<Text>Guijarro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NEWKEEP" Language="es_ES">
+			<Text>Newkeep</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WITCH_ISLE" Language="es_ES">
+			<Text>Isla de la Bruja</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF VALE | ARRYN/PETYR -->
+		<!-- THE WESTERLANDS | LANNISTER -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER" Language="es_ES">
+			<Text>Tywin Lannister es el señor de Roca Casterly, Escudo de Lannisport y Guardián del Occidente. La cabeza de la Casa Lannister, Tywin es uno de los señores más poderosos en Ponientem es el padre de Jaime, Cersei y Tyrion Lannister.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RED_CLOAKS_NAME" Language="es_ES">
+			<Text>Capas Rojas</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RED_CLOAKS_DESCRIPTION" Language="es_ES">
+			<Text>+1 a la Fuerza de combate al luchar en Colinas y puede moverse por ellas más rapido.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CASTERLY_ROCK" Language="es_ES">
+			<Text>Roca Casterly</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CRAKEHALL" Language="es_ES">
+			<Text>Refugio Quebrado</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ASHEMARK" Language="es_ES">
+			<Text>Marcaceniza</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GOLDEN_TOOTH" Language="es_ES">
+			<Text>Colmillo Dorado</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CORNFIELD" Language="es_ES">
+			<Text>Maizal</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THE_CRAG" Language="es_ES">
+			<Text>El Risco</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BANEFORT" Language="es_ES">
+			<Text>Fuerte Desolación</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SILVERHILL" Language="es_ES">
+			<Text>Refugio de Plata</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DEEP_DEN" Language="es_ES">
+			<Text>Cuevahonda</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HORNVALE" Language="es_ES">
+			<Text>Valdecuerno</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FAIRCASTLE" Language="es_ES">
+			<Text>Torrelabella</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OXCROSS" Language="es_ES">
+			<Text>Cruce de Bueyes</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FEASTFIRES" Language="es_ES">
+			<Text>Las Hogueras</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RIVERSPRING" Language="es_ES">
+			<Text>Riverspring</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WYNDHALL" Language="es_ES">
+			<Text>Salón del Viento</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREENFIELD" Language="es_ES">
+			<Text>Pradal</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CLEGANE_KEEP" Language="es_ES">
+			<Text>Fuerte Clegane</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CASTAMERE" Language="es_ES">
+			<Text>Castamere</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TARBECK_HALL" Language="es_ES">
+			<Text>Torre Tarbeck</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF THE WESTERLANDS | LANNISTER -->
+		<!-- COMMUN TRULY BARATHEONS -->
+		<Replace Tag="LOC_ABILITY_STORMSOLDIER_NAME" Language="es_ES">
+			<Text>Stormlanders</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STORMSOLDIER_DESCRIPTION" Language="es_ES">
+			<Text>Puede ver a través de accidentes geográficos y +4 a la Fuerza de combate [ICON_Strength] al atacar.</Text>
+		</Replace>
+		<!-- BARATHEON DRAGONSTONE -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_STANNIS_BARATHEON" Language="es_ES">
+			<Text>Stannis Baratheon es la cabeza de la Casa Baratheon de Rocadragón y señor de Rocadragón. Es el mayor de los dos hermanos del Rey Robert I Baratheon. Stannis también sirvio como Maestro de Naves en el Consejo Privado de Robert. Sus padres fueron Steffon Baratheon, señor de Bastión de Tormenta y Lady Cassana Estermont. </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LYSENNE_PIRATE_NAME" Language="es_ES">
+			<Text>Piratas Lyseños</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_LYSENNE_PIRATE_DESCRIPTION" Language="es_ES">
+			<Text>Puede moverse despues de atacar.</Text>
+		</Replace>
+		<!-- END OF BARATHEON DRAGONSTONE -->
+		<!--Cities Crownlands -->
+		<Replace Tag="LOC_CITY_NAME_DRAGONSTONE" Language="es_ES">
+			<Text>Rocadragón</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DRIFTMARK" Language="es_ES">
+			<Text>Marcaderiva</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHARP_POINT" Language="es_ES">
+			<Text>Punta Aguda</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CLAW_ISLE" Language="es_ES">
+			<Text>Isla Zarpa</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SWEETPORT_SOUND" Language="es_ES">
+			<Text>Puertoplácido</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- Cities Stormland -->
+		<Replace Tag="LOC_CITY_NAME_STORM_END" Language="es_ES">
+			<Text>Bastión de Tormentas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONEDANCE" Language="es_ES">
+			<Text>Ballarroca</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FELWOOD" Language="es_ES">
+			<Text>Bosquealto</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BRONZEGATE" Language="es_ES">
+			<Text>Puertabronce</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAYSTACK_HALL" Language="es_ES">
+			<Text>Pazo Pajar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PARCHMENTS" Language="es_ES">
+			<Text>Los Pergaminos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_EVENFALL_HALL" Language="es_ES">
+			<Text>Castillo del Atardecer</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GRIFFIN_ROOST" Language="es_ES">
+			<Text>Nido del Grifo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MISTWOOD" Language="es_ES">
+			<Text>Bosqueumbrío</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WEEPING_TOWN" Language="es_ES">
+			<Text>Weeping Town</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREENSTONE" Language="es_ES">
+			<Text>Piedra Verde</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RAIN_HOUSE" Language="es_ES">
+			<Text>Aguasmil</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CROW_NEST" Language="es_ES">
+			<Text>Nido de Cuervos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONEHELM" Language="es_ES">
+			<Text>Yelmo de Piedra</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GRANDVIEW" Language="es_ES">
+			<Text>Buenavista</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACKHAVEN" Language="es_ES">
+			<Text>Refugio Negro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HARVEST_HALL" Language="es_ES">
+			<Text>Torreón Cosecha</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIGHTSONG" Language="es_ES">
+			<Text>Nocturnia</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FAWTON" Language="es_ES">
+			<Text>Fawton</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PODDINGFIELD" Language="es_ES">
+			<Text>Campoverde</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GALLOWSGREY" Language="es_ES">
+			<Text>Gallowsgrey</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BROAD_ARCH" Language="es_ES">
+			<Text>Arco Ancho</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AMBERLY" Language="es_ES">
+			<Text>Amberly</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- THE REACH | TYRELL -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_OLENNA_TYRELL" Language="es_ES">
+			<Text>Olenna Tyrell, también conocida como Olenna Redwyne, es la viuda de Luthor Tyrell y madre de Mace Tyrell, Señor de Altojardín. Nacida en la Casa Redwyne de El Rejo, es conocida comunmente como Reina de Espinas por su lengua afilada.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUMMER_KNIGHT_NAME" Language="es_ES">
+			<Text>Caballero del Verano</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SUMMER_KNIGHT_DESCRIPTION" Language="es_ES">
+			<Text> +5 [ICON_Strength] en Fuerza de Combate contra enemigos heridos.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_REDWYNE_SHIP_NAME" Language="es_ES">
+			<Text>Barco Redwyne</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_REDWYNE_SHIP_DESCRIPTION" Language="es_ES">
+			<Text>Puede curarse en territorio neutral.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HIGHGARDEN" Language="es_ES">
+			<Text>Altojardín</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OLDTOWN" Language="es_ES">
+			<Text>Antigua</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ARBOR" Language="es_ES">
+			<Text>El Rejo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BITTERBRIDGE" Language="es_ES">
+			<Text>Puenteamargo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GRASSY_VALE" Language="es_ES">
+			<Text>Valdehierba</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONG_TABLE" Language="es_ES">
+			<Text>Granmesa</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HORN_HILL" Language="es_ES">
+			<Text>Colina Cuerno</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CIDER_HALL" Language="es_ES">
+			<Text>La Sidra</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GOLDENGROVE" Language="es_ES">
+			<Text>Sotodeoro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RED_LAKE" Language="es_ES">
+			<Text>Lago Rojo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OLD_OAK" Language="es_ES">
+			<Text>Roble Viejo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HONEYHOLT" Language="es_ES">
+			<Text>Sotomiel</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BRIGHTWATER_KEEP" Language="es_ES">
+			<Text>Aguasclaras</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TUMBLETON" Language="es_ES">
+			<Text>Ladera</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SUN_HOUSE" Language="es_ES">
+			<Text>Refugio del Girasol</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACKCROWN" Language="es_ES">
+			<Text>Corona Negra</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BANDALLON" Language="es_ES">
+			<Text>Bandallon</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ASHFORD" Language="es_ES">
+			<Text>Vado Ceniza</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREENSHIELD" Language="es_ES">
+			<Text>Escudo Verde</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREYSHIELD" Language="es_ES">
+			<Text>Escudo Gris</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OAKENSHIELD" Language="es_ES">
+			<Text>Escudo de Roble</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SOUTHSHIELD" Language="es_ES">
+			<Text>Escudo del Sur</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THREE_TOWERS" Language="es_ES">
+			<Text>Tres Torres</Text>
+			<Gender>feminine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NEW_BARREL" Language="es_ES">
+			<Text>Nuevo Barril</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IVY_HALL" Language="es_ES">
+			<Text>Ivy Hall</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_UPLANDS" Language="es_ES">
+			<Text>Tierras Altas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_APPLETON" Language="es_ES">
+			<Text>Appleton</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAMMERHAL" Language="es_ES">
+			<Text>Hammerhal</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HOLYHALL" Language="es_ES">
+			<Text>Holyhall</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DUNSTONBURY" Language="es_ES">
+			<Text>Dunstonbury</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STANDFAST" Language="es_ES">
+			<Text>Tiesa</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STARPIKE" Language="es_ES">
+			<Text>Picaestrella</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RING" Language="es_ES">
+			<Text>Ring</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SMITHYTON" Language="es_ES">
+			<Text>Smithyton</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DARKDELL" Language="es_ES">
+			<Text>Darkdell</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_COLDMOAT" Language="es_ES">
+			<Text>Fosafría</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF THE REACH | TYRELL -->
+		<!-- DORNE | MARTELL -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL" Language="es_ES">
+			<Text>El Príncipe Doran Nymeros Martell es la cabeza de la Casa Martell, Príncipe de Dorne y Señor de Lanza del Sol. Casado con Lady Mellario, de la ciudad libre de Norvos, tiene tres hijos: Arianne, Quentyn, and Trystane. Mientras que sus abanderados pueden considerarle débil, Doran ha estado centrado durante años en conseguir venganza por el asesinato de su hermana, Elia y sus dos hijos durante el Saqueo de Desembarco del Rey en 283 AC.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAND_STEED_NAME" Language="es_ES">
+			<Text>Corcel de Arena</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAND_STEED_DESCRIPTION" Language="es_ES">
+			<Text> +5 [ICON_Strength] en Fuerza de Combate cuando luchan en desiertos.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SUNSPEAR" Language="es_ES">
+			<Text>Lanza del Sol</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PLANKY_TOWN" Language="es_ES">
+			<Text>Los Tablones</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_YRONWOOD" Language="es_ES">
+			<Text>Palosanto</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACKMONT" Language="es_ES">
+			<Text>Montenegro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STARFALL" Language="es_ES">
+			<Text>Campoestrella</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINGSGRAVE" Language="es_ES">
+			<Text>Sepulcro del Rey</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SANDSTONE" Language="es_ES">
+			<Text>Asperón</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HELLHOLT" Language="es_ES">
+			<Text>Sotoinferno</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THE_TOR" Language="es_ES">
+			<Text>Tor</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GODSGRACE" Language="es_ES">
+			<Text>Bondadivina</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SALTSHORE" Language="es_ES">
+			<Text>Costa Salada</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LEMONWOOD" Language="es_ES">
+			<Text>Limonar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GHOST_HILL" Language="es_ES">
+			<Text>Colina Fantasma</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SPOTTSWOOD" Language="es_ES">
+			<Text>Bosquepinto</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SKYREACH" Language="es_ES">
+			<Text>Dominio del Cielo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HIGH_HERMITAGE" Language="es_ES">
+			<Text>Ermita Alta</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HELLGATE_HALL" Language="es_ES">
+			<Text>Puerta del Infierno</Text>
+			<Gender>feminine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WATER_GARDENS" Language="es_ES">
+			<Text>Jardines de Agua</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_VULTURE_ROOST" Language="es_ES">
+			<Text>Nido de Buitres</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF DORNE | MARTELL -->
+		<!-- THE IRON ISLANDS | GREYJOY -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_BALON_GREYJOY" Language="es_ES">
+			<Text>Balon Greyjoy es la cabeza de la Casa Greyjoy de Pyke, Señor de las Islas del Hierro y es el capitan de el Gran Kraken. Balen es un seguidor de las Antiguas Costumbres de los hombres del hierro y desea volver a llevar al poder de las islas como antaño. En 289 AC proclamo la independencia del Trono de Hierro, pero la Rebelión Greyjoy fue derrotada por el Rey Robert I Baratheon.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IRON_LONGSHIP_NAME" Language="es_ES">
+			<Text>Flota del Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IRON_LONGSHIP_DESCRIPTION" Language="es_ES">
+			<Text>+1 [ICON_Movement] Movimiento en la costa y puede realizar saqueos. Puede capturar naves enemigas derrotadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PYKE" Language="es_ES">
+			<Text>Pyke</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LORDSPORT" Language="es_ES">
+			<Text>Puerto Noble</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TEN_TOWERS" Language="es_ES">
+			<Text>Diez Torres</Text>
+			<Gender>femenine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ORKMONT" Language="es_ES">
+			<Text>Monteorca</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BLACKTYDE" Language="es_ES">
+			<Text>Marea Negra</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OLD_WYK" Language="es_ES">
+			<Text>Viejo Wyk</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREAT_WYK" Language="es_ES">
+			<Text>Gran Wyk</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SALTCLIFFE" Language="es_ES">
+			<Text>Acantilado de Sal</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PEBBLETON" Language="es_ES">
+			<Text>Guijarra</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAMMERHORN" Language="es_ES">
+			<Text>Cuernomartillo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHATTERSTONE" Language="es_ES">
+			<Text>Piedra Quebrada</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SEALSKIN_POINT" Language="es_ES">
+			<Text>Punta Piel de Foca</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONELY_LIGHT" Language="es_ES">
+			<Text>Luz Solitaria</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CORPSE_LAKE" Language="es_ES">
+			<Text>Lago del Cadáver</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CROW_SPIKE" Language="es_ES">
+			<Text>Picodecuervo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DOWNDELVING" Language="es_ES">
+			<Text>Fosa</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREY_GARDEN" Language="es_ES">
+			<Text>Jardín Gris</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_IRON_HOLT" Language="es_ES">
+			<Text>Castroferro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HARLAW_HALL" Language="es_ES">
+			<Text>Torreón de Harlaw</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HARRIDAN_HILL" Language="es_ES">
+			<Text>Colina de la Bruja</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF IRON ISLAND | GREYJOY -->
+		<!-- THE BARATHEON KINGS LANDING -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JOFFREY_BARATHEON" Language="es_ES">
+			<Text>Joffrey Baratheon es conocido en los Siete Reinos como el mayor de los "hijos" del Rey Robert I y la Reina Cersei Lannister. Miembro de la Casa Baratheon de Desembarco del Rey, sus hermanos son la Princesa Myrcella y el Princípe Tommen. Joffrey creció malcriado y siendo indulgente con un mal en su interior.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOLDCLOACKS_NAME" Language="es_ES">
+			<Text>Guardia de la Ciudad de Desembarco del Rey</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOLDCLOACKS_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza de combate [ICON_Strength] en tu territorio o adyacente a tu territorio.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROYAL_FLEET_NAME" Language="es_ES">
+			<Text>Flota Real</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ROYAL_FLEET_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza de combate [ICON_Strength] en el Oceano.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KINGS_LANDING" Language="es_ES">
+			<Text>Desembarco del Rey</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DUSKENDALE" Language="es_ES">
+			<Text>Fuerte Pardo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTLERS" Language="es_ES">
+			<Text>Astas</Text>
+			<Gender>femenine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_BROWNHOLLOW" Language="es_ES">
+			<Text>Vallepardo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SOW_HORN" Language="es_ES">
+			<Text>Cuerno de la Puerca</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ROOK_REST" Language="es_ES">
+			<Text>Reposo del Grajo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DYRE_DEN" Language="es_ES">
+			<Text>Refugio de Malacosta</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WHISPERS" Language="es_ES">
+			<Text>Los Susurros</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<!-- END OF BARATHEON KINGS LANDING -->
+		<!-- THE WHITE WALKERS -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_NIGHT_KING" Language="es_ES">
+			<Text>El Rey de la Noche es el líder de los Caminantes Blancos. De acuerdo con la leyenda, los Otros aparecieron por primera vez aproximadamente hace 8.000 años antes de la Guerra de la Conquista, durante el invierno que duro toda una generación y un periodo de oscuridad conocido como la Larga Noche. Eventualmente fueron derrotados, supuestamente por la Guardia de la Noche en la Batalla por el Amanecer, el Muro puede haber sido levantado para defenderse de ellos.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_OTHER_NAME" Language="es_ES">
+			<Text>Sangre Helada</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_OTHER_DESCRIPTION" Language="es_ES">
+			<Text>+5 [ICON_Strength] de Fuerza de Combate en la Nieve y en la Tundra.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WIGHT_NAME" Language="es_ES">
+			<Text>Muerte Blanca</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WIGHT_DESCRIPTION" Language="es_ES">
+			<Text>No sufre penalizaciones al combate cuando recibe daños (estan muertos).</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LANDS_ALWAYS_WINTER" Language="es_ES">
+			<Text>Tierras del Eterno Invierno</Text>
+			<Gender>femenine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NORTH_FROZEN_SHORE" Language="es_ES">
+			<Text>Costa Helada Norte</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NORTH_FROSTFANGS" Language="es_ES">
+			<Text>Colmillos Helados Norte</Text>
+			<Gender>masculine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_EAST_ALWAYS_WINTER" Language="es_ES">
+			<Text>Eterno Invierno Este</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WEST_ALWAYS_WINTER" Language="es_ES">
+			<Text>Eterno Invierno Oeste</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ICE_RIVERS" Language="es_ES">
+			<Text>Ríos de Hielo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF WHITE WALKERS -->
+		<!-- DANY TARGARYEN -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_DAENERYS_TARGARYEN" Language="es_ES">
+			<Text>Daenerys es la hija del Rey Aerys II Targaryen, el último rey Targaryen en sentarse en el Trono de Hierro y gobernar Los Siete Reinos, y su hermana-esposa Rhaella. Daenerys fue concebida durante el último mes de la Guerra del Usurpador. Poco después, su madre y su hermano Viserys fueron enviados a Rocadragón para su seguridad. En unas semanas su padre murió y Robert Baratheon reclamó el trono con el soporte de la mayor parte de la nobleza. </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNSULLIED_NAME" Language="es_ES">
+			<Text>Inmaculado</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNSULLIED_DESCRIPTION" Language="es_ES">
+			<Text>+10 a la Fuerza de combate [ICON_Strength] si al menos hay un Inmaculado adyacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DOTHRAKI_RIDER_NAME" Language="es_ES">
+			<Text>Dothrakis</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DOTHRAKI_RIDER_DESCRIPTION" Language="es_ES">
+			<Text>Puede moverse despues de atacar y se cura despues de derrotar un enemigo.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DRAGON_NAME" Language="es_ES">
+			<Text>Monstruo Volador</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DRAGON_DESCRIPTION" Language="es_ES">
+			<Text>Ignonra el Zona Control, los costes de terreno y puede atacar las murallas.</Text>
+		</Replace>
+		<!-- END OF DANY TARGARYEN -->
+		<!-- THE BOLTON -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ROOSE_BOLTON" Language="es_ES">
+			<Text>Roose Bolton es el Señor de Fuerte Terror y cabeza de la Casa Bolton. Roose se aplica regularment sanguijuelas, porque cree que mejoran su salud, por esto algunos le llaman el Señor Sanguijuela. Aunque de actitud suave, Roose es frío, paciente, calculador y capaz de grandes crueldades. Pose una astucia fría, habilidades para la estrategia y una natura calculadora.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DREADFORT_PIKEMAN_NAME" Language="es_ES">
+			<Text>Piqueros de Fuerte Terror</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DREADFORT_PIKEMAN_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza de combate [ICON_Strength] si al menos hay un Piquero de Fuerte Terror adyacente.</Text>
+		</Replace>
+		<!-- END OF BOLTON -->
+		<!-- THE FREY -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_WALDER_FREY" Language="es_ES">
+			<Text>Walder Frey es el Señor del Cruce y cabeza de la Casa Frey. Aunque tiene 99 años y esta enfermizo, se mantiene activo en el gobierno de su casa.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FREY_CROSBOWMAN_NAME" Language="es_ES">
+			<Text>Pan y Sal</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FREY_CROSBOWMAN_DESCRIPTION" Language="es_ES">
+			<Text>Tienen la mitad de ataque que los Ballesteros pero pueden atacar dos veces por turno.</Text>
+		</Replace>
+		<!-- END OF FREY -->
+		<!-- THE NIGHT'S WATCH -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JEOR_MORMONT" Language="es_ES">
+			<Text>Jeor Mormont, también conocido como El Viejo Oso, es el 997 Lord Comandante de la Guardia de la Noche. Jeor, anteriormente era la cabeza de la Casa Mormont y Señor de la Isla del Oso, abdico en favor de su hijo, Ser Jorah Mormont, uniéndose despuÉs a la Guardia. Ascendió rápidamente hasta llegar a ser Lord Comandante en 288 AC. </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BROTHER_RANGER_NAME" Language="es_ES">
+			<Text>Exploradores de la Guardia</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_BROTHER_RANGER_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza de combate [ICON_Strength] en Bosques.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CASTLE_BLACK" Language="es_ES">
+			<Text>Castillo Negro</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_EASTWATCH" Language="es_ES">
+			<Text>Guardiaoriente del Mar</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHADOW_TOWER" Language="es_ES">
+			<Text>Torre Sombría</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MOLE_TOWN" Language="es_ES">
+			<Text>Villa Topo</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WESTWATCH_BY_BRIDGE" Language="es_ES">
+			<Text>Guardiaoccidente del Río</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SENTINEL_STAND" Language="es_ES">
+			<Text>Garita</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREYGUARD" Language="es_ES">
+			<Text>Guardiagrís</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_STONEDOOR" Language="es_ES">
+			<Text>Puertapiedra</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HOARFROST_HILL" Language="es_ES">
+			<Text>Colina Escarcha</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ICEMARK" Language="es_ES">
+			<Text>Marcahielo</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIGHTFORT" Language="es_ES">
+			<Text>Fuerte de la Noche</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_DEEP_LAKE" Language="es_ES">
+			<Text>Lago Hondo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_QUEENSGATE" Language="es_ES">
+			<Text>Puerta de la Reina</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CASTLE_OAKENSHIELD" Language="es_ES">
+			<Text>Castillo Escudo de Roble</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WOODSWATCH_BY_POOL" Language="es_ES">
+			<Text>Guardiabosque del Lago</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SABLE_HALL" Language="es_ES">
+			<Text>Fortaleza de Azabache</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RIMEGATE" Language="es_ES">
+			<Text>Puertahelada</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LONG_BARROW" Language="es_ES">
+			<Text>Túmulo Largo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TORCHES" Language="es_ES">
+			<Text>Antorchas</Text>
+			<Gender>femenine</Gender>
+			<Plurality>2</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GREENGUARD" Language="es_ES">
+			<Text>Guardiaverde</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF NIGHT'S WATCH -->
+		<!-- THE FREEFOLK -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_MANCE_RAYDER" Language="es_ES">
+			<Text>Mance Rayder fue miembro de la Guardia de la Noche antes de romper sus votos y abandonar su puesto. Desde entonces se ha vuelto increiblemente influente entre la gente del Pueblo Libre convirtiendose en "Rey-Más-Allá-del-Muro". </Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WILDING_NAME" Language="es_ES">
+			<Text>Guerreros Salvajes</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WILDING_DESCRIPTION" Language="es_ES">
+			<Text>Puede ver a través de accidentes geográficos.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GIANT_NAME" Language="es_ES">
+			<Text>Gigante</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GIANT_DESCRIPTION" Language="es_ES">
+			<Text>+5 [ICON_Strength] en Fuerza de Combate contra unidades cuerpo a cuerpo.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MAMMOTH_NAME" Language="es_ES">
+			<Text>Mamut</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MAMMOTH_DESCRIPTION" Language="es_ES">
+			<Text>-5 a la Fuerza de combate [ICON_Strength] a unidades enemigas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MANCE_CAMP" Language="es_ES">
+			<Text>Campamento de Mance</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_WHITE_TREE" Language="es_ES">
+			<Text>Árbol Blanco</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_THENN" Language="es_ES">
+			<Text>Thenn</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HARDHOME" Language="es_ES">
+			<Text>Casa Austera</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAUNTED_FOREST" Language="es_ES">
+			<Text>Bosque Encantado</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_CAVE_DWELLER" Language="es_ES">
+			<Text>Clan Moradores de Cuevas</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ICE_RIVER_CLAN" Language="es_ES">
+			<Text>Clan del Río de Hielo</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FROZEN_SHORE" Language="es_ES">
+			<Text>Costa Helada</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NIGHTRUNNERS_CLAN" Language="es_ES">
+			<Text>Clan Corredores Nocturnos</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HORNFOOT_CLAN" Language="es_ES">
+			<Text>Clan Pies de Cuerno</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SKIRLING_PASS" Language="es_ES">
+			<Text>Paso Aullante</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GIANT_STAIRS" Language="es_ES">
+			<Text>Escalera del Gigante</Text>
+			<Gender>femenine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MILKWATER" Language="es_ES">
+			<Text>Agualechosa</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ANTLER_RIVER" Language="es_ES">
+			<Text>Río Antler</Text>
+			<Gender>masculine</Gender>
+			<Plurality>1</Plurality>
+		</Replace>
+		<!-- END OF FREEFOLK -->
+		<!-- THE BARATHEON STORM'S END -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON" Language="es_ES">
+			<Text>El Rey Robert I Baratheon es el Señor de los Siete Reinos y cabeza de la Casa Baratheon de King's Landing y anteriormente de Bastión de Tormentas. Robert fue coronado rey después de ganar su rebelión para arrebatar el Trono de Hierro del Rey Aerys II Targaryen. Robert lucho por recuperar a su prometida, Lyanna Stark, con la ayuda de su amigo Lord Eddard Stark. A causa de la muerte de Lyanna, Robert se casó con Cersei Lannister para asegurarse la estabilidad política. </Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_RENLY_BARATHEON" Language="es_ES">
+			<Text>Renly Baratheon es el Señor de Bastión de Tormentas y Señor Supremo de las Tierras de la Tormenta. El hermano menor del Rey Robert I y Stannis Baratheon, Renly sirve como Maestro de Leyes en el consejo privado de Robert. Después de la muerte de Robert, Renly consigue el soporte de la poderosa Casa Tyrell y sus abanderados gracias a un aventura amorosa con Loras y casarse con su hermana Margaery. Renly es coronado Señor de los Siete Reinos en Altojardín.</Text>
+		</Replace>
+		<!-- END OF BARATHEON STORM'S END -->
+		<!-- DOTHRAKI  -->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_KHAL_DROGO" Language="es_ES">
+			<Text>Drogo es un poderoso Khal de los temibles nomadas Dothraki. Antes de llegar a los treinta años ya lideraba un khalasar de cuareta mil hombres, el más grande en el mar Dothraki. Nunca fue derrotado en batalla.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KHAL_NAME" Language="es_ES">
+			<Text>Khal</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_KHAL_DESCRIPTION" Language="es_ES">
+			<Text>Permite el ataque completo a las Murallas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION" Language="es_ES">
+			<Text>+5 [ICON_Strength] Fuerza de Combate</Text>
+		</Replace>
+		<!-- END  DOTHRAKI-->
+		<!-- RELIGIONS -->
+		<Replace Tag="LOC_RELIGION_MYSOIAF_OLD_GODS" Language="es_ES">
+			<Text>Los Antiguos Dioses</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_FAITH_OF_THE_SEVEN" Language="es_ES">
+			<Text>Fe de los Siete</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_DROWNED_GOD" Language="es_ES">
+			<Text>Dios Ahogado</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_MANY_FACED_GOD" Language="es_ES">
+			<Text>Dios de Muchos Rostros</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_BLACK_GOAT" Language="es_ES">
+			<Text>Cabra Negra</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_GREAT_STALLION" Language="es_ES">
+			<Text>Gran Semental</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_LION_OF_NIGHT" Language="es_ES">
+			<Text>León de Noche</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_STONE_COW" Language="es_ES">
+			<Text>Vaca de Piedra</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_GREAT_SHEPHERD" Language="es_ES">
+			<Text>El Gran Pastor</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_WEEPING_LADY" Language="es_ES">
+			<Text>Dama Doliente</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_THE_HARPY" Language="es_ES">
+			<Text>La Arpía</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_THE_GREAT_OTHER" Language="es_ES">
+			<Text>El Gran Otro</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_MOTHER_RHOYNE" Language="es_ES">
+			<Text>Madre Rhoyne</Text>
+		</Replace>
+		<Replace Tag="LOC_RELIGION_BEARDED_PRIESTS" Language="es_ES">
+			<Text>Clérigos barbudos</Text>
+		</Replace>
+		<!-- End of Religions -->
+		<!-- City States -->
+		<Replace Tag="LOC_MINOR_CIV_BRAAVOS_TRAIT_NAME" Language="es_ES">
+			<Text>Banco de Hierro</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_BRAAVOS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>+50% [ICON_GOLD] de Oro en todos tus edificios comerciales y las Rutas [ICON_TRADEROUTE] de otras Civilizaciones dan +1 [ICON_FAITH] para ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_BRAAVOS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Braavos</Text>
+		</Replace>
+		<!--Lorath-->
+		<Replace Tag="LOC_MINOR_CIV_LORATH_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text> Your districts on or next to Coast tiles provide +1 [ICON_Culture] Culture and +1 Food [ICON_Food].</Text>
+		</Replace>
+		<!-- Pentos-->
+		<Replace Tag="LOC_MINOR_CIV_PENTOS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las Rutas [ICON_TRADEROUTE] de otras Civilizaciones dan  +1 Oro [ICON_GOLD] y +1 Producción [ICON_Production] para ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_PENTOS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Pentos</Text>
+		</Replace>
+		<!-- Myr-->
+		<Replace Tag="LOC_MINOR_CIV_MYR_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Recibe los siguientes Recursos de lujo: [ICON_RESOURCE_WINE] Vino, [ICON_RESOURCE_CITRICS] Citricos y [ICON_RESOURCE_SILK] Seda.</Text>
+		</Replace>
+		<Replace Tag="LOC_MYR_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Myr</Text>
+		</Replace>
+		<!-- Tyrosh-->
+		<Replace Tag="LOC_MINOR_CIV_TYROSH_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Recibe el recurso de lujo de Tintes [ICON_RESOURCE_DYES] y las unidades navales obtienen +4 [ICON_Strength] Fuerza de Combate en Aguas poco profundas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TYROSH_GRANT_NAME" Language="es_ES">
+			<Text>Flota Tyroshi</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION" Language="es_ES">
+			<Text>+4 [ICON_Strength] Fuerza de Combate en Aguas poco profundas.</Text>
+		</Replace>
+		<Replace Tag="LOC_TYROSH_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Tyrosh</Text>
+		</Replace>
+		<!-- Lys-->
+		<Replace Tag="LOC_MINOR_CIV_LYS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Recibe los siguientes Recursos de lujo: [ICON_RESOURCE_WINE] Vino y [ICON_RESOURCE_SILK] Seda.</Text>
+		</Replace>
+		<Replace Tag="LOC_LYS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Lys</Text>
+		</Replace>
+		<Replace Tag="LOC_LYS_ADJECTIVE" Language="es_ES">
+			<Text>Lyseño</Text>
+		</Replace>
+		<!-- Volantis-->
+		<Replace Tag="LOC_MINOR_CIV_VOLANTIS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las Rutas de Comercio [ICON_TRADEROUTE] proporcionan +1 Fe [ICON_FAITH] y +1 Producción [ICON_Production] para ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_VOLANTIS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Volantis</Text>
+		</Replace>
+		<!-- Norvos-->
+		<Replace Tag="LOC_MINOR_CIV_NORVOS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>+1 [ICON_FAITH] Fe en los Sitios Sagrados por adyacencia a Colinas</Text>
+		</Replace>
+		<Replace Tag="LOC_NORVOS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Norvos</Text>
+		</Replace>
+		<!-- Qohor-->
+		<Replace Tag="LOC_MINOR_CIV_QOHOR_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las Rutas de Comercio [ICON_TRADEROUTE] proporcionan +1 Ciencia [ICON_SCIENCE] para ti.</Text>
+		</Replace>
+		<Replace Tag="LOC_QOHOR_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Qohor</Text>
+		</Replace>
+		<!-- Meereen-->
+		<Replace Tag="LOC_MINOR_CIV_MEEREEN_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Tus Rutas comerciales [ICON_TradeRoute] a ciudades extranjeras obtienen +1 de Oro [ICON_Gold] por cada recurso de lujo en el destino.</Text>
+		</Replace>
+		<Replace Tag="LOC_MEEREEN_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Meereen</Text>
+		</Replace>
+		<!-- Yunkai-->
+		<Replace Tag="LOC_MINOR_CIV_YUNKAI_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Tus recursos adicionales actúan como recursos de lujo, proporcionando 1 Servicio [ICON_Amenities] por tipo.</Text>
+		</Replace>
+		<Replace Tag="LOC_YUNKAI_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Yunkai</Text>
+		</Replace>
+		<!-- Astapor-->
+		<Replace Tag="LOC_MINOR_CIV_ASTAPOR_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades anti caballeria reciben +4 [ICON_Strength] de Fuerza de Combate.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ASTAPOR_GRANT_DESCRIPTION" Language="es_ES">
+			<Text>+4 [ICON_Strength] de Fuerza de Combate</Text>
+		</Replace>
+		<Replace Tag="LOC_ASTAPOR_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Astapor</Text>
+		</Replace>
+		<!-- New Ghis-->
+		<Replace Tag="LOC_MINOR_CIV_NEW_GHIS_TRAIT_NAME" Language="es_ES">
+			<Text>Nuevo Ghis</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_NEW_GHIS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>+1 [ICON_Culture] Cultura por la rutas entre tus ciudades.</Text>
+		</Replace>
+		<Replace Tag="LOC_NEW_GHIS_NAME" Language="es_ES">
+			<Text>Nuevo Ghis</Text>
+		</Replace>
+		<Replace Tag="LOC_NEW_GHIS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Nuevo Ghis</Text>
+		</Replace>
+		<Replace Tag="LOC_NEW_GHIS_ADJECTIVE" Language="es_ES">
+			<Text>Nuevo Ghis</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NEW_GHIS" Language="es_ES">
+			<Text>Nuevo Ghis</Text>
+		</Replace>
+		<!-- Lotus Point-->
+		<Replace Tag="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_NAME" Language="es_ES">
+			<Text>Islas del Verano</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Crecimiento un 10% más rápido para las ciudades.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOTUS_POINT_NAME" Language="es_ES">
+			<Text>Puerto del Loto</Text>
+		</Replace>
+		<Replace Tag="LOC_LOTUS_POINT_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado Puerto del Loto</Text>
+		</Replace>
+		<Replace Tag="LOC_LOTUS_POINT_ADJECTIVE" Language="es_ES">
+			<Text>Puerto del Loto</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LOTUS_POINT" Language="es_ES">
+			<Text>Puerto del Loto</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TALL_TREES" Language="es_ES">
+			<Text>Árboles Altos</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_EBONHEAD" Language="es_ES">
+			<Text>Cabo de Ébano</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_LAST_LAMENT" Language="es_ES">
+			<Text>Último Lamento</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_RED_FLOWER_VALE" Language="es_ES">
+			<Text>Valle de la Flor Roja</Text>
+		</Replace>
+		<!-- Port of Ibben-->
+		<Replace Tag="LOC_MINOR_CIV_PORT_OF_IBBEN_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Todos los distritos obtienen +1 [ICON_GOLD] de Oro por adyacencia a la Costa.</Text>
+		</Replace>
+		<Replace Tag="LOC_PORT_OF_IBBEN_NAME" Language="es_ES">
+			<Text>Puerto de Ibben</Text>
+		</Replace>
+		<Replace Tag="LOC_PORT_OF_IBBEN_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Ibben</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PORT_OF_IBBEN" Language="es_ES">
+			<Text>Puerto de Ibben</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NEW_IBBISH" Language="es_ES">
+			<Text>Nuevo Ibbish</Text>
+		</Replace>
+		<!-- Qarth-->
+		<Replace Tag="LOC_MINOR_CIV_QARTH_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>us Puestos comerciales [ICON_TradingPost] en ciudades extranjeras proporcionan +1 de Oro [ICON_Gold] a las Rutas comerciales de tu propiedad [ICON_TradeRoute] que las atraviesen.</Text>
+		</Replace>
+		<Replace Tag="LOC_QARTH_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Qarth</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_PORT_YHOS" Language="es_ES">
+			<Text>Puerto Yhos</Text>
+		</Replace>
+		<!-- Mantarys-->
+		<Replace Tag="LOC_MINOR_CIV_MANTARYS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Accumulate 20% less war weariness than usual.</Text>
+		</Replace>
+		<Replace Tag="LOC_MANTARYS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Mantarys</Text>
+		</Replace>
+		<!-- Elyria-->
+		<Replace Tag="LOC_MINOR_CIV_ELYRIA_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades navales cuerpo a cuerpo ganan 50% más experiencia de lo normal.</Text>
+		</Replace>
+		<Replace Tag="LOC_ELYRIA_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Elyria</Text>
+		</Replace>
+		<!-- Tolos-->
+		<Replace Tag="LOC_MINOR_CIV_TOLOS_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las unidades terrestres a distancia reciben +4 [ICON_Strength] Fuerza de Combate.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION" Language="es_ES">
+			<Text>+4 [ICON_Strength] Fuerza de Combate</Text>
+		</Replace>
+		<Replace Tag="LOC_TOLOS_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Tolos</Text>
+		</Replace>
+		<!-- Saath-->
+		<Replace Tag="LOC_MINOR_CIV_SAATH_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Las Zonas Industriales ganan +1 [ICON_Production] de producción si esta al lado del rio.</Text>
+		</Replace>
+		<Replace Tag="LOC_SAATH_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Saath</Text>
+		</Replace>
+		<!-- Lhazosh-->
+		<Replace Tag="LOC_MINOR_CIV_LHAZOSH_TRAIT_DESCRIPTION" Language="es_ES">
+			<Text>Todas las Pasturas ganan +1 [ICON_Culture] Cultura.</Text>
+		</Replace>
+		<Replace Tag="LOC_LHAZOSH_DESCRIPTION" Language="es_ES">
+			<Text>Ciudad Estado de Lhazosh</Text>
+		</Replace>
+		<!-- End of City States-->
+	<!--Ancient Civs -->
+		<Replace Tag="LOC_ABILITY_WATER_WIZARDS_NAME" Language="es_ES">
+			<Text>Magia de Agua</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WATER_WIZARDS_DESCRIPTION" Language="es_ES">
+			<Text>+15 [ICON_Strength] Fuerza de Combate por adyacencia a los rios.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_NAME" Language="es_ES">
+			<Text>Escudo Tortuga</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_DESCRIPTION" Language="es_ES">
+			<Text>+10 [ICON_Strength] Fuerza de Combate cuando se defiende contra unidades a distancia.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_NAME" Language="es_ES">
+			<Text>Carro Falcado</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_DESCRIPTION" Language="es_ES">
+			<Text>+4 [ICON_Strength] Fuerza de Combate cuando ataca.</Text>
+		</Replace>
+	<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Replace Tag="LOC_ABILITY_GOLDEN_COMPANY_NAME" Language="es_ES">
+			<Text>Compañia Dorada</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GOLDEN_COMPANY_DESCRIPTION" Language="es_ES">
+			<Text>No sufre penalizaciones al combate cuando recibe daños.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ESSOS_WARELEPHANT_NAME" Language="es_ES">
+			<Text>Elefante de Guerra de Essos</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ESSOS_WARELEPHANT_DESCRIPTION" Language="es_ES">
+			<Text>-5 a la Fuerza de combate [ICON_Strength] a unidades enemigas adyacentes.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CRANNOGMEN_NAME" Language="es_ES">
+			<Text>Lacustres</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CRANNOGMEN_DESCRIPTION" Language="es_ES">
+			<Text>+5 a la Fuerza de combate [ICON_Strength] contra unidades dañadas.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WINTER_WOLVES_NAME" Language="es_ES">
+			<Text>Lobos del Invierno</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WINTER_WOLVES_DESCRIPTION" Language="es_ES">
+			<Text>+7 a la Fuerza de combate [ICON_Strength] al atacar y -7 a la Fuerza de combate [ICON_Strength] al defender.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_NAME" Language="es_ES">
+			<Text>Clanes Norteños</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_DESCRIPTION" Language="es_ES">
+			<Text>+5 [ICON_Strength] de Fuerza de Combate en la Nieve y en la Tundra, sin penalización de movimiento en Colinas ni Bosques.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_NAME" Language="es_ES">
+			<Text>Piqueros de la Roca</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_DESCRIPTION" Language="es_ES">
+			<Text>+7 a la Fuerza de combate [ICON_Strength] al defenderse contra ataques a distancia.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SNAKE_FANGS_NAME" Language="es_ES">
+			<Text>Colmillos de Serpiente</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SNAKE_FANGS_DESCRIPTION" Language="es_ES">
+			<Text>Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DOTHRAKI_MOUNTED_ARCHER_NAME" Language="es_ES">
+			<Text>Arquero Dothraki Montado</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DOTHRAKI_MOUNTED_ARCHER_DESCRIPTION" Language="es_ES">
+			<Text>Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RAVENS_TEETH_NAME" Language="es_ES">
+			<Text>Picos de Cuervo</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_RAVENS_TEETH_DESCRIPTION" Language="es_ES">
+			<Text>+7 a la Fuerza de combate [ICON_Strength] contra unidades terrestres.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WOOD_DANCER_NAME" Language="es_ES">
+			<Text>Bailarines del Bosque</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WOOD_DANCER_DESCRIPTION" Language="es_ES">
+			<Text>+7 a la Fuerza de combate [ICON_Strength] al defender en Bosques, Selva, Colinas o Pantano.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_OBSIDIAN_ARCHER_NAME" Language="es_ES">
+			<Text>Arqueros de Obsidiana</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_OBSIDIAN_ARCHER_DESCRIPTION" Language="es_ES">
+			<Text>Puede moverse despues de atacar.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SKINCHANGER_NAME" Language="es_ES">
+			<Text>Cambiapieles</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SKINCHANGER_DESCRIPTION" Language="es_ES">
+			<Text>Puede curarse cada turno.</Text>
+		</Replace>
+		<!-- End Adittional Units-->
+		<!-- EDDARD STARK	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK" Language="es_ES">
+			<Text>Lord Eddard Stark, fue cabeza de la Casa Stark, y como tal, Señor de Invernalia y Guardián del Norte. Durante la Guerra del Usupador se casó con Lady Catelyn Tully, con quien tuvo cinco hijos, Robb, Sansa, Arya, Brandon y Rickon. Tuvo, además, un hijo bastardo, Jon Nieve. </Text>
+		</Replace>
+		<!-- END OF EDDARD STARK	-->
+		<!-- JON_SNOW	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_JON_SNOW" Language="es_ES">
+			<Text>Lord Jon Nieve es el Lord Comandante de la Guardia de la Noche nº 998. Es hijo bastardo de Lord Eddard Stark. Su lobo huargo, Fantasma, es albino y mudo.</Text>
+		</Replace>
+		<!-- END OF JON_SNOW	-->
+		<!-- EURON_GREYJOY	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_EURON_GREYJOY" Language="es_ES">
+			<Text>El rey Euron Greyjoy es Rey de las Islas del Hierro y del Norte desde 300 AC, elegido en una asamblea de sucesión tras la muerte de su hermano Balon. Es el capitán del Silencio, un barco tripulado enteramente por mudos cuyas lenguas fueron arrancadas por Euron.</Text>
+		</Replace>
+		<!-- END OF EURON_GREYJOY	-->
+		<!-- LYSA_ARRYN	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_LYSA_ARRYN" Language="es_ES">
+			<Text>Lady Lysa Arryn, también conocida como Lysa Tully. Lady Lysa Tully fue la segunda hija de Lord Hoster Tully y Lady Minisa Whent. Poco antes de la Guerra del Usurpador se casó con Lord Jon Arryn, un hombre mayor que su padre, por lo que se convirtió en Señora del Nido de Águilas y del Valle de Arryn.</Text>
+		</Replace>
+		<!-- END OF LYSA_ARRYN	-->
+		<!-- CERSEI_LANNISTER	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_CERSEI_LANNISTER" Language="es_ES">
+			<Text>La reina Cersei Lannister es la hija mayor de Lord Tywin Lannister y Lady Joanna Lannister. Tiene dos hermanos, su mellizo Jaime y su hermano menor Tyrion. Tras la Guerra del Usurpador se casó con el nuevo rey, Robert Baratheon, y se convirtió en Reina de los Siete Reinos. Es madre de tres hijos, Joffrey, Myrcella y Tommen, todos fruto de su secreta relación incestuosa con su hermano Jaime.</Text>
+		</Replace>
+		<!-- END OF CERSEI_LANNISTER	-->
+		<!-- AEGONVI_TARGARYEN	-->
+		<Replace Tag="LOC_LOADING_INFO_LEADER_AEGONVI_TARGARYEN" Language="es_ES">
+			<Text>Aegon VI Targaryen fue el segundo hijo y único hijo barón del principe Rhaegar Targaryen y Elia Martell. Durante el Saqueo de Desembarco del Rey Ser Gregor Clegane mató aAegon, Rhaenys y Elia. Pero segun Varys, él consiguió enviar el verdadero Aegon atraves del mar Angosto y este Aegon tendria un reclamo del Trono de Hierro mayor que cualquier de los otros candidatos.</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GOLDEN_CAMP" Language="es_ES">
+			<Text>Campamento Dorado</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_ORANGE_SHORE" Language="es_ES">
+			<Text>Costa Naranja</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_YOUNG_GRIFF_LANDING" Language="es_ES">
+			<Text>Desembarco del Joven Grifo</Text>
+		</Replace>
+		<!-- END OF AEGONVI_TARGARYEN	-->
+	</LocalizedText>
+</GameData>

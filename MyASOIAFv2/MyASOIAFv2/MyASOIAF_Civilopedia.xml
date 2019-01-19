@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- QUOTES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_QUOTE" Language="en_US">
+			<Text>Tell Lord Tywin, winter is coming for him. Twenty thousand northerners marching south to find out if he really does shit gold.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDMURE_TULLY_QUOTE" Language="en_US">
+			<Text>How can we talk of peace while the Lannisters spread like a pestilence over my father's domains, stealing his crops and slaughtering his people?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PETYR_BAELISH_QUOTE" Language="en_US">
+			<Text>I did warn you not to trust me, you know. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_QUOTE" Language="en_US">
+			<Text>When your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say ‘I am the king’ is no true king at all. Aerys never understood that, but you will. When I’ve won your war for you, we will restore the king’s peace and the king’s justice.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STANNIS_BARATHEON_QUOTE" Language="en_US">
+			<Text>I never asked for this crown. Gold is cold and heavy on the head, but so long as I am the king, I have a duty … If I must sacrifice one child to the flames to save a million from the dark... Sacrifice... is never easy, Davos. Or it is no true sacrifice.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OLENNA_TYRELL_QUOTE" Language="en_US">
+			<Text>There is entirely too much tut-tutting in this realm, if you ask me. All these kings would do a deal better if they put down their swords and listened to their mothers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE" Language="en_US">
+			<Text>I have worked at the downfall of Tywin Lannister since the day they told me of Elia and her children.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_QUOTE" Language="en_US">
+			<Text>I am the Greyjoy, Lord Reaper of Pyke, King of Salt and Rock, Son of the Sea Wind, and no man gives me a crown. I pay the iron price. I will take my crown, as Urron Redhand did five thousand years ago.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOFFREY_BARATHEON_QUOTE" Language="en_US">
+			<Text>My mother bids me let Lord Eddard take the black, and Lady Sansa has begged mercy for her father. But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser Ilyn, bring me his head! </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIGHT_KING_QUOTE" Language="en_US">
+			<Text>“The true enemy won't wait out the storm. He brings the storm.”[NEWLINE]– Jon Snow about the Night King </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DAENERYS_TARGARYEN_QUOTE" Language="en_US">
+			<Text>Is it so far from madness to wisdom?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROOSE_BOLTON_QUOTE" Language="en_US">
+			<Text>A naked man has few secrets, but a flayed man’s got none.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WALDER_FREY_QUOTE" Language="en_US">
+			<Text>Heh, the King in the North arises. Seems we killed some of your men, Your Grace. Oh, but I'll make you an apology, that will mend them all again, heh. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JEOR_MORMONT_QUOTE" Language="en_US">
+			<Text>When dead men come hunting in the night, do you think it matters who sits the Iron Throne?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANCE_RAYDER_QUOTE" Language="en_US">
+			<Text>Free folk don't follow names, or little cloth animals sewn on a tunic. They won't dance for coins, they don't care how you style yourself or what that chain of office means or who your grandsire was. They follow strength. They follow the man.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE" Language="en_US">
+			<Text>I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RENLY_BARATHEON_QUOTE" Language="en_US">
+			<Text>Why the oldest son, and not the best-fitted? The crown will suit me, as it never suited Robert and would not suit Stannis.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KHAL_DROGO_QUOTE" Language="en_US">
+			<Text>Khal does not need a chair to sit upon. He only needs a horse.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_QUOTE" Language="en_US">
+			<Text>When the snows fall and the white winds blow, the lone wolf dies, but the pack survives.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_SNOW_QUOTE" Language="en_US">
+			<Text>The more you give a king, the more he wants. We are walking on a bridge of ice with an abyss on either side. Pleasing one king is difficult enough. Pleasing two is hardly possible.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EURON_GREYJOY_QUOTE" Language="en_US">
+			<Text>I am the storm, my lord. The first storm, and the last.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LYSA_ARRYN_QUOTE" Language="en_US">
+			<Text>A man will tell you poison is dishonorable, but a woman’s honor is different. The Mother shaped us to protect our children, and our only dishonor is in failure. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CERSEI_LANNISTER_QUOTE" Language="en_US">
+			<Text>When you play the game of thrones, you win or you die. There is no middle ground.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AEGONVI_TARGARYEN_QUOTE" Language="en_US">
+			<Text>“Aegon has been shaped for rule before he could walk. He has been trained in arms, as befits a knight to be, but that was not the end of his education. He reads and writes, he speaks several tongues, he has studied history and law and poetry. A septa has instructed him in the mysteries of the Faith since he was old enough to understand them. He has lived with fisherfolk, worked with his hands, swum in rivers and mended nets and learned to wash his own clothes at need. He can fish and cook and bind up a wound, he knows what it is like to be hungry, to be hunted, to be afraid. Tommen has been taught that kingship is his right. Aegon knows kingship is his duty, that a king must put his people first, and live and rule for them.”[NEWLINE]– Varys about Aegon VI </Text>
+		</Row>
+		<!-- BUILDING >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_BUILDING_GODSWOOD_QUOTE" Language="en_US">
+			<Text>"There is a power in living wood, a power strong as fire." -Jojen Reed</Text>
+		</Row>
+		<!-- CIVS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_CIVINFO_THE_NORTH_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_NORTH_SIZE" Language="en_US">
+			<Text>aprox. 920,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_NORTH_POPULATION" Language="en_US">
+			<Text>3,5 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_NORTH_CAPITAL" Language="en_US">
+			<Text>Winterfell</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RIVERLANDS_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RIVERLANDS_SIZE" Language="en_US">
+			<Text>aprox. 390,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RIVERLANDS_POPULATION" Language="en_US">
+			<Text>4 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_RIVERLANDS_CAPITAL" Language="en_US">
+			<Text>Riverrun</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_VALE_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_VALE_SIZE" Language="en_US">
+			<Text>aprox. 360,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_VALE_POPULATION" Language="en_US">
+			<Text>4 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_VALE_CAPITAL" Language="en_US">
+			<Text>The Eyrie</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WESTERLANDS_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WESTERLANDS_SIZE" Language="en_US">
+			<Text>aprox. 310,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WESTERLANDS_POPULATION" Language="en_US">
+			<Text>5,5 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WESTERLANDS_CAPITAL" Language="en_US">
+			<Text>Casterly Rock</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_DRAGONSTONE_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_DRAGONSTONE_SIZE" Language="en_US">
+			<Text>aprox. 7,200 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_DRAGONSTONE_POPULATION" Language="en_US">
+			<Text>850 thousands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_DRAGONSTONE_CAPITAL" Language="en_US">
+			<Text>Dragonstone</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_REACH_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_REACH_SIZE" Language="en_US">
+			<Text>aprox. 420,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_REACH_POPULATION" Language="en_US">
+			<Text>12 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_REACH_CAPITAL" Language="en_US">
+			<Text>Highgarden</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_SIZE" Language="en_US">
+			<Text>aprox. 390,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_POPULATION" Language="en_US">
+			<Text>3 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_CAPITAL" Language="en_US">
+			<Text>Sunspear</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRON_ISLANDS_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRON_ISLANDS_SIZE" Language="en_US">
+			<Text>aprox. 38,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRON_ISLANDS_POPULATION" Language="en_US">
+			<Text>1 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRON_ISLANDS_CAPITAL" Language="en_US">
+			<Text>Pyke</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_KINGS_LANDING_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_KINGS_LANDING_SIZE" Language="en_US">
+			<Text>aprox. 135,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_KINGS_LANDING_POPULATION" Language="en_US">
+			<Text>1,5 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_KINGS_LANDING_CAPITAL" Language="en_US">
+			<Text>King's Landing</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WHITE_WALKERS_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WHITE_WALKERS_SIZE" Language="en_US">
+			<Text>aprox. 1,242,904 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WHITE_WALKERS_POPULATION" Language="en_US">
+			<Text>Innumerable</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_WHITE_WALKERS_CAPITAL" Language="en_US">
+			<Text>Land's of the Always Winter</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BOLTON_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BOLTON_SIZE" Language="en_US">
+			<Text>aprox. 95,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BOLTON_POPULATION" Language="en_US">
+			<Text>110 thousands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BOLTON_CAPITAL" Language="en_US">
+			<Text>The Dreadfort</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREY_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREY_SIZE" Language="en_US">
+			<Text>aprox. 57,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREY_POPULATION" Language="en_US">
+			<Text>140 thousands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREY_CAPITAL" Language="en_US">
+			<Text>The Twins</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_NIGHT_WATCH_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_NIGHT_WATCH_SIZE" Language="en_US">
+			<Text>45,000 square miles (300 miles wall and 150 miles the gift)</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_NIGHT_WATCH_POPULATION" Language="en_US">
+			<Text>1,000 (during Aegon Conquest 10,000). Mole's Town not included</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_NIGHT_WATCH_CAPITAL" Language="en_US">
+			<Text>Black Castle</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREEFOLK_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREEFOLK_SIZE" Language="en_US">
+			<Text>aprox. 420,710 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FREEFOLK_POPULATION" Language="en_US">
+			<Text>100 thousands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_STORMSEND_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_STORMSEND_SIZE" Language="en_US">
+			<Text>aprox. 310,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_STORMSEND_POPULATION" Language="en_US">
+			<Text>2.5 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_BARATHEON_STORMSEND_CAPITAL" Language="en_US">
+			<Text>Storm's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DOTHRAKI_LOCATION" Language="en_US">
+			<Text>Essos</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DOTHRAKI_SIZE" Language="en_US">
+			<Text>aprox. 1,105,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DOTHRAKI_POPULATION" Language="en_US">
+			<Text>4 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DOTHRAKI_CAPITAL" Language="en_US">
+			<Text>Vaes Dothrak</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_GARDENER_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_GARDENER_SIZE" Language="en_US">
+			<Text>aprox. 435,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_GARDENER_POPULATION" Language="en_US">
+			<Text>7 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_GARDENER_CAPITAL" Language="en_US">
+			<Text>Highgarden</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_DURRANDON_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_DURRANDON_SIZE" Language="en_US">
+			<Text>aprox. 380,000 square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_DURRANDON_POPULATION" Language="en_US">
+			<Text>1.5 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_DURRANDON_CAPITAL" Language="en_US">
+			<Text>Storm's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_TARGARYEN_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_TARGARYEN_SIZE" Language="en_US">
+			<Text>aprox. 12,200 square miles initialy. 3,015,000 square miles after conquering all Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_TARGARYEN_POPULATION" Language="en_US">
+			<Text>Initialy 25,000, 34 million after conquering all Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_TARGARYEN_CAPITAL" Language="en_US">
+			<Text>Dragonstone later King's Landing</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_HOARE_LOCATION" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_HOARE_SIZE" Language="en_US">
+			<Text>420,000 square miles in riverlands and 38,000 square miles in the islands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_HOARE_POPULATION" Language="en_US">
+			<Text>4.5 millions</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_HOUSE_HOARE_CAPITAL" Language="en_US">
+			<Text>Harrenhall</Text>
+		</Row>
+		<!--  BUILDINGS HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GODSWOOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A godswood is usually a small wooded area within the walls of castles throughout the Seven Kingdoms. It is primarily used as a place of worship by those who carry on the traditions of the First Men and pray to the old gods.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GODSWOOD_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>When the First Men took up the old gods of the children of the forest, they created godswoods, groves within their castles and villages where a single weirwood, known as a "heart tree" and carved with a face, was planted so the gods could be worshipped. In the north every castle has a weirwood heart tree with a face. South of the Neck, however, most weirwoods were cut down or burnt years ago. There is a significant number on the Isle of Faces, however, and many southron castles still have weirwoods within their godswoods.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WEIRWOOD_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Weirwoods are considered sacred to the followers of the old gods, and children of the forest believe weirwoods are the gods. The greenseers of the children of the forest can see through the eyes of weirwoods with carved faces. Since trees have no sense of time, the greenseer can see into the past or present when looking through the eyes of a tree.</Text>
+		</Row>
+		<!--  UNITS HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KNIGHT_OF_VALE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Knighthood likely has its roots in Andal culture,  due to its association to the Faith of the Seven which the Andals brought to Westeros during the Andal invasion. The military success of the Andals' mounted knights and their steel armament proved vital to the Andals' conquest of most of Westeros.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RED_CLOAKS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Lannister guards, often called red cloaks, are guardsmen and men-at-arms  in the service of House Lannister. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LYSENNE_PIRATE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Pirates or corsairs commit acts of robbery or criminal violence at sea, on a shore, or in other major bodies of water. Pirates make their dens upon the Stepstones and venture forth to prey on honest men. Stannis Baratheon hires Salladhor Saan, a Lysene pirate known as the Prince of the Narrow Sea, to provide him with more ships to aid in his battle for the Iron Throne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMMER_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Knighthood likely has its roots in Andal culture, due to its association to the Faith of the Seven which the Andals brought to Westeros during the Andal invasion, although legends of the Reach claim chivalry was brought by the First Knight, John the Oak. The host of a tourney decides whether only knights, or also sellswords, squires, and freeriders are allowed to compete. Especially in the Reach, the heart of the chivalric tradition in the Seven Kingdoms and the place where knighthood is most universally esteemed, is the most likely place to encounter a “knight’s only” tourney.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_SHIP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Redwyne fleet is a fleet in the service of House Redwyne of the Arbor. The Redwynes have one of the three most powerful fleets of the Seven Kingdoms, the others being the Iron Fleet of the Iron Islands and the royal fleet of the Iron Throne. It is the largest fleet in Westeros. Lord Paxter Redwyne owns two hundred warships, while also serving the Redwynes are five times as many merchant carracks, wine cogs, trading galleys, and whalers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_SHIP_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>During the Andal invasion of Westeros, the Andals were prevented from landing in the Reach by the fleets of the Redwynes of the Arbor and the Hightowers of Oldtown. Redwyne galleys blockaded Storm's End during Robert's Rebellion. The smuggler Davos evaded the cordon, however, and delivered onions and salt fish to Stannis Baratheon and his starving garrison within the castle. During Greyjoy's Rebellion, warships from the Arbor served under Stannis when he smashed the Iron Fleet in the sea battle off Fair Isle.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAND_STEED_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The sand steed is a type of horse bred in Dorne. They are smaller than normal warhorses and cannot bear the weight of the armor a warhorse usually wears. Dornishmen claim the mounts are able to run for a day and night and another day, and never tire. In The Conquest of Dorne King Daeron I Targaryen remarked that the Dornish love their sand steeds equal to their children, and wrote that the Knight of Spottswood had his sand steeds stabled in his very own hall.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Greyjoys' main force is the Iron Fleet, they can also raise hundreds of ironborn ships. However, most of those will be longships made for raids rather than battle.  They can travel twice as swiftly as a merchant cog and can carry up to 100 men. The standard tactic for engaging is to board the enemy ship. The crew being combatants, as well as the ironborn preference for wearing armor despite the risk of drowning, gives the ironborn an advantage when boarding.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GOLDCLOACKS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The City Watch of King's Landing, also known as the gold cloaks, are the defenders of the city of King's Landing and the enforcers of the law, sworn only to the Iron Throne. The City Watch was established under the Targaryen dynasty. Prince Daemon Targaryen once commanded the watch, from 104–105 AC. He was the one who instituted their uniform use of equipment, including the golden cloaks from which they get their name. The weapons he issued were dirk, short sword, and cudgel. There were two thousand gold cloaks at his time.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ROYAL_FLEET_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The royal fleet is the navy which serves the king on the Iron Throne, the Lord of the Seven Kingdoms. The fleet is based in the crownlands at the capital city, King's Landing, and the island of Dragonstone.  It is one of the three most powerful fleets of Westeros, along with the Iron Fleet of the Iron Islands and the Redwyne fleet of the Arbor. War galleys or dromonds are larger than normal galleys and carry more tonnage as a result of being equipped with a ram, and they may equip siege weapons like ballista or catapults. They also have a larger compliment of oarsmen and soldiers onboard. The standard tactic for engaging is to ram the enemy ship, causing it to sink, or to board it if the attacking ship has a greater number of soldiers and wishes to capture the enemy ship intact. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_OTHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Others, also known as white walkers. The Others appear to be superior swordsmen, wielding thin crystal swords. The pale swords are extremely sharp, capable of moving through ringmail as if it is silk, when the sword touches a steel blade, only a high, thin sound, similar to an animal screaming in pain, can be heard instead of the sound of metal on metal.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Wights are dead men or creatures raised up by the Others, seemingly when touched by the cold that accompanies them. Anyone who falls against the Others must be burned, or else the dead will rise again as their thralls. Fear of their own dead becoming wights leads the free folk to burn them. Unlike the Others, they are slow and clumsy. Being dead, wights feel no pain and will continue to fight regardless of injury, though they can be stopped by total dismemberment, their limbs will continue to move if detached from their bodies. When a wight is destroyed, the blue disappears from its eyes.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNSULLIED_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Unsullied are eunuch slave soldiers, trained from a young age in Astapor to unquestioning obedience and martial prowess. They are used as guards all over the Free Cities. They are sold by the century or the thousand. They make excellent guards, do not loot, and will never rape. They worship a goddess of their own, whose name is kept in secret among them but is known as the Lady of Spears, the Bride of Battle, and the Mother of Hosts.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNSULLIED_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The most famous Unsullied were the Three Thousand of Qohor, who held back a Dothraki khalasar over fifty thousand strong. Only six hundred Unsullied survived, having killed twelve thousand of the Dothraki. To honor the Unsullied, the surviving Dothraki rode in before the Unsullied line, throwing their cut braids down in front of them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOTHRAKI_RIDER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Dothraki people are a culture of nomadic warriors in Essos who range across the vast grasslands of the Dothraki sea in hordes known as khalasars. The Dothraki are nomadic warriors; they ride better than any Westerosi knight. The Dothraki fight from horseback, with warriors wielding arakhs, curved bows, and whips. The bows the Dothraki use outrange the bows used in the Seven Kingdoms.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DRAGON_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Dragons are magical creatures, which existed on the continents of Westeros and Essos, but are considered to have been extinct for almost one hundred and fifty years. The only remaining traces of the dragons are skeletal remains and dragon eggs which are thought to have turned to stone. Dragons are intelligent creatures who can be trained to serve as battle mounts and understand vocal commands. They are said to be capricious in nature, and have to be trained, to keep them from laying waste to everything around them. Once a dragon has bonded with a rider, that dragon will not allow anyone else to mount it while its rider lives, no matter how familiar said person might be to the dragon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHER_RANGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The order of rangers is one of the three orders that comprise the Night's Watch. Their main duty is to defend and protect the Wall and the castles of the Night's Watch. Theirs can be considered the more dangerous tasks compared to those of the builders or stewards, as rangers are more likely to encounter wildlings and other threats north of the Wall. A senior officer, known as the First Ranger, leads the order.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WILDING_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Most free folk warriors wield weaponry wrought of stone, wood, and bronze, such as axes and flails, fire-hardened spears and lances, and bows of wood and horn. Raiding south of the Wall is a large part of free folk culture. Raiders start at a young age, as little as twelve years. Raiders either climb the Wall or use little boats to cross the Bay of Seals around it. Climbing the height of the Wall is an exercise that can take most of a day and rangers of the Night's Watch often find the broken bodies of those who have fallen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GIANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Giants are a race of sentient humanoids which once lived in various regions of the known world but now live only in northern Westeros beyond the Wall. The people of the Seven Kingdoms believe them to be extinct. Songs of the free folk tell that giants were at one time more plentiful, but they were hunted by men and driven from their stone halls. Now unable to withstand the Others, the several hundred remaining giants have joined the host of Mance Rayder became King-Beyond-the-Wall.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MAMMOTH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Mammoths are a species related to elephants. Mammoths are large, elephant-like animals, with great tusks. They are large enough to be ridden by giants, or to carry tall wooden towers with people inside upon their backs.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KHAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Khal is a title that the Dothraki use to designate the leader of a khalasar, the nomadic groupings upon which their society is based. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WATER_WIZARDS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Water magic was the water-based magic of the Rhoynar. egend has said that the Rhoynar had their own magic — a water magic very different from the sorceries of Valyria, which were woven of blood and fire. It was said the Mother Rhoyne herself whispered to her children of every threat, that the Rhoynar princes wielded strange, uncanny powers, and that their cities were protected by "watery walls" that would rise to drown any foe. During the First Turtle War, the Rhoynar emerged victorious over the Valyrians when their water wizards called up the power of the river Rhoyne and proceeded to flood Volon Therys. If the tales can be believed, half the city was washed away.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SARNORI_SCYTHED_CHARIOT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The greatest of the Sarnori went to battle in scythed chariots pulled by teams of bloodred horses. These were often driven by their wives or daughters, for it was the custom among the Tall Men for men and women to make war together.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GOLDEN_COMPANY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Golden Company is a company of sellswords founded by the Great Bastard, Aegor Rivers, known as "Bittersteel". They are considered the largest, most famous, and most expensive sellsword or mercenary company in the Free Cities. The current captain-general is Harry Strickland. Despite the notorious unreliability of sellswords, the Golden Company is reputed to have never broken a contract.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ESSOS_WARELEPHANT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Elephants come from Essos. They are not native to Westeros. The Golden Company comprises a number of elephants.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SPEARWIVES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A spearwife is a wildling woman who is also a warrior.  In keeping with the spirit of free folk independence, women are welcome to take up arms and fight alongside men. Such women are called spearwives, and are known to be every bit as ferocious as their male counterparts.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CRANNOGMEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The crannogmen are a reclusive people who dwell in the swamps of the Neck. They are ruled by House Reed from Greywater Watch. Their current lord is Howland Reed. Ironborn claim that crannogmen poison their weapons and smear them with feces and worse things. Even a graze by a poisoned arrow can be deadly. They use guerrilla tactics and have a mastery of their difficult terrain. According to those who have fought them, their houses, even their castles, move.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WINTER_WOLVES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Winter Wolves were the northmen soldiers under the command of Lord Roderick "Roddy the Ruin" Dustin that supported the claim of Rhaenyra Targaryen. They joined the blacks against the greens during the Dance of the Dragons. The grizzled Winter Wolves rode shaggy northern horses and used axes, mauls, spiked maces, and ancient iron swords. They led the attack and charged the Lannister spearmen five times in the battle by the Lakeshore, with two-thirds of the northmen killed or wounded in their victory. In the Butcher's Ball, Lord Dustin sounded the charge of the northmen and their river knight allies against Ser Criston the Kingmaker. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_NOTHERN_CLANS_WARRIOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The mountain clans or hill clans are groups of northmen who dwell in the mountains north of Winterfell and in their foothills along the shore of the Bay of Ice. In battle, clan champions fight with huge two-handed greatswords or axes and sometimes armor themselves with mail byrnies.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MARCHES_ARCHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>On of them is Anguy, a commoner from the marches, wins the archery competition at the Hand's tourney.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRONBORN_REAVER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The ironborn are the natives of the Iron Islands in the Sunset Sea off the western coast of Westeros. They are also known as ironmen, especially by those they raid. The ironborn are a fierce, hard, unbending people. The ironborn of old prided themselves on their fierceness in battle and their sacred freedoms.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_DOTHRAKI_MOUNTED_ARCHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Dothraki people are a culture of nomadic warriors in Essos who range across the vast grasslands of the Dothraki sea in hordes known as khalasars. The Dothraki are nomadic warriors; they ride better than any Westerosi knight. The Dothraki fight from horseback, with warriors wielding arakhs, curved bows, and whips. The bows the Dothraki use outrange the bows used in the Seven Kingdoms.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALYRIANSTEEL_SWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Valyrian steel was invented in Valyria, and was used to make weapons and various other items of unparalleled quality. Magic and spells play a role in its forging, which makes the steel special and gives it magical characteristics. Valyrian steel blades are lighter, stronger, and sharper than even the best castle-forged steel.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RAVENS_TEETH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Raven's Teeth were the private guards of Lord Brynden Rivers. The longbowmen were called Raven's Teeth due to Brynden's nickname, Bloodraven, and they wielded weirwood bows. Lord Brynden Rivers and his Raven's Teeth fought on the side of the loyalists during the First Blackfyre Rebellion. They gained the Weeping Ridge during the Battle of the Redgrass Field and rained arrows down upon the rebel forces, breaking their attack. It was their arrows that slew Daemon Blackfyre and his sons. The company came under attack when Aegor Rivers rallied the disheartened rebels and led a charge against them, taking Bloodraven's eye in the process.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_WOOD_DANCER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Wood dancers were the hunters among the children of the forest. During the war of the First Men and the children of the forest, wood dancers became warriors, but despite their secret arts of tree and leaf, they could only slow the advance of the First Men.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_OBSIDIAN_ARCHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The children of the forest make weapons out of dragonglass, including daggers, blades, and arrowheads.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SKINCHANGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A skinchanger or beastling is a person with the ability to enter the mind of an animal and control its actions. A skinchanger able to enter the mind of a wolf or dog is known as a warg. The greatest skinchangers were greenseers, who among many other things were also wargs. The greatest greenseers could wear the skin of any beast.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_RED_CLOAKS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Greenseers were the wise men and leaders of the children of the forest who had magical abilities, including power over nature and greensight. The First Men believed that they were responsible for carving faces into weirwoods, creating heart trees. Stories describe the greenseers seeing through the faces of their weirwoods, influencing animal and plant life, and possibly seeing into the past and future. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_OBSIDIAN_SPEARCHILD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The children of the forest make weapons out of dragonglass, including daggers, blades, and arrowheads.</Text>
+		</Row>
+		<!--  CIVS HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The north is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon's Conquest. The largest region of the Seven Kingdoms, the dominion of House Stark extends from the border of the New Gift, which is controlled by the Night's Watch, to the southern edge of the Neck far to the south.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The north has been ruled by the Starks for thousands of years from the castle known as Winterfell. Notable bannermen of the region include Bolton, Cerwyn, Dustin, Flint, Glover, Hornwood, Karstark, Manderly, Mormont, Reed, Ryswell, Tallhart, and Umber.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The peoples of the north are nearly all descended from the First Men, who settled the land nearly twelve thousand years ago. Little is known of that time, but cryptic runes carved in old stones and the barrows the First Men lived in can still be found in the barrowlands. Ancient forts of the First Men are scattered throughout the north, including a ringfort atop Seal Rock near White Harbor and ruins in Sea Dragon Point. The children of the forest also made weirwood circles.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>About eight thousand years ago, the legendary Long Night occurred when the Others invaded from the Lands of Always Winter. The event defined and shaped the north, leading to the founding of the Wall, the order of the Night's Watch, the castle of Winterfell and the first Stark Kings of Winter. Brandon the Breaker is said to have allied with Joramun, a King-Beyond-the-Wall, to bring down the Night's King.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>The Starks led the north to war during Aegon's Conquest. After the Field of Fire, however, King Torrhen Stark knelt to Aegon the Conqueror rather than face his dragons. The north was included in the Seven Kingdoms and owed allegiance to the Iron Throne of House Targaryen. The Stark Kings in the North became the Lords of Winterfell and Wardens of the North. Some northmen who refused to bend the knee fled into exile in Essos and formed the Company of the Rose.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RIVERLANDS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush. At the time of Aegon's Conquest the riverlands and the Iron Islands were ruled by House Hoare, the Kings of the Isles and the Rivers, although native river kings ruled centuries earlier.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_RIVERLANDS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Because of their central position in Westeros and lack of natural boundaries, the riverlands have been a frequent battleground. The riverlands are ruled from Riverrun by House Tully, the Lords Paramount of the Trident. Notable houses of the region have included Blackwood, Bracken, Darry, Frey, Lothston, Mallister, Mooton, Mudd, Piper, Ryger, Strong, Vance, and Whent.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_VALE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Vale of Arryn  is one of the constituent regions of the Seven Kingdoms of Westeros. It was formerly a sovereign nation ruled by the Kings of Mountain and Vale before Aegon's Conquest. The Mountains of the Moon surround the smaller Vale proper, although the valley's name is often applied to all of House Arryn's realm.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_VALE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Vale is ruled by the Arryns from the castle known as the Eyrie. Notable houses of this region include Baelish, Belmore, Corbray, Egen, Grafton, Hersy, Hunter, Melcolm, Redfort, Royce, Templeton, and Waynwood.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_WESTERLANDS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The westerlands is a region in the west of the continent of Westeros. Before Aegon's Conquest, it was known as the Kingdom of the Rock. The westerlands is ruled from Casterly Rock by House Lannister. Notable bannermen have included Banefort, Brax, Broom, Clegane, Crakehall, Farman, Lefford, Lydden, Marbrand, Payne, Prester, Reyne, Serrett, Swyft, Tarbeck, and Westerling.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_WESTERLANDS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Loren I Lannister, King of the Rock, mustered his armies to fight Aegon Targaryen, Lord of Dragonstone, during Aegon's Conquest. Allied with Mern IX Gardener, King of the Reach, they assembled the enormous Host of the Two Kings. However, they were no match for Targaryen dragons. King Loren escaped the so-called Field of Fire and submitted to Aegon. His primacy in the westerlands as Warden of the West was confirmed by the Targaryens. Since this time the westerlands have been part of the Seven Kingdoms controlled by the Iron Throne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BARATHEON_DRAGONSTONE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Baratheon of Dragonstone is a cadet branch of House Baratheon of Storm's End. Its seat is Dragonstone, the island castle that sits off the mainland to the northeast of King's Landing, and the Great House commands the allegiance of the lords of the narrow sea. Its founder and current head is Lord Stannis Baratheon, who seized the island at the end of Robert's Rebellion and received it as a reward from his brother, King Robert I Baratheon. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BARATHEON_DRAGONSTONE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>House Baratheon of Dragonstone was formed in 284 AC after Robert's Rebellion when the new king, Robert I Baratheon, named his younger brother, Stannis, Lord of Dragonstone. Stannis took the title as a slight, since he would have preferred the richer lands of Storm's End, the ancestral Baratheon castle, but Robert wanted a strong leader in the old seat of House Targaryen. Robert instead awarded Storm's End to the youngest brother, Renly.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_REACH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Reach is one of the constituent regions of the Seven Kingdoms on the continent of Westeros. It was formerly a sovereign nation ruled by the Kings of the Reach before the War of Conquest. It is the second-largest of the kingdoms behind the north and is considered the most fertile and heavily-populated part of Westeros. The Reach is considered the home of chivalry in Westeros. It is the place where knighthood is looked upon with the greatest reverence and esteemed the most. It is also the place where the rules to tournaments are the most stringent and managed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_REACH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Reach is ruled from the castle of Highgarden by House Tyrell. Notable houses have included Ashford, Caswell, Crane, Florent, Fossoway, Gardener, Hightower, Merryweather, Mullendore, Oakheart, Redwyne, Rowan, Tarly, and Vyrwel.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms. The lords of the ruling House Nymeros Martell style themselves "Prince" and "Princess" in the Rhoynish fashion. The Martells rule from their capital, Sunspear, outside of which sprawls the shadow city. Notable houses include Allyrion, Blackmont, Dayne, Fowler, Jordayne, Qorgyle, Santagar, Toland, Uller, Vaith, Wyl, and Yronwood.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Centuries ago, Dorne was a coalition of First Men and Andal petty kings and lords, with no ruler strong enough to seize control of the entire region. Seven hundred years ago, or alternatively a thousand years ago, the Rhoynish Wars forced the people of the Rhoynar to flee their homeland along the Rhoyne in Essos. Led by their legendary warrior-queen, Nymeria, they left in a fleet of ten thousand ships, eventually making landfall at the mouth of the Greenblood in Dorne. Nymeria allied with Lord Mors Martell of the Sandship, and with his support conquered the entire peninsula in Nymeria's War, uniting it with House Nymeros Martell of Sunspear as its ruler. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Three centuries ago, Aegon I Targaryen claimed the Seven Kingdoms and invaded Westeros. During Aegon's Conquest, he subjugated each of the Westerosi monarchs one by one, except Dorne. One of Aegon's sisters, Rhaenys Targaryen, flew on her dragon, Meraxes, above the Dornishmen guarding the Prince's Pass, but each Dornish castle she visited was abandoned. When she came to Sunspear, she was met by Meria Martell, Princess of Dorne, who warned that the Targaryens would face peril if they attacked Dorne. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>In 4 AC, however, Aegon the Conqueror announced another campaign, which became the First Dornish War. Whereas other kings and lords had taken to the field against Aegon, or clustered in castles, the Dornish refused to give open battle and allow Aegon to deploy his dragons. Instead, they turned to ambush and raids, striking quickly and then slipping back into the desert or through the mountain passes, where even the dragons could not find them. Aegon's younger sister-wife, Queen Rhaenys, participated in this war, which eventually lead to her death. Meraxes was also killed, being hit in the eye by a scorpion at the Hellholt. In time, Aegon pulled away from Dorne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Prince Daeron inherited the Iron Throne in 184 AC, and ascended the Iron Throne as King Daeron II Targaryen. One of his earliest significant acts after assuming the throne was to begin negotiations to unify Dorne under Targaryen rule. Negotiations lasted two years, but eventually Daeron and his good-brother, Prince Maron Martell, now the ruling Prince of Dorne, reached an agreement. Maron was betrothed to Daeron's younger sister, Daenerys. When they were wed in King's Landing in 187 AC, Prince Maron knelt before the Iron Throne and swore his oaths of fealty, placing Dorne under Targaryen rule.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRON_ISLANDS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Iron Islands is one of the constituent regions of the Seven Kingdoms. Until Aegon's Conquest it was ruled by the Kings of the Iron Islands and then briefly the Kings of the Isles and the Rivers. While some say the archipelago is named after the abundant iron ore on the islands, the ironmen claim it is instead named after their own unyielding nature.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRON_ISLANDS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The isles are ruled by House Greyjoy from their castle of Pyke. Notable houses have included Blacktyde, Botley, Drumm, Goodbrother, Greyiron, Harlaw, Hoare, Merlyn, Stonehouse, Sunderly, Tawney, and Wynch.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BARATHEON_KINGS_LANDING_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Baratheon of King's Landing is the royal line of House Baratheon of Storm's End, from which it comes. It was founded by Robert I Baratheon after his successful rebellion against King Aerys II Targaryen. When he became king, Robert moved from Storm's End to King's Landing. The Great House receives the support of the mainland houses from the crownlands. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_WHITE_WALKERS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Others, also known as white walkers, cold gods and white shadows, are a species of humanoid beings that exist in the north beyond the Wall. As they have not been seen for eight thousand years, they are considered to be extinct. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_WHITE_WALKERS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>According to legend, the Others came from the Lands of Always Winter six or eight thousand years ago, and brought with them cold and darkness that lasted a generation: the Long Night. They resurrected dead men and animals to serve them. In the Battle for the Dawn, they were finally defeated, by the first men of the Night's Watch and the children of the forest, an alliance made possible by the last hero.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BOLTON_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Bolton of the Dreadfort is a noble house from the Dreadfort in the north. They are an old line descended from the First Men and dating back to the Age of Heroes. The Boltons are known for their practice of flaying their enemies. The Boltons are an ancient and powerful house of the north who once ruled as Red Kings from the Dreadfort. Their land reached from the Last River and the White Knife to the Sheepshead Hills.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FREY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Frey of the Crossing is a noble house of the riverlands. Their main seat is the Twins, a pair of castles on each bank of the northern Green Fork of the Trident that serves as a vital bridge across the river. The lord of the house is called the Lord of the Crossing. The strategic location of the Twins has allowed the house to become quite wealthy. Under their current lord, Walder Frey, they have grown greatly in both size and power. One of the most powerful bannermen of the Tullys, the Freys can field a thousand knights and three thousand foot.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_NIGHT_WATCH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Night's Watch is a military order dedicated to holding the Wall, the immense fortification on the northern border of the Seven Kingdoms, defending the realms of men from what lies beyond the Wall. The order's foundation dates back to the Age of Heroes, at the time when the Others were pushed back. The men of Night's Watch wear only black, and they are known as black brothers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_FREEFOLK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The free folk are a race of people who live beyond the Wall. They are more commonly referred to as "wildlings" everywhere south of the Wall. There are tens, possibly hundreds of thousands of free folk split into hundreds of cultures, tribes, clans, villages, and raiding parties, some reasonably cultured, others savage and hostile. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BARATHEON_STORMSEND_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Baratheon of Storm's End is one of the Great Houses of Westeros, and is the principal house in the stormlands, which they rule as Lords Paramount of the Stormlands. Their seat, Storm's End, is an ancient castle raised by the Storm Kings from the now-extinct House Durrandon. The Baratheon sigil is a crowned black stag on a field of gold. Members of the family tend to be tall and powerfully built, with black hair and blue eyes, as well as strong, square jawlines. They are known for their mercurial tempers, and their words are "Ours is the Fury". </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_BARATHEON_STORMSEND_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>After Robert's Rebellion, House Baratheon split into three branches: Lord Robert Baratheon was crowned king and took residence at King's Landing, thereby creating House Baratheon of King's Landing. Robert gave the seat of Dragonstone to his younger brother, Stannis, creating House Baratheon of Dragonstone. Robert's youngest brother, Renly, became the Lord of Storm's End, continuing House Baratheon of Storm's End. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DOTHRAKI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Dothraki people are a culture of nomadic warriors in Essos who range across the vast grasslands of the Dothraki sea in hordes known as khalasars. Four hundred years ago, the Dothraki rode toward the Free Cities out of the east, sacking and burning every town and city in their path, including the Kingdom of Sarnor, the Qaathi cities in the Red Waste, and the Ibbenese settlements in the Kingdom of the Ifequevron.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_GARDENER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Gardener of Highgarden is the extinct house of the old and famed Kings of the Reach. Beginning with the mythical first king Garth the Gardener, the Gardeners ruled, through war and peace and the assimilation with the Andal invaders, down the generations, until the last Gardener king Mern IX Gardener and his kin were killed at the Field of Fire in the War of Conquest.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_DURRANDON_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Durrandon was the house of the Storm Kings from the stormlands. Their seat was Storm's End; an ancient castle raised by Durran Godsgrief, the founder of their line. The Durrandon sigil was a crowned black stag on a field of gold.  Their words were Ours is the Fury. Both sigil and words were adopted by House Baratheon, who descend from House Durrandon through the female line, in the War of Conquest. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_TARGARYEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Targaryen is a noble family of Valyrian descent who once ruled the Seven Kingdoms of Westeros. The Targaryen sigil is a three-headed dragon breathing flames, red on black. The house words are "Fire and Blood". The only family of dragonlords who survived the Doom of Valyria, the Targaryens left the Valyrian Freehold twelve years before the Doom. They resided for more than a century at Dragonstone on the island of the same name, until Aegon the Conqueror and his sister-wives, Visenya and Rhaenys, began the first of the Wars of Conquest in 2 BC. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_TARGARYEN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Following the conclusion of Aegon's Conquest in 1 AC, they built the Aegonfort in the new capital city of King's Landing. The Aegonfort was later torn down and replaced by the Red Keep, which remained their main seat for the duration of their dynasty, and which housed the Iron Throne. Their original castle was almost always given to the heir to the throne, the Prince of Dragonstone. The Targaryens eventually built the summer residence Summerhall, which has been given to several younger sons of the family over time. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_TARGARYEN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>House Targaryen ruled as the Kings of the Andals, the Rhoynar, and the First Men, the Lords of the Seven Kingdoms, and the Great House of the crownlands for nearly three hundred years. Seventeen male Targaryens ruled from the Iron Throne. The dynasty ended with the death of Aerys the Mad King during Robert's Rebellion, in which the Targaryens were overthrown and replaced by House Baratheon. The two surviving children of Aerys II, Viserys and Daenerys Targaryen, fled into exile, and have resided in the Free Cities of Essos ever since. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_HOARE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>House Hoare of Orkmont is an extinct house of the Iron Islands. Known as the black line, or the black blood, the Hoares became the Kings of the Iron Islands after the Andal settlers on the islands ended the rule of House Greyiron. While they originally came from Orkmont, they also built Hoare Castle on Great Wyk. The Hoares eventually moved to Fairmarket and Harrenhal in the riverlands where they ruled as Kings of the Isles and the Rivers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HOUSE_HOARE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Their banner depicted per saltire and with two heavy silver chains crossing between a gold longship on black, a dark green pine on white, a cluster of red grapes on gold, and a black raven flying in a blue sky (clockwise). The sigil represented the distant lands that had been under the rule of the house: the longship for the Iron Islands, the green pine for Bear Island, the grape cluster for the Arbor, and the black raven for the maesters of Oldtown; all bound by the iron chains of the ironmen</Text>
+		</Row>
+		<!--  LEADERS HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_TITLE" Language="en_US">
+			<Text>Robb Stark The Young Wolf</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_SUBTITLE" Language="en_US">
+			<Text>King in the North and the Trident</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Robb Stark is the eldest son of Eddard Stark and Catelyn Tully and is the heir of House Stark to Winterfell and the north. He is called the Young Wolf by friend and foe alike. After word of Eddard's arrest in King's Landing for treason against the late king Robert's successor, Joffrey, reaches Winterfell, Robb calls the Stark bannermen to war. His youth and experience is questioned by his father's bannermen, such as Jon Umber, but he manages to unite them behind him.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDMURE_TULLY_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Ser Edmure Tully is a knight of House Tully of Riverrun, the liege lords of the riverlands. He is the heir of Hoster Tully, the Lord Paramount of the Trident, and Lady Minisa Whent, and the younger brother of Catelyn Stark and Lysa Arryn. Edmure succeeds his father as Lord of Riverrun when Hoster dies. With Robb having broken his alliance with House Frey by wedding Jeyne Westerling, Edmure agrees to wed one of Walder's daughters, Roslin, to make amends for the Battle of the Fords and for Robb's marriage.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PETYR_BAELISH_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Petyr Baelish, also called Littlefinger, is the head of House Baelish of the Fingers. Petyr's newfound status as a high lord gives him the necessary standing to be considered by Tywin for a marriage to the widowed Lysa Arryn with the intent of delivering the Vale of Arryn, which has remained neutral, to the Crown without violence. Petyr agrees with the plan and is sent to the Eyrie to woo Lysa, believing that to be an easy task given their history.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Tywin Lannister is Lord of Casterly Rock, Shield of Lannisport, and Warden of the West. The head of House Lannister, Tywin is one of the most powerful lords in Westeros, and is the father of Cersei, Jaime, and Tyrion. He loves his children Jaime and Cersei, but despises Tyrion. This is partly because Tyrion is deformed, but also Tywin blames his son for causing his beloved wife Joanna's death during his birth, as well as for shaming the family name with his frequent whoring.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STANNIS_BARATHEON_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Stannis Baratheon is the head of House Baratheon of Dragonstone and the Lord of Dragonstone. He is the secondborn son of Steffon Baratheon, Lord of Storm's End, and Lady Cassana Estermont. He has an older brother, King Robert I Baratheon, and a younger brother, Lord Renly Baratheon. Stannis serves on Robert's small council as the master of ships. After the death of Jon Arryn, Stannis flees to Dragonstone to gather his strength, including most of the royal fleet, and plan his next move, believing Cersei poisoned Jon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_OLENNA_TYRELL_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Olenna Tyrell, also known as Olenna Redwyne, is the widow of Lord Luthor Tyrell and the mother of Mace Tyrell, Lord of Highgarden. Born into House Redwyne of the Arbor, she is commonly known as the Queen of Thorns because of her sharp tongue. After the death of King Renly Baratheon, Lord Petyr Baelish is sent to Bitterbridge and Highgarden  to negotiate an alliance between House Lannister and House Tyrell, including a marriage between King Joffrey I Baratheon and Margaery Tyrell, Renly's widow and Olenna's granddaughter.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Prince Doran Nymeros Martell is the head of House Martell, the Prince of Dorne, and the Lord of Sunspear. Married to Lady Mellario, of the Free City of Norvos, he has three children: Arianne, Quentyn, and Trystane. He's also the elder brother of Elia and Oberyn Martell. Because his health does not permit him to travel, Doran sends his younger brother Prince Oberyn to King's Landing to claim the small council seat he had been promised and attend King Joffrey's wedding to Lady Margaery Tyrell.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Balon Greyjoy is the head of House Greyjoy of Pyke and is the Lord of the Iron Islands. The captain of the Great Kraken, he is a follower of the Old Way of the ironborn and desires to bring them back to prominence. In 289 AC he proclaimed their independence from the Iron Throne, but Greyjoy's Rebellion was defeated by King Robert I Baratheon's forces.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOFFREY_BARATHEON_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>King Joffrey Baratheon is known to the Seven Kingdoms as the eldest son and heir of King Robert I Baratheon and Queen Cersei Lannister. Joffrey grew up as a spoiled and indulgent child with a cruel streak within him. His father, King Robert I Baratheon, is deeply disappointed with his son and feels little affection for Joffrey nor did he like the fact that Joffrey would always cry whenever Robert picked him up. It is implied that Joffrey craves Robert's respect and approval, and many of his acts are done in an effort to live up to his father's standards.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIGHT_KING_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>The Night King is the leader of the White Walkers. The last infant son of Craster is taken by a White Walker from the haunted forest to the Lands of Always Winter, where they are awaited by the Night King. The Night King commands White Walkers and wights during their attack on Hardhome.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DAENERYS_TARGARYEN_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Princess Daenerys Targaryen, also known as Daenerys Stormborn, is one of the last confirmed members of House Targaryen, along with her older brother Viserys, who refers to her as Dany. She is the youngest child of King Aerys II Targaryen and his sister-wife, Queen Rhaella. In 297 AC, Viserys and Daenerys were taken in by Magister Illyrio Mopatis in the Free City of Pentos, who offered his help in reclaiming the Iron Throne for Viserys. They have lived with Illyrio for almost half a year. Magister Illyrio Mopatis arranges a marriage between the powerful Dothraki Khal Drogo and Daenerys, in return for the promise of an army for Viserys to conquer the Iron Throne with.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROOSE_BOLTON_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Roose Bolton is the Lord of the Dreadfort and head of House Bolton. He is convinced that regular leechings improve a person's health, and as such frequently has himself leeched, which has led to some calling him the Leech Lord. Roose practices the abolished tradition of the first night, but he is discreet with his activities and amusements in order to avoid the attention and possible ire of the Wardens of the North, House Stark.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_WALDER_FREY_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Walder Frey is the Lord of the Crossing and head of House Frey. Though almost ninety years old and infirm, he still maintains an active hand in the running of his house at the Twins. Walder has become famous for siring many children and surviving many wives. He is to marry his eighth wife and has over a hundred descendants, base and trueborn. Walder has had twenty-two trueborn sons and seven trueborn daughters from his marriages, with an unknown number of bastard sons and daughters. He places a great emphasis on family loyalty, though his descendants jockey ruthlessly for his favor. Many Freys name their sons Walder and daughters Walda hoping that the lord will favor them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JEOR_MORMONT_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Jeor Mormont, also known as the Old Bear, is the 997th Lord Commander of the Night's Watch,  which he commands from their headquarters, Castle Black. Jeor, previously head of House Mormont and Lord of Bear Island, abdicated his seat in favor of his son, Ser Jorah Mormont, and joined the Night's Watch.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANCE_RAYDER_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Mance Rayder was once a man of the Night's Watch before breaking his vows and abandoning his post. He has since become extremely influential among the free folk, and is called the "King-Beyond-the-Wall". Mance's parents were a common woman of the free folk and a man of the Night's Watch.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Robert I Baratheon is the Lord of the Seven Kingdoms of Westeros and the head of House Baratheon of King's Landing. Robert was crowned king after King Aerys II Targaryen, his first cousin once removed, was killed during Robert's Rebellion. Following the war, Robert married Cersei Lannister to ensure political stability. With her, Robert has three children: Joffrey, Myrcella, and Tommen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RENLY_BARATHEON_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Renly Baratheon is the Lord of Storm's End and Lord Paramount of the Stormlands. The younger brother of King Robert I and Lord Stannis, Renly serves as master of laws on Robert's small council. After Robert's death, Renly manages to win the support of powerful House Tyrell and many of their bannermen through a secret love affair with Loras and a marriage to his sister Margaery. Renly is crowned Lord of the Seven Kingdoms at Highgarden.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KHAL_DROGO_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Drogo is a powerful khal or warlord of the fearsome Dothraki nomads. Daenerys Targaryen is promised to him. From an early age Drogo was an extraordinarily gifted warrior even among the fierce Dothraki; before the age of thirty he led a khalasar forty thousand strong, the largest on the Dothraki sea. He has never been defeated in battle. Cohollo, Qotho and Haggo serve him as bloodriders. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Eddard Stark, also called "Ned", is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EURON_GREYJOY_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Jon Snow is the "bastard son" of Eddard Stark, Lord of Winterfell. Unaware of the identity of his mother,Jon was raised at Winterfell. At the age of fourteen, he joins the Night's Watch, where he earns the nickname Lord Snow.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EURON_GREYJOY_CHAPTER_HISTORY_PARA_2"  Language="en_US">
+			<Text>Euron Greyjoy, known as Crow's Eye  is a member of House Greyjoy and is the eldest of Lord Balon Greyjoy's younger brothers. Euron is captain of the Silence, a ship crewed entirely by mutes whose tongues he ripped out. Euron's personal coat-of-arms is a red eye with a black pupil beneath a black iron crown supported by two crows.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LYSA_ARRYN_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Lady Lysa Arryn, also known as Lysa Tully, is a member of House Tully. She is the youngest daughter of Lord Hoster Tully of Riverrun and his wife, Lady Minisa Whent, and wife of Lord Jon Arryn, the Lord of the Eyrie and Hand of the King to King Robert I Baratheon. Since her husband's death, she is the Lady Regent of the Vale of Arryn. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CERSEI_LANNISTER_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Cersei Lannister is the only daughter and eldest child of Lord Tywin Lannister of Casterly Rock and his wife, Lady Joanna Lannister. She is the twin of her younger brother, Ser Jaime Lannister. After Robert's Rebellion, Cersei married King Robert I Baratheon and became Queen of the Seven Kingdoms. She is the mother of Prince Joffrey, Princess Myrcella, and Prince Tommen of House Baratheon of King's Landing.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AEGONVI_TARGARYEN_CHAPTER_HISTORY_PARA_1"  Language="en_US">
+			<Text>Prince Aegon Targaryen was the second child and only son of Prince Rhaegar Targaryen and Elia Martell. In 300 AC, Illyrio Mopatis and Tyrion Lannister depart Pentos for the Rhoyne. Tyrion and a sellsword, "Griff", are to head towards Volantis and wait for the expected arrival of Daenerys in that city, with the Golden Company and more ships for her cause. Based on Illyrio's information, Daenerys has conquered Astapor, made Yunkai bend the knee, and sacked Meereen. He estimates that Daenerys is heading westwards, either by land to Mantarys or by sea to Volantis. Once aboard the Shy Maid, Tyrion is introduced to Griff's son, "Young Griff", a young man who dyes his hair blue in memory of his late mother, who was from Tyrosh. After being rescued from the Sorrows, Tyrion admits his suspicion that the youth is claiming to be an incognito Aegon.</Text>
+		</Row>
+		<!--  CITY STATES HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_BRAAVOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Braavos is the wealthiest and likely the most powerful of the Free Cities. It is located in a lagoon on the northwestern end of Essos, where the narrow sea and the Shivering Sea meet. Braavos is also known as Braavos of the Hundred Isles and the Secret City. Unlike the other Free Cities, Braavos was never part of the Valyrian Freehold. The youngest of these cities, Braavos was founded by escaped slaves, fleeing the grasp of the Freehold. The slaves rebelled on their way from Valyria to a new colony in Sothoryos, took control of the ships, and turned north instead of south, travelling as far as they could. According to the histories of Braavos, it was a group of slave women from the lands of Jogos Nhai, the moonsingers, who predicted where shelter could be found. Thus, the slaves travelled to the distant lagoon, hidden away from sight of the dragonlords by the wall of hills covered with pine trees and the fog covering the lagoon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LORATH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Lorath is one of the Nine Free Cities. It is situated in a group of islands in the Shivering Sea near the northern coast of Essos. Ancient Lorath was inhabited by a people known as the mazemakers, who created mazes on the islands and on mainland Essos to the south. The mazemakers were followed first by a race of hairy men similar to the Ibbenese, and then by the Andals, with each island having its own king. The largest of the islands even had four kings. In 1436 BC, Valyrian worshippers of the Blind God Boash travelled to Lorath and founded a temple on the main isle, settling in the ancient mazes of the first Lorathi, turning them into their towns, temples, and tombs. For three-quarters of a century, they dominated the islands. However, more and more people who did not share their faith travelled to Lorath and built villages. In time, the islands became a refuge for freedmen and escaped slaves, as the priests of Boash taught that every man was equal. Three of such fishing villages on the western part of the largest isle grew so populous and prosperous that they merged into a town. In time, the town became a city.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LORATH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Cult of Boash died out roughly around 700 BC. Afterward Lorath became a freehold owing allegiance to the Valyrian Freehold, ruled by a council of three princes: the Harvest Prince, the Fisher Prince, and the Prince of the Streets. The princes continue to sit today, though their titles are purely ceremonial. The true authority now lies in a council of magisters made up of nobles, priests, and merchants.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_PENTOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Pentos is one of the Free Cities of western Essos. It is a port located on the eastern coast of the Bay of Pentos. Pentos was founded by merchants, traders, seafarers, and farmers from the Valyrian Freehold as a trading outpost. Many were smallfolk who bred with local Andals, so the Pentoshi are less protective of Valyrian blood than other Free Cities. There are some who claim Pentos existed before the colonization and that the original inhabitants decided to pay homage to the Freehold.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_MYR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Myr is one of the Free Cities of western Essos. It sits on the eastern shore of the Sea of Myrth. The origins of Myr are disputed. There is some evidence of the vicinity having been inhabited by a now-vanished people during the Dawn Age and the Long Night. Modern Myr was founded by merchant adventurers from the Valyrian Freehold after they conquered a walled Andal town. After the Doom of Valyria, Volantis took Myr with an army and Lys with a fleet, and for two generations all three cities were ruled from within the Black Walls. That ended when the tigers of Volantis tried to swallow Tyrosh. Pentos came into the war on the Tyroshi side, along with the Storm King, Argilac Durrandon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_TYROSH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Tyrosh is a harbor city and one of the Free Cities. It sits on an island to the north of the Stepstones, just off the coast of the Disputed Lands of Essos. The ruler of Tyrosh is an archon  chosen from among the members of a conclave of the wealthiest and noblest of the city. Tyrosh began as a military outpost of the Valyrian Freehold on a bleak, stony isle to control shipping through the Stepstones. They soon discovered in the nearby waters a unique variety of sea snail whose secretions were used to create a dye popular with Valyrian nobles. Thousands of merchants developed Tyrosh into a major city within a generation. Some dragonlords in Tyrosh survived the Doom of Valyria, but the citizens killed the dragons and their dragonriders.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LYS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Lys, known as Lys the Lovely, and according to semi-canon sources as the Perfumed Sister, is one of the nine Free Cities of Essos. It is a small city clinging to rocks surrounded by stormy seas. The city lies off the coast of the Disputed Lands, to the southeast of Tyrosh and to the west of Volantis. Lys was founded as a colony of the Valyrian Freehold on an island in the Summer Sea, near the Broken Arm of Dorne and the Orange Shore of Essos. Founded by wealthy merchants and nobles, Lys was mostly a trading colony. Due to its climate, Lys soon became a resort destination of sorts for the dragonlords of old Valyria. The sunny island is fertile with palm and fruit trees, and the surrounding blue-green waters are filled with fish. Some dragonlords in Lys survived the Doom of Valyria, but the citizens killed the dragons and their dragonriders.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_VOLANTIS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Volantis is a city in southwestern Essos. Located at the mouth of the Rhoyne on the Summer Sea, it is the oldest and the proudest of the Nine Free Cities. Volantis is one of the greatest, richest, and most powerful of these city-states, and was once the most populous. Volantis is the oldest of the Free Cities, founded at some point after the destruction of the Old Empire of Ghis.  It was the first colony of the Valyrian Freehold, her "first daughter". Established to protect the borders of the Freehold, Volantis was little more than a garrison protected by the Black Walls for a hundred years. Wealthy Valyrians used this military outpost to take advantage of trade along the Rhoyne,however, and settlements quickly grew on both sides of the river. Construction of the Long Bridge to cross the Rhoyne began under Triarch Vhalaso the Munificent.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_NORVOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Norvos is one of the nine Free Cities. It lies in the interior of Essos, between Pentos and Qohor. The original settlers of Norvos are unknown, but they were not Rhoynar. Some theorize they were mazemakers or Ibbenese, but most believe they were Andals. Hairy men out of the east are said to have driven these original villagers away, but these hairy men were eventually expelled by Prince Garris of Ny Sar. The Rhoynar did not remain, however, preferring instead the warmer lower Rhoyne. Modern Norvos, like Qohor and Lorath, was founded following a religious schism in the Valyrian Freehold. Dissidents found the religious tolerance of the Freehold intolerable, so the sect of the bearded priests founded Norvos as a theocracy where the "true faith" would be practiced.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_QOHOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Qohor, also known as the City of Sorcerers, is the easternmost of the nine Free Cities located in western Essos. The initial settlement of Qohor was a lumber camp along the Forest of Qohor. Qohor was colonized by followers of the Black Goat. The religious dissidents abandoned Valyria, rejecting the religious tolerance practiced by the Valyrian Freehold.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_MEEREEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Meereen is the northernmost and the largest of the three great Slaver Cities of Slaver's Bay. It is ruled by the Great Masters, the heads of Meereen's slaving families.  Like the other Slaver Cities, Meereen's emblem is the harpy. Meereen city survived the destruction of Old Ghis at the hands of the Valyrian Freehold and was subsequently was conquered by the Valyrians, who learned slavery from the conquered Ghiscari and used slaves to expand their empire.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_YUNKAI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Yunkai, also called the Yellow City, is one of the Slaver Cities on the eastern coast of Slaver's Bay in central Essos. Ruled by the Wise Masters, Yunkai's main export is bed slaves. Yunkai was a colony of the Old Empire of Ghis. Yunkai survived the destruction of Old Ghis at the hands of the Valyrian Freehold, and was subsequently conquered by the Valyrians, who learned slavery from the conquered Ghiscari and used slaves to expand their empire. After the Doom of Valyria and the fall of the Freehold, the Ghiscari of Slaver's Bay took control of the slave trade.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ASTAPOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Astapor, dubbed the Red City,  is the southernmost of the Slaver Cities on Slaver's Bay. The city is renowned for their training of the Unsullied, eunuch slave soldiers. Astapor survived the destruction of Old Ghis at the hands of the Valyrian Freehold, but it was conquered by the Valyrians, who learned slavery from the conquered Ghiscari and used slaves to expand their empire. After the Doom of Valyria and the fall of the Freehold, the Ghiscari of Slaver's Bay took control of the slave trade.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_NEW_GHIS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>New Ghis is an island city in the Gulf of Grief, which borders on the Summer Sea. Its island lies south of Ghaen. Ghiscar and the ruins of Old Ghis are located to the north, past the Ghiscari Strait. A city dependent on slavery, New Ghis is a much smaller port than Volantis. New Ghis is the newest and smallest of the Ghiscari cities, but the most dynamic. Its iron legions are inspired by the lockstep legions of the Old Empire of Ghis.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LOTUS_POINT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Lotus Point is a city in the Summer Islands. It is located in southwestern Walano, north of the island Koj. The Summer Isles, are a large archipelago located south of Westeros and Essos and west of Sothoryos. The islands separate the Sunset Sea to the west from the Summer Sea to the east. The natives of the islands are an ebony-skinned people who speak their own language and often wear capes of brightly colored feathers. The act of lovemaking is considered an important and even holy skill. Prostitution is a respectable profession, practiced even by the high-born islanders. Summer Islanders respect their elderly, and mourning customs include celebrating the dead with wine and lovemaking.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_PORT_OF_IBBEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Port of Ibben is the main city on Ib and is the largest city of Ibben. It is located on the southern coast of Ib. The city is grey and gloomy and has ruled over Ib and the lesser isles since the Dawn Age. It is a city of cobbled alleys, steep hills, and teeming docks and shipyards, lit by whale-oil lamps suspended on iron chains. The main structure in the city are the ruins of the God-King's castle. Beyond the Port of Ibben foreigners are only allowed with an Ibbenese host.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_QARTH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Qarth is an ancient port city located on the southern coast of Essos. It has been referred to as the Queen of Cities. Qarth claims to be the birthplace of civilization. It is the sole surviving city-state established by the Qaathi people, who rose in the grasslands of central Essos — known today as the Dothraki sea — and founded city-states as they moved southeast following defeat in wars against the Sarnori.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_MANTARYS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Mantarys is a city that lies to the north of the Lands of the Long Summer on the northern tip of the Sea of Sighs, where a river flows south from the Painted Mountains. It is connected by Valyrian roads to the ruined cities of Bhorash and Oros. The demon road passes through Mantarys. It has a sinister repute and is allegedly a city of monsters. Mantarys was founded by the Valyrian Freehold. Although rich and glorious, it did not have self-rule and was instead governed by men and women sent from Valyria to rule in the name of the Freehold - thus it is not counted among the Free Cities. Mantarys remained inhabited after the Doom of Valyria, but its people are said to be twisted and monstrous.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_ELYRIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Elyria is an island city of central Essos. It is located on a small island east of the Valyrian peninsula in Slaver's Bay. To the east lies Tolos and to the west the Lands of the Long Summer. Elyria was founded by the Valyrian Freehold. Although rich and glorious, it did not have self-rule and was instead governed by men and women sent from Valyria to rule in the name of the Freehold. Despite its proximity to the Valyrian peninsula, Elyria was not destroyed in the Doom. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_TOLOS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Tolos is a port city in central Essos. Tolos is famed for producing the finest slingers in Essos, who throw soft lead balls in place of stones which do tremendous damage to human flesh.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAATH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Saath is a city in northern Essos at the western end of the Sarne delta along the Shivering Sea. It is west of Vaes Graddakh and southwest of Morosh. Saath is connected by a Valyrian road to Vaes Khadokh farther to the south. The people of Saath still call themselves Tagaez Fen, or Tall Men, after the Sarnori of old. The city has managed to survive with the support of Ib and Lorath. The small port of Saath, with its white walls, is the last surviving remnant of the Kingdom of Sarnor, as the other Sarnori cities, including its sister city Sarys, were destroyed by the Dothraki during the Century of Blood.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LHAZOSH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Lhazosh is a city in the Lhazar region of Essos. It is located southeast of Hesh and southwest of Kosrak. A trade route from Lhazosh extends southeast through the red waste to the ruined cities of Vaes Orvik and Vaes Shirosi.</Text>
+		</Row>
+		<!--  RELIGIONS HISTORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYSOIAF_OLD_GODS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The old gods are nameless deities of stream, forest, and stone worshiped in the Seven Kingdoms of Westeros and beyond the Wall. They are so named because the Faith of the Seven (the "new gods") replaced them in all but the north of Westeros, where their religion is still practiced by northmen, crannogmen, and free folk. Westerosi of various faiths commonly swear by the old gods and the new. The old gods were originally worshiped by the children of the forest in most of Westeros in the Dawn Age, thousands of years before the arrival of the First Men from Essos via the Arm of Dorne. The First Men warred with the children and, believing that the greenseers of the children could see through the eyes of the weirwoods,  cut down the weirwoods where they found them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_FAITH_OF_THE_SEVEN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Faith of the Seven, often simply referred to to as the Faith, is the dominant religion in most of the Seven Kingdoms. Followers of the Faith in the north are rare and are generally not found on the Iron Islands, where the religions of the old gods of the First Men and of the Drowned God respectively are still strong. The gods of the Faith are sometimes known as the new gods to differentiate them from the old gods from the north. Members of the Faith worship the Seven Who Are One, a single deity with seven aspects or faces. For the less educated, however, this concept is often difficult to grasp, causing them to often believe that there are indeed seven different gods: The Father, The Mother, The Warrior, The Smith, The Maiden, The Crone and The Stranger.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_DROWNED_GOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Drowned God, also known as He Who Dwells Beneath the Waves, is a sea deity worshipped by the ironborn of the Iron Islands in Westeros. The religion of the Drowned God is old, dating back to before the Andal invasion, and the attempts of the Andal invaders to supplant it with the Seven all failed. The Drowned God religion supports the ironmen's naval, pirate culture. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_RHLLOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>R'hllor, also known as the Lord of Light, the Heart of Fire, the God of Flame and Shadow, is a prominent god in Essos, but has only a few followers in Westeros, where he is more commonly known as the red god. His symbol is a fiery heart and  Red priests lead prayers to R'hllor at red temples. A prophecy found in ancient books of Asshai claims that after a long summer an evil cold darkness shall fall on the world. Azor Ahai, wielding the sword Lightbringer, shall be reborn to combat this darkness.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MANY_FACED_GOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Many-Faced God, also known as Him of Many Faces, is a deity worshipped by the Faceless Men, a guild of assassins established in the Free City of Braavos. The founder of the Faceless Men came to believe that all the diverse slave population of Valyria prayed for deliverance to the same god of death, just in different incarnations. Thus, in Qohor, the Many-Faced God is called the Black Goat; in Yi Ti, the Lion of Night and in the Faith of the Seven, the Stranger. The worshipers of the Many-Faced God believe that death is a merciful end to suffering. For a price, the Guild will grant the 'gift' of death to anyone in the world, considering the assassination a sacrament to their god. In the Guild's temple, those who seek an end to suffering may drink from a black cup which grants a painless death. As the Faceless Men forsake their identities for the service of the Many-Faced God, they only assassinate targets they have been hired to kill and may not choose who is worthy of the 'gift' by themselves. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_BLACK_GOAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Black Goat is a god of the Free City of Qohor. The Black Goat demands daily blood sacrifice. The Qohorik often bring calves, bullocks, and horses before the Black Goat's altars. However, on holy days it is condemned criminals who go beneath the knives of the god's cowled priests, and, in times of danger and crisis it is written that the high nobles of the city offer their own children to placate the Black Goat, that he might defend the city.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_GREAT_STALLION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The horse god is a deity revered by the Dothraki. The Dothraki horse god mirrors the importance of horses in Dothraki culture. Much is unknown about the Dothraki religion, but it appears to have no moral issue with raping and killing. The Dothraki believe in the stallion who mounts the world prophecy, a leader who will unite all the Dothraki into a single khalasar under a single khal and ride to the ends of the earth, thus children are considered a blessing. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_LION_OF_NIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Lion of Night is a god in Yi Ti. The Faceless Men believe that is just another representation of the Many-Faced God. According to tales told by the priestly scribes of Yin, the Lion of Night fathered a son on the Maiden-Made-of-Light. This son was the God-on-Earth, who ruled the Great Empire of the Dawn for ten thousand year before ascending to the heavens. The descendants of the God-Earth ruled the empire after him, each ruling a shorter time than the previous one, until the brother of the Amethyst Empress usurped her in the Blood Betrayal and crowned himself as the Bloodstone Emperor, ushering in the Long Night. The Maiden-Made-of-Light turned her back upon the world and the Lion of Night came forth in all his wroth to punish the wickedness of man.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_STONE_COW_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Stone Cow of Faros is a stone cow from the city of Faros on the island Great Moraq. The people of Faros worship it.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_GREAT_SHEPHERD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Great Shepherd or lamb god is the deity of the peaceful Lhazareen. They are taught that all men are one flock.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_WEEPING_LADY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Weeping Lady of Lys is a goddess worshipped by the Lyseni. There is a statue of her called the Weeping Woman in the House of Black and White in Braavos. The statue is most commonly visited by old women.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_THE_HARPY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Harpies are legendary female monsters. The harpy was the symbol of the Old Empire of Ghis and is as synonymous with the Ghiscari as the dragon is with the Valyrian Freehold. Harpy's gold is a plant found at Slaver's Bay.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_THE_GREAT_OTHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Great Other is the god of darkness, cold, and death in the faith of R'hllor. His true name is never spoken. He is considered the enemy of R'hllor, the Lord of Light. All forces of darkness, cold, and death are believed to be only servants to the Great Other. Melisandre refers to the Others as the "cold children" of the Great Other.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MOTHER_RHOYNE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Mother Rhoyne is the chief goddess of the Rhoynar. She is associated with the river Rhoyne, which the Rhoynar revere. Her waters nourished the Rhoynar since the dawn of days. The giant turtles known as the Old Men of the River, named after a Rhoynish lesser deity, are held as her consorts. The Orphans of the Greenblood still worship Mother Rhoyne.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_BEARDED_PRIESTS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The bearded priests are religious leaders in the Free City of Norvos and the true rulers of the theocratic city, for it is they who choose the members of its council of magisters through divine inspiration. The bearded priests control a fortress-temple in the upper city. The bearded priests were originally a sect that abandoned Valyria, finding the religious tolerance of the Freehold intolerable.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

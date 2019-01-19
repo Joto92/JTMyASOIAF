@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="LeaderFallback"/>
+	<m_PackageName text="LeaderFallbacks"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ROBB_STARK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ROBB_STARK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_EDMURE_TULLY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_EDMURE_TULLY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_PETYR_BAELISH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_PETYR_BAELISH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_TYWIN_LANNISTER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_TYWIN_LANNISTER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_STANNIS_BARATHEON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_STANNIS_BARATHEON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_OLENNA_TYRELL"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_OLENNA_TYRELL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_DORAN_MARTELL"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_DORAN_MARTELL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_BALON_GREYJOY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_BALON_GREYJOY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_JOFFREY_BARATHEON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_JOFFREY_BARATHEON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_NIGHT_KING"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_NIGHT_KING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_DAENERYS_TARGARYEN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_DAENERYS_TARGARYEN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ROOSE_BOLTON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ROOSE_BOLTON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_WALDER_FREY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_WALDER_FREY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_JEOR_MORMONT"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_JEOR_MORMONT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_MANCE_RAYDER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_MANCE_RAYDER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ROBERT_BARATHEON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ROBERT_BARATHEON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_EDDARD_STARK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_EDDARD_STARK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_JON_SNOW"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_JON_SNOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_EURON_GREYJOY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_EURON_GREYJOY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LYSA_ARRYN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LYSA_ARRYN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_AEGONVI_TARGARYEN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_AEGONVI_TARGARYEN"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

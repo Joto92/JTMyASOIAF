@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- QUOTES >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_QUOTE" Language="es_ES">
+			<Text>Dile a Lord Tywin, que el invirno esta llegando para él. Veinte mil norteños marchando al sud para comprovar si de verdad caga oro.</Text>
+		</Replace>
+				<!-- EDMURE-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PETYR_BAELISH_QUOTE" Language="es_ES">
+			<Text>Os advertí que no os fiarais de mí.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_QUOTE" Language="es_ES">
+			<Text>Cuando vuestros enemigos os desfíen, debéis servirles acero y fuego. Sin embargo, cuando se ponen de rodillas, debéis ayudarles a ponerse de pie. De lo contrario, ningún hombre doblará jamás la rodilla. Y cualquier hombre que deba decir "Yo soy el rey" no es un verdadero rey en absoluto. Aerys nunca lo entendió, pero vos lo haréis. Cuando haya ganado la guerra por ti, restauraremos la paz y la justicia del rey.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STANNIS_BARATHEON_QUOTE" Language="es_ES">
+			<Text>Yo no pedí esta corona. El oro es frío y me pesa en la cabeza, pero mientras sea el rey tengo un deber. Si he de sacrificar a un niño en las llamas para salvar a un millón de la oscuridad... El sacrificio... nunca es fácil, Davos. De lo contrario no sería un verdadero sacrificio</Text>
+		</Replace>
+				<!-- OLENNA-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE" Language="es_ES">
+			<Text>He trabajado en la caída de Tywin Lannister desde el día en que me contaron acerca de Elia y sus hijos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_QUOTE" Language="es_ES">
+			<Text>Yo soy el Greyjoy, Lord Segador de Pyke, Rey de la Sal y la Roca, Hijo del Viento Marino, y nadie me da una corona. Yo pago el precio del hierro. Voy a tomar mi corona, como lo hizo Urron Manorroja hace cinco mil años.</Text>
+		</Replace>
+				<!-- JOFFREY, NIGHT KING, DANY-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROOSE_BOLTON_QUOTE" Language="es_ES">
+			<Text>Un hombre desnudo tiene pocos secretos, pero un hombre desollado.</Text>
+		</Replace>
+		<!-- FREY-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JEOR_MORMONT_QUOTE" Language="es_ES">
+			<Text>Cuando los muertos vienen de caza por la noche, ¿Crees que importa quien se sienta en el Trono de Hierro?</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MANCE_RAYDER_QUOTE" Language="es_ES">
+			<Text>El Pueblo Libre no siguen nombres, o pequeños animales de tela cosidos en una túnica. No van a bailar por monedas. Siguen la fuerza. Siguen al hombre.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE" Language="es_ES">
+			<Text>Te lo juro, nunca estuve tan vivo como cuando estaba ganando este trono, ni tan muerto como ahora que lo he ganado.</Text>
+		</Replace>
+		<!-- RENLY, DROGO-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_QUOTE" Language="es_ES">
+			<Text>Cuando cae la nieve y sopla el viento blanco, el lobo solitario muere, pero la manada sobrevive.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_SNOW_QUOTE" Language="es_ES">
+			<Text>Cuanto más se da un rey, más se quiere. Estamos caminando sobre un puente de hielo con un abismo a cada lado. Complacer a un rey es lo suficientemente difícil. Complacer a dos es casi imposible.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EURON_GREYJOY_QUOTE" Language="es_ES">
+			<Text>Soy la tormenta, mi señor. Soy la primera tormenta y la última.</Text>
+		</Replace>
+		<!--LYSA ARRYN, CERSEI, AEGON VI-->
+		<Replace Tag="LOC_BUILDING_GODSWOOD_QUOTE" Language="es_ES">
+			<Text>"La madera viva tiene poder, un poder tan fuerte como el del fuego." -Jojen Reed</Text>
+		</Replace>
+		<!--  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GODSWOOD_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El Bosque de Dioses de los dioses es una pequeña area dentro de los muros de algunos de los castillos de los Siete Reinos. Es un lugar de oración para los que creen en los antiguos dioses.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GODSWOOD_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>Cuando los Primeros hombres aceptaron los antiguos dioses de los Hijos del Bosque crearon los Bosques de Dioses en sus castillos y pueblos donde un solo Arciano, conocido como Arbol Corazón y con una cara gravada, fue plantado para adorarlo. En el Norte todos los castillos tienen un Arciano pero en el sud del Cuello la mayoria fueron cortados o quemados, aunque los hay en la Isla de los Rostos y en algunos castillos.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El Norte es una region de poniente y fue nación soberana gobernada por reyes hasta la Conquista de Aegon. La región más grande de los Siete Reinos, el dominio de la Casa Stark se extiende desde la frontera del Nuevo Agasajo, controlado por la Guardia de la Noche, hasta el sud del Cuello.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_TITLE" Language="es_ES">
+			<Text>Robb Stark El Joven Lobo</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBB_STARK_SUBTITLE" Language="es_ES">
+			<Text>Rey en el Norte y el Tridente</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

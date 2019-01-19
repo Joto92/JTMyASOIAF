@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="ABILITY_LOYAL_BANNERMEN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TULLY_GUARDSMEN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KNIGHT_OF_VALE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RED_CLOAKS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LYSENNE_PIRATE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_STORMSOLDIER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SUMMER_KNIGHT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_REDWYNE_SHIP" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAND_STEED" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IRON_LONGSHIP" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GOLDCLOACKS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROYAL_FLEET" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OTHER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WIGHT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNSULLIED" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DOTHRAKI_RIDER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DRAGON" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DREADFORT_PIKEMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FREY_CROSBOWMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BROTHER_RANGER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WILDING" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MAMMOTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GIANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KHAL" Kind="KIND_ABILITY"/>
+		
+		<Row Type="ABILITY_TYROSH_GRANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ASTAPOR_GRANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TOLOS_GRANT" Kind="KIND_ABILITY"/>
+
+		<Row Type="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Kind="KIND_ABILITY"/>
+
+		<!--Ancient Civs -->
+		<Row Type="ABILITY_WATER_WIZARDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TORTOISE_SHIELD_WARRIOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SARNORI_SCYTHED_CHARIOT" Kind="KIND_ABILITY"/>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Row Type="ABILITY_GOLDEN_COMPANY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ESSOS_WARELEPHANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CRANNOGMEN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WINTER_WOLVES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_NOTHERN_CLANS_WARRIOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PIKEMEN_OFTHE_ROCK" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SNAKE_FANGS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DOTHRAKI_MOUNTED_ARCHER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RAVENS_TEETH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WOOD_DANCER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OBSIDIAN_ARCHER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SKINCHANGER" Kind="KIND_ABILITY"/>
+
+		<!-- End Adittional Units-->
+	</Types>
+	
+	<TypeTags>
+		<Row Type="ABILITY_LOYAL_BANNERMEN" Tag="CLASS_LOYAL_BANNERMEN"/>
+		<Row Type="ABILITY_TULLY_GUARDSMEN" Tag="CLASS_TULLY_GUARDSMEN"/>
+		<Row Type="ABILITY_KNIGHT_OF_VALE" Tag="CLASS_KNIGHT_OF_VALE"/>
+		<Row Type="ABILITY_RED_CLOAKS" Tag="CLASS_RED_CLOAKS"/>
+		<Row Type="ABILITY_LYSENNE_PIRATE" Tag="CLASS_LYSENNE_PIRATE"/>
+		<Row Type="ABILITY_STORMSOLDIER" Tag="CLASS_STORMSOLDIER"/>
+		<Row Type="ABILITY_SUMMER_KNIGHT" Tag="CLASS_SUMMER_KNIGHT"/>
+		<Row Type="ABILITY_REDWYNE_SHIP" Tag="CLASS_REDWYNE_SHIP"/>
+		<Row Type="ABILITY_SAND_STEED" Tag="CLASS_SAND_STEED"/>
+		<Row Type="ABILITY_IRON_LONGSHIP" Tag="CLASS_IRON_LONGSHIP"/>
+		<Row Type="ABILITY_GOLDCLOACKS" Tag="CLASS_GOLDCLOACKS"/>
+		<Row Type="ABILITY_ROYAL_FLEET" Tag="CLASS_ROYAL_FLEET"/>
+		<Row Type="ABILITY_OTHER" Tag="CLASS_OTHER"/>
+		<Row Type="ABILITY_WIGHT" Tag="CLASS_WIGHT"/>
+		<Row Type="ABILITY_UNSULLIED" Tag="CLASS_UNSULLIED"/>
+		<Row Type="ABILITY_DOTHRAKI_RIDER" Tag="CLASS_DOTHRAKI_RIDER"/>
+		<Row Type="ABILITY_DRAGON" Tag="CLASS_DRAGON"/>
+		<Row Type="ABILITY_DREADFORT_PIKEMAN" Tag="CLASS_DREADFORT_PIKEMAN"/>
+		<Row Type="ABILITY_FREY_CROSBOWMAN" Tag="CLASS_FREY_CROSBOWMAN"/>
+		<Row Type="ABILITY_BROTHER_RANGER" Tag="CLASS_BROTHER_RANGER"/>
+		<Row Type="ABILITY_WILDING" Tag="CLASS_WILDING"/>
+		<Row Type="ABILITY_MAMMOTH" Tag="CLASS_MAMMOTH"/>
+		<Row Type="ABILITY_GIANT" Tag="CLASS_GIANT"/>
+		<Row Type="ABILITY_KHAL" Tag="CLASS_KHAL"/>
+		
+		<Row Type="ABILITY_TYROSH_GRANT" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_TYROSH_GRANT" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_TYROSH_GRANT" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_ASTAPOR_GRANT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_TOLOS_GRANT" Tag="CLASS_RANGED"/>
+
+		<Row Type="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+
+		<!--Ancient Civs -->
+		<Row Type="ABILITY_WATER_WIZARDS" Tag="CLASS_WATER_WIZARDS"/>
+		<Row Type="ABILITY_TORTOISE_SHIELD_WARRIOR" Tag="CLASS_TORTOISE_SHIELD_WARRIOR"/>
+		<Row Type="ABILITY_SARNORI_SCYTHED_CHARIOT" Tag="CLASS_SARNORI_SCYTHED_CHARIOT"/>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Row Type="ABILITY_GOLDEN_COMPANY" Tag="CLASS_GOLDEN_COMPANY"/>
+		<Row Type="ABILITY_ESSOS_WARELEPHANT" Tag="CLASS_ESSOS_WARELEPHANT"/>
+		<Row Type="ABILITY_CRANNOGMEN" Tag="CLASS_CRANNOGMEN"/>
+		<Row Type="ABILITY_WINTER_WOLVES" Tag="CLASS_WINTER_WOLVES"/>
+		<Row Type="ABILITY_NOTHERN_CLANS_WARRIOR" Tag="CLASS_NOTHERN_CLANS_WARRIOR"/>
+		<Row Type="ABILITY_PIKEMEN_OFTHE_ROCK" Tag="CLASS_PIKEMEN_OFTHE_ROCK"/>
+		<Row Type="ABILITY_SNAKE_FANGS" Tag="CLASS_SNAKE_FANGS"/>
+		<Row Type="ABILITY_DOTHRAKI_MOUNTED_ARCHER" Tag="CLASS_DOTHRAKI_MOUNTED_ARCHER"/>
+		<Row Type="ABILITY_RAVENS_TEETH" Tag="CLASS_RAVENS_TEETH"/>
+		<Row Type="ABILITY_WOOD_DANCER" Tag="CLASS_WOOD_DANCER"/>
+		<Row Type="ABILITY_OBSIDIAN_ARCHER" Tag="CLASS_OBSIDIAN_ARCHER"/>
+		<Row Type="ABILITY_SKINCHANGER" Tag="CLASS_SKINCHANGER"/>
+
+		<!-- End Adittional Units-->
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LOYAL_BANNERMEN" Name="LOC_ABILITY_LOYAL_BANNERMEN_NAME" Description="LOC_ABILITY_LOYAL_BANNERMEN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TULLY_GUARDSMEN" Name="LOC_ABILITY_TULLY_GUARDSMEN_NAME" Description="LOC_ABILITY_TULLY_GUARDSMEN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_KNIGHT_OF_VALE" Name="LOC_ABILITY_KNIGHT_OF_VALE_NAME" Description="LOC_ABILITY_KNIGHT_OF_VALE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RED_CLOAKS" Name="LOC_ABILITY_RED_CLOAKS_NAME" Description="LOC_ABILITY_RED_CLOAKS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LYSENNE_PIRATE" Name="LOC_ABILITY_LYSENNE_PIRATE_NAME" Description="LOC_ABILITY_LYSENNE_PIRATE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_STORMSOLDIER" Name="LOC_ABILITY_STORMSOLDIER_NAME" Description="LOC_ABILITY_STORMSOLDIER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SUMMER_KNIGHT" Name="LOC_ABILITY_SUMMER_KNIGHT_NAME" Description="LOC_ABILITY_SUMMER_KNIGHT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_REDWYNE_SHIP" Name="LOC_ABILITY_REDWYNE_SHIP_NAME" Description="LOC_ABILITY_REDWYNE_SHIP_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SAND_STEED" Name="LOC_ABILITY_SAND_STEED_NAME" Description="LOC_ABILITY_SAND_STEED_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_IRON_LONGSHIP" Name="LOC_ABILITY_IRON_LONGSHIP_NAME" Description="LOC_ABILITY_IRON_LONGSHIP_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GOLDCLOACKS" Name="LOC_ABILITY_GOLDCLOACKS_NAME" Description="LOC_ABILITY_GOLDCLOACKS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ROYAL_FLEET" Name="LOC_ABILITY_ROYAL_FLEET_NAME" Description="LOC_ABILITY_ROYAL_FLEET_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_OTHER" Name="LOC_ABILITY_OTHER_NAME" Description="LOC_ABILITY_OTHER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WIGHT" Name="LOC_ABILITY_WIGHT_NAME" Description="LOC_ABILITY_WIGHT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNSULLIED" Name="LOC_ABILITY_UNSULLIED_NAME" Description="LOC_ABILITY_UNSULLIED_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DOTHRAKI_RIDER" Name="LOC_ABILITY_DOTHRAKI_RIDER_NAME" Description="LOC_ABILITY_DOTHRAKI_RIDER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DRAGON" Name="LOC_ABILITY_DRAGON_NAME" Description="LOC_ABILITY_DRAGON_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DREADFORT_PIKEMAN" Name="LOC_ABILITY_DREADFORT_PIKEMAN_NAME" Description="LOC_ABILITY_DREADFORT_PIKEMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FREY_CROSBOWMAN" Name="LOC_ABILITY_FREY_CROSBOWMAN_NAME" Description="LOC_ABILITY_FREY_CROSBOWMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BROTHER_RANGER" Name="LOC_ABILITY_BROTHER_RANGER_NAME" Description="LOC_ABILITY_BROTHER_RANGER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WILDING" Name="LOC_ABILITY_WILDING_NAME" Description="LOC_ABILITY_WILDING_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MAMMOTH" Name="LOC_ABILITY_MAMMOTH_NAME" Description="LOC_ABILITY_MAMMOTH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GIANT" Name="LOC_ABILITY_GIANT_NAME" Description="LOC_ABILITY_GIANT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_KHAL" Name="LOC_ABILITY_KHAL_NAME" Description="LOC_ABILITY_KHAL_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TYROSH_GRANT" Name="LOC_ABILITY_TYROSH_GRANT_NAME" Description="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ASTAPOR_GRANT" Name="LOC_ABILITY_ASTAPOR_GRANT_NAME" Description="LOC_ABILITY_ASTAPOR_GRANT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TOLOS_GRANT" Name="LOC_ABILITY_TOLOS_GRANT_NAME" Description="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION" Inactive="true"/>
+
+		<Row UnitAbilityType="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Name="LOC_TRAIT_KHALASAR_NAME" Description="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION"  Inactive="true"/>>
+
+		<!--Ancient Civs -->
+		<Row UnitAbilityType="ABILITY_WATER_WIZARDS" Name="LOC_ABILITY_WATER_WIZARDS_NAME" Description="LOC_ABILITY_WATER_WIZARDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TORTOISE_SHIELD_WARRIOR" Name="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_NAME" Description="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SARNORI_SCYTHED_CHARIOT" Name="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_NAME" Description="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_DESCRIPTION"/>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Row UnitAbilityType="ABILITY_GOLDEN_COMPANY" Name="LOC_ABILITY_GOLDEN_COMPANY_NAME" Description="LOC_ABILITY_GOLDEN_COMPANY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ESSOS_WARELEPHANT" Name="LOC_ABILITY_ESSOS_WARELEPHANT_NAME" Description="LOC_ABILITY_ESSOS_WARELEPHANT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CRANNOGMEN" Name="LOC_ABILITY_CRANNOGMEN_NAME" Description="LOC_ABILITY_CRANNOGMEN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WINTER_WOLVES" Name="LOC_ABILITY_WINTER_WOLVES_NAME" Description="LOC_ABILITY_WINTER_WOLVES_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_NOTHERN_CLANS_WARRIOR" Name="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_NAME" Description="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PIKEMEN_OFTHE_ROCK" Name="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_NAME" Description="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SNAKE_FANGS" Name="LOC_ABILITY_SNAKE_FANGS_NAME" Description="LOC_ABILITY_SNAKE_FANGS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DOTHRAKI_MOUNTED_ARCHER" Name="LOC_ABILITY_DOTHRAKI_MOUNTED_ARCHER_NAME" Description="LOC_ABILITY_DOTHRAKI_MOUNTED_ARCHER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RAVENS_TEETH" Name="LOC_ABILITY_RAVENS_TEETH_NAME" Description="LOC_ABILITY_RAVENS_TEETH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WOOD_DANCER" Name="LOC_ABILITY_WOOD_DANCER_NAME" Description="LOC_ABILITY_WOOD_DANCER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_OBSIDIAN_ARCHER" Name="LOC_ABILITY_OBSIDIAN_ARCHER_NAME" Description="LOC_ABILITY_OBSIDIAN_ARCHER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SKINCHANGER" Name="LOC_ABILITY_SKINCHANGER_NAME" Description="LOC_ABILITY_SKINCHANGER_DESCRIPTION"/>
+
+		<!-- End Adittional Units-->
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LOYAL_BANNERMEN</UnitAbilityType>
+			<ModifierId>MYSOIAF_LOYAL_BANNERMEN_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TULLY_GUARDSMEN</UnitAbilityType>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KNIGHT_OF_VALE</UnitAbilityType>
+			<ModifierId>BALKAN_CAVALRY_COMBAT_HILLS</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KNIGHT_OF_VALE</UnitAbilityType>
+			<ModifierId>ALTITUDE_TRAINING_IGNORE_HILLS</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RED_CLOAKS</UnitAbilityType>
+			<ModifierId>BALKAN_CAVALRY_COMBAT_HILLS</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RED_CLOAKS</UnitAbilityType>
+			<ModifierId>ALTITUDE_TRAINING_IGNORE_HILLS</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LYSENNE_PIRATE</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STORMSOLDIER</UnitAbilityType>
+			<ModifierId>NAGAO_FOREST_SIGHT</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STORMSOLDIER</UnitAbilityType>
+			<ModifierId>MYSOIAF_UNIT_STRONG_WHEN_ATTACKING_STORMLANDER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SUMMER_KNIGHT</UnitAbilityType>
+			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_REDWYNE_SHIP</UnitAbilityType>
+			<ModifierId>MELEE_SHIP_HEAL_NEUTRAL</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAND_STEED</UnitAbilityType>
+			<ModifierId>MYSOIAF_DESERT_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_IRON_LONGSHIP</UnitAbilityType>
+			<ModifierId>LONGSHIP_FASTER_COAST</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_IRON_LONGSHIP</UnitAbilityType>
+			<ModifierId>CAPTURE_PRIZE_SHIPS</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GOLDCLOACKS</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ROYAL_FLEET</UnitAbilityType>
+			<ModifierId>MYSOIAF_ROYAL_FLEET_OCEAN_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_OTHER</UnitAbilityType>
+			<ModifierId>MYSOIAF_SNOW_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WIGHT</UnitAbilityType>
+			<ModifierId>MYSOIAF_WIGHT_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNSULLIED</UnitAbilityType>
+			<ModifierId>MYSOIAF_UNSULIED_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DOTHRAKI_RIDER</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DOTHRAKI_RIDER</UnitAbilityType>
+			<ModifierId>HEAL_AFTER_DEFEATING_UNIT</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON</UnitAbilityType>
+			<ModifierId>IGNOREZOC_IGNORE_ZOC</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON</UnitAbilityType>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON</UnitAbilityType>
+			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON</UnitAbilityType>
+			<ModifierId>ENABLE_WALL_ATTACK</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DREADFORT_PIKEMAN</UnitAbilityType>
+			<ModifierId>MYSOIAF_DREADFORT_PIKEMAN_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FREY_CROSBOWMAN</UnitAbilityType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BROTHER_RANGER</UnitAbilityType>
+			<ModifierId>MYSOIAF_N_WATCH_FOREST_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WILDING</UnitAbilityType>
+			<ModifierId>NAGAO_FOREST_SIGHT</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MAMMOTH</UnitAbilityType>
+			<ModifierId>VARU_NEGATIVE_COMBAT</ModifierId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GIANT</UnitAbilityType>
+			<ModifierId>MYSOIAF_GIANT_BONUS_VS_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TYROSH_GRANT</UnitAbilityType>
+			<ModifierId>MYSOIAF_TYROSH_COSTAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ASTAPOR_GRANT</UnitAbilityType>
+			<ModifierId>MYSOIAF_ASTAPOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TOLOS_GRANT</UnitAbilityType>
+			<ModifierId>MYSOIAF_TOLOS_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KHAL</UnitAbilityType>
+			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS</UnitAbilityType>
+			<ModifierId>MYSOAIF_LIGHT_CAVALRY_BONUS</ModifierId>
+		</Row>
+		<!--Ancient Civs -->
+		<Row>
+			<UnitAbilityType>ABILITY_WATER_WIZARDS</UnitAbilityType>
+			<ModifierId>MYSOIAF_FIGHT_NEXT_RIVER_PLUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TORTOISE_SHIELD_WARRIOR</UnitAbilityType>
+			<ModifierId>MYSOIAF_BONUS_DEFENSE_RANGED_ATTACKS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SARNORI_SCYTHED_CHARIOT</UnitAbilityType>
+			<ModifierId>MYSOIAF_UNIT_STRONG_WHEN_ATTACKING_STORMLANDER</ModifierId>
+		</Row>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Row>
+			<UnitAbilityType>ABILITY_GOLDEN_COMPANY</UnitAbilityType>
+			<ModifierId>MYSOIAF_LOYAL_BANNERMEN_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ESSOS_WARELEPHANT</UnitAbilityType>
+			<ModifierId>VARU_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CRANNOGMEN</UnitAbilityType>
+			<ModifierId>VULTURE_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WINTER_WOLVES</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WINTER_WOLVES</UnitAbilityType>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NOTHERN_CLANS_WARRIOR</UnitAbilityType>
+			<ModifierId>MYSOIAF_SNOW_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NOTHERN_CLANS_WARRIOR</UnitAbilityType>
+			<ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NOTHERN_CLANS_WARRIOR</UnitAbilityType>
+			<ModifierId>ALPINE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PIKEMEN_OFTHE_ROCK</UnitAbilityType>
+			<ModifierId>TOP_COVER_DEFENSE_BONUS_VS_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SNAKE_FANGS</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DOTHRAKI_MOUNTED_ARCHER</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RAVENS_TEETH</UnitAbilityType>
+			<ModifierId>GRAPE_SHOT_BONUS_VS_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WOOD_DANCER</UnitAbilityType>
+			<ModifierId>CHOKE_POINTS_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_OBSIDIAN_ARCHER</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SKINCHANGER</UnitAbilityType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<!-- End Adittional Units-->
+
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MYSOIAF_LOYAL_BANNERMEN_NO_REDUCTION_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_UNIT_STRONG_WHEN_ATTACKING_STORMLANDER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_DESERT_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_DESERT_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ROYAL_FLEET_OCEAN_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UBOAT_PLOT_IS_OCEAN_REQUIREMENTS</SubjectRequirementSetId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_SNOW_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_WIGHT_NO_REDUCTION_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_CAPTURE_COMBAT_UNITS_AS_WIGHTS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_UNSULIED_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_UNSULIED_PLOT_IS_UNSULIED_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_DREADFORT_PIKEMAN_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_DREADFORT_PIKEMAN_PLOT_IS_DREADFORT_PIKEMAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_N_WATCH_FOREST_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_FOREST_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_GIANT_BONUS_VS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>THRUST_REQUIREMENTS</SubjectRequirementSetId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TYROSH_COSTAL_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>REQUIREMENTS_UNIT_SEA_DOMAIN</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IN_SHALLOW_WATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ASTAPOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TOLOS_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOAIF_LIGHT_CAVALRY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!--Ancient Civs -->
+		<Row>
+			<ModifierId>MYSOIAF_FIGHT_NEXT_RIVER_PLUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_ADJACENTE_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_BONUS_DEFENSE_RANGED_ATTACKS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORTOISE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+
+		<!-- End Adittional Units-->
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYSOIAF_LOYAL_BANNERMEN_NO_REDUCTION_DAMAGE</ModifierId>
+			<Name>NoReduction</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_UNIT_STRONG_WHEN_ATTACKING_STORMLANDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_DESERT_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ROYAL_FLEET_OCEAN_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_SNOW_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_CAPTURE_COMBAT_UNITS_AS_WIGHTS</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_CAPTURE_COMBAT_UNITS_AS_WIGHTS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_UNSULIED_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_DREADFORT_PIKEMAN_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_N_WATCH_FOREST_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_GIANT_BONUS_VS_MELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TYROSH_COSTAL_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ASTAPOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TOLOS_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOAIF_LIGHT_CAVALRY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!--Ancient Civs -->
+		<Row>
+			<ModifierId>MYSOIAF_FIGHT_NEXT_RIVER_PLUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_BONUS_DEFENSE_RANGED_ATTACKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+
+		<!-- End Adittional Units-->
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="MYSOIAF_UNIT_STRONG_WHEN_ATTACKING_STORMLANDER" Context="Preview" Text="LOC_ABILITY_STORMSOLDIER_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_DESERT_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_SAND_STEED_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_ROYAL_FLEET_OCEAN_COMBAT" Context="Preview" Text="LOC_ABILITY_ROYAL_FLEET_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_SNOW_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_OTHER_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_UNSULIED_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_UNSULLIED_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_DREADFORT_PIKEMAN_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_DREADFORT_PIKEMAN_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_N_WATCH_FOREST_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_BROTHER_RANGER_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_GIANT_BONUS_VS_MELEE" Context="Preview" Text="LOC_ABILITY_GIANT_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_TYROSH_COSTAL_COMBAT" Context="Preview" Text="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_ASTAPOR_COMBAT" Context="Preview" Text="LOC_ABILITY_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_TOLOS_COMBAT" Context="Preview" Text="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION"/>
+		<Row ModifierId="MYSOAIF_LIGHT_CAVALRY_BONUS" Context="Preview" Text="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION"/>
+		<!--Ancient Civs -->
+		<Row ModifierId="MYSOIAF_FIGHT_NEXT_RIVER_PLUS" Context="Preview" Text="LOC_ABILITY_WATER_WIZARDS_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_BONUS_DEFENSE_RANGED_ATTACKS" Context="Preview" Text="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_DESCRIPTION"/>
+		<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+
+		<!-- End Adittional Units-->
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MYSOIAF_DESERT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_UNSULIED_PLOT_IS_UNSULIED_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_DREADFORT_PIKEMAN_PLOT_IS_DREADFORT_PIKEMAN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_FOREST_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!--Ancient Civs -->
+		<Row>
+			<RequirementSetId>MYSOIAF_ADJACENTE_TO_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- End Ancient Civs-->
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MYSOIAF_DESERT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_DESERT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA</RequirementId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_SNOW_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId><!-- Implemented In Vanilla-->
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_UNSULIED_PLOT_IS_UNSULIED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_UNSULIED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_DREADFORT_PIKEMAN_PLOT_IS_DREADFORT_PIKEMAN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_DREADFORT_PIKEMAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_FOREST_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId><!-- Implemented In Vanilla-->
+		</Row>
+		<!--Ancient Civs -->
+		<Row>
+			<RequirementSetId>MYSOIAF_ADJACENTE_TO_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<!-- End Ancient Civs-->
+
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_UNSULIED</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_DREADFORT_PIKEMAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_UNSULIED</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_UNSULLIED</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_UNIT_NEXT_TO_DREADFORT_PIKEMAN</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DREADFORT_PIKEMAN</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

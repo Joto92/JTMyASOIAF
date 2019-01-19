@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_ROBB_STARK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ROBB_STARK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBB_STARK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ROBB_STARK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDMURE_TULLY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_EDMURE_TULLY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDMURE_TULLY_BACKGROUND"/>
+			<m_ObjectName text="LEADER_EDMURE_TULLY_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PETYR_BAELISH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_PETYR_BAELISH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PETYR_BAELISH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_PETYR_BAELISH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TYWIN_LANNISTER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TYWIN_LANNISTER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TYWIN_LANNISTER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TYWIN_LANNISTER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_STANNIS_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_STANNIS_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_STANNIS_BARATHEON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_STANNIS_BARATHEON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_OLENNA_TYRELL_NEUTRAL"/>
+			<m_ObjectName text="LEADER_OLENNA_TYRELL_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_OLENNA_TYRELL_BACKGROUND"/>
+			<m_ObjectName text="LEADER_OLENNA_TYRELL_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DORAN_MARTELL_NEUTRAL"/>
+			<m_ObjectName text="LEADER_DORAN_MARTELL_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DORAN_MARTELL_BACKGROUND"/>
+			<m_ObjectName text="LEADER_DORAN_MARTELL_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BALON_GREYJOY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BALON_GREYJOY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BALON_GREYJOY_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BALON_GREYJOY_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOFFREY_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JOFFREY_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOFFREY_BARATHEON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_JOFFREY_BARATHEON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NIGHT_KING_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NIGHT_KING_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NIGHT_KING_BACKGROUND"/>
+			<m_ObjectName text="LEADER_NIGHT_KING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DAENERYS_TARGARYEN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_DAENERYS_TARGARYEN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DAENERYS_TARGARYEN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_DAENERYS_TARGARYEN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROOSE_BOLTON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ROOSE_BOLTON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROOSE_BOLTON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ROOSE_BOLTON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WALDER_FREY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_WALDER_FREY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WALDER_FREY_BACKGROUND"/>
+			<m_ObjectName text="LEADER_WALDER_FREY_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JEOR_MORMONT_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JEOR_MORMONT_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JEOR_MORMONT_BACKGROUND"/>
+			<m_ObjectName text="LEADER_JEOR_MORMONT_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANCE_RAYDER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MANCE_RAYDER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANCE_RAYDER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MANCE_RAYDER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBERT_BARATHEON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ROBERT_BARATHEON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_RENLY_BARATHEON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_RENLY_BARATHEON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KHAL_DROGO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KHAL_DROGO_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KHAL_DROGO_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KHAL_DROGO_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDDARD_STARK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_EDDARD_STARK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDDARD_STARK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_EDDARD_STARK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JON_SNOW_NEUTRAL"/>
+			<m_ObjectName text="LEADER_JON_SNOW_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JON_SNOW_BACKGROUND"/>
+			<m_ObjectName text="LEADER_JON_SNOW_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EURON_GREYJOY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_EURON_GREYJOY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LYSA_ARRYN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LYSA_ARRYN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_AEGONVI_TARGARYEN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_AEGONVI_TARGARYEN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MYSOIAF_LOADING_BACKGROUND"/>
+			<m_ObjectName text="MYSOIAF_LOADING_BACKGROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

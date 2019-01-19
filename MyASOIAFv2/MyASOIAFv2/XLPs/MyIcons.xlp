@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="MyIcons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units256"/>
+			<m_ObjectName text="SOIAFFOW_Units256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units80"/>
+			<m_ObjectName text="SOIAFFOW_Units80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units50"/>
+			<m_ObjectName text="SOIAFFOW_Units50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units38"/>
+			<m_ObjectName text="SOIAFFOW_Units38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units32"/>
+			<m_ObjectName text="SOIAFFOW_Units32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFFOW_Units22"/>
+			<m_ObjectName text="SOIAFFOW_Units22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units256"/>
+			<m_ObjectName text="SOIAF_Units256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units80"/>
+			<m_ObjectName text="SOIAF_Units80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units50"/>
+			<m_ObjectName text="SOIAF_Units50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units38"/>
+			<m_ObjectName text="SOIAF_Units38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units32"/>
+			<m_ObjectName text="SOIAF_Units32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAF_Units22"/>
+			<m_ObjectName text="SOIAF_Units22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits200"/>
+			<m_ObjectName text="SOIAFPotraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits256"/>
+			<m_ObjectName text="SOIAFPotraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits95"/>
+			<m_ObjectName text="SOIAFPotraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits70"/>
+			<m_ObjectName text="SOIAFPotraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits50"/>
+			<m_ObjectName text="SOIAFPotraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFPotraits38"/>
+			<m_ObjectName text="SOIAFPotraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFReligionIcon_270"/>
+			<m_ObjectName text="SOIAFReligionIcon_270"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFReligionIcon_100"/>
+			<m_ObjectName text="SOIAFReligionIcon_100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFReligionIcon_50"/>
+			<m_ObjectName text="SOIAFReligionIcon_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="SOIAFReligionIcon_22"/>
+			<m_ObjectName text="SOIAFReligionIcon_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags256"/>
+			<m_ObjectName text="MySOIAFFlags256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags80"/>
+			<m_ObjectName text="MySOIAFFlags80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags64"/>
+			<m_ObjectName text="MySOIAFFlags64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags50"/>
+			<m_ObjectName text="MySOIAFFlags50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags48"/>
+			<m_ObjectName text="MySOIAFFlags48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags45"/>
+			<m_ObjectName text="MySOIAFFlags45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags44"/>
+			<m_ObjectName text="MySOIAFFlags44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags36"/>
+			<m_ObjectName text="MySOIAFFlags36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags32"/>
+			<m_ObjectName text="MySOIAFFlags32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags30"/>
+			<m_ObjectName text="MySOIAFFlags30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFFlags22"/>
+			<m_ObjectName text="MySOIAFFlags22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders256"/>
+			<m_ObjectName text="MySOIAFLeaders256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders80"/>
+			<m_ObjectName text="MySOIAFLeaders80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders64"/>
+			<m_ObjectName text="MySOIAFLeaders64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders55"/>
+			<m_ObjectName text="MySOIAFLeaders55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders50"/>
+			<m_ObjectName text="MySOIAFLeaders50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders48"/>
+			<m_ObjectName text="MySOIAFLeaders48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders45"/>
+			<m_ObjectName text="MySOIAFLeaders45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFLeaders32"/>
+			<m_ObjectName text="MySOIAFLeaders32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings256"/>
+			<m_ObjectName text="MySOIAFBuildings256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings128"/>
+			<m_ObjectName text="MySOIAFBuildings128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings80"/>
+			<m_ObjectName text="MySOIAFBuildings80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings50"/>
+			<m_ObjectName text="MySOIAFBuildings50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings38"/>
+			<m_ObjectName text="MySOIAFBuildings38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MySOIAFBuildings32"/>
+			<m_ObjectName text="MySOIAFBuildings32"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- COMMUN -->
+		<Row Tag="LOC_DISTRICT_GRASS_MOUNTAIN_GOLD_MYSOIAF" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold for Grassland Mountain</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GRASS_MOUNTAIN_FAITH_MYSOIAF" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith for Grassland Mountain</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GRASS_MOUNTAIN_CULTURE_MYSOIAF" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture for Grassland Mountain</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GAME_OF_THRONES_PLAYER_NAME" Language="en_US">
+			<Text>Game of Thrones Player</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_GAME_OF_THRONES_PLAYER_DESCRIPTION" Language="en_US">
+			<Text>Your Trade Routes to an Ally's city provide +2 Gold for both cities.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FOREST_GOLD_MYSOIAF" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold for Forest</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FOREST_CULTURE_MYSOIAF" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture for Forest</Text>
+		</Row>
+		<Row Tag="LOC_CONTINENT_WESTEROS" Language="en_US">
+			<Text>Westeros</Text>
+		</Row>
+		<Row Tag="LOC_CONTINENT_SUMMER_ISLANDS" Language="en_US">
+			<Text>Summer Islands</Text>
+		</Row>
+		<Row Tag="LOC_CONTINENT_NARROW_SEA" Language="en_US">
+			<Text>Narrow Sea</Text>
+		</Row>
+		<!-- THE NORTH | STARK	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ROBB_STARK" Language="en_US">
+			<Text>Robb is his father's son, with a keen sense of honor and justice. He shares his father's devotion to honor and is frequently accompanied by his direwolf, Grey Wind, whom he always takes with him into battle.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LOYAL_BANNERMEN_NAME" Language="en_US">
+			<Text>North Remembers</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LOYAL_BANNERMEN_DESCRIPTION" Language="en_US">
+			<Text>This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINTERFELL" Language="en_US">
+			<Text>Winterfell</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_HARBOUR" Language="en_US">
+			<Text>White Harbour</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEEPWOOD_MOTTLE" Language="en_US">
+			<Text>Deepwood Motte</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TORHENN_SQUARE" Language="en_US">
+			<Text>Torhenn's Square</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BARROWTON" Language="en_US">
+			<Text>Barrowton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAST_HEARTH" Language="en_US">
+			<Text>Last Hearth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEAR_ISLAND" Language="en_US">
+			<Text>Bear Island</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CERWYN" Language="en_US">
+			<Text>Cerwyn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOAT_CAILIN" Language="en_US">
+			<Text>Moat Cailin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_CASTLE" Language="en_US">
+			<Text>Old Castle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DREADFORT" Language="en_US">
+			<Text>The Dreadfort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARHOLD" Language="en_US">
+			<Text>Karhold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAMSGATE" Language="en_US">
+			<Text>Ramsgate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WIDOW_WATCH" Language="en_US">
+			<Text>Widow's Watch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREYWATER_WATCH" Language="en_US">
+			<Text>Greywater Watch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FLINT_FINGER" Language="en_US">
+			<Text>Flint's Finger</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RILLS" Language="en_US">
+			<Text>The Rills</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HORNWOOD" Language="en_US">
+			<Text>Hornwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEY_SHORE" Language="en_US">
+			<Text>The Stoney Shore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKAGOS" Language="en_US">
+			<Text>Skagos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEA_DRAGON_POINT" Language="en_US">
+			<Text>Sea Dragon Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNTAIN_CLANS" Language="en_US">
+			<Text>Mountain Clans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BREAKSTONE_HILL" Language="en_US">
+			<Text>Breakstone Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOLDGRASS" Language="en_US">
+			<Text>Goldgrass</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKPOOL" Language="en_US">
+			<Text>Blackpool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGHPOINT" Language="en_US">
+			<Text>Highpoint</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONSMITH" Language="en_US">
+			<Text>Ironsmith</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONG_LAKE" Language="en_US">
+			<Text>Long Lake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOOLFIELD" Language="en_US">
+			<Text>Woolfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KINGSHOUSE" Language="en_US">
+			<Text>Kingshouse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRIFTWOOD_HALL" Language="en_US">
+			<Text>Driftwood Hall</Text>
+		</Row>
+		<!-- END OF THE NORTH | STARK -->
+
+		<!-- THE RIVERLANDS | TULLY -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_EDMURE_TULLY" Language="en_US">
+			<Text>Ser Edmure Tully is the son of Lord Hoster Tully and Lady Minisa Whent, and the heir to House Tully of Riverrun, the liege lords of the riverlands. He is the younger brother of Catelyn and Lysa. As a youth, he was known as hot-headed but good-hearted. </Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TULLY_GUARDSMEN_NAME" Language="en_US">
+			<Text>Riverlander</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TULLY_GUARDSMEN_DESCRIPTION" Language="en_US">
+			<Text>Does not have any movement cross cost when crossing rivers.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIVERRUN" Language="en_US">
+			<Text>Riverrun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEAGARD" Language="en_US">
+			<Text>Seagard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARRENHAL" Language="en_US">
+			<Text>Harrenhal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DARRY" Language="en_US">
+			<Text>Darry</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALTPANS" Language="en_US">
+			<Text>Saltpans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAIDENPOOL" Language="en_US">
+			<Text>Maindenpool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAVENTREE_HALL" Language="en_US">
+			<Text>Raventree Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONE_HEDGE" Language="en_US">
+			<Text>Stone Hedge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARROW_TOWN" Language="en_US">
+			<Text>Harroway's Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FAIRMARKET" Language="en_US">
+			<Text>Fairmarket</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEY_SEPT" Language="en_US">
+			<Text>Stoney Sept</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PINKMAIDEN" Language="en_US">
+			<Text>Pinkmaiden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TWINS" Language="en_US">
+			<Text>The Twins</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ACORN_HALL" Language="en_US">
+			<Text>Acron Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ATRANA" Language="en_US">
+			<Text>Atrana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISTY_ISLE" Language="en_US">
+			<Text>Misty Isle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLEWOOD" Language="en_US">
+			<Text>Castlewood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WAYFARER_REST" Language="en_US">
+			<Text>Wayfarer's Rest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WILLOW_WOOD" Language="en_US">
+			<Text>Willow Wood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HONEYTREE" Language="en_US">
+			<Text>Honeytree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUCKLE" Language="en_US">
+			<Text>Buckle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHERRER" Language="en_US">
+			<Text>Sherrer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MIRE" Language="en_US">
+			<Text>Hag’s Mire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEVENSTREAMS" Language="en_US">
+			<Text>Sevenstreams</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAMSFORD" Language="en_US">
+			<Text>Ramsford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ERENFORD" Language="en_US">
+			<Text>Erenford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITEWALLS" Language="en_US">
+			<Text>Whitewalls</Text>
+		</Row>
+		<!--destroyed-->
+		<Row Tag="LOC_CITY_NAME_OLDSTONES" Language="en_US">
+			<Text>Oldstones</Text>
+			<!--destroyed-->
+		</Row>
+		<!-- END OF THE RIVERLANDS | TULLY -->
+		<!-- THE VALE | ARRYN/PETYR -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_PETYR_BAELISH" Language="en_US">
+			<Text>Lysa convinced her husband to give Petyr control of customs at Gulltown around 289 AC, where he increased incomes tenfold, displaying his skill with finances.Jon Arryn, Hand of the King for King Robert I Baratheon, eventually brought Petyr to court in King's Landing, and within three years, he was named master of coin and appointed to the small council. Lysa after the wedding with Petyr names him the Lord Protector of the Vale.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KNIGHT_OF_VALE_NAME" Language="en_US">
+			<Text>Knight of the Vale</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KNIGHT_OF_VALE_DESCRIPTION" Language="en_US">
+			<Text> +1 Combat Strength when fighting in Hills and can move over Hills faster.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYRIE" Language="en_US">
+			<Text>The Eyrie</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GULTOWN" Language="en_US">
+			<Text>Gultown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUNESTONE" Language="en_US">
+			<Text>Runestone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GATE_MOON" Language="en_US">
+			<Text>Gate of the Moon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEART_HOME" Language="en_US">
+			<Text>Heart's Home</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONOAKS" Language="en_US">
+			<Text>Ironoaks</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_REDFORT" Language="en_US">
+			<Text>Redfort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_ANCHOR" Language="en_US">
+			<Text>Old Anchor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NINESTARS" Language="en_US">
+			<Text>Ninestars</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONGBOW" Language="en_US">
+			<Text>Longbow Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SNAKEWOODS" Language="en_US">
+			<Text>Snakewoods</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLDWATER" Language="en_US">
+			<Text>Coldwater</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREY_GLEN" Language="en_US">
+			<Text>Grey Glen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STRONGSONG" Language="en_US">
+			<Text>Strongsong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WICKENDEN" Language="en_US">
+			<Text>Wickenden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LITTLESISTER" Language="en_US">
+			<Text>Littlesister</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONGSISTER" Language="en_US">
+			<Text>Longsister</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWEETSISTER" Language="en_US">
+			<Text>Sweetsister</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOODY_GATE" Language="en_US">
+			<Text>The Bloody Gate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FINGERS" Language="en_US">
+			<Text>The Fingers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAPS" Language="en_US">
+			<Text>The Paps</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PEBBLE" Language="en_US">
+			<Text>Pebble</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEWKEEP" Language="en_US">
+			<Text>Newkeep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WITCH_ISLE" Language="en_US">
+			<Text>Witch Isle</Text>
+		</Row>
+		<!-- END OF VALE | ARRYN/PETYR -->
+		<!-- THE WESTERLANDS | LANNISTER -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER" Language="en_US">
+			<Text>Tywin Lannister is Lord of Casterly Rock, Shield of Lannisport, and Warden of the West. The head of House Lannister, Tywin is one of the most powerful lords in Westeros, and is the father of Jaime, Cersei, and Tyrion Lannister.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RED_CLOAKS_NAME" Language="en_US">
+			<Text>Red Cloaks</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RED_CLOAKS_DESCRIPTION" Language="en_US">
+			<Text> +1 Combat Strength when fighting in Hills and can move over Hills faster.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTERLY_ROCK" Language="en_US">
+			<Text>Casterly Rock</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LANNISPORT" Language="en_US">
+			<Text>Lannisport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRAKEHALL" Language="en_US">
+			<Text>Crakehall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHEMARK" Language="en_US">
+			<Text>Ashemark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOLDEN_TOOTH" Language="en_US">
+			<Text>The Golden Tooth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CORNFIELD" Language="en_US">
+			<Text>Cornfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_CRAG" Language="en_US">
+			<Text>The Crag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BANEFORT" Language="en_US">
+			<Text>Banefort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SILVERHILL" Language="en_US">
+			<Text>Silverhill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEEP_DEN" Language="en_US">
+			<Text>Deep Den</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HORNVALE" Language="en_US">
+			<Text>Hornvale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SARSFIELD" Language="en_US">
+			<Text>Sarsfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FAIRCASTLE" Language="en_US">
+			<Text>Faircastle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OXCROSS" Language="en_US">
+			<Text>Oxcross</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FEASTFIRES" Language="en_US">
+			<Text>Feastfires</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAYCE" Language="en_US">
+			<Text>Kayce</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIVERSPRING" Language="en_US">
+			<Text>Riverspring</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYNDHALL" Language="en_US">
+			<Text>Wyndhall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREENFIELD" Language="en_US">
+			<Text>Greenfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLEGANE_KEEP" Language="en_US">
+			<Text>Clegane Keep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTAMERE" Language="en_US">
+			<Text>Castamere</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARBECK_HALL" Language="en_US">
+			<Text>Tarbeck Hall</Text>
+		</Row>
+		<!-- END OF THE WESTERLANDS | LANNISTER -->
+		<!-- COMMUN TRULY BARATHEONS -->
+		<Row Tag="LOC_ABILITY_STORMSOLDIER_NAME" Language="en_US">
+			<Text>Stormlanders</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_STORMSOLDIER_DESCRIPTION" Language="en_US">
+			<Text> Can see through features and +4 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+		<!-- BARATHEON DRAGONSTONE -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_STANNIS_BARATHEON" Language="en_US">
+			<Text>Stannis Baratheon is the head of House Baratheon of Dragonstone and the Lord of Dragonstone. He is the elder of King Robert I Baratheon's two younger brothers, the youngest being Lord Renly Baratheon. Stannis also serves on Robert's small council as master of ships. His parents were Steffon Baratheon, Lord of Storm's End, and Lady Cassana Estermont.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LYSENNE_PIRATE_NAME" Language="en_US">
+			<Text>Lysenne Pirates</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LYSENNE_PIRATE_DESCRIPTION" Language="en_US">
+			<Text> Can move after attacking.</Text>
+		</Row>
+		<!-- END OF BARATHEON DRAGONSTONE -->
+		<!--Cities Crownlands -->
+		<Row Tag="LOC_CITY_NAME_DRAGONSTONE" Language="en_US">
+			<Text>Dragonstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRIFTMARK" Language="en_US">
+			<Text>Driftmark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHARP_POINT" Language="en_US">
+			<Text>Sharp Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLAW_ISLE" Language="en_US">
+			<Text>Claw Isle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWEETPORT_SOUND" Language="en_US">
+			<Text>Sweetport Sound</Text>
+		</Row>
+		<!-- Cities Stormland -->
+		<Row Tag="LOC_CITY_NAME_STORM_END" Language="en_US">
+			<Text>Storm's End</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEDANCE" Language="en_US">
+			<Text>Stonedance</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FELWOOD" Language="en_US">
+			<Text>Felwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRONZEGATE" Language="en_US">
+			<Text>Bronzegate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAYSTACK_HALL" Language="en_US">
+			<Text>Haystack Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARCHMENTS" Language="en_US">
+			<Text>Parchments</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EVENFALL_HALL" Language="en_US">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRIFFIN_ROOST" Language="en_US">
+			<Text>Griffin's Roost</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISTWOOD" Language="en_US">
+			<Text>Mistwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WEEPING_TOWN" Language="en_US">
+			<Text>Weeping Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREENSTONE" Language="en_US">
+			<Text>Greenstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAIN_HOUSE" Language="en_US">
+			<Text>Rain House</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROW_NEST" Language="en_US">
+			<Text>Crow's Nest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEHELM" Language="en_US">
+			<Text>Stonehelm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRANDVIEW" Language="en_US">
+			<Text>Grandview</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKHAVEN" Language="en_US">
+			<Text>Blackhaven</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARVEST_HALL" Language="en_US">
+			<Text>Harvest Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NIGHTSONG" Language="en_US">
+			<Text>Nightsong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FAWTON" Language="en_US">
+			<Text>Fawton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PODDINGFIELD" Language="en_US">
+			<Text>Poddingfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALLOWSGREY" Language="en_US">
+			<Text>Gallowsgrey</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BROAD_ARCH" Language="en_US">
+			<Text>Broad Arch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AMBERLY" Language="en_US">
+			<Text>Amberly</Text>
+		</Row>
+		<!-- THE REACH | TYRELL -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_OLENNA_TYRELL" Language="en_US">
+			<Text>Olenna Tyrell, also known as Olenna Redwyne, is the widow of Lord Luthor Tyrell and the mother of Mace Tyrell, Lord of Highgarden. Born into House Redwyne of the Arbor, she is commonly known as the Queen of Thorns because of her sharp tongue.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUMMER_KNIGHT_NAME" Language="en_US">
+			<Text>Summer Knight</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SUMMER_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text> +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDWYNE_SHIP_NAME" Language="en_US">
+			<Text>Redwyne Ship</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_REDWYNE_SHIP_DESCRIPTION" Language="en_US">
+			<Text>Can heal in neutral territory.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGHGARDEN" Language="en_US">
+			<Text>Highgarden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLDTOWN" Language="en_US">
+			<Text>Oldtown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARBOR" Language="en_US">
+			<Text>The Arbor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BITTERBRIDGE" Language="en_US">
+			<Text>Bitterbridge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRASSY_VALE" Language="en_US">
+			<Text>Grassy Vale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONG_TABLE" Language="en_US">
+			<Text>Long Table</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HORN_HILL" Language="en_US">
+			<Text>Horn Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CIDER_HALL" Language="en_US">
+			<Text>Cider Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOLDENGROVE" Language="en_US">
+			<Text>Goldengrove</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_LAKE" Language="en_US">
+			<Text>Red Lake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_OAK" Language="en_US">
+			<Text>Old Oak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HONEYHOLT" Language="en_US">
+			<Text>Honeyholt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIGHTWATER_KEEP" Language="en_US">
+			<Text>Brightwater Keep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TUMBLETON" Language="en_US">
+			<Text>Tumbleton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUN_HOUSE" Language="en_US">
+			<Text>Sun House</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKCROWN" Language="en_US">
+			<Text>Blackcrown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BANDALLON" Language="en_US">
+			<Text>Bandallon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHFORD" Language="en_US">
+			<Text>Ashford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREENSHIELD" Language="en_US">
+			<Text>Greenshield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREYSHIELD" Language="en_US">
+			<Text>Greyshield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OAKENSHIELD" Language="en_US">
+			<Text>Oakenshield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOUTHSHIELD" Language="en_US">
+			<Text>Southshield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THREE_TOWERS" Language="en_US">
+			<Text>Three Towers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEW_BARREL" Language="en_US">
+			<Text>New Barrel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IVY_HALL" Language="en_US">
+			<Text>Ivy Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UPLANDS" Language="en_US">
+			<Text>Uplands</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_APPLETON" Language="en_US">
+			<Text>Appleton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAMMERHAL" Language="en_US">
+			<Text>Hammerhal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HOLYHALL" Language="en_US">
+			<Text>Holyhall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DUNSTONBURY" Language="en_US">
+			<Text>Dunstonbury</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STANDFAST" Language="en_US">
+			<Text>Standfast</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARPIKE" Language="en_US">
+			<Text>Starpike</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RING" Language="en_US">
+			<Text>Ring</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SMITHYTON" Language="en_US">
+			<Text>Smithyton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DARKDELL" Language="en_US">
+			<Text>Darkdell</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COLDMOAT" Language="en_US">
+			<Text>Coldmoat</Text>
+		</Row>
+		<!-- END OF THE REACH | TYRELL -->
+		<!-- DORNE | MARTELL -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL" Language="en_US">
+			<Text>Prince Doran Nymeros Martell is the head of House Martell, the Prince of Dorne, and the Lord of Sunspear. Married to Lady Mellario, of the Free City of Norvos, he has three children: Arianne, Quentyn, and Trystane. While his bannermen might consider him weak, Doran has been focused for years on getting revenge for the murder of his sister, Elia, and her two young children during the Sack of King's Landing in 283 AC.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAND_STEED_NAME" Language="en_US">
+			<Text>Sand Steed</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAND_STEED_DESCRIPTION" Language="en_US">
+			<Text> +5 [ICON_Strength] Combat Strength when fighting on Desert.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUNSPEAR" Language="en_US">
+			<Text>Sunspear</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PLANKY_TOWN" Language="en_US">
+			<Text>Planky Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YRONWOOD" Language="en_US">
+			<Text>Yronwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKMONT" Language="en_US">
+			<Text>Blackmont</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARFALL" Language="en_US">
+			<Text>Starfall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KINGSGRAVE" Language="en_US">
+			<Text>Kingsgrave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYL" Language="en_US">
+			<Text>Wyl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SANDSTONE" Language="en_US">
+			<Text>Sandstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELLHOLT" Language="en_US">
+			<Text>Hellholt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TOR" Language="en_US">
+			<Text>The Tor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAITH" Language="en_US">
+			<Text>Vaith</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GODSGRACE" Language="en_US">
+			<Text>Godsgrace</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALTSHORE" Language="en_US">
+			<Text>Saltshore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LEMONWOOD" Language="en_US">
+			<Text>Lemonwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GHOST_HILL" Language="en_US">
+			<Text>Ghost Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPOTTSWOOD" Language="en_US">
+			<Text>Spottswood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKYREACH" Language="en_US">
+			<Text>Skyreach</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGH_HERMITAGE" Language="en_US">
+			<Text>High Hermitage</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELLGATE_HALL" Language="en_US">
+			<Text>Hellgate Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WATER_GARDENS" Language="en_US">
+			<Text>Water Gardens</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VULTURE_ROOST" Language="en_US">
+			<Text>Vulture's Roost</Text>
+		</Row>
+		<!-- END OF DORNE | MARTELL -->
+		<!-- THE IRON ISLANDS | GREYJOY -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_BALON_GREYJOY" Language="en_US">
+			<Text>Balon Greyjoy is the head of House Greyjoy of Pyke and is the Lord of the Iron Islands. The captain of the Great Kraken,he is a follower of the Old Way of the ironborn and desires to bring them back to prominence. In 289 AC he proclaimed their independence from the Iron Throne, but Greyjoy's Rebellion was defeated by King Robert I Baratheon's forces.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_IRON_LONGSHIP_NAME" Language="en_US">
+			<Text>Iron Fleet</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_IRON_LONGSHIP_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement while in coastal waters and perform costal raids. Can capture defeated enemy naval vessels.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PYKE" Language="en_US">
+			<Text>Pyke</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LORDSPORT" Language="en_US">
+			<Text>Lordsport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEN_TOWERS" Language="en_US">
+			<Text>Ten Towers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLMARK" Language="en_US">
+			<Text>Volmark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ORKMONT" Language="en_US">
+			<Text>Orkmont</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKTYDE" Language="en_US">
+			<Text>Blacktyde</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OLD_WYK" Language="en_US">
+			<Text>Old Wyk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREAT_WYK" Language="en_US">
+			<Text>Great Wyk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALTCLIFFE" Language="en_US">
+			<Text>Saltcliffe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PEBBLETON" Language="en_US">
+			<Text>Pebbleton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAMMERHORN" Language="en_US">
+			<Text>Hammerhorn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHATTERSTONE" Language="en_US">
+			<Text>Shatterstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEALSKIN_POINT" Language="en_US">
+			<Text>Sealskin Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONELY_LIGHT" Language="en_US">
+			<Text>Lonely Light</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CORPSE_LAKE" Language="en_US">
+			<Text>Corspe Lake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROW_SPIKE" Language="en_US">
+			<Text>Crow Spike</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOWNDELVING" Language="en_US">
+			<Text>Downdelving</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREY_GARDEN" Language="en_US">
+			<Text>Grey Garden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRON_HOLT" Language="en_US">
+			<Text>Iron Holt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARLAW_HALL" Language="en_US">
+			<Text>Harlaw Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARRIDAN_HILL" Language="en_US">
+			<Text>Harridan Hill</Text>
+		</Row>
+		<!-- END OF IRON ISLAND | GREYJOY -->
+		<!-- THE BARATHEON KINGS LANDING -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JOFFREY_BARATHEON" Language="en_US">
+			<Text>Joffrey Baratheon is known to the Seven Kingdoms as the eldest son and heir of King Robert I Baratheon and Queen Cersei Lannister. A member of House Baratheon of King's Landing, his siblings are Princess Myrcella and Prince Tommen.Joffrey grew up as a spoiled and indulgent child with a cruel streak within him.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GOLDCLOACKS_NAME" Language="en_US">
+			<Text>City Guards of Kings Landing</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GOLDCLOACKS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in your territory or adjacent to your territory.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ROYAL_FLEET_NAME" Language="en_US">
+			<Text>Royal Fleet</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ROYAL_FLEET_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in Ocean combat.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KINGS_LANDING" Language="en_US">
+			<Text>King's Landing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DUSKENDALE" Language="en_US">
+			<Text>Duskendale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROSBY" Language="en_US">
+			<Text>Rosby</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANTLERS" Language="en_US">
+			<Text>Antlers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BROWNHOLLOW" Language="en_US">
+			<Text>Brownhollow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAYFORD" Language="en_US">
+			<Text>Hayford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOKEWORTH" Language="en_US">
+			<Text>Stokeworth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOW_HORN" Language="en_US">
+			<Text>Sow's Horn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROOK_REST" Language="en_US">
+			<Text>Rook's Rest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DYRE_DEN" Language="en_US">
+			<Text>Dyre Den</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHISPERS" Language="en_US">
+			<Text>Whispers</Text>
+		</Row>
+		<!-- END OF BARATHEON KINGS LANDING -->
+		<!-- THE WHITE WALKERS -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_NIGHT_KING" Language="en_US">
+			<Text>The Night King  is the leader of the White Walkers. According to the legend, the Other first appear 8.000 ago before the Aegon Conquest, in a winter that last one generation and a period of darkness known as the Long Night. Eventually, thet were defeated by the Night's Watch in the battle for the Dawn. The wall may have been raised to defend against them. </Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OTHER_NAME" Language="en_US">
+			<Text>Frozen Blood</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OTHER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in the Snow or Tundra.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WIGHT_NAME" Language="en_US">
+			<Text>White Dead</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WIGHT_DESCRIPTION" Language="en_US">
+			<Text>Does not suffer combat penalties when damaged (because they are dead).</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LANDS_ALWAYS_WINTER" Language="en_US">
+			<Text>Land's of Always Winter</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORTH_FROZEN_SHORE" Language="en_US">
+			<Text>Northen Frozen Shore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORTH_FROSTFANGS" Language="en_US">
+			<Text>North Frostfangs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EAST_ALWAYS_WINTER" Language="en_US">
+			<Text>East Always Winter</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WEST_ALWAYS_WINTER" Language="en_US">
+			<Text>West Always Winter</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICE_RIVERS" Language="en_US">
+			<Text>Ice Rivers</Text>
+		</Row>
+		<!-- END OF WHITE WALKERS -->
+		<!-- DANY TARGARYEN -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_DAENERYS_TARGARYEN" Language="en_US">
+			<Text>Daenerys is the daughter of King Aerys II Targaryen, the last Targaryen king to actually sit in the Iron Throne and rule the Seven Kingdoms, and his sister-wife Rhaella. She was conceived during the last month of the War of the Usurper. Shortly after her conception, her mother and brother Viserys were sent to Dragonstone for safekeeping. Within weeks her father was dead and Robert Baratheon had claimed the throne with the support of most of the nobility.  </Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNSULLIED_NAME" Language="en_US">
+			<Text>Unsullied</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNSULLIED_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength if there is at least one Unsullied adjacent.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DOTHRAKI_RIDER_NAME" Language="en_US">
+			<Text>Dothrakis</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DOTHRAKI_RIDER_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking and heal after defeating an enemy.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DRAGON_NAME" Language="en_US">
+			<Text>Flying Monster</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DRAGON_DESCRIPTION" Language="en_US">
+			<Text>Ignores Zona Control, terrains costs and can Attack Walls.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEEREEN" Language="en_US">
+			<Text>Meereen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASTAPOR" Language="en_US">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUNKAI" Language="en_US">
+			<Text>Yunkai</Text>
+		</Row>
+		<!-- END OF DANY TARGARYEN -->
+		<!-- THE BOLTON -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ROOSE_BOLTON" Language="en_US">
+			<Text>Roose Bolton is the Lord of the Dreadfort and head of House Bolton. He receives regular leechings, which he believes to improve his health, prompting some to call him the Leech Lord. Though mild-mannered, Roose is cold, patient, calculating, and capable of great cruelty. He possesses a cold cunning, a skill for strategy, and a calculating nature.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DREADFORT_PIKEMAN_NAME" Language="en_US">
+			<Text>Dreadfort Pikeman</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DREADFORT_PIKEMAN_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength if there is at least one Dreadfort Pikeman adjacent.</Text>
+		</Row>
+		<!-- END OF BOLTON -->
+		<!-- THE FREY -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_WALDER_FREY" Language="en_US">
+			<Text>Walder Frey is the Lord of the Crossing and head of House Frey. Though almost ninety years old and infirm, he still maintains an active hand in the running of his house.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_FREY_CROSBOWMAN_NAME" Language="en_US">
+			<Text>Bread and Salt</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_FREY_CROSBOWMAN_DESCRIPTION" Language="en_US">
+			<Text>Half of the attack of the Crossbowman, but can attack twice per turn.</Text>
+		</Row>
+		<!-- END OF FREY -->
+		<!-- THE NIGHT'S WATCH -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JEOR_MORMONT" Language="en_US">
+			<Text>Jeor Mormont, also known as the Old Bear, is the 997th Lord Commander of the Night's Watch, which he commands from their headquarters, Castle Black. Jeor, previously head of House Mormont and Lord of Bear Island, abdicated his seat in favor of his son, Ser Jorah Mormont, and joined the Night's Watch. He rapidly rose through the ranks and was elected Lord Commander in 288 AC.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BROTHER_RANGER_NAME" Language="en_US">
+			<Text>Rangers</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BROTHER_RANGER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in Forests.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_BLACK" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EASTWATCH" Language="en_US">
+			<Text>Eastwatch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHADOW_TOWER" Language="en_US">
+			<Text>The Shadow Tower</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOLE_TOWN" Language="en_US">
+			<Text>Mole's Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WESTWATCH_BY_BRIDGE" Language="en_US">
+			<Text>Westwatch-by-the-Bridge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SENTINEL_STAND" Language="en_US">
+			<Text>Sentinel Stand</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREYGUARD" Language="en_US">
+			<Text>Greyguard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEDOOR" Language="en_US">
+			<Text>Stonedoor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HOARFROST_HILL" Language="en_US">
+			<Text>Hoarfrost Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICEMARK" Language="en_US">
+			<Text>Icemark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NIGHTFORT" Language="en_US">
+			<Text>Nightfort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEEP_LAKE" Language="en_US">
+			<Text>Deep Lake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUEENSGATE" Language="en_US">
+			<Text>Queensgate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_OAKENSHIELD" Language="en_US">
+			<Text>Castle Oakenshield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOODSWATCH_BY_POOL" Language="en_US">
+			<Text>Woodswatch-by-the-Pool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SABLE_HALL" Language="en_US">
+			<Text>Sable Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIMEGATE" Language="en_US">
+			<Text>Rimegate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONG_BARROW" Language="en_US">
+			<Text>Long Barrow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TORCHES" Language="en_US">
+			<Text>Torches</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREENGUARD" Language="en_US">
+			<Text>Greenguard</Text>
+		</Row>
+		<!-- END OF NIGHT'S WATCH -->
+		<!-- THE FREEFOLK -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANCE_RAYDER" Language="en_US">
+			<Text>Mance Rayder was once a man of the Night's Watch before breaking his vows and abandoning his post. He has since become extremely influential among the free folk, and is called the "King-Beyond-the-Wall".</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WILDING_NAME" Language="en_US">
+			<Text>Wildings Warriors</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WILDING_DESCRIPTION" Language="en_US">
+			<Text>Can see through features.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GIANT_NAME" Language="en_US">
+			<Text>Giant</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GIANT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength against melee units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MAMMOTH_NAME" Language="en_US">
+			<Text>Mammoth</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MAMMOTH_DESCRIPTION" Language="en_US">
+			<Text>-5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MANCE_CAMP" Language="en_US">
+			<Text>Mance's Camp</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITE_TREE" Language="en_US">
+			<Text>White Tree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THENN" Language="en_US">
+			<Text>Thenn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARDHOME" Language="en_US">
+			<Text>Hardhome</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAUNTED_FOREST" Language="en_US">
+			<Text>Haunted Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAVE_DWELLER" Language="en_US">
+			<Text>Cave Dweller Clan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICE_RIVER_CLAN" Language="en_US">
+			<Text>Ice-River Clan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FROZEN_SHORE" Language="en_US">
+			<Text>Frozen Shore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NIGHTRUNNERS_CLAN" Language="en_US">
+			<Text>Clan Nightrunners</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HORNFOOT_CLAN" Language="en_US">
+			<Text>Clan Hornfoot</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKIRLING_PASS" Language="en_US">
+			<Text>Skirling Pass</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GIANT_STAIRS" Language="en_US">
+			<Text>Giant's Stairs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MILKWATER" Language="en_US">
+			<Text>The Milkwater</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANTLER_RIVER" Language="en_US">
+			<Text>Antler River</Text>
+		</Row>
+		<!-- END OF FREEFOLK -->
+		<!-- THE BARATHEON STORM'S  -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON" Language="en_US">
+			<Text>King Robert I Baratheon is the Lord of the Seven Kingdoms of Westeros and the head of House Baratheon of King's Landing. Robert was crowned king after winning the rebellion which was named after him and taking the Iron Throne from King Aerys II Targaryen, his first cousin once removed. Robert fought the war to win back his betrothed, Lyanna Stark, with the aid of her brother, his close friend, Lord Eddard Stark. Due to Lyanna's death, however, Robert married Cersei Lannister after war's end to ensure political stability. </Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_RENLY_BARATHEON" Language="en_US">
+			<Text>Renly Baratheon is the Lord of Storm's End and Lord Paramount of the Stormlands. The younger brother of King Robert I and Lord Stannis, Renly serves as master of laws on Robert's small council.After Robert's death, Renly manages to win the support of powerful House Tyrell and many of their bannermen through a secret love affair with Loras and a marriage to his sister Margaery. Renly is crowned Lord of the Seven Kingdoms at Highgarden. </Text>
+		</Row>
+		<!-- END OF BARATHEON STORM'S END -->
+		<!-- DOTHRAKI  -->
+		<Row Tag="LOC_LOADING_INFO_LEADER_KHAL_DROGO" Language="en_US">
+			<Text>Drogo is a powerful khal of the fearsome Dothraki nomads. Before the age of thirty he led a khalasar forty thousand strong, the largest on the Dothraki sea. He has never been defeated in battle.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KHAL_NAME" Language="en_US">
+			<Text>Khal</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_KHAL_DESCRIPTION" Language="en_US">
+			<Text>Enables full wall attack.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength</Text>
+		</Row>
+		
+		<Row Tag="LOC_CITY_NAME_VAES_DOTHRAK" Language="en_US">
+			<Text>Vaes Dothrak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_JINI" Language="en_US">
+			<Text>Vaes Jini</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_EFE" Language="en_US">
+			<Text>Vaes Efe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_MEJHAH" Language="en_US">
+			<Text>Vaes Mejhah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAZAAJ_HAZ" Language="en_US">
+			<Text>Krazaaj Haz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_LEISI" Language="en_US">
+			<Text>Vaes Leisi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_ARESAK" Language="en_US">
+			<Text>Vaes Aresak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_DIAF" Language="en_US">
+			<Text>Vaes Diaf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_LEQSE" Language="en_US">
+			<Text>Vaes Leqse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YALLI_QAMAYI" Language="en_US">
+			<Text>Yalli Qamayi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOJJOR_SAMUI" Language="en_US">
+			<Text>Vojjor Samui</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_ATHJIKHARI" Language="en_US">
+			<Text>Vaes Athjikhari</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_KHEWO" Language="en_US">
+			<Text>Vaes Khewo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_KHADOKH" Language="en_US">
+			<Text>Vaes Khadokh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_GRADDAKH" Language="en_US">
+			<Text>Vaes Graddakh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_TOLORRO" Language="en_US">
+			<Text>Vaes Tolorro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_SHIROSI" Language="en_US">
+			<Text>Vaes Shirosi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_QOSAR" Language="en_US">
+			<Text>Vaes Qosar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAES_ORVIK" Language="en_US">
+			<Text>Vaes Orvik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ADKHAKILEKI" Language="en_US">
+			<Text>Adakhakileki</Text>
+		</Row>
+		
+		<!-- END  DOTHRAKI-->
+		<!-- RELIGIONS -->
+		<Row Tag="LOC_RELIGION_MYSOIAF_OLD_GODS" Language="en_US">
+			<Text>Old Gods</Text>
+		</Row>
+		<!-- Civilopedia information about the religion. -->
+		<!--<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYSOIAF_OLD_GODS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>This is the first paragraph to explain the historical context of this new fantastic religion.  Blah blah yadda yadda text and more text and more text business business business numbers numbers.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_MYSOIAF_OLD_GODS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>This is the second paragraph to explain the historical context of this fantastical new religion.  I sincerely hope you modders are more creative than I am at writing this.</Text>
+		</Row>-->
+		<Row Tag="LOC_RELIGION_FAITH_OF_THE_SEVEN" Language="en_US">
+			<Text>Faith of The Seven</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_DROWNED_GOD" Language="en_US">
+			<Text>Drowned God</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_RHLLOR" Language="en_US">
+			<Text>R'hllor</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_MANY_FACED_GOD" Language="en_US">
+			<Text>Many Faced God</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_BLACK_GOAT" Language="en_US">
+			<Text>Black Goat</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_GREAT_STALLION" Language="en_US">
+			<Text>Great Stallion</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_LION_OF_NIGHT" Language="en_US">
+			<Text>Lion of Night</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_STONE_COW" Language="en_US">
+			<Text>Stone Cow</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_GREAT_SHEPHERD" Language="en_US">
+			<Text>Great Shepherd</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_WEEPING_LADY" Language="en_US">
+			<Text>Weeping Lady</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_THE_HARPY" Language="en_US">
+			<Text>The Harpy</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_THE_GREAT_OTHER" Language="en_US">
+			<Text>The Great Other</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_MOTHER_RHOYNE" Language="en_US">
+			<Text>Mother Rhoyne</Text>
+		</Row>
+		<Row Tag="LOC_RELIGION_BEARDED_PRIESTS" Language="en_US">
+			<Text>Bearded Priests</Text>
+		</Row>
+		<!-- End of Religions -->
+		<!-- City States -->
+		<Row Tag="LOC_MINOR_CIV_BRAAVOS_TRAIT_NAME" Language="en_US">
+			<Text>Iron Bank</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_BRAAVOS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_GOLD] Gold yield from Commercial Hub buildings and Other civilizations' [ICON_TRADEROUTE] Trade Routes to you provide +1 [ICON_FAITH] for you.</Text>
+		</Row>
+		<Row Tag="LOC_BRAAVOS_NAME" Language="en_US">
+			<Text>Braavos</Text>
+		</Row>
+		<Row Tag="LOC_BRAAVOS_DESCRIPTION" Language="en_US">
+			<Text>City State of Braavos</Text>
+		</Row>
+		<Row Tag="LOC_BRAAVOS_ADJECTIVE" Language="en_US">
+			<Text>Braavoshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRAAVOS" Language="en_US">
+			<Text>Braavos</Text>
+		</Row>
+		<!--Lorath-->
+		<Row Tag="LOC_MINOR_CIV_LORATH_TRAIT_NAME" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_LORATH_TRAIT_DESCRIPTION" Language="en_US">
+			<Text> Your districts on or next to Coast tiles provide +1 [ICON_Culture] Culture and +1 Food [ICON_Food].</Text>
+		</Row>
+		<Row Tag="LOC_LORATH_NAME" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_LORATH_DESCRIPTION" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_LORATH_ADJECTIVE" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LORATH" Language="en_US">
+			<Text>Lorath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOROSH" Language="en_US">
+			<Text>Morosh</Text>
+		</Row>
+		<!-- Pentos-->
+		<Row Tag="LOC_MINOR_CIV_PENTOS_TRAIT_NAME" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_PENTOS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Other civilizations' [ICON_TRADEROUTE] Trade Routes to you provide +1 Gold [ICON_GOLD] and +1 Production [ICON_Production] for you.</Text>
+		</Row>
+		<Row Tag="LOC_PENTOS_NAME" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="LOC_PENTOS_DESCRIPTION" Language="en_US">
+			<Text>City State of Pentos</Text>
+		</Row>
+		<Row Tag="LOC_PENTOS_ADJECTIVE" Language="en_US">
+			<Text>Pentoshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PENTOS" Language="en_US">
+			<Text>Pentos</Text>
+		</Row>
+		<!-- Myr-->
+		<Row Tag="LOC_MINOR_CIV_MYR_TRAIT_NAME" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_MYR_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Receive the [ICON_RESOURCE_WINE] Wine, [ICON_RESOURCE_CITRICS] Citrics and [ICON_RESOURCE_SILK] Silk Luxury resources.</Text>
+		</Row>
+		<Row Tag="LOC_MYR_NAME" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+		<Row Tag="LOC_MYR_DESCRIPTION" Language="en_US">
+			<Text>City State of Myr</Text>
+		</Row>
+		<Row Tag="LOC_MYR_ADJECTIVE" Language="en_US">
+			<Text>Myrense</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYR" Language="en_US">
+			<Text>Myr</Text>
+		</Row>
+		<!-- Tyrosh-->
+		<Row Tag="LOC_MINOR_CIV_TYROSH_TRAIT_NAME" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_TYROSH_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Receive the [ICON_RESOURCE_DYES] Dyes Luxury resource and naval units receive +4 [ICON_Strength] Combat Strength in shallow water tiles.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TYROSH_GRANT_NAME" Language="en_US">
+			<Text>Tyroshi Fleet.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength in shallow water tiles.</Text>
+		</Row>
+		<Row Tag="LOC_TYROSH_NAME" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+		<Row Tag="LOC_TYROSH_DESCRIPTION" Language="en_US">
+			<Text>City State of Tyrosh</Text>
+		</Row>
+		<Row Tag="LOC_TYROSH_ADJECTIVE" Language="en_US">
+			<Text>Tyroshi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TYROSH" Language="en_US">
+			<Text>Tyrosh</Text>
+		</Row>
+		<!-- Lys-->
+		<Row Tag="LOC_MINOR_CIV_LYS_TRAIT_NAME" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_LYS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Receive the [ICON_RESOURCE_WINE] Wine and [ICON_RESOURCE_SILK] Silk Luxury resources.</Text>
+		</Row>
+		<Row Tag="LOC_LYS_NAME" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+		<Row Tag="LOC_LYS_DESCRIPTION" Language="en_US">
+			<Text>City State of Lys</Text>
+		</Row>
+		<Row Tag="LOC_LYS_ADJECTIVE" Language="en_US">
+			<Text>Lysene</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYS" Language="en_US">
+			<Text>Lys</Text>
+		</Row>
+		<!-- Volantis-->
+		<Row Tag="LOC_MINOR_CIV_VOLANTIS_TRAIT_NAME" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_VOLANTIS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Other civilizations' [ICON_TRADEROUTE] Trade Routes to you provide +1 Faith [ICON_FAITH] and +1 Production [ICON_Production] for you.</Text>
+		</Row>
+		<Row Tag="LOC_VOLANTIS_NAME" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_VOLANTIS_DESCRIPTION" Language="en_US">
+			<Text>City State of Volantis</Text>
+		</Row>
+		<Row Tag="LOC_VOLANTIS_ADJECTIVE" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLANTIS" Language="en_US">
+			<Text>Volantis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLON_THERYS" Language="en_US">
+			<Text>Volon Therys</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALYSAR" Language="en_US">
+			<Text>Valysar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SELHORYS" Language="en_US">
+			<Text>Selhorys</Text>
+		</Row>
+		<!-- Norvos-->
+		<Row Tag="LOC_MINOR_CIV_NORVOS_TRAIT_NAME" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_NORVOS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_FAITH] Faith adjacency bonus from hills to Holy Site</Text>
+		</Row>
+		<Row Tag="LOC_NORVOS_NAME" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<Row Tag="LOC_NORVOS_DESCRIPTION" Language="en_US">
+			<Text>City State of Norvos</Text>
+		</Row>
+		<Row Tag="LOC_NORVOS_ADJECTIVE" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORVOS" Language="en_US">
+			<Text>Norvos</Text>
+		</Row>
+		<!-- Qohor-->
+		<Row Tag="LOC_MINOR_CIV_QOHOR_TRAIT_NAME" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_QOHOR_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Other civilizations' [ICON_TRADEROUTE] Trade Routes to you provide +1 Science [ICON_SCIENCE] for you.</Text>
+		</Row>
+		<Row Tag="LOC_QOHOR_NAME" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="LOC_QOHOR_DESCRIPTION" Language="en_US">
+			<Text>City State of Qohor</Text>
+		</Row>
+		<Row Tag="LOC_QOHOR_ADJECTIVE" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QOHOR" Language="en_US">
+			<Text>Qohor</Text>
+		</Row>
+		<!-- Meereen-->
+		<Row Tag="LOC_MINOR_CIV_MEEREEN_TRAIT_NAME" Language="en_US">
+			<Text>Meereen</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_MEEREEN_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to foreign cities earn +1 [ICON_Gold] Gold for each Luxury resource at the destination.</Text>
+		</Row>
+		<Row Tag="LOC_MEEREEN_NAME" Language="en_US">
+			<Text>Meeren</Text>
+		</Row>
+		<Row Tag="LOC_MEEREEN_DESCRIPTION" Language="en_US">
+			<Text>City State of Meereen</Text>
+		</Row>
+		<Row Tag="LOC_MEEREEN_ADJECTIVE" Language="en_US">
+			<Text>Meereense</Text>
+		</Row>
+		<!-- Yunkai-->
+		<Row Tag="LOC_MINOR_CIV_YUNKAI_TRAIT_NAME" Language="en_US">
+			<Text>Yunkai</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_YUNKAI_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Your Bonus resources behave like Luxury resources, providing 1 [ICON_Amenities] Amenity per type.</Text>
+		</Row>
+		<Row Tag="LOC_YUNKAI_NAME" Language="en_US">
+			<Text>Yunkai</Text>
+		</Row>
+		<Row Tag="LOC_YUNKAI_DESCRIPTION" Language="en_US">
+			<Text>City State of Yunkai</Text>
+		</Row>
+		<Row Tag="LOC_YUNKAI_ADJECTIVE" Language="en_US">
+			<Text>Yunkai</Text>
+		</Row>
+		<!-- Astapor-->
+		<Row Tag="LOC_MINOR_CIV_ASTAPOR_TRAIT_NAME" Language="en_US">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_ASTAPOR_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Anti-cavalry units receive +4 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_ASTAPOR_NAME" Language="en_US">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ASTAPOR_GRANT_NAME" Language="en_US">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ASTAPOR_GRANT_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength</Text>
+		</Row>
+		<Row Tag="LOC_ASTAPOR_DESCRIPTION" Language="en_US">
+			<Text>City State of Astapor</Text>
+		</Row>
+		<Row Tag="LOC_ASTAPOR_ADJECTIVE" Language="en_US">
+			<Text>Astapor</Text>
+		</Row>
+		<!-- New Ghis-->
+		<Row Tag="LOC_MINOR_CIV_NEW_GHIS_TRAIT_NAME" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_NEW_GHIS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture for routes between your own cities.</Text>
+		</Row>
+		<Row Tag="LOC_NEW_GHIS_NAME" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_NEW_GHIS_DESCRIPTION" Language="en_US">
+			<Text>City State of New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_NEW_GHIS_ADJECTIVE" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEW_GHIS" Language="en_US">
+			<Text>New Ghis</Text>
+		</Row>
+		<!-- Lotus Point-->
+		<Row Tag="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_NAME" Language="en_US">
+			<Text>Summer Islands</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_LOTUS_POINT_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+10% faster growth for cities.</Text>
+		</Row>
+		<Row Tag="LOC_LOTUS_POINT_NAME" Language="en_US">
+			<Text>Lotus Point</Text>
+		</Row>
+		<Row Tag="LOC_LOTUS_POINT_DESCRIPTION" Language="en_US">
+			<Text>City State of Lotus Point</Text>
+		</Row>
+		<Row Tag="LOC_LOTUS_POINT_ADJECTIVE" Language="en_US">
+			<Text>Lotus Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOTUS_POINT" Language="en_US">
+			<Text>Lotus Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TALL_TREES" Language="en_US">
+			<Text>Tall Trees</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EBONHEAD" Language="en_US">
+			<Text>Ebonhead</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAST_LAMENT" Language="en_US">
+			<Text>Last Lament</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_FLOWER_VALE" Language="en_US">
+			<Text>Flower Vale</Text>
+		</Row>
+		<!-- Port of Ibben-->
+		<Row Tag="LOC_MINOR_CIV_PORT_OF_IBBEN_TRAIT_NAME" Language="en_US">
+			<Text>Ibben</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_PORT_OF_IBBEN_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>All your districts get +1 [ICON_GOLD] Gold from adjacent Coast tiles.</Text>
+		</Row>
+		<Row Tag="LOC_PORT_OF_IBBEN_NAME" Language="en_US">
+			<Text>Port of Ibben</Text>
+		</Row>
+		<Row Tag="LOC_PORT_OF_IBBEN_DESCRIPTION" Language="en_US">
+			<Text>City State of Ibben</Text>
+		</Row>
+		<Row Tag="LOC_PORT_OF_IBBEN_ADJECTIVE" Language="en_US">
+			<Text>Ibbenese</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_OF_IBBEN" Language="en_US">
+			<Text>Port of Ibben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IB_NOR" Language="en_US">
+			<Text>Ib Nor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IBBISH" Language="en_US">
+			<Text>Ibbish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEW_IBBISH" Language="en_US">
+			<Text>New Ibbish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IB_SAR" Language="en_US">
+			<Text>Ib Sar</Text>
+		</Row>
+		<!-- Qarth-->
+		<Row Tag="LOC_MINOR_CIV_QARTH_TRAIT_NAME" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_QARTH_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradingPost] Trading Posts in foreign cities provide +1 [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_QARTH_NAME" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_QARTH_DESCRIPTION" Language="en_US">
+			<Text>City State of Qarth</Text>
+		</Row>
+		<Row Tag="LOC_QARTH_ADJECTIVE" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QARTH" Language="en_US">
+			<Text>Qarth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QARKASH" Language="en_US">
+			<Text>Qarkash</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_YHOS" Language="en_US">
+			<Text>Port Yhos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QOLAHN" Language="en_US">
+			<Text>Qolhan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QAL" Language="en_US">
+			<Text>Qal</Text>
+		</Row>
+		<!-- Mantarys-->
+		<Row Tag="LOC_MINOR_CIV_MANTARYS_TRAIT_NAME" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_MANTARYS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Accumulate 20% less war weariness than usual.</Text>
+		</Row>
+		<Row Tag="LOC_MANTARYS_NAME" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_MANTARYS_DESCRIPTION" Language="en_US">
+			<Text>City State of Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_MANTARYS_ADJECTIVE" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MANTARYS" Language="en_US">
+			<Text>Mantarys</Text>
+		</Row>
+		<!-- Elyria-->
+		<Row Tag="LOC_MINOR_CIV_ELYRIA_TRAIT_NAME" Language="en_US">
+			<Text>Elyria</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_ELYRIA_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Naval Melee units gain 50% more experience than usual.</Text>
+		</Row>
+		<Row Tag="LOC_ELYRIA_NAME" Language="en_US">
+			<Text>Elyria</Text>
+		</Row>
+		<Row Tag="LOC_ELYRIA_DESCRIPTION" Language="en_US">
+			<Text>City State of Elyria</Text>
+		</Row>
+		<Row Tag="LOC_ELYRIA_ADJECTIVE" Language="en_US">
+			<Text>Elyria</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ELYRIA" Language="en_US">
+			<Text>Elyria</Text>
+		</Row>
+		<!-- Tolos-->
+		<Row Tag="LOC_MINOR_CIV_TOLOS_TRAIT_NAME" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_TOLOS_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Ranged land units receive +4 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_TOLOS_NAME" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TOLOS_GRANT_NAME" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength] Combat Strength</Text>
+		</Row>
+		<Row Tag="LOC_TOLOS_DESCRIPTION" Language="en_US">
+			<Text>City State of Tolos</Text>
+		</Row>
+		<Row Tag="LOC_TOLOS_ADJECTIVE" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOLOS" Language="en_US">
+			<Text>Tolos</Text>
+		</Row>
+		<!-- Saath-->
+		<Row Tag="LOC_MINOR_CIV_SAATH_TRAIT_NAME" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_SAATH_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Industrial Zones gain +1 [ICON_Production] if next to a river.</Text>
+		</Row>
+		<Row Tag="LOC_SAATH_NAME" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<Row Tag="LOC_SAATH_DESCRIPTION" Language="en_US">
+			<Text>City State of Saath</Text>
+		</Row>
+		<Row Tag="LOC_SAATH_ADJECTIVE" Language="en_US">
+			<Text>Saath</Text>
+		</Row>
+		<!-- Lhazosh-->
+		<Row Tag="LOC_MINOR_CIV_LHAZOSH_TRAIT_NAME" Language="en_US">
+			<Text>Lhazosh</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_LHAZOSH_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>All Pastures gain +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_LHAZOSH_NAME" Language="en_US">
+			<Text>Lhazosh</Text>
+		</Row>
+		<Row Tag="LOC_LHAZOSH_DESCRIPTION" Language="en_US">
+			<Text>City State of Lhazosh</Text>
+		</Row>
+		<Row Tag="LOC_LHAZOSH_ADJECTIVE" Language="en_US">
+			<Text>Lhazosh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LHAZOSH" Language="en_US">
+			<Text>Lhazosh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HESH" Language="en_US">
+			<Text>Hesh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KOSRAK" Language="en_US">
+			<Text>Kosrak</Text>
+		</Row>
+		<!-- End of City States-->
+	<!--Ancient Civs -->
+		<Row Tag="LOC_ABILITY_WATER_WIZARDS_NAME" Language="en_US">
+			<Text>Water Wizards</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WATER_WIZARDS_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength when adjacent to rivers.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_NAME" Language="en_US">
+			<Text>Tortoise Shield</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_TORTOISE_SHIELD_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending against ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_NAME" Language="en_US">
+			<Text>Scythed Chariot</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SARNORI_SCYTHED_CHARIOT_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+	<!-- End Ancient Civs-->
+		<!-- Adittional Units-->
+		<Row Tag="LOC_ABILITY_GOLDEN_COMPANY_NAME" Language="en_US">
+			<Text>Golden Company</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_GOLDEN_COMPANY_DESCRIPTION" Language="en_US">
+			<Text>This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ESSOS_WARELEPHANT_NAME" Language="en_US">
+			<Text>Essos War Elephant</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ESSOS_WARELEPHANT_DESCRIPTION" Language="en_US">
+			<Text>-5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CRANNOGMEN_NAME" Language="en_US">
+			<Text>Crannogmen</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CRANNOGMEN_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WINTER_WOLVES_NAME" Language="en_US">
+			<Text>Winter Wolves</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WINTER_WOLVES_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength]Combat Strength when attacking, and -7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_NAME" Language="en_US">
+			<Text>Northern Clans</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NOTHERN_CLANS_WARRIOR_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in the Snow or Tundra, no movement penalty in Hills or Forests.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_NAME" Language="en_US">
+			<Text>Pikemen of the Rock</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PIKEMEN_OFTHE_ROCK_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending vs. ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SNAKE_FANGS_NAME" Language="en_US">
+			<Text>Snake Fangs</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SNAKE_FANGS_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RAVENS_TEETH_NAME" Language="en_US">
+			<Text>Raven's Teeth</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DOTHRAKI_MOUNTED_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WOOD_DANCER_NAME" Language="en_US">
+			<Text>Wood Dancer</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WOOD_DANCER_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending in Woods, Jungle, Hills, or Marsh.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OBSIDIAN_ARCHER_NAME" Language="en_US">
+			<Text>Obsidian Archer</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_OBSIDIAN_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SKINCHANGER_NAME" Language="en_US">
+			<Text>Skinchanger</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SKINCHANGER_DESCRIPTION" Language="en_US">
+			<Text>Can heal every turn.</Text>
+		</Row>
+		<!-- End Adittional Units-->
+		<!-- EDDARD STARK	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK" Language="en_US">
+			<Text>Eddard Stark is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+		</Row>
+		<!-- END OF EDDARD STARK	-->
+		<!-- JON_SNOW	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_JON_SNOW" Language="en_US">
+			<Text>Jon Snow is the bastard son of Eddard Stark, Lord of Winterfell. Jon was raised at Winterfell. At the age of fourteen, he joins the Night's Watch.</Text>
+		</Row>
+		<!-- END OF JON_SNOW	-->
+		<!-- EURON_GREYJOY	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_EURON_GREYJOY" Language="en_US">
+			<Text>Euron Greyjoy is a member of House Greyjoy and is the eldest of Lord Balon Greyjoy's younger brothers. Euron is captain of the Silence, a ship crewed entirely by mutes whose tongues he ripped out.</Text>
+		</Row>
+		<!-- END OF EURON_GREYJOY	-->
+		<!-- LYSA_ARRYN	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_LYSA_ARRYN" Language="en_US">
+			<Text>Lady Lysa Arryn, also known as Lysa Tully, is a member of House Tully. She is the youngest daughter of Lord Hoster Tully of Riverrun and his wife, Lady Minisa Whent, and wife of Lord Jon Arryn, the Lord of the Eyrie and Hand of the King to King Robert I Baratheon. Since her husband's death, she is the Lady Regent of the Vale of Arryn.</Text>
+		</Row>
+		<!-- END OF LYSA_ARRYN	-->
+		<!-- CERSEI_LANNISTER	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_CERSEI_LANNISTER" Language="en_US">
+			<Text>Cersei Lannister is the only daughter and eldest child of Lord Tywin Lannister of Casterly Rock and his wife, Lady Joanna Lannister. She is the twin of her younger brother, Ser Jaime Lannister. After Robert's Rebellion, Cersei married King Robert I Baratheon and became Queen of the Seven Kingdoms. She is the mother of Prince Joffrey, Princess Myrcella, and Prince Tommen of House Baratheon of King's Landing.</Text>
+		</Row>
+		<!-- END OF CERSEI_LANNISTER	-->
+		<!-- AEGONVI_TARGARYEN	-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_AEGONVI_TARGARYEN" Language="en_US">
+			<Text>Aegon VI Targaryen was the second child and only son of Prince Rhaegar Targaryen and Elia Martell. During the Sack of King's Landing Ser Gregor Clegane killed Aegon, Rhaenys, and Elia. But Varys says he smuggled the genuine Aegon across the narrow sea and Aegon would have a stronger claim to the Iron Throne that anyone else.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOLDEN_CAMP" Language="en_US">
+			<Text>Golden Camp</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ORANGE_SHORE" Language="en_US">
+			<Text>Orange Shore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YOUNG_GRIFF_LANDING" Language="en_US">
+			<Text>Young Griff's Landing</Text>
+		</Row>
+		<!-- END OF AEGONVI_TARGARYEN	-->
+	</LocalizedText>
+</GameData>

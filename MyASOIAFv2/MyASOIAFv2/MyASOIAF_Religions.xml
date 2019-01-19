@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="RELIGION_MYSOIAF_OLD_GODS" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_FAITH_OF_THE_SEVEN" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_DROWNED_GOD" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_RHLLOR" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_MANY_FACED_GOD" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_BLACK_GOAT" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_GREAT_STALLION" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_LION_OF_NIGHT" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_STONE_COW" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_GREAT_SHEPHERD" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_WEEPING_LADY" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_THE_HARPY" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_THE_GREAT_OTHER" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_MOTHER_RHOYNE" Kind="KIND_RELIGION" />
+		<Row Type="RELIGION_BEARDED_PRIESTS" Kind="KIND_RELIGION" />
+
+	</Types>
+
+	<Religions>
+		<Row ReligionType="RELIGION_MYSOIAF_OLD_GODS" Name="LOC_RELIGION_MYSOIAF_OLD_GODS" Iconstring="Ol" RequiresCustomName="0" Color="COLOR_RELIGION_MYSOIAF_OLD_GODS"/>
+		<Row ReligionType="RELIGION_FAITH_OF_THE_SEVEN" Name="LOC_RELIGION_FAITH_OF_THE_SEVEN" Iconstring="T7" RequiresCustomName="0" Color="COLOR_RELIGION_FAITH_OF_THE_SEVEN"/>
+		<Row ReligionType="RELIGION_DROWNED_GOD" Name="LOC_RELIGION_DROWNED_GOD" Iconstring="Dr" RequiresCustomName="0" Color="COLOR_RELIGION_DROWNED_GOD"/>
+		<Row ReligionType="RELIGION_RHLLOR" Name="LOC_RELIGION_RHLLOR" Iconstring="Rh" RequiresCustomName="0" Color="COLOR_RELIGION_RHLLOR"/>
+		<Row ReligionType="RELIGION_MANY_FACED_GOD" Name="LOC_RELIGION_MANY_FACED_GOD" Iconstring="Ma" RequiresCustomName="0" Color="COLOR_RELIGION_MANY_FACED_GOD"/>
+		<Row ReligionType="RELIGION_LION_OF_NIGHT" Name="LOC_RELIGION_LION_OF_NIGHT" Iconstring="LN" RequiresCustomName="0" Color="COLOR_RELIGION_LION_OF_NIGHT"/>
+		<Row ReligionType="RELIGION_BLACK_GOAT" Name="LOC_RELIGION_BLACK_GOAT" Iconstring="Bg" RequiresCustomName="0" Color="COLOR_RELIGION_BLACK_GOAT"/>
+		<Row ReligionType="RELIGION_GREAT_STALLION" Name="LOC_RELIGION_GREAT_STALLION" Iconstring="Gt" RequiresCustomName="0" Color="COLOR_RELIGION_GREAT_STALLION"/>
+		<Row ReligionType="RELIGION_STONE_COW" Name="LOC_RELIGION_STONE_COW" Iconstring="SC" RequiresCustomName="0" Color="COLOR_RELIGION_STONE_COW"/>
+		<Row ReligionType="RELIGION_GREAT_SHEPHERD" Name="LOC_RELIGION_GREAT_SHEPHERD" Iconstring="GS" RequiresCustomName="0" Color="COLOR_RELIGION_GREAT_SHEPHERD"/>
+		<Row ReligionType="RELIGION_WEEPING_LADY" Name="LOC_RELIGION_WEEPING_LADY" Iconstring="Wl" RequiresCustomName="0" Color="COLOR_RELIGION_WEEPING_LADY"/>
+		<Row ReligionType="RELIGION_THE_HARPY" Name="LOC_RELIGION_THE_HARPY" Iconstring="tH" RequiresCustomName="0" Color="COLOR_RELIGION_THE_HARPY"/>
+		<Row ReligionType="RELIGION_THE_GREAT_OTHER" Name="LOC_RELIGION_THE_GREAT_OTHER" Iconstring="GO" RequiresCustomName="0" Color="COLOR_RELIGION_THE_GREAT_OTHER"/>
+		<Row ReligionType="RELIGION_MOTHER_RHOYNE" Name="LOC_RELIGION_MOTHER_RHOYNE" Iconstring="MR" RequiresCustomName="0" Color="COLOR_RELIGION_MOTHER_RHOYNE"/>
+		<Row ReligionType="RELIGION_BEARDED_PRIESTS" Name="LOC_RELIGION_BEARDED_PRIESTS" Iconstring="bp" RequiresCustomName="0" Color="COLOR_RELIGION_BEARDED_PRIESTS"/>
+	</Religions>
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_ROBB_STARK" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_ROOSE_BOLTON" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_JEOR_MORMONT" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_MANCE_RAYDER" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_EDMURE_TULLY" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_PETYR_BAELISH" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_OLENNA_TYRELL" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_DAENERYS_TARGARYEN" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_WALDER_FREY" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_RENLY_BARATHEON" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_JOFFREY_BARATHEON" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_BALON_GREYJOY" ReligionType="RELIGION_DROWNED_GOD" />
+		<Row LeaderType="LEADER_STANNIS_BARATHEON" ReligionType="RELIGION_RHLLOR" />
+		<Row LeaderType="LEADER_NIGHT_KING" ReligionType="RELIGION_THE_GREAT_OTHER" />
+		<Row LeaderType="LEADER_DORAN_MARTELL" ReligionType="RELIGION_MOTHER_RHOYNE" />
+		<Row LeaderType="LEADER_EDDARD_STARK" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_JON_SNOW" ReligionType="RELIGION_MYSOIAF_OLD_GODS" />
+		<Row LeaderType="LEADER_LYSA_ARRYN" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_CERSEI_LANNISTER" ReligionType="RELIGION_FAITH_OF_THE_SEVEN" />
+		<Row LeaderType="LEADER_AEGONVI_TARGARYEN" ReligionType="RELIGION_RHLLOR" />
+
+	</FavoredReligions>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_RELIGION_MYSOIAF_OLD_GODS</Type>
+			<Red>0.2</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_FAITH_OF_THE_SEVEN</Type>
+			<Red>0.8</Red>
+			<Green>0.8</Green>
+			<Blue>0.8</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_DROWNED_GOD</Type>
+			<Red>0</Red>
+			<Green>0</Green>
+			<Blue>0.2</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_RHLLOR</Type>
+			<Red>0.785</Red>
+			<Green>0.235</Green>
+			<Blue>0.125</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_MANY_FACED_GOD</Type>
+			<Red>0.25</Red>
+			<Green>0.25</Green>
+			<Blue>0.25</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_BLACK_GOAT</Type>
+			<Red>0.001</Red>
+			<Green>0.001</Green>
+			<Blue>0.001</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_GREAT_STALLION</Type>
+			<Red>0.2</Red>
+			<Green>0.98</Green>
+			<Blue>0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_LION_OF_NIGHT</Type>
+			<Red>0.8</Red>
+			<Green>0.4</Green>
+			<Blue>0.001</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_STONE_COW</Type>
+			<Red>0.62</Red>
+			<Green>0.62</Green>
+			<Blue>0.62</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_GREAT_SHEPHERD</Type>
+			<Red>1</Red>
+			<Green>0.2</Green>
+			<Blue>0.2</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_WEEPING_LADY</Type>
+			<Red>1</Red>
+			<Green>0.4</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_THE_HARPY</Type>
+			<Red>0.6</Red>
+			<Green>0.4</Green>
+			<Blue>0.2</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_THE_GREAT_OTHER</Type>
+			<Red>0.4</Red>
+			<Green>0.8</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_MOTHER_RHOYNE</Type>
+			<Red>0</Red>
+			<Green>0.4</Green>
+			<Blue>0.4</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_RELIGION_BEARDED_PRIESTS</Type>
+			<Red>0.4</Red>
+			<Green>0.4</Green>
+			<Blue>0.4</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameData>

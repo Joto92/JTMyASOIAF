@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="MYSOIAF_POLICY_GAME_OF_THRONES_PLAYER" Kind="KIND_POLICY"/>
+	</Types>
+	<Policies>
+		<Row PolicyType="MYSOIAF_POLICY_GAME_OF_THRONES_PLAYER" Name="LOC_POLICY_GAME_OF_THRONES_PLAYER_NAME" Description="LOC_POLICY_GAME_OF_THRONES_PLAYER_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	</Policies>
+	<Modifiers>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDTOALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDFROMALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDTOALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDTOALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDFROMALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDFROMALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<Row>
+			<PolicyType>MYSOIAF_POLICY_GAME_OF_THRONES_PLAYER</PolicyType>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDTOALLY</ModifierId>
+		</Row>
+		<Row>
+			<PolicyType>MYSOIAF_POLICY_GAME_OF_THRONES_PLAYER</PolicyType>
+			<ModifierId>MYSOIAF_TRADEROUTEGOLDFROMALLY</ModifierId>
+		</Row>
+	</PolicyModifiers>
+</GameData>

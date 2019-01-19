@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>JT: A Song of Ice And Fire</Name>
+    <Guid>6e66a293-6a21-4650-bb3e-58d55c5fbcc1</Guid>
+    <ProjectGuid>fe6741ec-0b33-4549-b753-a925a7a1790a</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Mod of A Song of Ice And Fire</Teaser>
+    <Description>This mod adds the Civilizations of the A Song of Ice And Fire of George RR Martin.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[
+      <InGameActions>
+        <UpdateDatabase id="Gameplay">
+         <File>MyASOIAF_Civs.xml</File>
+         <File>MyASOIAF_Leaders.xml</File>
+         <File>MyASOIAF_Buildings.xml</File>
+         <File>MyASOIAF_Units.xml</File>
+         <File>MyASOIAF_UnitAbilities.xml</File>
+         <File>MyASOIAF_Colors.xml</File>
+         <File>MyASOIAF_Policies.xml</File>
+         <File>MyASOIAF_Religions.xml</File>
+         <File>MyASOIAF_CityStates.xml</File>
+         <File>MyASOIAF_Improvements.xml</File>
+        </UpdateDatabase>
+       <UpdateText id="Text">
+          <File>MyASOIAF_ConfigText.xml</File>
+          <File>MyASOIAF_Text.xml</File>
+          <File>Translations/MyASOIAF_ConfigText_ES.xml</File>
+          <File>Translations/MyASOIAF_Text_ES.xml</File>
+          <File>MyASOIAF_Civilopedia.xml</File>
+          <File>Translations/MyASOIAF_Civilopedia_ES.xml</File>
+        </UpdateText>
+        <UpdateIcons id="Icons">
+          <File>MyASOIAF_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="Art">
+          <File>(Mod Art Dependency File)</File>
+        </UpdateArt>
+      </InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[
+      <FrontEndActions>
+        <UpdateDatabase id="Config">
+          <File>MyASOIAF_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="ConfigText">
+          <File>MyASOIAF_ConfigText.xml</File>
+          <File>Translations/MyASOIAF_ConfigText_ES.xml</File>
+        </UpdateText>
+        <UpdateIcons id="ConfigIcons">
+          <File>MyASOIAF_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateArt id="ConfigArt">
+          <File>(Mod Art Dependency File)</File>
+        </UpdateArt>
+      </FrontEndActions>]]></FrontEndActionData>
+    <AssemblyName>MyASOIAFv2</AssemblyName>
+    <RootNamespace>MyASOIAFv2</RootNamespace>
+    <Authors>Jordi Torné</Authors>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_CityStates.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Civilopedia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Policies.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Religions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Translations\MyASOIAF_Civilopedia_ES.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Translations\MyASOIAF_ConfigText_ES.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Translations\MyASOIAF_Text_ES.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\MyIcons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Translations" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="MyASOIAF_Config.xml" />
+    <Content Include="MyASOIAF_ConfigText.xml" />
+    <Content Include="MyASOIAF_Civs.xml" />
+    <Content Include="MyASOIAF_Icons.xml" />
+    <Content Include="MyASOIAF_Leaders.xml" />
+    <Content Include="MyASOIAF_Buildings.xml" />
+    <Content Include="MyASOIAF_Text.xml" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
