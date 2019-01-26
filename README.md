@@ -1,5 +1,12 @@
 # Civ VI A Song of Ice and Fire Mod
 - - - -
+# INDEX 
+1. [To Do](#1-to-do)
+2. [Leader & Civs](#2-leader--civs)
+3. [City States](#3-city-states)
+4. [Natural Wonders](#4-natural-wonders)
+5. [Building Wonders](#5-building-wonders)
+- - - -
 # 1. To Do
 Things to Do:
 * City states of Westeros
@@ -357,3 +364,13 @@ Fire And Blood: +10 [ICON_Strength] Combat Strength when fighting on a continent
 ## 3.6. RELIGIOUS: 
 * Volantis: Other civilizations' [ICON_TRADEROUTE] Trade Routes to you provide +1 Faith [ICON_FAITH] and +1 Production [ICON_Production] for you.
 * Norvos: +1 [ICON_FAITH] Faith adjacency bonus from hills to Holy Site
+- - - -
+# 4. Natural Wonders
+Possible wonders:
+Gods Eye, Red Lake, Womb of the World, Mother of Mountains, Dragonmont, Poison Sea, Forktop, Fourteen Flames, Giant's Lance, The Neck, Red Mountains, Stepstones, The Broken Arm, The Rock, Nagga's hill, Cavern System of Norvos, Dagger Lake
+- - - -
+# 5. Building Wonders
+Possible wonders:
+Great Sept of Baelor, The Titan, Daznak’s Pit, Hightower, Starry Sept, The Citadel, The Red Keep, Iron Bank, The Water Gardens, Tower of the Sun(Sunspear), Dragonpit, The Sept of the Snows(White Harbour), House of Black and White, Jonquil's Pool (Maidenpool), Summerhall, Guildhall of the Alchemists, Bloody Gate, Horse Gate, The Stone Drum(dragonstone)?, The Sea Dragon Tower(dragonstone)?, Crypts of Winter(of Winterfell), Godswood of Winter(of Winterfell)
+
+ASOIAF ANCIENT: Palace With a Thousand Rooms (Sarnor), The Long Bridge (Volantis), The topless tower (Valyria), Temple of Love (Summer Isles), Patternmaker's Maze (Lorath), Temple of the Lord of Light(Volantis), Temple of the Moonsingers(Braavos), Temple of Trios, Palace of Love(Rhoyne), Black Wall (Volantis)
