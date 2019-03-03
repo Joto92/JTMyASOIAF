@@ -1884,5 +1884,96 @@
 			<Text>Desembarco del Joven Grifo</Text>
 		</Replace>
 		<!-- END OF AEGONVI_TARGARYEN	-->
+		<!-- Natural Wonders-->
+		<Replace Tag="LOC_FEATURE_RED_LAKE_NAME" Language="es_ES" >
+			<Text>Lago Rojo</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_RED_LAKE_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza de dos casillas. Aparece como Lago y proporciona +2 [ICON_Science] Ciencia, +3 [ICON_Food] Alimentos y agua dulce.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_RED_LAKE_QUOTE" Language="es_ES">
+			<Text>“Según los últimos informes, Ala de Plata había abandodando la desolación de Ladera y se había dirigido al Dominio, donde al parecer había establecido su guarida en un islote rocoso del Lago Rojo.”[NEWLINE]– pensamientos de Aegon II</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_NAME" Language="es_ES" >
+			<Text>Madre de las Montañas</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +1 a Alimentos [ICON_Food] y +1 de Fe [ICON_Faith] a las casillas adyacentes.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_QUOTE" Language="es_ES">
+			<Text>“Hasta los khalasars enfrentados en guerra dejaban a un lado sus disputas y compartían la carne y el hidromiel cuando se encontraban bajo la mirada de la Madre de las Montañas. En aquel lugar, las viejas brujas del dosh khalen habían decreatado que todos los dothrakis fueran una sola sangre, un solo khalasar, un solo pueblo.”[NEWLINE]– pensamientos de Daenerys</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DRAGONMONT_NAME" Language="es_ES" >
+			<Text>Montedragón</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_DRAGONMONT_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +2 a Ciencia [ICON_Science] y +2 de Cultura [ICON_Culture].</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_DRAGONMONT_QUOTE" Language="es_ES">
+			<Text>“Cuando el Nessaria se dirigía a occidente, Montedragón se alzaba ante ellos, enorme contra el sol poniente, y los marineros vieron luchar a dos dragones, con rugidos que resonaban en los escarpados y negros acantilados de la ladera este de las montañas humeantes.”[NEWLINE]– cuento de los Marineros del Nessaria</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_POISON_SEA_NAME" Language="es_ES" >
+			<Text>Mar del Veneno</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_POISON_SEA_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza de dos casillas. Aparece como Lago y proporciona +2 [ICON_Science] Ciencia, +2 [ICON_Gold] Oro.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_POISON_SEA_QUOTE" Language="es_ES">
+			<Text>Los Dothraki considera en mar venonoso porque sus caballos no pueden beber su agua salada.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FORKTOP_NAME" Language="es_ES" >
+			<Text>Cimaforca</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FORKTOP_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza infranqueable de tres casillas. Aparece como Montaña y proporciona +1 a Fe [ICON_Faith] a las casillas adyacentes.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_FORKTOP_QUOTE" Language="es_ES">
+			<Text>“Las sombras cubrían ya el paso, y el sol se ocultaba rápidamente entre los picachos gemelos de la enorme montaña que los exploradores llamaban Cimaforca. El último rayo de sol desapeció tras los picos de Cimaforca. El ocaso cubrió el Paso Aullante. Casi al instante, el frío se hizo más intenso.”[NEWLINE]– Jon describiendo un sueño de lobo</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIANTS_LANCE_NAME" Language="es_ES" >
+			<Text>Lanza del Gigante</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_GIANTS_LANCE_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza infranqueable de tres casillas. Aparece como Montaña y proporciona +1 a Cultura [ICON_Culture] a las casillas adyacentes.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_GIANTS_LANCE_QUOTE" Language="es_ES">
+			<Text>“Por encima de todas destacaba el pico al que llamaban la Lanza del Gigante, una cumbre a la que el resto de las cumbres miraban desde abajo, con la cima perdida entre las niebles gélidas, a más de una legua de las tierras de la cuenca. Por la inmensa vertiente occidental discurría el arroyo fantasma denominado Lágrimas de Alyssa. Pese a la distancia, Catelyn alcanzaba a distinguir la hebra de plata brillante sobre la piedra oscura.”[NEWLINE]– pensamientos de Catelyn Stark</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_THE_NECK_NAME" Language="es_ES" >
+			<Text>El Cuello</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_THE_NECK_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza de cuatro casillas. Aparece como Pantano y proporciona +2 a Alimentos [ICON_Food] y +2 a Cultura [ICON_Culture].</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_THE_NECK_QUOTE" Language="es_ES">
+			<Text>“Según las historias, los lacustres crecieron cerca de los hijos del bosque en los tiempos en que los verdividentes trataban de hacer el martillo de las aguas sobre el Cuello. Puede que tengan conocimientos secretos.”[NEWLINE]– Maestro Luwin</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_STEPSTONES_NAME" Language="es_ES" >
+			<Text>Peldaños de Piedra</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_STEPSTONES_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza infranqueable de dos casillas. Aparece en terreno costero y proporciona +1 a Oro [ICON_Gold] a las casillas adyacentes.</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_STEPSTONES_QUOTE" Language="es_ES">
+			<Text>Hacía tiempo que los Peldaños de Piedra, la cadena de islas rocosas que queda entre Dorne y las Tierras de la Discordia de Essos, eran un guarida de forajidos, exiliados, cazadores de naufragios y piratas. En sí mismo eran de escaso valor, pero dada su situación, controlaban las rutas marinas del mar Angosto.</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_THE_ROCK_NAME" Language="es_ES" >
+			<Text>La Roca</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_THE_ROCK_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza de dos casillas. Aparece con Colinas adyacentes al agua y proporciona +3 a Cultura [ICON_Culture] y +2 de Oro [ICON_Gold].</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_THE_ROCK_QUOTE" Language="es_ES">
+			<Text>“Piedra, debo ser de piedra, debo ser Roca Casterly, duro e inamovible. ”[NEWLINE]– pensaminetos de Tyrion Lannister</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FOREST_OF_QOHOR_NAME" Language="es_ES" >
+			<Text>Bosque de Qohor</Text>
+		</Replace>
+		<Replace Tag="LOC_FEATURE_FOREST_OF_QOHOR_DESCRIPTION" Language="es_ES" >
+			<Text>Maravilla de la naturaleza de cuatro casillas. Aparece como Pantano y proporciona +2 a Alimentos [ICON_Food] y +2 a Ciencia [ICON_Science].</Text>
+		</Replace>
+		<Replace  Tag="LOC_FEATURE_FOREST_OF_QOHOR_QUOTE" Language="es_ES">
+			<Text>Durante media luna recorrieron el bosque de Qohor, donde las hojas entrelazadas formaban un dosel de oro muy por encima de las cabezas, y los troncos de los árboles eran anchos como las puertas de una ciudad. En aquel bosque había alces enormes, tigres moteados, y lémures de pelo plateado y grandes ojos violeta, pero todos escapaban ante la proximidad del khalasar, y Dany no llegó a ver a ninguno.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

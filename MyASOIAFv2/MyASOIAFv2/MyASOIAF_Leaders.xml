@@ -287,12 +287,8 @@
 		<Row TraitType="TRAIT_LEADER_LADY_OF_THE_EYRIE" ModifierId="TRAIT_EXTRA_DISTRICT_EACH_CITY"/>
 		<Row TraitType="TRAIT_LEADER_LIGHT_OF_THE_WEST" ModifierId="MYSOIAF_GARRISON_AMENITYBONUS"/>
 		<Row TraitType="TRAIT_LEADER_LIGHT_OF_THE_WEST" ModifierId="MYSOIAF_OTHER_FORCES"/>
-		<Row TraitType="TRAIT_LEADER_YOUNG_GRIFF" ModifierId="TRAIT_FREE_MELEE_UNIT_NON_HOME_CONTINENT"/>
+		<Row TraitType="TRAIT_LEADER_YOUNG_GRIFF" ModifierId="TRAIT_MYASOIAF_FREE_MELEE_UNIT_NON_HOME_CONTINENT"/>
 		<Row TraitType="TRAIT_LEADER_YOUNG_GRIFF" ModifierId="MYSOIAF_CHARISMATICLEADER_INFLUENCEPOINTS"/>
-
-
-
-
 	</TraitModifiers>
 
 	<Modifiers>
@@ -339,6 +335,12 @@
 		<Row>
 			<ModifierId>MYSOIAF_CHARISMATICLEADER_INFLUENCEPOINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYASOIAF_FREE_MELEE_UNIT_NON_HOME_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_UNIT_BY_CLASS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	
@@ -412,6 +414,11 @@
 			<ModifierId>MYSOIAF_CHARISMATICLEADER_INFLUENCEPOINTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYASOIAF_FREE_MELEE_UNIT_NON_HOME_CONTINENT</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
 		</Row>
 	</ModifierArguments>
 	

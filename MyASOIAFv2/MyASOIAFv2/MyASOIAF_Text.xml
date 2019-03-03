@@ -1771,5 +1771,346 @@
 			<Text>Young Griff's Landing</Text>
 		</Row>
 		<!-- END OF AEGONVI_TARGARYEN	-->
+		<!-- Rivers -->
+		<Row Tag="LOC_NAMED_RIVER_ANTLER_NAME" Language="en_US">
+			<Text>Antler River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_MILKWATER_NAME" Language="en_US">
+			<Text>Milkwater River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_FROZEN_RIVER_NAME" Language="en_US">
+			<Text>Frozen River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_GREENBLOOD_NAME" Language="en_US">
+			<Text>Greenblood River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_BRIMSTONE_NAME" Language="en_US">
+			<Text>Brimstone River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_SCOURGE_NAME" Language="en_US">
+			<Text>Scourge River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_VAITH_NAME" Language="en_US">
+			<Text>Vaith River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_TORENTINE_NAME" Language="en_US">
+			<Text>Torentine River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WYL_NAME" Language="en_US">
+			<Text>Wyl River</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_BLACKWATER_RUSH" Language="en_US">
+			<Text>Blackwater Rush</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_GODS_EYE_RIVER_NAME" Language="en_US">
+			<Text>Gods Eye River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WENDWATER_NAME" Language="en_US">
+			<Text>Wendwater River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WHITE_KNIFE_NAME" Language="en_US">
+			<Text>White Knife</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_FEVER_NAME" Language="en_US">
+			<Text>Fever River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_LAST_RIVER_NAME" Language="en_US">
+			<Text>Last River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_BROKEN_BRANCH_NAME" Language="en_US">
+			<Text>Broken Branch</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_ACORN_WATER_NAME" Language="en_US">
+			<Text>Acorn Water</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WEEPING_WATER_NAME" Language="en_US">
+			<Text>Weeping Water</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_GREEN_FORK_NAME" Language="en_US">
+			<Text>Green Fork</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_MANDER_NAME" Language="en_US">
+			<Text>Mander River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_HONEYWINE_NAME" Language="en_US">
+			<Text>Honeywine River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_BLUEBURN_NAME" Language="en_US">
+			<Text>Blueburn River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_COCKLESWHENT_NAME" Language="en_US">
+			<Text>Cockleswhent River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_CHEQUY_WATER_NAME" Language="en_US">
+			<Text>Chequy Water</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_RED_FORK_NAME" Language="en_US">
+			<Text>Red Fork</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_TUMBLESTONE_NAME" Language="en_US">
+			<Text>Tumblestone River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_BLUE_FORK_NAME" Language="en_US">
+			<Text>Blue Fork</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_TRIDENT_NAME" Language="en_US">
+			<Text>Trident River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_GREENAPPLE_NAME" Language="en_US">
+			<Text>Greenapple River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_BIG_WILLOW_NAME" Language="en_US">
+			<Text>Big Willow</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_DARRY_NAME" Language="en_US">
+			<Text>Darry River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_RIPPLEDOWN_RILL_NAME" Language="en_US">
+			<Text>Rippledown Rill</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WIDOWS_WASH_NAME" Language="en_US">
+			<Text>Widow's Wash</Text>
+		</Row>
+		<Row Tag="NAMED_RIVER_YELLOW_FORK" Language="en_US">
+			<Text>Yellow Fork</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_RHOYNE_NAME" Language="en_US">
+			<Text>Rhoyne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_LHORULU_NAME" Language="en_US">
+			<Text>Lhorulu River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_LITTLE_RHOYNE_NAME" Language="en_US">
+			<Text>Little Rhoyne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_NOYNE_NAME" Language="en_US">
+			<Text>Noyne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_QHOYNE_NAME" Language="en_US">
+			<Text>Qhoyne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_DARKWASH_NAME" Language="en_US">
+			<Text>Darkwash River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_SELHORU_NAME" Language="en_US">
+			<Text>Selhoru River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_UPPER_RHOYNE_NAME" Language="en_US">
+			<Text>Upper Rhoyne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_VOLAENA_NAME" Language="en_US">
+			<Text>Volaena River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_SARNE_NAME" Language="en_US">
+			<Text>Sarne River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_SKAHAZADHAN_NAME" Language="en_US">
+			<Text>Skahazadhan River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_WORM_NAME" Language="en_US">
+			<Text>Worm River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_COLDWATER_BURN_NAME" Language="en_US">
+			<Text>Coldwater Burn</Text>
+		</Row>
+		<!--Deserts -->
+		<Row Tag="LOC_NAMED_DESERT_GHISCARI_NAME" Language="en_US">
+			<Text>Ghiscari Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_RED_WASTE_NAME" Language="en_US">
+			<Text>Red Waste</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_DORNE_NAME" Language="en_US">
+			<Text>Dorne Desert</Text>
+		</Row>
+		<!-- Mountain Ranges-->
+		<Row Tag="LOC_NAMED_MOUNTAIN_OF_THE_MOON_NAME" Language="en_US">
+			<Text>Mountains of the Moon</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BONE_MOUNTAINS_NAME" Language="en_US">
+			<Text>Bone Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_KRAZAAJ_ZASQA_NAME" Language="en_US">
+			<Text>Krazaaj Zasqa</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRY_BONES_NAME" Language="en_US">
+			<Text>Dry Bones</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_PAINTED_MOUNTAINS_NAME" Language="en_US">
+			<Text>Painted Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_FROSTGANGS_NAME" Language="en_US">
+			<Text>Frostfangs</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_NORTHERN_MOUNTAINS_NAME" Language="en_US">
+			<Text>The Northern Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_GREAT_BARROW_NAME" Language="en_US">
+			<Text>Great Barrow</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_RED_MOUNTAINS_NAME" Language="en_US">
+			<Text>Red Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORM_MOUNTAINS_NAME" Language="en_US">
+			<Text>Storm Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_ANDALOS_NAME" Language="en_US">
+			<Text>Andalos Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_OF_NORVOS_NAME" Language="en_US">
+			<Text>Mountains of Norvos</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_FOURTEEN_FLAMES_NAME" Language="en_US">
+			<Text>Fourteen Flames</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_GHISCARI_MOUNTAINS_NAME" Language="en_US">
+			<Text>Ghiscari Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_KHYZAI_MOUNTAINS_NAME" Language="en_US">
+			<Text>Khyzai Mountains</Text>
+		</Row>
+		<!-- Volcanoes -->
+		<Row Tag="LOC_NAMED_VOLCANO_BRIMSTONE_NAME" Language="en_US">
+			<Text>Brimstone Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_SKAGOS_NAME" Language="en_US">
+			<Text>Skagos Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_BALERION_NAME" Language="en_US">
+			<Text>Balerion</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VHAGAR_NAME" Language="en_US">
+			<Text>Vhagar</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_CARAXES_NAME" Language="en_US">
+			<Text>Caraxes</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_MERAXES_NAME" Language="en_US">
+			<Text>Meraxes</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_ARRAX_NAME" Language="en_US">
+			<Text>Arrax</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_MELEYS_NAME" Language="en_US">
+			<Text>Meleys</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_SHRYKOS_NAME" Language="en_US">
+			<Text>Shrykos</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_SYRAX_NAME" Language="en_US">
+			<Text>Syrax</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_TYRAXES_NAME" Language="en_US">
+			<Text>Tyraxes</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VERMAX_NAME" Language="en_US">
+			<Text>Vermax</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_TESSARION_NAME" Language="en_US">
+			<Text>Tessarion</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VERMITHOR_NAME" Language="en_US">
+			<Text>Vermithor</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_TERRAX_NAME" Language="en_US">
+			<Text>Terrax</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_URRAX_NAME" Language="en_US">
+			<Text>Urrax</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_MORGHUL_NAME" Language="en_US">
+			<Text>Morghul</Text>
+		</Row>
+		<!-- Natural Wonders-->
+		<Row Tag="LOC_FEATURE_RED_LAKE_NAME" Language="en_US" >
+			<Text>Red Lake</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_RED_LAKE_DESCRIPTION" Language="en_US" >
+			<Text>Two tile natural wonder. It appears as a Lake and provides +2 [ICON_Science] Science, +3 [ICON_Food] Food, and Fresh Water.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_RED_LAKE_QUOTE" Language="en_US">
+			<Text>“Silverwing at last report had departed the desolation at Tumbleton for the Reach, and was said to have made her lair on a small, stony isle in the middle of Red Lake.”[NEWLINE]– thoughts of Aegon II</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_NAME" Language="en_US" >
+			<Text>Mother of Mountains</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_DESCRIPTION" Language="en_US" >
+			<Text>One tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Food] Food and +1 [ICON_Faith] Faith to adjacent tiles.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_MOTHER_OF_MOUNTAINS_QUOTE" Language="en_US">
+			<Text>“Even warring khalasars put aside their feuds and shared meat and mead together when they were in sight of the Mother of Mountains. In this place, the crones of the doshkhaleen had decreed, all Dothraki were one blood, one khalasar, one herd.”[NEWLINE]– thoughts of Daenerys</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_DRAGONMONT_NAME" Language="en_US" >
+			<Text>Dragonmont</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_DRAGONMONT_DESCRIPTION" Language="en_US" >
+			<Text>One tile impassable natural wonder. It appears as a Mountain and provides +2 [ICON_Science] Science and +2 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_DRAGONMONT_QUOTE" Language="en_US">
+			<Text>“As Nessaria beat westward, the Dragonmont loomed up before them, huge against the setting sun...and the sailors spied two dragons fighting, their roars echoing off the sheer black cliffs of the smoking mountain’s eastern flanks.”[NEWLINE]– Nessaria sailors tale</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_POISON_SEA_NAME" Language="en_US" >
+			<Text>Poison Sea</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_POISON_SEA_DESCRIPTION" Language="en_US" >
+			<Text>Two tile natural wonder. It appears as a Lake and provides +2 [ICON_Science] Science, +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_POISON_SEA_QUOTE" Language="en_US">
+			<Text>The Dothraki consider the sea poisonous because their horses cannot drink the saltwater.</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_FORKTOP_NAME" Language="en_US" >
+			<Text>Forktop</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_FORKTOP_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Faith] Faith to adjacent tiles.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_FORKTOP_QUOTE" Language="en_US">
+			<Text>“The shadows covered the floor of the pass by then, and the sun was sinking fast toward the jagged twin peaks of the huge mountain the rangers named Forktop. The last ray of sun vanished behind the peaks of Forktop. Twilight filled the Skirling Pass. It seemed to grow colder almost at once.”[NEWLINE]– Jon describing a wolf dream</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_GIANTS_LANCE_NAME" Language="en_US" >
+			<Text>Giant's Lance</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_GIANTS_LANCE_DESCRIPTION" Language="en_US">
+			<Text>Three tile impassable natural wonder. It appears as a Mountain and provides +1 [ICON_Culture] Culture to adjacent tiles.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_GIANTS_LANCE_QUOTE" Language="en_US">
+			<Text>“Looming over them all was the jagged peak called the Giant’s Lance, a mountain that even mountains looked up to, its head lost in icy mists three and a half miles above the valley floor. Over its massive western shoulder flowed the ghost torrent of Alyssa’s Tears. Even from this distance, Catelyn could make out the shining silver thread, bright against the dark stone.”[NEWLINE]– thoughts of Catelyn Stark</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_THE_NECK_NAME" Language="en_US" >
+			<Text>The Neck</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_THE_NECK_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It appears as Marsh and provides +2 [ICON_Food] Food and +2 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_THE_NECK_QUOTE" Language="en_US">
+			<Text>“The histories say the crannogmen grew close to the children of the forest in the days when the greenseers tried to bring the hammer of the waters down upon the Neck. It may be that they have secret knowledge.”[NEWLINE]– Maester Luwin</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_STEPSTONES_NAME" Language="en_US" >
+			<Text>Stepstones</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_STEPSTONES_DESCRIPTION" Language="en_US">
+			<Text>Two tile impassable natural wonder. It appears on coastal terrain and provides +1 [ICON_Gold] Gold to adjacent tiles.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_STEPSTONES_QUOTE" Language="en_US">
+			<Text>The Stepstones, the chain of rocky islands between Dorne and the Disputed Lands of Essos, had long been a haunt of outlaws, exiles, wreckers, and pirates. Of themselves the isles were of little worth, but placed as they were, they controlled the sea lanes to and from the narrow sea.</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_THE_ROCK_NAME" Language="en_US" >
+			<Text>The Rock</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_THE_ROCK_DESCRIPTION" Language="en_US">
+			<Text>Two tile natural wonder. It appears with Cliffs adjacent to water and provides +3 [ICON_Culture] Culture and +2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_THE_ROCK_QUOTE" Language="en_US">
+			<Text>“Stone, I must be stone, I must be Casterly Rock, hard and unmovable.”[NEWLINE]– thoughts of Tyrion Lannister</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_FOREST_OF_QOHOR_NAME" Language="en_US" >
+			<Text>Forest of Qohor</Text>
+		</Row>
+		<Row Tag="LOC_FEATURE_FOREST_OF_QOHOR_DESCRIPTION" Language="en_US">
+			<Text>Four tile natural wonder. It appears as Marsh and provides +2 [ICON_Food] Food and +1 [ICON_Science] Science.</Text>
+		</Row>
+		<Row  Tag="LOC_FEATURE_FOREST_OF_QOHOR_QUOTE" Language="en_US">
+			<Text>For half a moon, they rode through the Forest of Qohor, where the leaves made a golden canopy high above them, and the trunks of the trees were as wide as city gates. There were great elk in that wood, and spotted tigers, and lemurs with silver fur and huge purple eyes, but all fled before the approach of the khalasar and Dany got no glimpse of them.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

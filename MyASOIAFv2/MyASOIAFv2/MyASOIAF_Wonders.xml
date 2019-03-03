@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!--
+Red Lake (Dead Sea)
+Mother of Mountains (Kilimanjaro)
+Dragonmont (Kilimanjaro)
+Poison Sea (Dead Sea)
+Forktop (Mount Everest)
+Giant's Lance (Mount Everest)
+The Neck (Pantanal)
+Stepstones (Galapagos Islands)
+The Rock (Cliffs of Dover)
+Forest of Qohor(Pantanal)
+-->
+	<Types>
+		<Row Type="FEATURE_RED_LAKE" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_MOTHER_OF_MOUNTAINS" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_DRAGONMONT" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_POISON_SEA" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_FORKTOP" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_GIANTS_LANCE" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_THE_NECK" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_STEPSTONES" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_THE_ROCK" Kind="KIND_FEATURE"/>
+		<Row Type="FEATURE_FOREST_OF_QOHOR" Kind="KIND_FEATURE"/>
+
+	</Types>
+
+	<Features>
+		<Row FeatureType="FEATURE_RED_LAKE" Name="LOC_FEATURE_RED_LAKE_NAME" Description="LOC_FEATURE_RED_LAKE_DESCRIPTION" Quote="LOC_FEATURE_RED_LAKE_QUOTE" QuoteAudio="" AddsFreshWater="true" NaturalWonder="true" Appeal="2" Tiles="2" NoAdjacentFeatures="true" NoRiver="true" NoCoast="true" Lake="true" Settlement="false" FollowRulesInWB="false" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" Name="LOC_FEATURE_MOTHER_OF_MOUNTAINS_NAME" Description="LOC_FEATURE_MOTHER_OF_MOUNTAINS_DESCRIPTION" Quote="LOC_FEATURE_MOTHER_OF_MOUNTAINS_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" Name="LOC_FEATURE_DRAGONMONT_NAME" Description="LOC_FEATURE_DRAGONMONT_DESCRIPTION" Quote="LOC_FEATURE_DRAGONMONT_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_POISON_SEA" Name="LOC_FEATURE_POISON_SEA_NAME" Description="LOC_FEATURE_POISON_SEA_DESCRIPTION" Quote="LOC_FEATURE_POISON_SEA_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="2" NoAdjacentFeatures="true" NoRiver="true" NoCoast="true" Lake="true" Settlement="false" FollowRulesInWB="false" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_FORKTOP" Name="LOC_FEATURE_FORKTOP_NAME" Description="LOC_FEATURE_FORKTOP_DESCRIPTION" Quote="LOC_FEATURE_FORKTOP_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="3" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" Name="LOC_FEATURE_GIANTS_LANCE_NAME" Description="LOC_FEATURE_GIANTS_LANCE_DESCRIPTION" Quote="LOC_FEATURE_GIANTS_LANCE_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="3" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_THE_NECK" Name="LOC_FEATURE_THE_NECK_NAME" Description="LOC_FEATURE_THE_NECK_DESCRIPTION" Quote="LOC_FEATURE_THE_NECK_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="4" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" DefenseModifier="-2" MovementChange="1" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_STEPSTONES" Name="LOC_FEATURE_STEPSTONES_NAME" Description="LOC_FEATURE_STEPSTONES_DESCRIPTION" Quote="LOC_FEATURE_STEPSTONES_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="2" NoRiver="true" Settlement="false" FollowRulesInWB="false" MinDistanceLand="2" MaxDistanceLand="3" Impassable="false" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_THE_ROCK" Name="LOC_FEATURE_THE_ROCK_NAME" Description="LOC_FEATURE_THE_ROCK_DESCRIPTION" Quote="LOC_FEATURE_THE_ROCK_QUOTE" QuoteAudio="" NaturalWonder="true" Coast="true" Appeal="2" Tiles="2" NoRiver="true" Settlement="true" FollowRulesInWB="false" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" Name="LOC_FEATURE_FOREST_OF_QOHOR_NAME" Description="LOC_FEATURE_FOREST_OF_QOHOR_DESCRIPTION" Quote="LOC_FEATURE_FOREST_OF_QOHOR_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="4" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" DefenseModifier="-2" MovementChange="1" MinDistanceNW="8"/>
+
+	</Features>
+
+
+	<Feature_ValidTerrains>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_POISON_SEA" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_POISON_SEA" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_FORKTOP" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_THE_NECK" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_THE_NECK" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_STEPSTONES" TerrainType="TERRAIN_COAST"/>
+		<Row FeatureType="FEATURE_THE_ROCK" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row FeatureType="FEATURE_THE_ROCK" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" TerrainType="TERRAIN_PLAINS"/>
+	</Feature_ValidTerrains>
+
+	<Feature_NotAdjacentTerrains>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_RED_LAKE" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_THE_NECK" TerrainType="TERRAIN_SNOW"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" TerrainType="TERRAIN_SNOW"/>
+	</Feature_NotAdjacentTerrains>
+	<Feature_NotNearFeatures>
+		<Row FeatureType="FEATURE_STEPSTONES" FeatureTypeAvoid="FEATURE_ICE"/>
+	</Feature_NotNearFeatures>
+	<Feature_AdjacentTerrains>
+		<Row FeatureType="FEATURE_FORKTOP" TerrainType="TERRAIN_TUNDRA"/>
+		<Row FeatureType="FEATURE_FORKTOP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_SNOW"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+	</Feature_AdjacentTerrains>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_RED_LAKE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_RED_LAKE" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_DRAGONMONT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_POISON_SEA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_POISON_SEA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row FeatureType="FEATURE_THE_NECK" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_THE_NECK" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row FeatureType="FEATURE_THE_ROCK" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row FeatureType="FEATURE_THE_ROCK" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" YieldType="YIELD_FOOD" YieldChange="2"/>
+	</Feature_YieldChanges>
+	<Feature_AdjacentYields>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row FeatureType="FEATURE_MOTHER_OF_MOUNTAINS" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row FeatureType="FEATURE_FORKTOP" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row FeatureType="FEATURE_GIANTS_LANCE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row FeatureType="FEATURE_STEPSTONES" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</Feature_AdjacentYields>
+
+</GameData>

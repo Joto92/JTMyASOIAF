@@ -19,6 +19,9 @@
 		<Replace Tag="LOC_TRAIT_WINTER_IS_COMING_DESCRIPTION" Language="es_ES">
 			<Text>Territorio adicional al fundar ciudades. +1 a Fe [ICON_Faith] y +1 a la Producción [ICON_Production] en la Tundra.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_WINTER_IS_COMING_EXPANSION2_DESCRIPTION" Language="es_ES">
+			<Text>Territorio adicional al fundar ciudades. +1 a Fe [ICON_Faith] y +1 a la Producción [ICON_Production] en la Tundra. Las unidades no reciben daño por Ventiscas.</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_YOUNG_WOLF_NAME" Language="es_ES">
 			<Text>El Joven Lobo</Text>
 		</Replace>
@@ -254,7 +257,10 @@
 			<Text>Nunca Doblegado, Nunca Roto </Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_DESCRIPTION" Language="es_ES">
-			<Text>Los Terrenos de aluvión no bloquean la colocación de distritos y maravillas. Las unidades reciben +5 a la Fuerza de combate [ICON_Strength] en su territorio o adyacente</Text>
+			<Text>Los Terrenos de aluvión no bloquean la colocación de distritos y maravillas. Las unidades reciben +5 a la Fuerza de combate [ICON_Strength] en su territorio o adyacente.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_EXPANSION2_DESCRIPTION" Language="es_ES">
+			<Text>Los Terrenos de aluvión no bloquean la colocación de distritos y maravillas. Las unidades reciben +5 a la Fuerza de combate [ICON_Strength] en su territorio o adyacente. Las unidades no reciben daño por Tormentas de Arena.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_COLD_REVENGE_NAME" Language="es_ES">
 			<Text>La Venganza se Sirve Fría</Text>
@@ -391,6 +397,9 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_LONG_NIGHT_DESCRIPTION" Language="es_ES">
 			<Text>Los terrenos de Tundra y Nieve proporcionan Alimentos como las Praderas para las otras Civilizaciones.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_THE_LONG_NIGHT_EXPANSION2_DESCRIPTION" Language="es_ES">
+			<Text>Los terrenos de Tundra y Nieve proporcionan Alimentos como las Praderas para las otras Civilizaciones. Las unidades no reciben daño por Ventiscas. Las civilizaciones que estén en guerra contigo recibirán +100% al daño de unidades por Ventiscas en tu territorio.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_RISE_THE_DEAD_NAME" Language="es_ES">
 			<Text>Levantar los Muertos</Text>
@@ -581,6 +590,9 @@
 		</Replace>
 		<Replace Tag="LOC_TRAIT_WILDINGS_DESCRIPTION" Language="es_ES">
 			<Text>Territorio adicional al fundar ciudades y sus unidades pueden moverse por los Bosques y Selvas sin Penalización de Movimiento[ICON_Movement].</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_WILDINGS_EXPANSION2_DESCRIPTION" Language="es_ES">
+			<Text>Territorio adicional al fundar ciudades y sus unidades pueden moverse por los Bosques y Selvas sin Penalización de Movimiento[ICON_Movement]. Las unidades no reciben daño por Ventiscas.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_KING_BEYOND_WALL_NAME" Language="es_ES">
 			<Text>Rey-Más-Allá-del-Muro</Text>

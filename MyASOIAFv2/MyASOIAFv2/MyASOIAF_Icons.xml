@@ -372,5 +372,16 @@
 
 		<!-- End Adittional Units-->
 
+		<Row Name="ICON_FEATURE_RED_LAKE"            Atlas="ICON_ATLAS_FEATURES" Index="9"/>
+		<Row Name="ICON_FEATURE_MOTHER_OF_MOUNTAINS"         Atlas="ICON_ATLAS_FEATURES" Index="12"/>
+		<Row Name="ICON_FEATURE_DRAGONMONT"         Atlas="ICON_ATLAS_FEATURES" Index="12"/>
+		<Row Name="ICON_FEATURE_POISON_SEA"            Atlas="ICON_ATLAS_FEATURES" Index="9"/>
+		<Row Name="ICON_FEATURE_FORKTOP"	Atlas="ICON_ATLAS_FEATURES" Index="10"/>
+		<Row Name="ICON_FEATURE_GIANTS_LANCE"	Atlas="ICON_ATLAS_FEATURES" Index="10"/>
+		<Row Name="ICON_FEATURE_THE_NECK"            Atlas="ICON_ATLAS_FEATURES" Index="13"/>
+		<Row Name="ICON_FEATURE_STEPSTONES"           Atlas="ICON_ATLAS_FEATURES" Index="11"/>
+		<Row Name="ICON_FEATURE_THE_ROCK"        Atlas="ICON_ATLAS_FEATURES" Index="8"/>
+		<Row Name="ICON_FEATURE_FOREST_OF_QOHOR"            Atlas="ICON_ATLAS_FEATURES" Index="13"/>
+
 	</IconDefinitions>
 </GameData>

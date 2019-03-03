@@ -20,6 +20,9 @@
 		<Row Tag="LOC_TRAIT_WINTER_IS_COMING_DESCRIPTION" Language="en_US">
 			<Text>Extra territory upon founding cities. +1 [ICON_Faith] Faith and +1 [ICON_Production] Production from Tundra.</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_WINTER_IS_COMING_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Extra territory upon founding cities. +1 [ICON_Faith] Faith and +1 [ICON_Production] Production from Tundra. Units do not receive damage from Blizzards.</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_THE_YOUNG_WOLF_NAME" Language="en_US">
 			<Text>The Young Wolf</Text>
 		</Row>
@@ -266,7 +269,10 @@
 			<Text>Unbowed, Unbent, Unbroken</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_DESCRIPTION" Language="en_US">
-			<Text>Floodplains do not block placement of districts and wonders.Units receive a +5 [ICON_Strength] Combat Strength when in your territory or adjacent to your territory</Text>
+			<Text>Floodplains do not block placement of districts and wonders.Units receive a +5 [ICON_Strength] Combat Strength when in your territory or adjacent to your territory.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNBOWED_UNBENT_UNBROKEN_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Floodplains do not block placement of districts and wonders.Units receive a +5 [ICON_Strength] Combat Strength when in your territory or adjacent to your territory. Units do not receive damage from Dust Storms.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_COLD_REVENGE_NAME" Language="en_US">
 			<Text>Cold Revenge</Text>
@@ -397,6 +403,9 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_THE_LONG_NIGHT_DESCRIPTION" Language="en_US">
 			<Text>Tundra and Snow terrain gives food as Grasslands to other Civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_LONG_NIGHT_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Tundra and Snow terrain gives food as Grasslands to other Civilizations. Units do not receive damage from Blizzards. Civilizations that are at war with you receive +100% unit damage from Blizzards in your territory.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_RISE_THE_DEAD_NAME" Language="en_US">
 			<Text>Rise the Dead</Text>
@@ -607,6 +616,9 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_WILDINGS_DESCRIPTION" Language="en_US">
 			<Text>Extra territory upon founding cities and can move through Woods and Rainforest without [ICON_Movement] Movement penalty.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WILDINGS_EXPANSION2_DESCRIPTION" Language="en_US">
+			<Text>Extra territory upon founding cities and can move through Woods and Rainforest without [ICON_Movement] Movement penalty. Units do not receive damage from Blizzards.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_KING_BEYOND_WALL_NAME" Language="en_US">
 			<Text>King-Beyond-the-Wall</Text>

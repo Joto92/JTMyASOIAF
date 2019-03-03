@@ -6098,7 +6098,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Swordsman/Mediterranean/Spearman_European_ShieldB"/>
+																<m_Name text="Shields/Swordsman/Mediterranean"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6132,7 +6132,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Swords/Swordsman/NorthernEuropean/Swordsman_European_SwordA"/>
+																<m_Name text="Swords/Swordsman/European"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6319,7 +6319,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Crossbowman/Mughal/Pikemen_MiddleEastern_Helm_B"/>
+																<m_Name text="Hats/Crossbowman/MiddleEastern"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6387,7 +6387,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Swordsman/Any/Swordsman_Shield_A"/>
+																<m_Name text="Shields/Swordsman/Any"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6421,7 +6421,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Swords/Swordsman/NorthernEuropean/Swordsman_European_SwordA"/>
+																<m_Name text="Swords/Swordsman/European"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6540,7 +6540,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor_Horse/Knight/Any/Knight_HorseArmorA"/>
+																<m_Name text="Armor_Horse/Knight"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6766,7 +6766,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Hoplite/Any/Hoplite_ShieldA"/>
+																<m_Name text="Shields/Hoplite/Any"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -6953,7 +6953,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Swordsman/Mediterranean/Swordsman_Armor_B"/>
+																<m_Name text="Armor/Swordsman/Mediterranean"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -7123,7 +7123,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Knight/Any/Knight_Shield"/>
+																<m_Name text="Shields/Knight/Any"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -7157,7 +7157,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Swords/Swordsman/NorthernEuropean/Swordsman_European_SwordA"/>
+																<m_Name text="Swords/Swordsman/European"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -7276,7 +7276,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor_Horse/Knight/Any/Knight_HorseArmorA"/>
+																<m_Name text="Armor_Horse/Knight"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -7881,7 +7881,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Crossbowman/Mughal"/>
+																<m_Name text="Hats/Crossbowman/MiddleEastern"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -7949,7 +7949,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Spearman/Mughal"/>
+																<m_Name text="Shields/Spearman/MiddleEastern"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8102,7 +8102,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Swordsman/Mediterranean/Swordsman_Armor_B"/>
+																<m_Name text="Armor/Swordsman/Mediterranean"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8306,7 +8306,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Swords/Swordsman/NorthernEuropean/Swordsman_European_SwordA"/>
+																<m_Name text="Swords/Swordsman/European"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8685,7 +8685,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Heads/Male"/>
+																<m_Name text="Heads/Male/Asian"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8719,7 +8719,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Swords/Swordsman/NorthAfrican/Swordsman_NorthAfrican_SwordA"/>
+																<m_Name text="Swords/Swordsman/African"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8838,7 +8838,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Spearman/Mughal/Spearman_ArmorC"/>
+																<m_Name text="Armor/Spearman/MiddleEastern"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8906,7 +8906,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Spearman/Mediterranean/Spearman_Mediterranean_HelmA"/>
+																<m_Name text="Hats/Spearman/Mediterranean"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -8974,7 +8974,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Shields/Spearman/Any/Spearman_ShieldA"/>
+																<m_Name text="Shields/Spearman/Any"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -9608,7 +9608,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Spearman/NorthernEuropean"/>
+																<m_Name text="Hats/Spearman/European"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -10152,7 +10152,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Armor/Spearman/NorthAfrican"/>
+																<m_Name text="Armor/Spearman/MiddleEastern"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -10220,7 +10220,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Hats/Pikeman/Mughal"/>
+																<m_Name text="Hats/Pikeman/CIVILIZATION_EGYPT"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>

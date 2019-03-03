@@ -25,6 +25,11 @@
          <File>MyASOIAF_Religions.xml</File>
          <File>MyASOIAF_CityStates.xml</File>
          <File>MyASOIAF_Improvements.xml</File>
+         <File>MyASOIAF_Wonders.xml</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="UsingExpansion2">
+          <Criteria>Expansion2</Criteria>
+          <File>MyASOIAF_Expansion2_New.xml</File>
         </UpdateDatabase>
        <UpdateText id="Text">
           <File>MyASOIAF_ConfigText.xml</File>
@@ -59,7 +64,14 @@
       </FrontEndActions>]]></FrontEndActionData>
     <AssemblyName>MyASOIAFv2</AssemblyName>
     <RootNamespace>MyASOIAFv2</RootNamespace>
-    <Authors>Jordi Torné</Authors>
+    <Authors>Joto92</Authors>
+    <ActionCriteriaData><![CDATA[
+      <ActionCriteria>
+        <Criteria id="Expansion2">
+          <GameCoreInUse>Expansion2</GameCoreInUse>
+        </Criteria>
+      </ActionCriteria>
+    ]]></ActionCriteriaData>
     <ModProperties>
       <CustomProperties xmlns="" />
     </ModProperties>
@@ -80,6 +92,9 @@
     <Content Include="MyASOIAF_Colors.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="MyASOIAF_Expansion2_New.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="MyASOIAF_Improvements.xml">
       <SubType>Content</SubType>
     </Content>
@@ -93,6 +108,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="MyASOIAF_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Wonders.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Translations\MyASOIAF_Civilopedia_ES.xml">
