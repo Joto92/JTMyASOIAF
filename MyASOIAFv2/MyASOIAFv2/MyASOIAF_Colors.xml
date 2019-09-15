@@ -275,6 +275,76 @@
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_LHAZOSH</SecondaryColor>
 			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
+		<Row>
+			<Type>CIVILIZATION_HIGHTOWER</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_HIGHTOWER</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_REDWYNE</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_REDWYNE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_FLORENT</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_FLORENT</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_UMBER</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_UMBER</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_YRONWOOD</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_YRONWOOD</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_DAYNE</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_DAYNE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_BRACKEN</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_BRACKEN</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_BLACKWOOD</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_BLACKWOOD</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_CASTLE_BLACK</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_CASTLE_BLACK</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
+		<Row>
+			<Type>CIVILIZATION_MANDERLY</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MANDERLY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
+		</Row>
 		<!-- End of City States-->
 		<Row>
 			<Type>LEADER_EDDARD_STARK</Type>
@@ -680,13 +750,83 @@
 			<Alpha>1</Alpha>
 		</Row>
 		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_HIGHTOWER</Type>
+			<Red>1</Red>
+			<Green>1</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_REDWYNE</Type>
+			<Red>0.611</Red>
+			<Green>0.160</Green>
+			<Blue>0.251</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_FLORENT</Type>
+			<Red>1</Red>
+			<Green>1</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_UMBER</Type>
+			<Red>0.988</Red>
+			<Green>0.525</Green>
+			<Blue>0.423</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_YRONWOOD</Type>
+			<Red>0.949</Red>
+			<Green>0.862</Green>
+			<Blue>0.525</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_DAYNE</Type>
+			<Red>0.780</Red>
+			<Green>0.694</Green>
+			<Blue>0.827</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_BRACKEN</Type>
+			<Red>1</Red>
+			<Green>0.913</Green>
+			<Blue>0.529</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_BLACKWOOD</Type>
+			<Red>0.978</Red>
+			<Green>0.427</Green>
+			<Blue>0.341</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_CASTLE_BLACK</Type>
+			<Red>0.764</Red>
+			<Green>0.764</Green>
+			<Blue>0.764</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_CITY_STATE_MANDERLY</Type>
+			<Red>0.368</Red>
+			<Green>0.756</Green>
+			<Blue>0.745</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<!-- End of City States-->
+		<Row>
 			<Type>COLOR_PLAYER_EDDARD_STARK_PRIMARY</Type>
 			<Red>0.317</Red>
 			<Green>0.317</Green>
 			<Blue>0.317</Blue>
 			<Alpha>1</Alpha>
 		</Row>
-		<!-- End of City States-->
 		<Row>
 			<Type>COLOR_PLAYER_EURON_SECONDARY</Type>
 			<Red>0</Red>

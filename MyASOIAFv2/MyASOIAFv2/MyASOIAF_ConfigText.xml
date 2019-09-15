@@ -156,7 +156,7 @@
 			<Text>Westerland Workshop</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_WESTERLAND_WORKSHOP_DESCRIPTION" Language="en_US">
-			<Text> Gives 2 [ICON_Gold] Gold, 2 [ICON_Production] Production, 1 Point for a Great Engineer and Great Merchant. </Text>
+			<Text> Gives 2 [ICON_Gold] Gold, 3 [ICON_Production] Production, 1 Point for a Great Engineer and Great Merchant. </Text>
 		</Row>
 		<!-- END OF THE WESTERLANDS | LANNISTER -->
 		<!-- COMMUN TRULY BARATHEONS -->
@@ -677,7 +677,7 @@
 			<Text>King's Tourney</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_KING_TOURNEY_DESCRIPTION" Language="en_US">
-			<Text>Gives 3 Entretainment , 1 [ICON_Culture] Culture and 2 Points for a Great General. Replace the Arena.</Text>
+			<Text>Gives 3 Entretainment , 1 [ICON_Culture] Culture, 1 [ICON_Gold] Gold and 2 Points for a Great General. Replace the Arena.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_RENLY_BARATHEON_NAME" Language="en_US">
 			<Text>Renly Baratheon</Text>
@@ -739,7 +739,7 @@
 			<Text>Fighting Pit</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_FIGHTING_PIT_DESCRIPTION" Language="en_US">
-			<Text>Gives 3 Entretainment , 1 [ICON_Gold] Gold and 2 Points for a Great Merchants. Replace the Arena.</Text>
+			<Text>Gives 3 Entretainment , 1 [ICON_Gold] Gold, 1 [ICON_Culture] Culture and 2 Points for a Great Merchants. Replace the Arena.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_WATER_WIZARDS_NAME" Language="en_US">
 			<Text>Water Wizards</Text>

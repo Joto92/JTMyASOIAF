@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Modifiers>
+		<Update>
+			<Where>
+				<ModifierId>MYSOIAF_CAPTURE_COMBAT_UNITS_AS_WIGHTS</ModifierId>
+			</Where>
+			<Set>
+				<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_UNIT_CAPTURE</ModifierType>
+			</Set>
+		</Update>
+	</Modifiers>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_EXOTIC_MARKET" ModifierId="MARKET_TRADE_ROUTE_CAPACITY"/>
+		<Row BuildingType="BUILDING_IRONBORN_PORT" ModifierId="LIGHTHOUSE_TRADE_ROUTE_CAPACITY"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" ModifierId="MONUMENT_LOYALTY"/>
+		<Row BuildingType="BUILDING_FLAYED_CROSS" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>
+	</BuildingModifiers>
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_UNSULLIED"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_DREADFORT_PIKEMAN"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_TORTOISE_SHIELD_WARRIOR"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_GOLDEN_COMPANY"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_PIKEMEN_OFTHE_ROCK"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_SNAKE_FANGS"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

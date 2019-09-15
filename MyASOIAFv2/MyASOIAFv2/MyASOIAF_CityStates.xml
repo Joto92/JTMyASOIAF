@@ -5,22 +5,31 @@
 			Norvos[Religious], qohor[Industrial], Meeren[Trade], Yunkai[Industrial], Astapor[Milatiristic], New Ghis[Cultural]
 			Lotus Point[Cultural], Port of Ibben[Trade], Qarth[Trade], Mantarys[Cultural], Elyria[Militaristic], Tolos[Militar]
 			Saath[Industrial], Lhazosh[Cultural]
-	FALTA: Omber	
-		Ancient Sarnori: ?? Cymmeri, Gipps, Zoqora
-		
+	FALTA: Omber   Ancient Sarnori: ?? Cymmeri, Gipps, Zoqora
+	Westeros: Hightower[Science], Redwyne[Trade], Florent[Religious], Umber[Military], Yronwood[Militar], Dayne[Cultural], Bracken[Cultural],  Blackwood[Religius], 	Castle Black[Cultural], Manderly[Trade],
 		Base: 
-			Trade:6 | Cultural:5 | Militar:4 | Scientific:1 | Religious:2 | Industrial: 3 = 21
+			Trade:7 | Cultural:5 | Militar:4 | Scientific:2 | Religious:2 | Industrial: 3 = 22
 	####### Extra westeros citystates:
-	Dominio(7): Tarly[Militar], Redwyne[Trade], Hightower[Science], Florent[Religious], Rowan[Cultural], Okheart[Religious?], Caswell[Industrial?]
-	North(9): Manderly[Trade], Karstark[Military], Umber[Military], Dustin[Industrial], Dreadfort[Military], Glover[Cultural], Tallhart[Industrial], Reed[Cultural], Mormont[Cultural]
-	Dorne(8): Yronwood[Militar], Dayne[Cultural], Allyrion[Religious], Uller[Militar], Fowler[Cultural], Qorgyle[Cultural], Manwoody[Industrial], Wyl[Trade]
-	Tierras de los Rios(6): Bracken[Cultural], Blackwood[Religius], Twins[Trade], Mallister[Militar], Darry[Industrial], Mooton[Religious]
-	Valle(7): Grafton[Trade], Royce[Militar], Corbray[Industrial], Lynderly[Industrial], Waynwood[Religious], Redfort[Militar], Hunter[Trade]
-	Stormlands(6): Caron[Cultural], Connington[Military], Estermor[Trade], Cafferen[Militar], Fell[Militar], Swann[Trade]
+
+	IMPORTANT Loyal Unclear: 
+		Manderly
+	Dominio(7):  ,  
+		 ,  Rowan[Cultural], Tarly[Militar], Okheart[Religious?],Caswell[Industrial?]
+	North(9): Karstark[Military], 
+		(Dreadfort[Military]) Dustin[Industrial], Mormont[Cultural], Glover[Cultural], Tallhart[Industrial], Reed[Cultural]
+		Karstark, Kabul 	Your units receive double experience from battles they initiate.
+	Dorne(8): ,  
+		Fowler[Cultural], Uller[Militar],Wyl[Trade], Allyrion[Religious],   Qorgyle[Cultural], Manwoody[Industrial], 
+	Tierras de los Rios(6): , Mooton[Religious]
+		(Twins[Trade]),   Mallister[Militar],Darry[Industrial],
+	Valle(7): Grafton[Trade], Royce[Militar], Corbray[Industrial], Lynderly[Industrial]
+		, Waynwood[Religious], Redfort[Militar], Hunter[Trade]
+	Stormlands(6): Connington[Military], Swann[Trade], Caron[Cultural]
+		Estermor[Trade], Cafferen[Militar], Fell[Militar]
 	Iron Islands(1): Harlaw(Military)
-	Westerlands(6): Brax[Trade], Crackehall[Militar], Reyne[Trade], Westerling[Cultural], Lefford[Trade], Marbrand[Religius]
+	Westerlands(6): Brax[Trade], Crackehall[Militar], 
+		Lefford[Trade], Reyne[Trade], Westerling[Cultural],  Marbrand[Religius]
 	Crownladns(3):Velaryon[Military], Valleoscuro[Trade], Sunglass[Religious]
-	Castle Black(1)[Cultural]
 	Old: Mudd[Industrail], Fisher[Trade], Teague[Religious], Justman[Cultural]
 		Trade:12 | Cultural:11 | Militar:15 | Scientific:1 | Religious:8 | Industrial:7= 54
 		Old: 1 Industrail, 1 Trade, 1 Religious, 1 Cultural= 4
@@ -113,6 +122,45 @@
 		<Row Type="LEADER_MINOR_CIV_LHAZOSH" Kind="KIND_LEADER"/>
 		<Row Type="MINOR_CIV_LHAZOSH_TRAIT" Kind="KIND_TRAIT"/>
 
+		<Row Type="CIVILIZATION_HIGHTOWER" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HIGHTOWER" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HIGHTOWER_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_REDWYNE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_REDWYNE" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_REDWYNE_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_FLORENT" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_FLORENT" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_FLORENT_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_UMBER" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_UMBER" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_UMBER_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_YRONWOOD" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_YRONWOOD" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_YRONWOOD_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_DAYNE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_DAYNE" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_DAYNE_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_BRACKEN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_BRACKEN" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_BRACKEN_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_BLACKWOOD" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_BLACKWOOD" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_BLACKWOOD_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_CASTLE_BLACK" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_CASTLE_BLACK" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_CASTLE_BLACK_TRAIT" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_MANDERLY" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_MANDERLY" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_MANDERLY_TRAIT" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -137,6 +185,16 @@
 		<Row LeaderType="LEADER_MINOR_CIV_TOLOS" Name="LOC_CITY_NAME_TOLOS" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
 		<Row LeaderType="LEADER_MINOR_CIV_SAATH" Name="Saath" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
 		<Row LeaderType="LEADER_MINOR_CIV_LHAZOSH" Name="LOC_CITY_NAME_LHAZOSH" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HIGHTOWER" Name="LOC_CITY_NAME_OLDTOWN" InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_REDWYNE" Name="LOC_CITY_NAME_ARBOR" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_FLORENT" Name="LOC_CITY_NAME_BRIGHTWATER_KEEP" InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_UMBER" Name="LOC_CITY_NAME_LAST_HEARTH" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YRONWOOD" Name="LOC_CITY_NAME_YRONWOOD" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_DAYNE" Name="LOC_CITY_NAME_STARFALL" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BRACKEN" Name="LOC_CITY_NAME_STONE_HEDGE" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BLACKWOOD" Name="LOC_CITY_NAME_RAVENTREE_HALL" InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CASTLE_BLACK" Name="LOC_CITY_NAME_CASTLE_BLACK" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MANDERLY" Name="LOC_CITY_NAME_WHITE_HARBOUR" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
 
 	</Leaders>
 
@@ -167,6 +225,16 @@
 		<Row LeaderType="LEADER_MINOR_CIV_TOLOS" TraitType="MINOR_CIV_TOLOS_TRAIT"/>
 		<Row LeaderType="LEADER_MINOR_CIV_SAATH" TraitType="MINOR_CIV_SAATH_TRAIT"/>
 		<Row LeaderType="LEADER_MINOR_CIV_LHAZOSH" TraitType="MINOR_CIV_LHAZOSH_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HIGHTOWER" TraitType="MINOR_CIV_HIGHTOWER_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_REDWYNE" TraitType="MINOR_CIV_REDWYNE_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_FLORENT" TraitType="MINOR_CIV_FLORENT_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_UMBER" TraitType="MINOR_CIV_UMBER_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YRONWOOD" TraitType="MINOR_CIV_YRONWOOD_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_DAYNE" TraitType="MINOR_CIV_DAYNE_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BRACKEN" TraitType="MINOR_CIV_BRACKEN_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BLACKWOOD" TraitType="MINOR_CIV_BLACKWOOD_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CASTLE_BLACK" TraitType="MINOR_CIV_CASTLE_BLACK_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MANDERLY" TraitType="MINOR_CIV_MANDERLY_TRAIT"/>
 
 
 	</LeaderTraits>
@@ -193,7 +261,16 @@
 		<Row TraitType="MINOR_CIV_TOLOS_TRAIT" Name="LOC_MINOR_CIV_TOLOS_TRAIT_NAME" Description="LOC_MINOR_CIV_TOLOS_TRAIT_DESCRIPTION"/>
 		<Row TraitType="MINOR_CIV_SAATH_TRAIT" Name="LOC_MINOR_CIV_SAATH_TRAIT_NAME" Description="LOC_MINOR_CIV_SAATH_TRAIT_DESCRIPTION"/>
 		<Row TraitType="MINOR_CIV_LHAZOSH_TRAIT" Name="LOC_MINOR_CIV_LHAZOSH_TRAIT_NAME" Description="LOC_MINOR_CIV_LHAZOSH_TRAIT_DESCRIPTION"/>
-
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" Name="LOC_MINOR_CIV_HIGHTOWER_TRAIT_NAME" Description="LOC_MINOR_CIV_HIGHTOWER_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_REDWYNE_TRAIT" Name="LOC_MINOR_CIV_REDWYNE_TRAIT_NAME" Description="LOC_MINOR_CIV_REDWYNE_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_FLORENT_TRAIT" Name="LOC_MINOR_CIV_FLORENT_TRAIT_NAME" Description="LOC_MINOR_CIV_FLORENT_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_UMBER_TRAIT" Name="LOC_MINOR_CIV_UMBER_TRAIT_NAME" Description="LOC_MINOR_CIV_UMBER_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_YRONWOOD_TRAIT" Name="LOC_MINOR_CIV_YRONWOOD_TRAIT_NAME" Description="LOC_MINOR_CIV_YRONWOOD_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_DAYNE_TRAIT" Name="LOC_MINOR_CIV_DAYNE_TRAIT_NAME" Description="LOC_MINOR_CIV_DAYNE_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_BRACKEN_TRAIT" Name="LOC_MINOR_CIV_BRACKEN_TRAIT_NAME" Description="LOC_MINOR_CIV_BRACKEN_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_BLACKWOOD_TRAIT" Name="LOC_MINOR_CIV_BLACKWOOD_TRAIT_NAME" Description="LOC_MINOR_CIV_BLACKWOOD_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_CASTLE_BLACK_TRAIT" Name="LOC_MINOR_CIV_CASTLE_BLACK_TRAIT_NAME" Description="LOC_MINOR_CIV_CASTLE_BLACK_TRAIT_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_MANDERLY_TRAIT" Name="LOC_MINOR_CIV_MANDERLY_TRAIT_NAME" Description="LOC_MINOR_CIV_MANDERLY_TRAIT_DESCRIPTION"/>
 	</Traits>
 
 	<TraitModifiers>
@@ -232,6 +309,26 @@
 		<Row TraitType="MINOR_CIV_TOLOS_TRAIT" ModifierId="MINOR_CIV_TOLOS_UNIQUE_INFLUENCE_BONUS"/>
 		<Row TraitType="MINOR_CIV_SAATH_TRAIT" ModifierId="MINOR_CIV_SAATH_UNIQUE_INFLUENCE_BONUS"/>
 		<Row TraitType="MINOR_CIV_LHAZOSH_TRAIT" ModifierId="MINOR_CIV_LHAZOSH_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_HIGHTOWER_TRAIT" ModifierId="MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_REDWYNE_TRAIT" ModifierId="MINOR_CIV_REDWYNE_UNIQUE_INFLUENCE_WINE_BONUS"/>
+		<Row TraitType="MINOR_CIV_FLORENT_TRAIT" ModifierId="MINOR_CIV_FLORENT_RELIGION_BONUS"/>
+		<Row TraitType="MINOR_CIV_FLORENT_TRAIT" ModifierId="MINOR_CIV_FLORENT_HOLY_CITY_BONUS"/>
+		<Row TraitType="MINOR_CIV_UMBER_TRAIT" ModifierId="MINOR_CIV_UMBER_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_YRONWOOD_TRAIT" ModifierId="MINOR_CIV_YRONWOOD_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_DAYNE_TRAIT" ModifierId="MINOR_CIV_DAYNE_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_BRACKEN_TRAIT" ModifierId="MINOR_CIV_BRACKEN_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_BLACKWOOD_TRAIT" ModifierId="MINOR_CIV_BLACKWOOD_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_CASTLE_BLACK_TRAIT" ModifierId="MINOR_CIV_CASTLE_BLACK_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_MANDERLY_TRAIT" ModifierId="MINOR_CIV_MANDERLY_UNIQUE_INFLUENCE_BONUS"/>
+
 	</TraitModifiers>
 
 	<Modifiers>
@@ -552,6 +649,181 @@
 			<ModifierId>TRAIT_MYSOAIF_ADD_CULTURE_TO_ALL_PASTURES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_REDWYNE_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_REDWYNE_WINE_RESOURCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FLORENT_RELIGION_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADOPT_ALLY_FOUNDED_RELIGIONS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FLORENT_HOLY_CITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_TREAT_CAPITAL_AS_HOLY_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_UMBER_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UMBER_RIVER_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_PLOT_HAS_ENCAMPMENT_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YRONWOOD_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YRONWOOD_TRADE_ROUTE_CAPACITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_DAYNE_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DAYNE_RIVER_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MYSOIAF_PLOT_HAS_ARENA_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRACKEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYASOIAF_ADD_FOOD_TO_ALL_PASTURES</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BLACKWOOD_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CASTLE_BLACK_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CASTLE_BLACK_ABILITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANDERLY_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANDERLY_GOLD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 
@@ -1135,6 +1407,271 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_GENERAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_ADMIRAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_ENGINEER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_MERCHANT_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_PROPHET_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_SCIENTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_WRITER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_ARTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HIGHTOWER_GREAT_MUSICIAN_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HIGHTOWER_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_REDWYNE_UNIQUE_INFLUENCE_WINE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_REDWYNE_WINE_RESOURCE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_REDWYNE_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_REDWYNE_WINE_RESOURCE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FLORENT_RELIGION_BONUS</ModifierId>
+			<Name>Adopt</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FLORENT_HOLY_CITY_BONUS</ModifierId>
+			<Name>Value</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_UMBER_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>UMBER_RIVER_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>UMBER_RIVER_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>UMBER_RIVER_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YRONWOOD_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_YRONWOOD_TRADE_ROUTE_CAPACITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_YRONWOOD_TRADE_ROUTE_CAPACITY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAYNE_RIVER_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DAYNE_RIVER_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BRACKEN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_MYASOIAF_ADD_FOOD_TO_ALL_PASTURES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYASOIAF_ADD_FOOD_TO_ALL_PASTURES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYASOIAF_ADD_FOOD_TO_ALL_PASTURES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BLACKWOOD_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>BLACKWOOD_FAITH_ADJACENCY_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACKWOOD_FAITH_ADJACENCY_FOREST</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BLACKWOOD_DISTRICT_FOREST_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CASTLE_BLACK_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CASTLE_BLACK_ABILITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CASTLE_BLACK_ABILITY_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_CASTLE_BLACK_GRANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANDERLY_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MANDERLY_GOLD_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANDERLY_GOLD_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MANDERLY_GOLD_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
 	</ModifierArguments>
 
 	<TypeProperties>
@@ -1159,6 +1696,16 @@
 		<Row Type="CIVILIZATION_TOLOS" Name="CityStateCategory" Value="MILITARISTIC"/>
 		<Row Type="CIVILIZATION_SAATH" Name="CityStateCategory" Value="INDUSTRIAL"/>
 		<Row Type="CIVILIZATION_LHAZOSH" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_HIGHTOWER" Name="CityStateCategory" Value="SCIENTIFIC"/>
+		<Row Type="CIVILIZATION_REDWYNE" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_FLORENT" Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_UMBER" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_YRONWOOD" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_DAYNE" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_BRACKEN" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_BLACKWOOD" Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_CASTLE_BLACK" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_MANDERLY" Name="CityStateCategory" Value="TRADE"/>
 
 	</TypeProperties>
 
@@ -1184,6 +1731,16 @@
 		<Row CivilizationType="CIVILIZATION_TOLOS" Name="LOC_TOLOS_NAME" Description="LOC_TOLOS_DESCRIPTION" Adjective="LOC_TOLOS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
 		<Row CivilizationType="CIVILIZATION_SAATH" Name="LOC_SAATH_NAME" Description="LOC_SAATH_DESCRIPTION" Adjective="LOC_SAATH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
 		<Row CivilizationType="CIVILIZATION_LHAZOSH" Name="LOC_LHAZOSH_NAME" Description="LOC_LHAZOSH_DESCRIPTION" Adjective="LOC_LHAZOSH_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HIGHTOWER" Name="LOC_HIGHTOWER_NAME" Description="LOC_HIGHTOWER_DESCRIPTION" Adjective="LOC_HIGHTOWER_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_REDWYNE" Name="LOC_REDWYNE_NAME" Description="LOC_REDWYNE_DESCRIPTION" Adjective="LOC_REDWYNE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_FLORENT" Name="LOC_FLORENT_NAME" Description="LOC_FLORENT_DESCRIPTION" Adjective="LOC_FLORENT_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_UMBER" Name="LOC_UMBER_NAME" Description="LOC_UMBER_DESCRIPTION" Adjective="LOC_UMBER_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_YRONWOOD" Name="LOC_YRONWOOD_NAME" Description="LOC_YRONWOOD_DESCRIPTION" Adjective="LOC_YRONWOOD_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_DAYNE" Name="LOC_DAYNE_NAME" Description="LOC_DAYNE_DESCRIPTION" Adjective="LOC_DAYNE_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_BRACKEN" Name="LOC_BRACKEN_NAME" Description="LOC_BRACKEN_DESCRIPTION" Adjective="LOC_BRACKEN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_BLACKWOOD" Name="LOC_BLACKWOOD_NAME" Description="LOC_BLACKWOOD_DESCRIPTION" Adjective="LOC_BLACKWOOD_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_CASTLE_BLACK" Name="LOC_CASTLE_BLACK_NAME" Description="LOC_CASTLE_BLACK_DESCRIPTION" Adjective="LOC_CASTLE_BLACK_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_MANDERLY" Name="LOC_MANDERLY_NAME" Description="LOC_MANDERLY_DESCRIPTION" Adjective="LOC_MANDERLY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
 
 	</Civilizations>
 
@@ -1209,6 +1766,16 @@
 		<Row CivilizationType="CIVILIZATION_TOLOS" LeaderType="LEADER_MINOR_CIV_TOLOS" CapitalName="LOC_CITY_NAME_TOLOS"/>
 		<Row CivilizationType="CIVILIZATION_SAATH" LeaderType="LEADER_MINOR_CIV_SAATH" CapitalName="LOC_SAATH_NAME"/>
 		<Row CivilizationType="CIVILIZATION_LHAZOSH" LeaderType="LEADER_MINOR_CIV_LHAZOSH" CapitalName="LOC_CITY_NAME_LHAZOSH"/>
+		<Row CivilizationType="CIVILIZATION_HIGHTOWER" LeaderType="LEADER_MINOR_CIV_HIGHTOWER" CapitalName="LOC_CITY_NAME_OLDTOWN"/>
+		<Row CivilizationType="CIVILIZATION_REDWYNE" LeaderType="LEADER_MINOR_CIV_REDWYNE" CapitalName="LOC_CITY_NAME_ARBOR"/>
+		<Row CivilizationType="CIVILIZATION_FLORENT" LeaderType="LEADER_MINOR_CIV_FLORENT" CapitalName="LOC_CITY_NAME_BRIGHTWATER_KEEP"/>
+		<Row CivilizationType="CIVILIZATION_UMBER" LeaderType="LEADER_MINOR_CIV_UMBER" CapitalName="LOC_CITY_NAME_LAST_HEARTH"/>
+		<Row CivilizationType="CIVILIZATION_YRONWOOD" LeaderType="LEADER_MINOR_CIV_YRONWOOD" CapitalName="LOC_CITY_NAME_YRONWOOD"/>
+		<Row CivilizationType="CIVILIZATION_DAYNE" LeaderType="LEADER_MINOR_CIV_DAYNE" CapitalName="LOC_CITY_NAME_STARFALL"/>
+		<Row CivilizationType="CIVILIZATION_BRACKEN" LeaderType="LEADER_MINOR_CIV_BRACKEN" CapitalName="LOC_CITY_NAME_STONE_HEDGE"/>
+		<Row CivilizationType="CIVILIZATION_BLACKWOOD" LeaderType="LEADER_MINOR_CIV_BLACKWOOD" CapitalName="LOC_CITY_NAME_RAVENTREE_HALL"/>
+		<Row CivilizationType="CIVILIZATION_CASTLE_BLACK" LeaderType="LEADER_MINOR_CIV_CASTLE_BLACK" CapitalName="LOC_CITY_NAME_CASTLE_BLACK"/>
+		<Row CivilizationType="CIVILIZATION_MANDERLY" LeaderType="LEADER_MINOR_CIV_MANDERLY" CapitalName="LOC_CITY_NAME_WHITE_HARBOUR"/>
 
 	</CivilizationLeaders>
 
@@ -1252,6 +1819,19 @@
 		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_LHAZOSH"/>
 		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_HESH"/>
 		<Row CivilizationType="CIVILIZATION_LHAZOSH" CityName="LOC_CITY_NAME_KOSRAK"/>
+		<Row CivilizationType="CIVILIZATION_HIGHTOWER" CityName="LOC_CITY_NAME_OLDTOWN"/>
+		<Row CivilizationType="CIVILIZATION_REDWYNE" CityName="LOC_CITY_NAME_ARBOR"/>
+		<Row CivilizationType="CIVILIZATION_FLORENT" CityName="LOC_CITY_NAME_BRIGHTWATER_KEEP"/>
+		<Row CivilizationType="CIVILIZATION_UMBER" CityName="LOC_CITY_NAME_LAST_HEARTH"/>
+		<Row CivilizationType="CIVILIZATION_YRONWOOD" CityName="LOC_CITY_NAME_YRONWOOD"/>
+		<Row CivilizationType="CIVILIZATION_DAYNE" CityName="LOC_CITY_NAME_STARFALL"/>
+		<Row CivilizationType="CIVILIZATION_BRACKEN" CityName="LOC_CITY_NAME_STONE_HEDGE"/>
+		<Row CivilizationType="CIVILIZATION_BLACKWOOD" CityName="LOC_CITY_NAME_BLACKWOOD"/>
+		<Row CivilizationType="CIVILIZATION_CASTLE_BLACK" CityName="LOC_CITY_NAME_CASTLE_BLACK"/>
+		<Row CivilizationType="CIVILIZATION_CASTLE_BLACK" CityName="LOC_CITY_NAME_EASTWATCH"/>
+		<Row CivilizationType="CIVILIZATION_CASTLE_BLACK" CityName="LOC_CITY_NAME_SHADOW_TOWER"/>
+		<Row CivilizationType="CIVILIZATION_MANDERLY" CityName="LOC_CITY_NAME_WHITE_HARBOUR"/>
+
 	</CityNames>
 
 	<RequirementSets>
@@ -1261,6 +1841,14 @@
 		</Row>
 		<Row>
 			<RequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ENCAMPMENT_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ARENA_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -1278,6 +1866,22 @@
 			<RequirementSetId>MYSOIAF_PLOT_HAS_INDUSTRIAL_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ENCAMPMENT_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ENCAMPMENT_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ARENA_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MYSOIAF_PLOT_HAS_ARENA_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 
 	<Requirements>
@@ -1287,6 +1891,14 @@
 		</Row>
 		<Row>
 			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENCAMPMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENTERTAINMENT_COMPLEX</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -1301,6 +1913,16 @@
 			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_INDUSTRIAL</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENCAMPMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>MYSOIAF_REQUIRES_PLOT_HAS_ENTERTAINMENT_COMPLEX</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
 		</Row>
 	</RequirementArguments>
 	

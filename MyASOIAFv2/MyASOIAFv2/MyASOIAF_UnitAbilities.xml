@@ -29,6 +29,7 @@
 		<Row Type="ABILITY_TYROSH_GRANT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_ASTAPOR_GRANT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_TOLOS_GRANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CASTLE_BLACK_GRANT" Kind="KIND_ABILITY"/>
 
 		<Row Type="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Kind="KIND_ABILITY"/>
 
@@ -85,6 +86,7 @@
 		<Row Type="ABILITY_TYROSH_GRANT" Tag="CLASS_NAVAL_RAIDER"/>
 		<Row Type="ABILITY_ASTAPOR_GRANT" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="ABILITY_TOLOS_GRANT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_CASTLE_BLACK_GRANT" Tag="CLASS_MELEE"/>
 
 		<Row Type="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
 
@@ -138,6 +140,7 @@
 		<Row UnitAbilityType="ABILITY_TYROSH_GRANT" Name="LOC_ABILITY_TYROSH_GRANT_NAME" Description="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_ASTAPOR_GRANT" Name="LOC_ABILITY_ASTAPOR_GRANT_NAME" Description="LOC_ABILITY_ASTAPOR_GRANT_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_TOLOS_GRANT" Name="LOC_ABILITY_TOLOS_GRANT_NAME" Description="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_CASTLE_BLACK_GRANT" Name="LOC_ABILITY_CASTLE_BLACK_GRANT_NAME" Description="LOC_ABILITY_CASTLE_BLACK_GRANT_DESCRIPTION" Inactive="true"/>
 
 		<Row UnitAbilityType="ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS" Name="LOC_TRAIT_KHALASAR_NAME" Description="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION"  Inactive="true"/>>
 
@@ -301,6 +304,10 @@
 			<ModifierId>MYSOIAF_TOLOS_COMBAT</ModifierId>
 		</Row>
 		<Row>
+			<UnitAbilityType>ABILITY_CASTLE_BLACK_GRANT</UnitAbilityType>
+			<ModifierId>MYSOIAF_CASTLE_BLACK_COMBAT</ModifierId>
+		</Row>
+		<Row>
 			<UnitAbilityType>ABILITY_KHAL</UnitAbilityType>
 			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
 		</Row>
@@ -455,6 +462,10 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>MYSOIAF_CASTLE_BLACK_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType>
+		</Row>
+		<Row>
 			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK</ModifierType>
 		</Row>
@@ -551,6 +562,11 @@
 			<Value>4</Value>
 		</Row>
 		<Row>
+			<ModifierId>MYSOIAF_CASTLE_BLACK_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
 			<ModifierId>MYSOIAF_ENABLE_WALL_ATTACK</ModifierId>
 			<Name>Enable</Name>
 			<Value>true</Value>
@@ -589,6 +605,7 @@
 		<Row ModifierId="MYSOIAF_TYROSH_COSTAL_COMBAT" Context="Preview" Text="LOC_ABILITY_TYROSH_GRANT_DESCRIPTION"/>
 		<Row ModifierId="MYSOIAF_ASTAPOR_COMBAT" Context="Preview" Text="LOC_ABILITY_COMBAT_DESCRIPTION"/>
 		<Row ModifierId="MYSOIAF_TOLOS_COMBAT" Context="Preview" Text="LOC_ABILITY_TOLOS_GRANT_DESCRIPTION"/>
+		<Row ModifierId="MYSOIAF_CASTLE_BLACK_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_CASTLE_BLACK_TRAIT_DESCRIPTION"/>
 		<Row ModifierId="MYSOAIF_LIGHT_CAVALRY_BONUS" Context="Preview" Text="LOC_ABILITY_MYSOIAF_ALL_LIGH_CAVALRY_BONUS_DESCRIPTION"/>
 		<!--Ancient Civs -->
 		<Row ModifierId="MYSOIAF_FIGHT_NEXT_RIVER_PLUS" Context="Preview" Text="LOC_ABILITY_WATER_WIZARDS_DESCRIPTION"/>

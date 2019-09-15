@@ -78,7 +78,7 @@
 		<Row BuildingType="BUILDING_RIVER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row BuildingType="BUILDING_MOUNTAIN_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 		<Row BuildingType="BUILDING_WESTERLAND_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_SIEGE_STOREROOM" YieldType="YIELD_FOOD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_FLOWER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
@@ -96,12 +96,14 @@
 		<Row BuildingType="BUILDING_VAULT" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_VAULT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_KING_TOURNEY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_KING_TOURNEY" YieldType="YIELD_GOLD" YieldChange="1"/>
 		<!--Ancient Civs -->
 		<Row BuildingType="BUILDING_DRAGON_TOWER" YieldType="YIELD_SCIENCE" YieldChange="5"/>
 		<Row BuildingType="BUILDING_DRAGON_TOWER" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row BuildingType="BUILDING_GHISCARI_PYRAMID" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_FIGHTING_PIT" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_FIGHTING_PIT" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<!-- End Ancient Civs-->

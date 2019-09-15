@@ -105,6 +105,9 @@
 		<Row Tag="LOC_CITY_NAME_SEA_DRAGON_POINT" Language="en_US">
 			<Text>Sea Dragon Point</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_RILLWATER_CROSSING" Language="en_US">
+			<Text>Rillwater Crossing</Text>
+		</Row>
 		<Row Tag="LOC_CITY_NAME_MOUNTAIN_CLANS" Language="en_US">
 			<Text>Mountain Clans</Text>
 		</Row>
@@ -116,6 +119,9 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_BLACKPOOL" Language="en_US">
 			<Text>Blackpool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONRATH" Language="en_US">
+			<Text>Ironrath</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_HIGHPOINT" Language="en_US">
 			<Text>Highpoint</Text>
@@ -134,6 +140,15 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_DRIFTWOOD_HALL" Language="en_US">
 			<Text>Driftwood Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEEPDOWN" Language="en_US">
+			<Text>Deepdown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLFS_DEN" Language="en_US">
+			<Text>Wolf's Den</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROFTERS_VILLAGE" Language="en_US">
+			<Text>Crofters Village</Text>
 		</Row>
 		<!-- END OF THE NORTH | STARK -->
 
@@ -187,10 +202,10 @@
 			<Text>The Twins</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ACORN_HALL" Language="en_US">
-			<Text>Acron Hall</Text>
+			<Text>Acorn Hall</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_ATRANA" Language="en_US">
-			<Text>Atrana</Text>
+			<Text>Atranta</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_MISTY_ISLE" Language="en_US">
 			<Text>Misty Isle</Text>
@@ -228,10 +243,61 @@
 		<Row Tag="LOC_CITY_NAME_WHITEWALLS" Language="en_US">
 			<Text>Whitewalls</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_PENNYTREE" Language="en_US">
+			<Text>Pennytree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WENDISH_TOWN" Language="en_US">
+			<Text>Wendish Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYCHESTER" Language="en_US">
+			<Text>Lychester</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUMMERS_FORD" Language="en_US">
+			<Text>Mummer's Ford</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GODS_EYE_TOWN" Language="en_US">
+			<Text>Lychester</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIARWHITE" Language="en_US">
+			<Text>Briarwhite</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROSSED_ELMS" Language="en_US">
+			<Text>Crossed Elms</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DONNELWOOD" Language="en_US">
+			<Text>Donnelwood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIELDSTONE" Language="en_US">
+			<Text>Fieldstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAMBSWOLD" Language="en_US">
+			<Text>Lambswold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUSEDOWN_MILL" Language="en_US">
+			<Text>Mousedown Mill</Text>
+		</Row>
 		<!--destroyed-->
 		<Row Tag="LOC_CITY_NAME_OLDSTONES" Language="en_US">
 			<Text>Oldstones</Text>
 			<!--destroyed-->
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUDGRAVE" Language="en_US">
+			<Text>Mudgrave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUTTEN" Language="en_US">
+			<Text>Nutten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PEASEDALE" Language="en_US">
+			<Text>Peasedale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIVERBEND" Language="en_US">
+			<Text>Riverbend</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALLYDANCE" Language="en_US">
+			<Text>Sallydance</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TUMBLERS_FALLS" Language="en_US">
+			<Text>Tumbler's Falls</Text>
 		</Row>
 		<!-- END OF THE RIVERLANDS | TULLY -->
 		<!-- THE VALE | ARRYN/PETYR -->
@@ -315,6 +381,12 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_WITCH_ISLE" Language="en_US">
 			<Text>Witch Isle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BAELISH_KEEP" Language="en_US">
+			<Text>Baelish Keep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BREAKWATER" Language="en_US">
+			<Text>Breakwater</Text>
 		</Row>
 		<!-- END OF VALE | ARRYN/PETYR -->
 		<!-- THE WESTERLANDS | LANNISTER -->
@@ -427,6 +499,12 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SWEETPORT_SOUND" Language="en_US">
 			<Text>Sweetport Sound</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HIGH_TIDE" Language="en_US">
+			<Text>High Tide</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPICETOWN" Language="en_US">
+			<Text>Spicetown</Text>
 		</Row>
 		<!-- Cities Stormland -->
 		<Row Tag="LOC_CITY_NAME_STORM_END" Language="en_US">
@@ -622,6 +700,33 @@
 		<Row Tag="LOC_CITY_NAME_COLDMOAT" Language="en_US">
 			<Text>Coldmoat</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_RISLEY_GLADE" Language="en_US">
+			<Text>Risley Glade</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHITEGROVE" Language="en_US">
+			<Text>Whitegrove</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VINETOWN" Language="en_US">
+			<Text>Vinetown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOSK" Language="en_US">
+			<Text>Dosk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RYAMSPORT" Language="en_US">
+			<Text>Ryamsport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CUY" Language="en_US">
+			<Text>Cuy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRIMSTON" Language="en_US">
+			<Text>Grimston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARFISH" Language="en_US">
+			<Text>Starfish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUNNY" Language="en_US">
+			<Text>Nunny</Text>
+		</Row>
 		<!-- END OF THE REACH | TYRELL -->
 		<!-- DORNE | MARTELL -->
 		<Row Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL" Language="en_US">
@@ -770,6 +875,9 @@
 		<Row Tag="LOC_CITY_NAME_HARRIDAN_HILL" Language="en_US">
 			<Text>Harridan Hill</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_HARBOR" Language="en_US">
+			<Text>Red Harbor</Text>
+		</Row>
 		<!-- END OF IRON ISLAND | GREYJOY -->
 		<!-- THE BARATHEON KINGS LANDING -->
 		<Row Tag="LOC_LOADING_INFO_LEADER_JOFFREY_BARATHEON" Language="en_US">
@@ -819,6 +927,18 @@
 		</Row>
 		<Row Tag="LOC_CITY_NAME_WHISPERS" Language="en_US">
 			<Text>Whispers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIDDLETON" Language="en_US">
+			<Text>Middleton</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YORE" Language="en_US">
+			<Text>Yore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRINDLEWOOD" Language="en_US">
+			<Text>Brindlewood</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DUN_FORT" Language="en_US">
+			<Text>Dun Fort</Text>
 		</Row>
 		<!-- END OF BARATHEON KINGS LANDING -->
 		<!-- THE WHITE WALKERS -->
@@ -1643,6 +1763,166 @@
 		<Row Tag="LOC_CITY_NAME_KOSRAK" Language="en_US">
 			<Text>Kosrak</Text>
 		</Row>
+		<!-- HIGHTOWER-->
+		<Row Tag="LOC_MINOR_CIV_HIGHTOWER_TRAIT_NAME" Language="en_US">
+			<Text>Hightower</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_HIGHTOWER_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Your districts provide +1 [ICON_GreatPerson] Great Person point of their type ([ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician for Theater Square districts).</Text>
+		</Row>
+		<Row Tag="LOC_HIGHTOWER_NAME" Language="en_US">
+			<Text>Hightower</Text>
+		</Row>
+		<Row Tag="LOC_HIGHTOWER_DESCRIPTION" Language="en_US">
+			<Text>House Hightower</Text>
+		</Row>
+		<Row Tag="LOC_HIGHTOWER_ADJECTIVE" Language="en_US">
+			<Text>Hightower</Text>
+		</Row>
+		<!-- REDWYNE-->
+		<Row Tag="LOC_MINOR_CIV_REDWYNE_TRAIT_NAME" Language="en_US">
+			<Text>Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_REDWYNE_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Receive 2 [ICON_RESOURCE_WINE] of Wine.</Text>
+		</Row>
+		<Row Tag="LOC_REDWYNE_NAME" Language="en_US">
+			<Text>Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_REDWYNE_DESCRIPTION" Language="en_US">
+			<Text>House Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_REDWYNE_ADJECTIVE" Language="en_US">
+			<Text>Redwyne</Text>
+		</Row>
+		<!-- FLORENT-->
+		<Row Tag="LOC_MINOR_CIV_FLORENT_TRAIT_NAME" Language="en_US">
+			<Text>Florent</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_FLORENT_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Automatically converts to the Religion you founded, and exerts pressure for that Religion as if it were a Holy City.</Text>
+		</Row>
+		<Row Tag="LOC_FLORENT_NAME" Language="en_US">
+			<Text>Florent</Text>
+		</Row>
+		<Row Tag="LOC_FLORENT_DESCRIPTION" Language="en_US">
+			<Text>House Florent</Text>
+		</Row>
+		<Row Tag="LOC_FLORENT_ADJECTIVE" Language="en_US">
+			<Text>Florent</Text>
+		</Row>
+		<!-- UMBER-->
+		<Row Tag="LOC_MINOR_CIV_UMBER_TRAIT_NAME" Language="en_US">
+			<Text>Umber</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_UMBER_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Encampment gain +2 [ICON_Culture] Culture if next to a river.</Text>
+		</Row>
+		<Row Tag="LOC_UMBER_NAME" Language="en_US">
+			<Text>Umber</Text>
+		</Row>
+		<Row Tag="LOC_UMBER_DESCRIPTION" Language="en_US">
+			<Text>House Umber</Text>
+		</Row>
+		<Row Tag="LOC_UMBER_ADJECTIVE" Language="en_US">
+			<Text>Umber</Text>
+		</Row>
+		<!-- YRONWOOD-->
+		<Row Tag="LOC_MINOR_CIV_YRONWOOD_TRAIT_NAME" Language="en_US">
+			<Text>Yronwood</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_YRONWOOD_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Your Encampment districts provide +1 [ICON_TradeRoute] Trade Route capacity each.</Text>
+		</Row>
+		<Row Tag="LOC_YRONWOOD_NAME" Language="en_US">
+			<Text>Yronwood</Text>
+		</Row>
+		<Row Tag="LOC_YRONWOOD_DESCRIPTION" Language="en_US">
+			<Text>House Yronwood</Text>
+		</Row>
+		<Row Tag="LOC_YRONWOOD_ADJECTIVE" Language="en_US">
+			<Text>Yronwood</Text>
+		</Row>
+		<!-- DAYNE-->
+		<Row Tag="LOC_MINOR_CIV_DAYNE_TRAIT_NAME" Language="en_US">
+			<Text>Dayne</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_DAYNE_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Entertainment Complex gains +2 [ICON_Culture] Culture if next to a river.</Text>
+		</Row>
+		<Row Tag="LOC_DAYNE_NAME" Language="en_US">
+			<Text>Dayne</Text>
+		</Row>
+		<Row Tag="LOC_DAYNE_DESCRIPTION" Language="en_US">
+			<Text>House Dayne</Text>
+		</Row>
+		<Row Tag="LOC_DAYNE_ADJECTIVE" Language="en_US">
+			<Text>Dayne</Text>
+		</Row>
+		<!-- BRACKEN-->
+		<Row Tag="LOC_MINOR_CIV_BRACKEN_TRAIT_NAME" Language="en_US">
+			<Text>Bracken</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_BRACKEN_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>All Pastures gain +1 [ICON_Food] Food.</Text>
+		</Row>
+		<Row Tag="LOC_BRACKEN_NAME" Language="en_US">
+			<Text>Bracken</Text>
+		</Row>
+		<Row Tag="LOC_BRACKEN_DESCRIPTION" Language="en_US">
+			<Text>House Bracken</Text>
+		</Row>
+		<Row Tag="LOC_BRACKEN_ADJECTIVE" Language="en_US">
+			<Text>Bracken</Text>
+		</Row>
+		<!-- BLACKWOOD-->
+		<Row Tag="LOC_MINOR_CIV_BLACKWOOD_TRAIT_NAME" Language="en_US">
+			<Text>Blackwood</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_BLACKWOOD_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>Holy Sites gains +1 [ICON_Faith] Faith for Forest adjacency.</Text>
+		</Row>
+		<Row Tag="LOC_BLACKWOOD_NAME" Language="en_US">
+			<Text>Blackwood</Text>
+		</Row>
+		<Row Tag="LOC_BLACKWOOD_DESCRIPTION" Language="en_US">
+			<Text>House Blackwood</Text>
+		</Row>
+		<Row Tag="LOC_BLACKWOOD_ADJECTIVE" Language="en_US">
+			<Text>Blackwood</Text>
+		</Row>
+		<!-- CASTLE_BLACK-->
+		<Row Tag="LOC_MINOR_CIV_CASTLE_BLACK_TRAIT_NAME" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_CASTLE_BLACK_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Unit Combat Strength when fighting Barbarians.</Text>
+		</Row>
+		<Row Tag="LOC_CASTLE_BLACK_NAME" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+		<Row Tag="LOC_CASTLE_BLACK_DESCRIPTION" Language="en_US">
+			<Text>City State of Castle Black</Text>
+		</Row>
+		<Row Tag="LOC_CASTLE_BLACK_ADJECTIVE" Language="en_US">
+			<Text>Castle Black</Text>
+		</Row>
+		<!-- MANDERLY-->
+		<Row Tag="LOC_MINOR_CIV_MANDERLY_TRAIT_NAME" Language="en_US">
+			<Text>Manderly</Text>
+		</Row>
+		<Row Tag="LOC_MINOR_CIV_MANDERLY_TRAIT_DESCRIPTION" Language="en_US">
+			<Text>All your districts get +1 [ICON_GOLD] Gold from adjacent Coast tiles.</Text>
+		</Row>
+		<Row Tag="LOC_MANDERLY_NAME" Language="en_US">
+			<Text>Manderly</Text>
+		</Row>
+		<Row Tag="LOC_MANDERLY_DESCRIPTION" Language="en_US">
+			<Text>House Manderly</Text>
+		</Row>
+		<Row Tag="LOC_MANDERLY_ADJECTIVE" Language="en_US">
+			<Text>Manderly</Text>
+		</Row>
 		<!-- End of City States-->
 	<!--Ancient Civs -->
 		<Row Tag="LOC_ABILITY_WATER_WIZARDS_NAME" Language="en_US">
@@ -2020,6 +2300,123 @@
 		</Row>
 		<Row Tag="LOC_NAMED_VOLCANO_MORGHUL_NAME" Language="en_US">
 			<Text>Morghul</Text>
+		</Row>
+		<!-- Lakes-->
+		<Row Tag="NAMED_LAKE_THE_GODS_EYE_NAME" Language="en_US">
+			<Text>The Gods Eye</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_CASTAMERE_NAME" Language="en_US">
+			<Text>Lake Castamere</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_CORPSE_LAKE_NAME" Language="en_US">
+			<Text>Corpse Lake</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_DAGGER_LAKE_NAME" Language="en_US">
+			<Text>Dagger Lake</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_DEEP_LAKE_NAME" Language="en_US">
+			<Text>Deep Lake</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_LEAFY_LAKE_NAME" Language="en_US">
+			<Text>Leafy Lake</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_ASOIAF_LONG_LAKE_NAME" Language="en_US">
+			<Text>Long Lake</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_SILVER_SHORE_NAME" Language="en_US">
+			<Text>Silver Shore</Text>
+		</Row>
+		<Row Tag="NAMED_LAKE_WOMB_OF_THE_WORLD_NAME" Language="en_US">
+			<Text>Womb of the World</Text>
+		</Row>
+		<!-- Oceans-->
+		<Row Tag="NAMED_OCEAN_SUNSET_SEA_NAME" Language="en_US">
+			<Text>Sunset Sea</Text>
+		</Row>
+		<Row Tag="NAMED_OCEAN_JADE_SEA_NAME" Language="en_US">
+			<Text>Jade Sea</Text>
+		</Row>
+		<Row Tag="NAMED_OCEAN_SHIVERING_SEA_NAME" Language="en_US">
+			<Text>Shivering Sea</Text>
+		</Row>
+		<Row Tag="NAMED_OCEAN_SUMMER_SEA_NAME" Language="en_US">
+			<Text>Summer Sea</Text>
+		</Row>
+		<!-- Seas: -->
+		<Row Tag="LOC_NAMED_SEA_NARROW_NAME" Language="en_US">
+			<Text>Narrow sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_DORNE_NAME" Language="en_US">
+			<Text>Sea of Dorne</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MYRTH_NAME" Language="en_US">
+			<Text>Sea of Myrth</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SIGHS_NAME" Language="en_US">
+			<Text>Sea of Sighs</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SMILING_NAME" Language="en_US">
+			<Text>Smiling Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SMOKING_NAME" Language="en_US">
+			<Text>Smoking Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BITE_NAME" Language="en_US">
+			<Text>Bite</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BITTERWEED_BAY_NAME" Language="en_US">
+			<Text>Bitterweed Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BLACKWATER_BAY_NAME" Language="en_US">
+			<Text>Blackwater Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BLAZEWATER_BAY_NAME" Language="en_US">
+			<Text>Blazewater Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_CRABS_NAME" Language="en_US">
+			<Text>Bay of Crabs</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_GULF_GRIEF_NAME" Language="en_US">
+			<Text>Gulf of Grief</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_ICE_NAME" Language="en_US">
+			<Text>Bay of Ice</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_IRONMANS_BAY_NAME" Language="en_US">
+			<Text>Ironman's Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_LORATH_BAY_NAME" Language="en_US">
+			<Text>Lorath Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_NAGGAS_CRADLE_NAME" Language="en_US">
+			<Text>Nagga's Cradle</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_PARROT_BAY_NAME" Language="en_US">
+			<Text>Parrot Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_PENTOS_NAME" Language="en_US">
+			<Text>Bay of Pentos</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SALTSPEAR_NAME" Language="en_US">
+			<Text>Saltspear</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_SEALS_NAME" Language="en_US">
+			<Text>Bay of Seals</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SHIPBREAKER_BAY_NAME" Language="en_US">
+			<Text>Shipbreaker Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_SLAVERS_BAY_NAME" Language="en_US">
+			<Text>Slaver's Bay</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_TUSKS_NAME" Language="en_US">
+			<Text>Bay of Tusks</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_BAY_WHALES_NAME" Language="en_US">
+			<Text>Bay of Whales</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_WHISPERING_SOUND_NAME" Language="en_US">
+			<Text>Whispering Sound</Text>
 		</Row>
 		<!-- Natural Wonders-->
 		<Row Tag="LOC_FEATURE_RED_LAKE_NAME" Language="en_US" >
