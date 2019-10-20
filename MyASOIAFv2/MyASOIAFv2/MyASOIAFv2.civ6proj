@@ -20,17 +20,23 @@
          <File>MyASOIAF_Buildings.xml</File>
          <File>MyASOIAF_Units.xml</File>
          <File>MyASOIAF_UnitAbilities.xml</File>
-         <File>MyASOIAF_Colors.xml</File>
          <File>MyASOIAF_Policies.xml</File>
          <File>MyASOIAF_Religions.xml</File>
          <File>MyASOIAF_CityStates.xml</File>
          <File>MyASOIAF_Improvements.xml</File>
          <File>MyASOIAF_Wonders.xml</File>
         </UpdateDatabase>
+        <UpdateColors id="PlayerColors">
+          <File>MyASOIAF_Colors.xml</File>
+        </UpdateColors>
         <UpdateDatabase id="UsingExpansion2">
           <Criteria>Expansion2</Criteria>
+          <Properties>
+            <LoadOrder>400</LoadOrder>
+          </Properties>
           <File>MyASOIAF_Expansion1_New.xml</File>
           <File>MyASOIAF_Expansion2_New.xml</File>
+          <File>MyASOIAF_Governors.xml</File>
         </UpdateDatabase>
         <UpdateDatabase id="UsingExpansion1">
           <Criteria>Expansion1</Criteria>
@@ -47,6 +53,13 @@
         <UpdateIcons id="Icons">
           <File>MyASOIAF_Icons.xml</File>
         </UpdateIcons>
+        <UpdateIcons id="IconsExpansion2">
+          <Criteria>Expansion2</Criteria>
+          <Properties>
+            <LoadOrder>400</LoadOrder>
+          </Properties>
+          <File>MyASOIAF_Expansion2_Icons.xml</File>
+        </UpdateIcons>
         <UpdateArt id="Art">
           <File>(Mod Art Dependency File)</File>
         </UpdateArt>
@@ -56,12 +69,22 @@
         <UpdateDatabase id="Config">
           <File>MyASOIAF_Config.xml</File>
         </UpdateDatabase>
+        <UpdateColors id="PlayerColors">
+          <File>MyASOIAF_Colors.xml</File>
+        </UpdateColors>
         <UpdateText id="ConfigText">
           <File>MyASOIAF_ConfigText.xml</File>
           <File>Translations/MyASOIAF_ConfigText_ES.xml</File>
         </UpdateText>
         <UpdateIcons id="ConfigIcons">
           <File>MyASOIAF_Icons.xml</File>
+        </UpdateIcons>
+        <UpdateIcons id="ConfigIconsExpansion2">
+          <Criteria>Expansion2</Criteria>
+          <Properties>
+            <LoadOrder>400</LoadOrder>
+          </Properties>
+          <File>MyASOIAF_Expansion2_Icons.xml</File>
         </UpdateIcons>
         <UpdateArt id="ConfigArt">
           <File>(Mod Art Dependency File)</File>
@@ -92,6 +115,9 @@
     <Content Include="Artdefs\FallbackLeaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Maps\ScenarioWarOfFiveKings.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="MyASOIAF_CityStates.xml">
       <SubType>Content</SubType>
     </Content>
@@ -104,7 +130,13 @@
     <Content Include="MyASOIAF_Expansion1_New.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="MyASOIAF_Expansion2_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="MyASOIAF_Expansion2_New.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyASOIAF_Governors.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="MyASOIAF_Improvements.xml">
@@ -138,6 +170,7 @@
       <SubType>Content</SubType>
     </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Maps" />
     <Folder Include="Translations" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
@@ -148,7 +181,7 @@
     <Content Include="MyASOIAF_Leaders.xml" />
     <Content Include="MyASOIAF_Buildings.xml" />
     <Content Include="MyASOIAF_Text.xml" />
-    <None Include="Mod.Art.xml" />
+    <None Include="MyASOIAFv2.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

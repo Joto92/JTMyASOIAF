@@ -3,16 +3,12 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>451</build>
+		<revision>343</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
-		<Element>
-			<m_EntryID text="LEADER_ROBB_STARK_NEUTRAL"/>
-			<m_ObjectName text="LEADER_ROBB_STARK_NEUTRAL"/>
-		</Element>
 		<Element>
 			<m_EntryID text="LEADER_ROBB_STARK_BACKGROUND"/>
 			<m_ObjectName text="LEADER_ROBB_STARK_BACKGROUND"/>
@@ -82,10 +78,6 @@
 			<m_ObjectName text="LEADER_JOFFREY_BARATHEON_BACKGROUND"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_NIGHT_KING_NEUTRAL"/>
-			<m_ObjectName text="LEADER_NIGHT_KING_NEUTRAL"/>
-		</Element>
-		<Element>
 			<m_EntryID text="LEADER_NIGHT_KING_BACKGROUND"/>
 			<m_ObjectName text="LEADER_NIGHT_KING_BACKGROUND"/>
 		</Element>
@@ -104,10 +96,6 @@
 		<Element>
 			<m_EntryID text="LEADER_ROOSE_BOLTON_BACKGROUND"/>
 			<m_ObjectName text="LEADER_ROOSE_BOLTON_BACKGROUND"/>
-		</Element>
-		<Element>
-			<m_EntryID text="LEADER_WALDER_FREY_NEUTRAL"/>
-			<m_ObjectName text="LEADER_WALDER_FREY_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_WALDER_FREY_BACKGROUND"/>
@@ -138,16 +126,8 @@
 			<m_ObjectName text="LEADER_ROBERT_BARATHEON_BACKGROUND"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
-			<m_ObjectName text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
-		</Element>
-		<Element>
 			<m_EntryID text="LEADER_RENLY_BARATHEON_BACKGROUND"/>
 			<m_ObjectName text="LEADER_RENLY_BARATHEON_BACKGROUND"/>
-		</Element>
-		<Element>
-			<m_EntryID text="LEADER_KHAL_DROGO_NEUTRAL"/>
-			<m_ObjectName text="LEADER_KHAL_DROGO_NEUTRAL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_KHAL_DROGO_BACKGROUND"/>
@@ -178,20 +158,40 @@
 			<m_ObjectName text="LEADER_LYSA_ARRYN_NEUTRAL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
-			<m_ObjectName text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
-		</Element>
-		<Element>
-			<m_EntryID text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
-			<m_ObjectName text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
-		</Element>
-		<Element>
 			<m_EntryID text="LEADER_AEGONVI_TARGARYEN_BACKGROUND"/>
 			<m_ObjectName text="LEADER_AEGONVI_TARGARYEN_BACKGROUND"/>
 		</Element>
 		<Element>
 			<m_EntryID text="MYSOIAF_LOADING_BACKGROUND"/>
 			<m_ObjectName text="MYSOIAF_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KHAL_DROGO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KHAL_DROGO_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NIGHT_KING_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NIGHT_KING_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_RENLY_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBB_STARK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ROBB_STARK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WALDER_FREY_NEUTRAL"/>
+			<m_ObjectName text="LEADER_WALDER_FREY_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_AEGONVI_TARGARYEN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CERSEI_LANNISTER_NEUTRAL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

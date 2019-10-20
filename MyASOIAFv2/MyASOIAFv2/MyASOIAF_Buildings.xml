@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!--
+Manmade Wonders: 
+	Long Bridge(of volantis (replace golden gate)
+	Jonquil's Pool (replace Great Bath)
+	The Rock??. Temple of the Graces??, Palace With a Thousand Rooms (replace Potala Palace)???
+-->
 	<Types>
 		<Row Type="BUILDING_GODSWOOD" Kind="KIND_BUILDING" />
 		<Row Type="BUILDING_RIVER_MILL" Kind="KIND_BUILDING"/>
@@ -23,7 +29,22 @@
 		<Row Type="BUILDING_FIGHTING_PIT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_RHOYNE_WATER_GARDEN" Kind="KIND_BUILDING"/>
 		<!-- End Ancient Civs-->
-
+		<!-- Wonders-->
+		<Row Type="BUILDING_THE_TITAN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_SEPT_BAELOR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RED_KEEP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_CITADEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_HIGHTOWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_PYRAMID" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_DAZNAK_PIT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STARRY_SEPT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THE_DRAGON_PIT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WATER_GARDENS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GUILDHALL_ALCHEMISTS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SEPT_SNOWS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TEMPLE_LORD_LIGHT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_IRON_BANK" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HOUSE_BLACK_WHITE" Kind="KIND_BUILDING"/>
 	</Types>
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_GODSWOOD" ReplacesBuildingType="BUILDING_SHRINE"/>
@@ -63,6 +84,23 @@
 		<Row BuildingType="BUILDING_FIGHTING_PIT" Name="LOC_BUILDING_FIGHTING_PIT_NAME" Description="LOC_BUILDING_FIGHTING_PIT_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="3" TraitType="TRAIT_CIVILIZATION_BUILDING_FIGHTING_PIT"/>
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" Name="LOC_BUILDING_RHOYNE_WATER_GARDEN_NAME" Description="LOC_BUILDING_RHOYNE_WATER_GARDEN_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true" TraitType="TRAIT_CIVILIZATION_BUILDING_RHOYNE_WATER_GARDEN"/>
 		<!-- End Ancient Civs-->
+		<!-- Wonders-->
+		<Row BuildingType="BUILDING_THE_TITAN" Name="LOC_BUILDING_THE_TITAN_NAME" Description="LOC_BUILDING_THE_TITAN_DESCRIPTION" PrereqTech="TECH_SHIPBUILDING" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_THE_TITAN_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" Name="LOC_BUILDING_GREAT_SEPT_BAELOR_NAME" Description="LOC_BUILDING_GREAT_SEPT_BAELOR_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_SEPT_BAELOR_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_RED_KEEP" Name="LOC_BUILDING_RED_KEEP_NAME" Description="LOC_BUILDING_RED_KEEP_DESCRIPTION" PrereqTech="TECH_CASTLES" Cost="710" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2" ObsoleteEra="ERA_INDUSTRIAL" DefenseModifier="4" GrantFortification="2" Quote="LOC_BUILDING_RED_KEEP_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_THE_CITADEL" Name="LOC_BUILDING_THE_CITADEL_NAME" Description="LOC_BUILDING_THE_CITADEL_DESCRIPTION" PrereqCivic="CIVIC_RECORDED_HISTORY" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_THE_CITADEL_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" Name="LOC_BUILDING_THE_HIGHTOWER_NAME" Description="LOC_BUILDING_THE_HIGHTOWER_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_THE_HIGHTOWER_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" Name="LOC_BUILDING_GREAT_PYRAMID_NAME" Description="LOC_BUILDING_GREAT_PYRAMID_DESCRIPTION" PrereqTech="TECH_MASONRY" Cost="220" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_GREAT_PYRAMID_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" Name="LOC_BUILDING_DAZNAK_PIT_NAME" Description="LOC_BUILDING_DAZNAK_PIT_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="3" RegionalRange="6" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_DAZNAK_PIT_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" Name="LOC_BUILDING_STARRY_SEPT_NAME" Description="LOC_BUILDING_STARRY_SEPT_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_STARRY_SEPT_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" Name="LOC_BUILDING_THE_DRAGON_PIT_NAME" Description="LOC_BUILDING_THE_DRAGON_PIT_DESCRIPTION" PrereqTech="TECH_MASONRY" Cost="220" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_THE_DRAGON_PIT_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_WATER_GARDENS" Name="LOC_BUILDING_WATER_GARDENS_NAME" Description="LOC_BUILDING_WATER_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="180" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2"  ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_WATER_GARDENS_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_GUILDHALL_ALCHEMISTS" Name="LOC_BUILDING_GUILDHALL_ALCHEMISTS_NAME" Description="LOC_BUILDING_GUILDHALL_ALCHEMISTS_DESCRIPTION" PrereqCivic="CIVIC_RECORDED_HISTORY" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GUILDHALL_ALCHEMISTS_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" Name="LOC_BUILDING_SEPT_SNOWS_NAME" Description="LOC_BUILDING_SEPT_SNOWS_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_SEPT_SNOWS_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_TEMPLE_LORD_LIGHT" Name="LOC_BUILDING_TEMPLE_LORD_LIGHT_NAME" Description="LOC_BUILDING_TEMPLE_LORD_LIGHT_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_TEMPLE_LORD_LIGHT_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_IRON_BANK" Name="LOC_BUILDING_IRON_BANK_NAME" Description="LOC_BUILDING_IRON_BANK_DESCRIPTION" PrereqTech="TECH_BANKING" Cost="920" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_IRON_BANK_QUOTE" QuoteAudio=""/>
+		<Row BuildingType="BUILDING_HOUSE_BLACK_WHITE" Name="LOC_BUILDING_HOUSE_BLACK_WHITE_NAME" Description="LOC_BUILDING_HOUSE_BLACK_WHITE_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_HOUSE_BLACK_WHITE_QUOTE" QuoteAudio=""/>
+
 	</Buildings>
 
 	<BuildingPrereqs>
@@ -70,6 +108,10 @@
 		<Row Building="BUILDING_DRAGON_TOWER" PrereqBuilding="BUILDING_LIBRARY"/>
 		<Row Building="BUILDING_GHISCARI_PYRAMID" PrereqBuilding="BUILDING_MONUMENT"/>
 		<!-- End Ancient Civs-->
+		<Row Building="BUILDING_THE_CITADEL" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_THE_HIGHTOWER" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+		<Row Building="BUILDING_IRON_BANK" PrereqBuilding="BUILDING_MARKET"/>
+
 	</BuildingPrereqs>
 	
 	<Building_YieldChanges>
@@ -107,6 +149,20 @@
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_FAITH" YieldChange="2"/>
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<!-- End Ancient Civs-->
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_THE_TITAN" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GUILDHALL_ALCHEMISTS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TEMPLE_LORD_LIGHT" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_IRON_BANK" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_HOUSE_BLACK_WHITE" YieldType="YIELD_FAITH" YieldChange="4"/>
+
 	</Building_YieldChanges>
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_GODSWOOD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
@@ -128,24 +184,292 @@
 		<Row BuildingType="BUILDING_FIGHTING_PIT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_RHOYNE_WATER_GARDEN" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
 		<!-- End Ancient Civs-->
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_THE_TITAN" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_RED_KEEP" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GUILDHALL_ALCHEMISTS" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_IRON_BANK" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+
+
 	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_RED_KEEP" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="2"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_GUILDHALL_ALCHEMISTS" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
+		<Row BuildingType="BUILDING_TEMPLE_LORD_LIGHT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_HOUSE_BLACK_WHITE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+
+	</Building_GreatWorks>
 	<BuildingModifiers>
-		<Row>
-			<BuildingType>BUILDING_RIVER_MILL</BuildingType>
-			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_RIVER_MILL</BuildingType>
-			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_IRONBORN_PORT</BuildingType>
-			<ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
-		</Row>
+		<Row BuildingType="BUILDING_RIVER_MILL" ModifierId="WATERMILL_ADDRICEFOOD" />
+		<Row BuildingType="BUILDING_RIVER_MILL" ModifierId="WATERMILL_ADDWHEATYIELD" />
+		<Row BuildingType="BUILDING_IRONBORN_PORT" ModifierId="LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER" />
+		<Row BuildingType="BUILDING_THE_TITAN" ModifierId="TITAN_ADDTRADEROUTE" />
+		<Row BuildingType="BUILDING_THE_TITAN" ModifierId="TITAN_GRANT_TRADER" />
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" ModifierId="SEPT_BAELOR_APOSTLE" />
+		<Row BuildingType="BUILDING_RED_KEEP" ModifierId="REDKEEP_MILITARY_GOVERNMENT_SLOT" />
+		<Row BuildingType="BUILDING_THE_CITADEL" ModifierId="THE_CITADEL_RANDOM_TECH" />
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" ModifierId="THE_HIGHTOWER_ADJUST_SEA_MOVEMENT" />
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" ModifierId="THE_HIGHTOWER_ADJUST_EMBARKED_MOVEMENT" />
+		<Row BuildingType="BUILDING_GREAT_PYRAMID" ModifierId="PYRAMID_ADJUST_BUILDER_CHARGES"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" ModifierId="STARRY_SEPT_ADJUST_RELIGIOUS_CHARGES"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" ModifierId="THE_DRAGON_PIT_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_WATER_GARDENS" ModifierId="WATER_GARDENS_ADDGROWTH"/>
+		<Row BuildingType="BUILDING_GUILDHALL_ALCHEMISTS" ModifierId="THE_GUILDHALL_ALCHEMISTS_ADDSCIENCEYIELD"/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" ModifierId="SEPT_SNOWS_FULLRELIGIOUSTOURISM"/>
+		<Row BuildingType="BUILDING_TEMPLE_LORD_LIGHT" ModifierId="TEMPLE_LORD_LIGHT_ADJUST_RELIGIOUS_CHARGES"/>
+		<Row BuildingType="BUILDING_IRON_BANK" ModifierId="IRON_BANK_ADDTRADEROUTE"/>
+		<Row BuildingType="BUILDING_IRON_BANK" ModifierId="IRON_BANK_DOMESTICBONUSRESOURCEGOLD"/>
+		<Row BuildingType="BUILDING_IRON_BANK" ModifierId="IRON_BANK_INTERNATIONALBONUSRESOURCEGOLD"/>
+		<Row BuildingType="BUILDING_HOUSE_BLACK_WHITE" ModifierId="HOUSE_BLACK_WHITE_ADDFAITHYIELD"/>
+
 	</BuildingModifiers>
 
 	<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_GODSWOOD"/>
 		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_CORPSE_SYMBOL"/>
 	</Unit_BuildingPrereqs>
+
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_THE_TITAN" TerrainType="TERRAIN_COAST"/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_GREAT_SEPT_BAELOR" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_RED_KEEP" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_THE_CITADEL" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_THE_HIGHTOWER" TerrainType="TERRAIN_COAST"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_DAZNAK_PIT" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_STARRY_SEPT" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_THE_DRAGON_PIT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_WATER_GARDENS" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_WATER_GARDENS" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_SEPT_SNOWS" TerrainType="TERRAIN_SNOW"/>
+	</Building_ValidTerrains>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TITAN_ADDTRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TITAN_GRANT_TRADER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SEPT_BAELOR_APOSTLE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>REDKEEP_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>THE_CITADEL_RANDOM_TECH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>THE_HIGHTOWER_ADJUST_SEA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THE_HIGHTOWER_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARKED_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STARRY_SEPT_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THE_DRAGON_PIT_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WATER_GARDENS_ADDGROWTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THE_GUILDHALL_ALCHEMISTS_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SEPT_SNOWS_FULLRELIGIOUSTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALWAYS_FULL_RELIGIOUS_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_LORD_LIGHT_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_ADDTRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITY_TRADE_ROUTE_YIELD_PER_LOCAL_BONUS_RESOURCE_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITY_TRADE_ROUTE_YIELD_PER_LOCAL_BONUS_RESOURCE_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HOUSE_BLACK_WHITE_ADDFAITHYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TITAN_ADDTRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITAN_GRANT_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITAN_GRANT_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEPT_BAELOR_APOSTLE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEPT_BAELOR_APOSTLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>REDKEEP_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_CITADEL_RANDOM_TECH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_HIGHTOWER_ADJUST_SEA_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_HIGHTOWER_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STARRY_SEPT_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_DRAGON_PIT_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_DRAGON_PIT_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATER_GARDENS_ADDGROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_GUILDHALL_ALCHEMISTS_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_GUILDHALL_ALCHEMISTS_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEPT_SNOWS_FULLRELIGIOUSTOURISM</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_LORD_LIGHT_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_ADDTRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>IRON_BANK_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOUSE_BLACK_WHITE_ADDFAITHYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>HOUSE_BLACK_WHITE_ADDFAITHYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

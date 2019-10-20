@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UIGovernors"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="MyASOIAF_Governors64"/>
+			<m_ObjectName text="MyASOIAF_Governors64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_Governors32"/>
+			<m_ObjectName text="MyASOIAF_Governors32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_GovernorsCityBannerFill32"/>
+			<m_ObjectName text="MyASOIAF_GovernorsCityBannerFill32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_GovernorsCityBannerFill22"/>
+			<m_ObjectName text="MyASOIAF_GovernorsCityBannerFill22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_GovernorsCityBannerSlot32"/>
+			<m_ObjectName text="MyASOIAF_GovernorsCityBannerSlot32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_GovernorsCityBannerSlot22"/>
+			<m_ObjectName text="MyASOIAF_GovernorsCityBannerSlot22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Varys"/>
+			<m_ObjectName text="GovernorSelected_Varys"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Varys"/>
+			<m_ObjectName text="GovernorNormal_Varys"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_YohnRoyce"/>
+			<m_ObjectName text="GovernorSelected_YohnRoyce"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Tyrion"/>
+			<m_ObjectName text="GovernorSelected_Tyrion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Tormund"/>
+			<m_ObjectName text="GovernorSelected_Tormund"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Theon"/>
+			<m_ObjectName text="GovernorSelected_Theon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_SamwellTarly"/>
+			<m_ObjectName text="GovernorSelected_SamwellTarly"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Ramsay"/>
+			<m_ObjectName text="GovernorSelected_Ramsay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Qyburn"/>
+			<m_ObjectName text="GovernorSelected_Qyburn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Pycelle"/>
+			<m_ObjectName text="GovernorSelected_Pycelle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Oberyn"/>
+			<m_ObjectName text="GovernorSelected_Oberyn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Missandei"/>
+			<m_ObjectName text="GovernorSelected_Missandei"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Melissandre"/>
+			<m_ObjectName text="GovernorSelected_Melissandre"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Margaery"/>
+			<m_ObjectName text="GovernorSelected_Margaery"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Luwin"/>
+			<m_ObjectName text="GovernorSelected_Luwin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Loras"/>
+			<m_ObjectName text="GovernorSelected_Loras"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_KevanLannister"/>
+			<m_ObjectName text="GovernorSelected_KevanLannister"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_JonConnington"/>
+			<m_ObjectName text="GovernorSelected_JonConnington"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_JonArryn"/>
+			<m_ObjectName text="GovernorSelected_JonArryn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Jaime"/>
+			<m_ObjectName text="GovernorSelected_Jaime"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Hound"/>
+			<m_ObjectName text="GovernorSelected_Hound"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_HighSparrow"/>
+			<m_ObjectName text="GovernorSelected_HighSparrow"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Davos"/>
+			<m_ObjectName text="GovernorSelected_Davos"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Craster"/>
+			<m_ObjectName text="GovernorSelected_Craster"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_BlackWalder"/>
+			<m_ObjectName text="GovernorSelected_BlackWalder"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_BlackFish"/>
+			<m_ObjectName text="GovernorSelected_BlackFish"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_AeronGreyjoy"/>
+			<m_ObjectName text="GovernorSelected_AeronGreyjoy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelected_Aemon"/>
+			<m_ObjectName text="GovernorSelected_Aemon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_YohnRoyce"/>
+			<m_ObjectName text="GovernorNormal_YohnRoyce"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Tyrion"/>
+			<m_ObjectName text="GovernorNormal_Tyrion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Tormund"/>
+			<m_ObjectName text="GovernorNormal_Tormund"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Theon"/>
+			<m_ObjectName text="GovernorNormal_Theon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_SamwellTarly"/>
+			<m_ObjectName text="GovernorNormal_SamwellTarly"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Ramsay"/>
+			<m_ObjectName text="GovernorNormal_Ramsay"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Qyburn"/>
+			<m_ObjectName text="GovernorNormal_Qyburn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Pycelle"/>
+			<m_ObjectName text="GovernorNormal_Pycelle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Oberyn"/>
+			<m_ObjectName text="GovernorNormal_Oberyn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Missandei"/>
+			<m_ObjectName text="GovernorNormal_Missandei"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Melissandre"/>
+			<m_ObjectName text="GovernorNormal_Melissandre"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Margaery"/>
+			<m_ObjectName text="GovernorNormal_Margaery"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Luwin"/>
+			<m_ObjectName text="GovernorNormal_Luwin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Loras"/>
+			<m_ObjectName text="GovernorNormal_Loras"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_KevanLannister"/>
+			<m_ObjectName text="GovernorNormal_KevanLannister"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_JonConnington"/>
+			<m_ObjectName text="GovernorNormal_JonConnington"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_JonArryn"/>
+			<m_ObjectName text="GovernorNormal_JonArryn"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Jaime"/>
+			<m_ObjectName text="GovernorNormal_Jaime"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Hound"/>
+			<m_ObjectName text="GovernorNormal_Hound"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_HighSparrow"/>
+			<m_ObjectName text="GovernorNormal_HighSparrow"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Davos"/>
+			<m_ObjectName text="GovernorNormal_Davos"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Craster"/>
+			<m_ObjectName text="GovernorNormal_Craster"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_BlackWalder"/>
+			<m_ObjectName text="GovernorNormal_BlackWalder"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_BlackFish"/>
+			<m_ObjectName text="GovernorNormal_BlackFish"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_AeronGreyjoy"/>
+			<m_ObjectName text="GovernorNormal_AeronGreyjoy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormal_Aemon"/>
+			<m_ObjectName text="GovernorNormal_Aemon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyASOIAF_GovernorsPromotions24"/>
+			<m_ObjectName text="MyASOIAF_GovernorsPromotions24"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -3,16 +3,12 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>451</build>
+		<revision>343</revision>
 	</m_Version>
 	<m_ClassName text="LeaderFallback"/>
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
-		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_ROBB_STARK"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_ROBB_STARK"/>
-		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_EDMURE_TULLY"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_EDMURE_TULLY"/>
@@ -46,20 +42,12 @@
 			<m_ObjectName text="FALLBACK_NEUTRAL_JOFFREY_BARATHEON"/>
 		</Element>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_NIGHT_KING"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_NIGHT_KING"/>
-		</Element>
-		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_DAENERYS_TARGARYEN"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_DAENERYS_TARGARYEN"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_ROOSE_BOLTON"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_ROOSE_BOLTON"/>
-		</Element>
-		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_WALDER_FREY"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_WALDER_FREY"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_JEOR_MORMONT"/>
@@ -72,14 +60,6 @@
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_ROBERT_BARATHEON"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_ROBERT_BARATHEON"/>
-		</Element>
-		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
-		</Element>
-		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_EDDARD_STARK"/>
@@ -98,12 +78,32 @@
 			<m_ObjectName text="FALLBACK_NEUTRAL_LYSA_ARRYN"/>
 		</Element>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
+			<m_EntryID text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KHAL_DROGO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_NIGHT_KING"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_NIGHT_KING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_RENLY_BARATHEON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ROBB_STARK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ROBB_STARK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_WALDER_FREY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_WALDER_FREY"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_AEGONVI_TARGARYEN"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_AEGONVI_TARGARYEN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_CERSEI_LANNISTER"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

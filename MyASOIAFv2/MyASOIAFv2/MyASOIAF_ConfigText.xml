@@ -41,6 +41,12 @@
 		<Row Tag="LOC_BUILDING_GODSWOOD_DESCRIPTION" Language="en_US">
 			<Text>Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith. Gives 4 [ICON_Faith] Faith and 1 [ICON_Culture].</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_TULLY_FAMILY_NAME" Language="en_US">
+			<Text>Tully Family</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_TULLY_FAMILY_DESCRIPTION" Language="en_US">
+			<Text>Allows to use the Governor Brynden the Blackfish</Text>
+		</Row>
 		<!-- END OF THE NORTH | STARK -->
 		<!-- THE RIVERLANDS | TULLY -->
 		<Row Tag="LOC_CIVILIZATION_RIVERLANDS_NAME" Language="en_US">
@@ -402,10 +408,10 @@
 			<Text>The Long Night</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_THE_LONG_NIGHT_DESCRIPTION" Language="en_US">
-			<Text>Tundra and Snow terrain gives food as Grasslands to other Civilizations.</Text>
+			<Text>Unit maintenance cost reduced by 2 Gold per turn, per unit. Tundra and Snow terrain gives food as Grasslands to other Civilizations.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_THE_LONG_NIGHT_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>Tundra and Snow terrain gives food as Grasslands to other Civilizations. Units do not receive damage from Blizzards. Civilizations that are at war with you receive +100% unit damage from Blizzards in your territory.</Text>
+			<Text>Unit maintenance cost reduced by 2 Gold per turn, per unit. Tundra and Snow terrain gives food as Grasslands to other Civilizations. Units do not receive damage from Blizzards. Civilizations that are at war with you receive +100% unit damage from Blizzards in your territory.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_RISE_THE_DEAD_NAME" Language="en_US">
 			<Text>Rise the Dead</Text>

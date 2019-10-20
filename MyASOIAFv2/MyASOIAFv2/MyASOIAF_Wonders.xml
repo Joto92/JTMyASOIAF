@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-<!--
-Red Lake (Dead Sea)
-Mother of Mountains (Kilimanjaro)
-Dragonmont (Kilimanjaro)
-Poison Sea (Dead Sea)
-Forktop (Mount Everest)
-Giant's Lance (Mount Everest)
-The Neck (Pantanal)
-Stepstones (Galapagos Islands)
-The Rock (Cliffs of Dover)
-Forest of Qohor(Pantanal)
--->
 	<Types>
 		<Row Type="FEATURE_RED_LAKE" Kind="KIND_FEATURE"/>
 		<Row Type="FEATURE_MOTHER_OF_MOUNTAINS" Kind="KIND_FEATURE"/>
@@ -37,7 +25,6 @@ Forest of Qohor(Pantanal)
 		<Row FeatureType="FEATURE_STEPSTONES" Name="LOC_FEATURE_STEPSTONES_NAME" Description="LOC_FEATURE_STEPSTONES_DESCRIPTION" Quote="LOC_FEATURE_STEPSTONES_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="2" NoRiver="true" Settlement="false" FollowRulesInWB="false" MinDistanceLand="2" MaxDistanceLand="3" Impassable="false" MinDistanceNW="8"/>
 		<Row FeatureType="FEATURE_THE_ROCK" Name="LOC_FEATURE_THE_ROCK_NAME" Description="LOC_FEATURE_THE_ROCK_DESCRIPTION" Quote="LOC_FEATURE_THE_ROCK_QUOTE" QuoteAudio="" NaturalWonder="true" Coast="true" Appeal="2" Tiles="2" NoRiver="true" Settlement="true" FollowRulesInWB="false" MinDistanceNW="8"/>
 		<Row FeatureType="FEATURE_FOREST_OF_QOHOR" Name="LOC_FEATURE_FOREST_OF_QOHOR_NAME" Description="LOC_FEATURE_FOREST_OF_QOHOR_DESCRIPTION" Quote="LOC_FEATURE_FOREST_OF_QOHOR_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="4" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" DefenseModifier="-2" MovementChange="1" MinDistanceNW="8"/>
-
 	</Features>
 
 

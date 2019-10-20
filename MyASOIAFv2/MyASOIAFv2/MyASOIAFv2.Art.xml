@@ -161,6 +161,7 @@
 		<Element>
 			<consumerName text="WonderMovie"/>
 			<relativeArtDefPaths>
+				<Element text="WonderMovie.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="WonderMovie"/>
@@ -284,6 +285,7 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="Buildings.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -291,6 +293,7 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="Buildings.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -557,6 +560,7 @@
 			<relativePackagePaths>
 				<Element text="MyIcons.blp"/>
 				<Element text="UILeaders"/>
+				<Element text="UIGovernors"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

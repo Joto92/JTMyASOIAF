@@ -523,6 +523,7 @@
 			<TraitType>TRAIT_CIVILIZATION_THE_LONG_NIGHT</TraitType>
 			<ModifierId>TRAIT_MYSOIAF_INCREASED_SNOW_HILLS_FOOD</ModifierId>
 		</Row>
+		<Row TraitType="TRAIT_CIVILIZATION_THE_LONG_NIGHT" ModifierId="MYSOIAF_NIGHTKING_UNIT_MAINTENANCE_DISCOUNT"/>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
 			<ModifierId>TRAIT_MYSOIAF_COMBAT_BONUS_CONQUER_CONTINENT</ModifierId>
@@ -631,6 +632,10 @@
 			<ModifierId>TRAIT_MYSOIAF_INCREASED_SNOW_HILLS_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_MYSOIAF_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_NIGHTKING_UNIT_MAINTENANCE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MYSOIAF_COMBAT_BONUS_CONQUER_CONTINENT</ModifierId>
@@ -846,6 +851,11 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_MYSOIAF_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MYSOIAF_NIGHTKING_UNIT_MAINTENANCE_DISCOUNT</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
@@ -1228,8 +1238,8 @@
 		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_BEAR_ISLAND"/>
 		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_LAST_HEARTH"/>
 		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_GREYWATER_WATCH"/>
-		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_SKAGOS"/>
 		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_MOUNTAIN_CLANS"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CityName="LOC_CITY_NAME_SKAGOS"/>
 		
 		<Row CivilizationType="CIVILIZATION_REACH" CityName="LOC_CITY_NAME_HIGHGARDEN"/>
 		<Row CivilizationType="CIVILIZATION_REACH" CityName="LOC_CITY_NAME_OLDTOWN"/>
@@ -1388,6 +1398,19 @@
 		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_EAST_ALWAYS_WINTER"/>
 		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_WEST_ALWAYS_WINTER"/>
 		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_ICE_RIVERS"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_CRASTER_KEEP"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_WHITE_TREE"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_HARDHOME"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_HAUNTED_FOREST"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_FROZEN_SHORE"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_SKIRLING_PASS"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_GIANT_STAIRS"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_MILKWATER"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_ANTLER_RIVER"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_RUDDY_HALL"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_STORROLDS_POINT"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_LORN_POINT"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CityName="LOC_CITY_NAME_FIST_FIRST_MEN"/>
 
 		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CityName="LOC_CITY_NAME_MEEREEN"/>
 		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CityName="LOC_CITY_NAME_ASTAPOR"/>
@@ -1502,6 +1525,11 @@
 		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_GIANT_STAIRS"/>
 		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_MILKWATER"/>
 		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_ANTLER_RIVER"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_RUDDY_HALL"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_STORROLDS_POINT"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_LORN_POINT"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_FIST_FIRST_MEN"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CityName="LOC_CITY_NAME_CRASTER_KEEP"/>
 
 		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CityName="LOC_CITY_NAME_STORM_END"/>
 		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CityName="LOC_CITY_NAME_BRONZEGATE"/>
@@ -1901,4 +1929,657 @@
 		<Row CivilizationType="CIVILIZATION_HOUSE_HOARE" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_HOUSE_HOARE_POPULATION" SortIndex="30" />
 		<Row CivilizationType="CIVILIZATION_HOUSE_HOARE" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_HOUSE_HOARE_CAPITAL" SortIndex="40" />
 	</CivilizationInfo>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_RIVERLANDS" CitizenName="LOC_CITIZEN_RIVERLANDS_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_VALE" CitizenName="LOC_CITIZEN_VALE_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WESTERLANDS" CitizenName="LOC_CITIZEN_WESTERLANDS_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_DRAGONSTONE" CitizenName="LOC_CITIZEN_BARATHEON_DRAGONSTONE_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_REACH" CitizenName="LOC_CITIZEN_REACH_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_IRON_ISLANDS" CitizenName="LOC_CITIZEN_IRON_ISLANDS_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_KINGS_LANDING" CitizenName="LOC_CITIZEN_BARATHEON_KINGS_LANDING_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_WHITE_WALKERS" CitizenName="LOC_CITIZEN_WHITE_WALKERS_MODERN_FEMALE_2" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_DANY" CitizenName="LOC_CITIZEN_TARGARYEN_DANY_MODERN_FEMALE_4" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BOLTON" CitizenName="LOC_CITIZEN_BOLTON_MODERN_FEMALE_4" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREY" CitizenName="LOC_CITIZEN_FREY_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NIGHT_WATCH" CitizenName="LOC_CITIZEN_NIGHT_WATCH_MODERN_FEMALE_3" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FREEFOLK" CitizenName="LOC_CITIZEN_FREEFOLK_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_BARATHEON_STORMSEND" CitizenName="LOC_CITIZEN_BARATHEON_STORMSEND_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_DOTHRAKI" CitizenName="LOC_CITIZEN_DOTHRAKI_MODERN_FEMALE_2" Female="true" Modern="true"/>
+
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_TARGARYEN_AEGONVI" CitizenName="LOC_CITIZEN_TARGARYEN_AEGONVI_MODERN_FEMALE_1" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
 </GameData>

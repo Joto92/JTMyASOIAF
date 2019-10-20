@@ -1,131 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<GameInfo>
 	<PlayerColors>
 		<Row>
 			<Type>LEADER_ROBB_STARK</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_STARK_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_STARK_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_EDMURE_TULLY</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_TULLY_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_TULLY_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_PETYR_BAELISH</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_ARRYN_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_ARRYN_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_TYWIN_LANNISTER</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_LANNISTER_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_LANNISTER_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
+			
 		</Row>
 		<Row>
 			<Type>LEADER_STANNIS_BARATHEON</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_BARATHEON_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_STANNIS_BARATHEON_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_OLENNA_TYRELL</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_TYRELL_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_TYRELL_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_DORAN_MARTELL</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_MARTELL_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_MARTELL_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_BALON_GREYJOY</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_GREYJOY_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_GREYJOY_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_JOFFREY_BARATHEON</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_JOFFREY_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_JOFFREY_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_NIGHT_KING</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_WHITE_WALKERS_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_WHITE_WALKERS_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_DAENERYS_TARGARYEN</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_DAENERYS_TARGARYEN_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_DAENERYS_TARGARYEN_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_ROOSE_BOLTON</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_BOLTON_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_BOLTON_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_WALDER_FREY</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_FREY_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_FREY_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_JEOR_MORMONT</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_NIGHT_WATCH_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_MORMONT_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_MANCE_RAYDER</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_MANCE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_MANCE_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_ROBERT_BARATHEON</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_BARATHEON_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_NIGHT_WATCH_PRIMARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_RENLY_BARATHEON</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_BARATHEON_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_TYRELL_PRIMARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_KHAL_DROGO</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_KHAL_DROGO_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_KHAL_DROGO_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<!-- City States -->
 		<Row>
@@ -133,217 +116,186 @@
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_BRAAVOS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_LORATH</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_LORATH</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_PENTOS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_PENTOS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_MYR</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MYR</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_TYROSH</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_TYROSH</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_LYS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_LYS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_VOLANTIS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_VOLANTIS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_NORVOS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_NORVOS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_QOHOR</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_QOHOR</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_MEEREEN</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MEEREEN</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_YUNKAI</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_YUNKAI</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_ASTAPOR</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_ASTAPOR</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_NEW_GHIS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_NEW_GHIS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_LOTUS_POINT</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_LOTUS_POINT</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_PORT_OF_IBBEN</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_PORT_OF_IBBEN</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_QARTH</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_QARTH</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_MANTARYS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MANTARYS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_ELYRIA</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_ELYRIA</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_TOLOS</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_TOLOS</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_SAATH</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_SAATH</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_LHAZOSH</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_LHAZOSH</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_HIGHTOWER</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_HIGHTOWER</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_REDWYNE</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_REDWYNE</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_FLORENT</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_FLORENT</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_UMBER</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_UMBER</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_YRONWOOD</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_YRONWOOD</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_DAYNE</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_DAYNE</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_BRACKEN</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_BRACKEN</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_BLACKWOOD</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_BLACKWOOD</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_CASTLE_BLACK</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_CASTLE_BLACK</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<Row>
 			<Type>CIVILIZATION_MANDERLY</Type>
 			<Usage>Minor</Usage>
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MANDERLY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</TextColor>
 		</Row>
 		<!-- End of City States-->
 		<Row>
@@ -351,530 +303,318 @@
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_STARK_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_EDDARD_STARK_PRIMARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_JON_SNOW</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_EDDARD_STARK_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_STARK_PRIMARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_EURON_GREYJOY</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_EURON_SECONDARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_GREYJOY_PRIMARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_LYSA_ARRYN</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_LYSA_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_ARRYN_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
+			
 		</Row>
 		<Row>
 			<Type>LEADER_CERSEI_LANNISTER</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_CERSEI_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CERSEI_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 		<Row>
 			<Type>LEADER_AEGONVI_TARGARYEN</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_AEGONVI_TARGARYEN_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_DAENERYS_TARGARYEN_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_STARK_PRIMARY</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_STARK_SECONDARY</Type>
-			<Red>0.760</Red>
-			<Green>0.760</Green>
-			<Blue>0.760</Blue>
-			<Alpha>1</Alpha>
+			<Color>194,194,194,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_TULLY_PRIMARY</Type>
-			<Red>0.600</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>153,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_TULLY_SECONDARY</Type>
-			<Red>0.200</Red>
-			<Green>0.400</Green>
-			<Blue>1</Blue>
-			<Alpha>0.8</Alpha>
+			<Color>51,102,255,204</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_ARRYN_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>0.839</Green>
-			<Blue>0.839</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,214,214,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_ARRYN_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LANNISTER_PRIMARY</Type>
-			<Red>0.6</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>153,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LANNISTER_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>0.400</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,102,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_BARATHEON_PRIMARY</Type>
-			<Red>1</Red>
-			<Green>0.862</Green>
-			<Blue>0.200</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,220,51,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_STANNIS_BARATHEON_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>0.639</Green>
-			<Blue>0.278</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,163,71,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_TYRELL_PRIMARY</Type>
-			<Red>0.215</Red>
-			<Green>0.341</Green>
-			<Blue>0.031</Blue>
-			<Alpha>1</Alpha>
+			<Color>55,87,8,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_TYRELL_SECONDARY</Type>
-			<Red>0.690</Red>
-			<Green>0.529</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>176,135,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MARTELL_PRIMARY</Type>
-			<Red>0.313</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>80,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MARTELL_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>0.400</Green>
-			<Blue>0.078</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,102,20,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_GREYJOY_PRIMARY</Type>
-			<Red>1</Red>
-			<Green>0.400</Green>
-			<Blue>0.078</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,102,20,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_GREYJOY_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>0.800</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,204,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_WHITE_WALKERS_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_WHITE_WALKERS_SECONDARY</Type>
-			<Red>0.760</Red>
-			<Green>0.760</Green>
-			<Blue>0.760</Blue>
-			<Alpha>1</Alpha>
+			<Color>194,194,194,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_DAENERYS_TARGARYEN_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_DAENERYS_TARGARYEN_SECONDARY</Type>
-			<Red>0.640</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>163,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_BOLTON_PRIMARY</Type>
-			<Red>1</Red>
-			<Green>0.600</Green>
-			<Blue>0.800</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,153,204,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_BOLTON_SECONDARY</Type>
-			<Red>0.760</Red>
-			<Green>0.278</Green>
-			<Blue>0.278</Blue>
-			<Alpha>1</Alpha>
+			<Color>194,71,71,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_FREY_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>0</Green>
-			<Blue>0.400</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,0,102,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_FREY_SECONDARY</Type>
-			<Red>0.640</Red>
-			<Green>0.640</Green>
-			<Blue>0.640</Blue>
-			<Alpha>1</Alpha>
+			<Color>163,163,163,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_NIGHT_WATCH_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MORMONT_SECONDARY</Type>
-			<Red>0.200</Red>
-			<Green>0.400</Green>
-			<Blue>0.200</Blue>
-			<Alpha>1</Alpha>
+			<Color>51,102,51,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MANCE_PRIMARY</Type>
-			<Red>0.105</Red>
-			<Green>0.200</Green>
-			<Blue>0.349</Blue>
-			<Alpha>1</Alpha>
+			<Color>27,51,89,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_MANCE_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_KHAL_DROGO_PRIMARY</Type>
-			<Red>0.549</Red>
-			<Green>0.364</Green>
-			<Blue>0.058</Blue>
-			<Alpha>1</Alpha>
+			<Color>140,93,15,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_KHAL_DROGO_SECONDARY</Type>
-			<Red>0.988</Red>
-			<Green>0.615</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>252,157,0,255</Color>
 		</Row>
 		
 		<!-- City States -->
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_BRAAVOS</Type>
-			<Red>0.105</Red>
-			<Green>0.639</Green>
-			<Blue>0.592</Blue>
-			<Alpha>1</Alpha>
+			<Color>27,163,151,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_LORATH</Type>
-			<Red>0.619</Red>
-			<Green>0</Green>
-			<Blue>0.619</Blue>
-			<Alpha>1</Alpha>
+			<Color>158,0,158,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_PENTOS</Type>
-			<Red>0.909</Red>
-			<Green>0.819</Green>
-			<Blue>0.121</Blue>
-			<Alpha>1</Alpha>
+			<Color>232,209,31,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_MYR</Type>
-			<Red>0.777</Red>
-			<Green>0.411</Green>
-			<Blue>0.317</Blue>
-			<Alpha>1</Alpha>
+			<Color>198,105,81,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_TYROSH</Type>
-			<Red>0.266</Red>
-			<Green>0.415</Green>
-			<Blue>0.694</Blue>
-			<Alpha>1</Alpha>
+			<Color>68,106,177,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_LYS</Type>
-			<Red>0.807</Red>
-			<Green>0.372</Green>
-			<Blue>0.631</Blue>
-			<Alpha>1</Alpha>
+			<Color>206,95,161,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_VOLANTIS</Type>
-			<Red>0.929</Red>
-			<Green>0.603</Green>
-			<Blue>0.352</Blue>
-			<Alpha>1</Alpha>
+			<Color>237,154,90,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_NORVOS</Type>
-			<Red>0.843</Red>
-			<Green>0.713</Green>
-			<Blue>0.200</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,182,51,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_QOHOR</Type>
-			<Red>0</Red>
-			<Green>0.619</Green>
-			<Blue>0.349</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,158,89,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_MEEREEN</Type>
-			<Red>0.325</Red>
-			<Green>0.200</Green>
-			<Blue>0.109</Blue>
-			<Alpha>1</Alpha>
+			<Color>83,51,28,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_YUNKAI</Type>
-			<Red>0.666</Red>
-			<Green>0.447</Green>
-			<Blue>0.294</Blue>
-			<Alpha>1</Alpha>
+			<Color>170,114,75,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_ASTAPOR</Type>
-			<Red>0.854</Red>
-			<Green>0.772</Green>
-			<Blue>0.427</Blue>
-			<Alpha>1</Alpha>
+			<Color>218,197,109,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_NEW_GHIS</Type>
-			<Red>0.843</Red>
-			<Green>0.278</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,71,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_LOTUS_POINT</Type>
-			<Red>1</Red>
-			<Green>0.247</Green>
-			<Blue>0.632</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,63,161,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_PORT_OF_IBBEN</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,255,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_QARTH</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,255,0,255</Color>
 		</Row>
 			<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_MANTARYS</Type>
-			<Red>0.247</Red>
-			<Green>0</Green>
-			<Blue>255</Blue>
-			<Alpha>1</Alpha>
+			<Color>63,0,255,255</Color>	
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_ELYRIA</Type>
-			<Red>1</Red>
-			<Green>0.372</Green>
-			<Blue>0.372</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,95,95,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_TOLOS</Type>
-			<Red>1</Red>
-			<Green>0.180</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,46,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_SAATH</Type>
-			<Red>1</Red>
-			<Green>0.666</Green>
-			<Blue>0.549</Blue>
-			<Alpha>1</Alpha>
+			<Color>215,170,140,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_LHAZOSH</Type>
-			<Red>0.447</Red>
-			<Green>0.447</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>114,114,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_HIGHTOWER</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_REDWYNE</Type>
-			<Red>0.611</Red>
-			<Green>0.160</Green>
-			<Blue>0.251</Blue>
-			<Alpha>1</Alpha>
+			<Color>156,41,64,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_FLORENT</Type>
-			<Red>1</Red>
-			<Green>1</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,255,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_UMBER</Type>
-			<Red>0.988</Red>
-			<Green>0.525</Green>
-			<Blue>0.423</Blue>
-			<Alpha>1</Alpha>
+			<Color>252,134,108,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_YRONWOOD</Type>
-			<Red>0.949</Red>
-			<Green>0.862</Green>
-			<Blue>0.525</Blue>
-			<Alpha>1</Alpha>
+			<Color>242,220,134,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_DAYNE</Type>
-			<Red>0.780</Red>
-			<Green>0.694</Green>
-			<Blue>0.827</Blue>
-			<Alpha>1</Alpha>
+			<Color>199,177,211,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_BRACKEN</Type>
-			<Red>1</Red>
-			<Green>0.913</Green>
-			<Blue>0.529</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,233,135,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_BLACKWOOD</Type>
-			<Red>0.978</Red>
-			<Green>0.427</Green>
-			<Blue>0.341</Blue>
-			<Alpha>1</Alpha>
+			<Color>249,109,87,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_CASTLE_BLACK</Type>
-			<Red>0.764</Red>
-			<Green>0.764</Green>
-			<Blue>0.764</Blue>
-			<Alpha>1</Alpha>
+			<Color>195,195,195,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CITY_STATE_MANDERLY</Type>
-			<Red>0.368</Red>
-			<Green>0.756</Green>
-			<Blue>0.745</Blue>
-			<Alpha>1</Alpha>
+			<Color>94,193,190,255</Color>
 		</Row>
 		<!-- End of City States-->
 		<Row>
 			<Type>COLOR_PLAYER_EDDARD_STARK_PRIMARY</Type>
-			<Red>0.317</Red>
-			<Green>0.317</Green>
-			<Blue>0.317</Blue>
-			<Alpha>1</Alpha>
+			<Color>81,81,81,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_EURON_SECONDARY</Type>
-			<Red>0</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LYSA_PRIMARY</Type>
-			<Red>0.129</Red>
-			<Green>0.431</Green>
-			<Blue>1</Blue>
-			<Alpha>1</Alpha>
+			<Color>33,110,255,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CERSEI_PRIMARY</Type>
-			<Red>0.364</Red>
-			<Green>0</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>93,0,0,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_CERSEI_SECONDARY</Type>
-			<Red>1</Red>
-			<Green>0.803</Green>
-			<Blue>0.400</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,205,102,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_AEGONVI_TARGARYEN_PRIMARY</Type>
-			<Red>0</Red>
-			<Green>0.105</Green>
-			<Blue>0.529</Blue>
-			<Alpha>1</Alpha>
+			<Color>0,27,135,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_JOFFREY_PRIMARY</Type>
-			<Red>1</Red>
-			<Green>0.200</Green>
-			<Blue>0.137</Blue>
-			<Alpha>1</Alpha>
+			<Color>255,51,35,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_JOFFREY_SECONDARY</Type>
-			<Red>0.686</Red>
-			<Green>0.572</Green>
-			<Blue>0</Blue>
-			<Alpha>1</Alpha>
+			<Color>175,146,0,255</Color>
 		</Row>
 	</Colors>
-</GameData>
+</GameInfo>
